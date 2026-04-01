@@ -1,0 +1,102 @@
+<h2>Moomoo — Dairy Economy Simulator</h2>
+<p class="subtitle">System overview as understood so far</p>
+
+<div class="mockup">
+  <div class="mockup-header">Processing Flow</div>
+  <div class="mockup-body" style="padding: 24px; font-family: monospace; font-size: 13px; line-height: 1.8;">
+    <div style="display: flex; flex-direction: column; gap: 16px; align-items: center;">
+
+      <!-- Milk Producer -->
+      <div style="background: #2a4a2a; border: 2px solid #4a8a4a; border-radius: 8px; padding: 12px 24px; text-align: center;">
+        <strong style="color: #7ddf7d;">🐄 Milk Producer</strong><br>
+        <span style="color: #999; font-size: 11px;">Config: fat %, SNF %, flow rate (constant for now)</span>
+      </div>
+
+      <div style="color: #666;">│ whole milk (fat + SNF + water)</div>
+
+      <!-- Separator -->
+      <div style="background: #2a3a4a; border: 2px solid #4a7a9a; border-radius: 8px; padding: 12px 24px; text-align: center;">
+        <strong style="color: #7db8df;">⚙️ Milk Separator</strong><br>
+        <span style="color: #999; font-size: 11px;">Config: target cream fat %</span>
+      </div>
+
+      <div style="display: flex; gap: 80px; color: #666;">
+        <div style="text-align: center;">│ cream<br><span style="font-size: 10px; color: #888;">(high fat)</span></div>
+        <div style="text-align: center;">│ skim<br><span style="font-size: 10px; color: #888;">(low fat)</span></div>
+      </div>
+
+      <!-- Plants Row -->
+      <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
+
+        <!-- Butter A -->
+        <div style="background: #4a3a1a; border: 2px solid #9a7a3a; border-radius: 8px; padding: 12px 16px; text-align: center; min-width: 160px;">
+          <strong style="color: #dfbf5f;">🧈 Butter Plant A</strong><br>
+          <span style="color: #999; font-size: 11px;">Config: butter fat %</span><br>
+          <span style="color: #999; font-size: 11px;">Powder: NFDM / BMP / WMP</span><br>
+          <span style="color: #bbb; font-size: 10px; margin-top: 4px; display: block;">→ butter + powder</span>
+        </div>
+
+        <!-- Butter B -->
+        <div style="background: #4a3a1a; border: 2px solid #9a7a3a; border-radius: 8px; padding: 12px 16px; text-align: center; min-width: 160px;">
+          <strong style="color: #dfbf5f;">🧈 Butter Plant B</strong><br>
+          <span style="color: #999; font-size: 11px;">Config: butter fat %</span><br>
+          <span style="color: #999; font-size: 11px;">Powder: NFDM / BMP / WMP</span><br>
+          <span style="color: #bbb; font-size: 10px; margin-top: 4px; display: block;">→ butter + powder</span>
+        </div>
+
+        <!-- Cheese A -->
+        <div style="background: #3a1a1a; border: 2px solid #9a4a4a; border-radius: 8px; padding: 12px 16px; text-align: center; min-width: 160px;">
+          <strong style="color: #df7d7d;">🧀 Cheese Plant A</strong><br>
+          <span style="color: #999; font-size: 11px;">Config: cheese type</span><br>
+          <span style="color: #999; font-size: 10px;">Cheddar / Mozz / Swiss / Parm</span><br>
+          <span style="color: #bbb; font-size: 10px; margin-top: 4px; display: block;">→ cheese + whey</span>
+        </div>
+
+        <!-- Cheese B -->
+        <div style="background: #3a1a1a; border: 2px solid #9a4a4a; border-radius: 8px; padding: 12px 16px; text-align: center; min-width: 160px;">
+          <strong style="color: #df7d7d;">🧀 Cheese Plant B</strong><br>
+          <span style="color: #999; font-size: 11px;">Config: cheese type</span><br>
+          <span style="color: #999; font-size: 10px;">Cheddar / Mozz / Swiss / Parm</span><br>
+          <span style="color: #bbb; font-size: 10px; margin-top: 4px; display: block;">→ cheese + whey</span>
+        </div>
+
+      </div>
+
+      <!-- Outputs -->
+      <div style="margin-top: 8px; border-top: 1px solid #444; padding-top: 12px; text-align: center; width: 100%;">
+        <span style="color: #aaa; font-size: 12px;">
+          <strong>Outputs:</strong> Butter, NFDM/BMP/WMP, Cheese (4 types), Whey &nbsp;|&nbsp;
+          <strong>Mass balance:</strong> fat + SNF + water tracked through every node &nbsp;|&nbsp;
+          <strong>Pricing:</strong> supply/demand curves per product
+        </span>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div style="margin-top: 24px;">
+  <h3>Key Parameters</h3>
+  <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+    <tr style="border-bottom: 1px solid #333;">
+      <td style="padding: 6px; color: #7ddf7d;">Milk Producer</td>
+      <td style="padding: 6px; color: #999;">Fat %, SNF %, production rate (constant → variable later)</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #333;">
+      <td style="padding: 6px; color: #7db8df;">Separator</td>
+      <td style="padding: 6px; color: #999;">Target cream fat % → cream/skim split calculated from mass balance</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #333;">
+      <td style="padding: 6px; color: #dfbf5f;">Butter Plants</td>
+      <td style="padding: 6px; color: #999;">Target butter fat %, powder type (NFDM/BMP/WMP), cream allocation split</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #333;">
+      <td style="padding: 6px; color: #df7d7d;">Cheese Plants</td>
+      <td style="padding: 6px; color: #999;">Cheese type (Cheddar/Mozz/Swiss/Parm), skim allocation split</td>
+    </tr>
+    <tr>
+      <td style="padding: 6px; color: #aaa;">Market</td>
+      <td style="padding: 6px; color: #999;">Supply/demand curves per product, prices react to production volume</td>
+    </tr>
+  </table>
+</div>

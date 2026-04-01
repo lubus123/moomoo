@@ -1,0 +1,89 @@
+{
+  "planPath": "docs/superpowers/plans/2026-04-01-dairy-economy-simulator.md",
+  "tasks": [
+    {
+      "id": 7,
+      "subject": "Task 0: Project Scaffolding",
+      "status": "pending",
+      "description": "**Goal:** Set up Vite + React + TypeScript project with Vitest configured.\n\n```json:metadata\n{\"files\": [\"package.json\", \"tsconfig.json\", \"vite.config.ts\", \"index.html\", \"src/main.tsx\", \"src/index.css\"], \"verifyCommand\": \"npm test -- --run\", \"acceptanceCriteria\": [\"dev server starts\", \"vitest runs\", \"strict mode enabled\"], \"requiresUserVerification\": false}\n```"
+    },
+    {
+      "id": 8,
+      "subject": "Task 1: Engine Types",
+      "status": "pending",
+      "blockedBy": [7],
+      "description": "**Goal:** Define all TypeScript types.\n\n```json:metadata\n{\"files\": [\"src/engine/types.ts\", \"tests/engine/types.test.ts\"], \"verifyCommand\": \"npx vitest run tests/engine/types.test.ts\", \"acceptanceCriteria\": [\"stream mass closure\", \"config types complete\", \"state types complete\"], \"requiresUserVerification\": false}\n```"
+    },
+    {
+      "id": 9,
+      "subject": "Task 2: Milk Producer",
+      "status": "pending",
+      "blockedBy": [8],
+      "description": "**Goal:** Implement milk production.\n\n```json:metadata\n{\"files\": [\"src/engine/producer.ts\", \"tests/engine/producer.test.ts\"], \"verifyCommand\": \"npx vitest run tests/engine/producer.test.ts\", \"acceptanceCriteria\": [\"correct composition from config\", \"mass balance validates\"], \"requiresUserVerification\": false}\n```"
+    },
+    {
+      "id": 10,
+      "subject": "Task 3: Milk Separator",
+      "status": "pending",
+      "blockedBy": [8],
+      "description": "**Goal:** Implement centrifugal separator.\n\n```json:metadata\n{\"files\": [\"src/engine/separator.ts\", \"tests/engine/separator.test.ts\"], \"verifyCommand\": \"npx vitest run tests/engine/separator.test.ts\", \"acceptanceCriteria\": [\"cream hits target fat %\", \"fat/SNF/water conserved\"], \"requiresUserVerification\": false}\n```"
+    },
+    {
+      "id": 11,
+      "subject": "Task 4: Cheese Plant",
+      "status": "pending",
+      "blockedBy": [8],
+      "description": "**Goal:** Implement cheese plant with standardization and Van Slyke yield.\n\n```json:metadata\n{\"files\": [\"src/engine/cheese-plant.ts\", \"tests/engine/cheese-plant.test.ts\"], \"verifyCommand\": \"npx vitest run tests/engine/cheese-plant.test.ts\", \"acceptanceCriteria\": [\"cheese yield matches per type\", \"excess cream emitted\", \"mass balance holds\"], \"requiresUserVerification\": false}\n```"
+    },
+    {
+      "id": 12,
+      "subject": "Task 5: Butter Plant",
+      "status": "pending",
+      "blockedBy": [8],
+      "description": "**Goal:** Implement butter plant with churning and powder drying.\n\n```json:metadata\n{\"files\": [\"src/engine/butter-plant.ts\", \"tests/engine/butter-plant.test.ts\"], \"verifyCommand\": \"npx vitest run tests/engine/butter-plant.test.ts\", \"acceptanceCriteria\": [\"butter hits target fat %\", \"powder type affects output\", \"mass balance holds\"], \"requiresUserVerification\": false}\n```"
+    },
+    {
+      "id": 13,
+      "subject": "Task 6: Market Pricing",
+      "status": "pending",
+      "blockedBy": [8],
+      "description": "**Goal:** Implement supply/demand pricing model.\n\n```json:metadata\n{\"files\": [\"src/engine/market.ts\", \"tests/engine/market.test.ts\"], \"verifyCommand\": \"npx vitest run tests/engine/market.test.ts\", \"acceptanceCriteria\": [\"price rises when supply < demand\", \"price falls when supply > demand\", \"revenue correct\"], \"requiresUserVerification\": false}\n```"
+    },
+    {
+      "id": 14,
+      "subject": "Task 7: Simulation Tick Orchestrator",
+      "status": "pending",
+      "blockedBy": [9, 10, 11, 12, 13],
+      "description": "**Goal:** Wire all engine nodes into tick() function.\n\n```json:metadata\n{\"files\": [\"src/engine/simulation.ts\", \"tests/engine/simulation.test.ts\"], \"verifyCommand\": \"npx vitest run tests/engine/simulation.test.ts\", \"acceptanceCriteria\": [\"complete state from config\", \"cream pool aggregates correctly\", \"mass balance near zero\"], \"requiresUserVerification\": false}\n```"
+    },
+    {
+      "id": 15,
+      "subject": "Task 8: UI — App Shell and Controls",
+      "status": "pending",
+      "blockedBy": [14],
+      "description": "**Goal:** Build App component with sim loop and Controls panel.\n\n```json:metadata\n{\"files\": [\"src/ui/App.tsx\", \"src/ui/Controls.tsx\", \"src/main.tsx\", \"src/index.css\"], \"verifyCommand\": \"npm run dev -- --host 0.0.0.0\", \"acceptanceCriteria\": [\"left/right layout\", \"play/pause works\", \"all config controls\"], \"requiresUserVerification\": false}\n```"
+    },
+    {
+      "id": 16,
+      "subject": "Task 9: UI — Flow Diagram",
+      "status": "pending",
+      "blockedBy": [15],
+      "description": "**Goal:** SVG flow diagram with live stream numbers.\n\n```json:metadata\n{\"files\": [\"src/ui/FlowDiagram.tsx\", \"src/ui/App.tsx\"], \"verifyCommand\": \"npm run dev -- --host 0.0.0.0\", \"acceptanceCriteria\": [\"all nodes shown\", \"live numbers\", \"cream recirculation visible\"], \"requiresUserVerification\": false}\n```"
+    },
+    {
+      "id": 17,
+      "subject": "Task 10: UI — Dashboard Panels",
+      "status": "pending",
+      "blockedBy": [15],
+      "description": "**Goal:** Production chart, price tickers, mass balance audit, revenue breakdown.\n\n```json:metadata\n{\"files\": [\"src/ui/ProductionChart.tsx\", \"src/ui/PriceTicker.tsx\", \"src/ui/MassBalance.tsx\", \"src/ui/Revenue.tsx\"], \"verifyCommand\": \"npm run dev -- --host 0.0.0.0\", \"acceptanceCriteria\": [\"production bars\", \"price arrows\", \"mass balance table\", \"revenue breakdown\"], \"requiresUserVerification\": false}\n```"
+    },
+    {
+      "id": 18,
+      "subject": "Task 11: Integration Test and Polish",
+      "status": "pending",
+      "blockedBy": [14, 16, 17],
+      "description": "**Goal:** End-to-end integration tests.\n\n```json:metadata\n{\"files\": [\"tests/engine/integration.test.ts\"], \"verifyCommand\": \"npx vitest run\", \"acceptanceCriteria\": [\"all tests pass\", \"mass balance < 0.1% over 100 ticks\", \"no NaN/negative\"], \"requiresUserVerification\": false}\n```"
+    }
+  ],
+  "lastUpdated": "2026-04-01T02:00:00Z"
+}
