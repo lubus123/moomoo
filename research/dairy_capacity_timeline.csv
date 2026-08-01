@@ -1,0 +1,21 @@
+startup_year,company,plant_city,state,segment,milk_intake_lbs_per_day,status,milestone
+2024,California Dairies Inc.,Bakersfield,CA,Fluid/ESL,~1300000 (launch),Ramping,Test milk received Dec 2024
+2025,Great Lakes Cheese,Franklinville,NY,Cheese,~3900000,Operational,Operational/ramp 2025; replaces Cuba NY plant
+2025,Leprino Foods,Lubbock,TX,Cheese + Whey,~8000000,Operational (ramping),Phase 1 early 2025; full spring 2025
+2025,Hilmar Cheese,Dodge City,KS,Cheese + Whey,~13000000 (est),Operational,Ribbon cut 2025-03-19
+2025,Valley Queen Cheese,Milbank,SD,Cheese + Whey,+3000000,Operational,Expansion complete early 2025
+2025,Darigold,Pasco,WA,Butter + Powder,~8000000,Operational/ramping,First milk received June 2025
+2025,fairlife (Coca-Cola),Webster,NY,Value-added/UF Milk,~5000000,Ramping,Startup Q4 2025
+2025,Walmart,Valdosta,GA,Fluid Milk,n/a,Operational,Opened Dec 2025
+2025-2026,Valley Queen / Arla Foods Ingredients,Milbank,SD,Whey (WPC),n/a,Ramping,Microparticulate WPC production winter 2025/26
+2026,Walmart,Robinson,TX,Fluid Milk,n/a,Operational,Grand opening 2026-04-29
+2026,Idaho Milk Products,Jerome,ID,Powder + Ice cream,n/a,Operational,Ribbon cut 2026-06-02
+2026,FrieslandCampina Ingredients,Wisconsin,WI,Whey (WPI),n/a,Ramping,WPI ramp to ~22M lbs/yr early 2026
+2027,Southwest Cheese (Glanbia JV),Clovis,NM,Whey (WPI),n/a,Planned,+10M lbs/yr WPI on stream 2027
+2027,Land O'Lakes,Tulare,CA,Dairy Protein/UF Milk,n/a,Announced,Phase 1 targeted Q1 2027
+2028,Bel Brands,Brookings,SD,Cheese (snack),modest,Under construction,Babybel production start 2028
+2028,fairlife (Coca-Cola),Coopersville,MI,Value-added/UF Milk,n/a,Announced,New lines operational by 2028
+2028,Chobani,Rome,NY,Yogurt,~12000000,Under construction,Multi-year build toward 2028
+2028-2029,Daisy Brand,Boone,IA,Cottage cheese/Sour cream,~3500000 (est),Under construction,Startup late 2028/early 2029
+TBD,Chobani,Twin Falls,ID,Yogurt,n/a,Under construction,$500M expansion; startup undisclosed
+TBD,Agropur,Lake Norden,SD,MPC/Whey,n/a,Announced,$60M modernization (part of $130M program)
