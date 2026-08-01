@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The US Dairy Capacity Paradox — Research Deck</title>
+<style>
+  :root{
+    --paper:#f7f5ef; --surface:#fcfcfb; --ink:#1d1b16; --ink-2:#55514a; --muted:#8a857b;
+    --line:#e4e0d6; --rail:#9a6f1f;
+    --c-blue:#3a6ea5; --c-amber:#d9a441; --c-teal:#0d8f78; --c-red:#c0442a;
+    --up:#0d8f78; --down:#c0442a;
+    --shadow:0 1px 2px rgba(30,27,22,.06),0 8px 30px rgba(30,27,22,.06);
+    --serif:Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --paper:#141310; --surface:#1c1a16; --ink:#f2efe8; --ink-2:#bcb6a8; --muted:#8f897c;
+      --line:#302c25; --rail:#d9a441;
+      --c-blue:#5286c4; --c-amber:#d9a441; --c-teal:#12a58c; --c-red:#cc4e30;
+      --up:#12a58c; --down:#cc4e30;
+      --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 34px rgba(0,0,0,.4);
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#141310; --surface:#1c1a16; --ink:#f2efe8; --ink-2:#bcb6a8; --muted:#8f897c;
+    --line:#302c25; --rail:#d9a441;
+    --c-blue:#5286c4; --c-amber:#d9a441; --c-teal:#12a58c; --c-red:#cc4e30;
+    --up:#12a58c; --down:#cc4e30;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 34px rgba(0,0,0,.4);
+  }
+  :root[data-theme="light"]{
+    --paper:#f7f5ef; --surface:#fcfcfb; --ink:#1d1b16; --ink-2:#55514a; --muted:#8a857b;
+    --line:#e4e0d6; --rail:#9a6f1f;
+    --c-blue:#3a6ea5; --c-amber:#d9a441; --c-teal:#0d8f78; --c-red:#c0442a;
+    --up:#0d8f78; --down:#c0442a;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);
+    line-height:1.55;-webkit-font-smoothing:antialiased;scroll-snap-type:y proximity;
+  }
+  .progress{position:fixed;top:0;left:0;height:3px;width:0;background:var(--rail);z-index:60;transition:width .1s linear}
+  .toolbar{position:fixed;top:14px;right:16px;z-index:60;display:flex;gap:8px}
+  .toolbar button{
+    font-family:var(--sans);font-size:12px;letter-spacing:.04em;cursor:pointer;
+    background:var(--surface);color:var(--ink-2);border:1px solid var(--line);border-radius:999px;
+    padding:7px 13px;box-shadow:var(--shadow)
+  }
+  .toolbar button:hover{color:var(--ink);border-color:var(--rail)}
+  .toolbar button:focus-visible{outline:2px solid var(--rail);outline-offset:2px}
+  .dots{position:fixed;top:50%;right:16px;transform:translateY(-50%);z-index:55;display:flex;flex-direction:column;gap:9px}
+  @media(max-width:760px){.dots{display:none}}
+  .dots a{width:9px;height:9px;border-radius:50%;background:var(--line);border:1px solid var(--muted);transition:all .2s}
+  .dots a.active{background:var(--rail);border-color:var(--rail);transform:scale(1.25)}
+
+  .slide{
+    min-height:100svh;scroll-snap-align:start;display:flex;flex-direction:column;justify-content:center;
+    padding:96px clamp(20px,6vw,80px) 72px;max-width:1120px;margin:0 auto;position:relative;
+  }
+  .slide + .slide{border-top:1px solid var(--line)}
+  .eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--rail);font-weight:700;margin:0 0 14px}
+  .num{font-family:var(--serif);font-size:13px;color:var(--muted);letter-spacing:.05em}
+  h1{font-size:clamp(2.4rem,6vw,4.4rem);line-height:1.02;letter-spacing:-.02em;font-weight:800;margin:.1em 0 .3em;text-wrap:balance}
+  h2{font-size:clamp(1.7rem,3.6vw,2.7rem);line-height:1.08;letter-spacing:-.015em;font-weight:800;margin:.1em 0 .35em;text-wrap:balance}
+  h3{font-size:1.02rem;letter-spacing:.02em;margin:0 0 .4em;font-weight:700}
+  p{margin:.5em 0;color:var(--ink-2);max-width:64ch}
+  .lead{font-size:clamp(1.05rem,1.8vw,1.32rem);color:var(--ink);max-width:60ch}
+  strong{color:var(--ink);font-weight:700}
+  .accent{color:var(--rail)}
+  .down{color:var(--down);font-weight:700}
+  .up{color:var(--up);font-weight:700}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px 24px;box-shadow:var(--shadow)}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  @media(max-width:760px){.grid2,.grid3{grid-template-columns:1fr}}
+  .stat{font-family:var(--serif);font-size:clamp(2rem,5vw,3.1rem);line-height:1;font-weight:400;font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+  .stat.d{color:var(--down)} .stat.u{color:var(--up)}
+  .statlabel{font-size:12.5px;color:var(--muted);letter-spacing:.03em;margin-top:8px;text-transform:uppercase}
+  .fig{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px 18px 8px;box-shadow:var(--shadow);overflow-x:auto}
+  .figcap{font-size:12.5px;color:var(--muted);margin:2px 4px 10px;letter-spacing:.02em}
+  .legend{display:flex;flex-wrap:wrap;gap:16px;margin:2px 4px 12px;font-size:12.5px;color:var(--ink-2)}
+  .legend span{display:inline-flex;align-items:center;gap:7px}
+  .swatch{width:12px;height:12px;border-radius:3px;display:inline-block}
+  svg{display:block;width:100%;height:auto;font-family:var(--sans)}
+  .bar-val{font-family:var(--serif);font-variant-numeric:tabular-nums;fill:var(--ink);font-size:13px}
+  .axis{fill:var(--muted);font-size:12px}
+  .gridline{stroke:var(--line);stroke-width:1}
+  .baseline{stroke:var(--muted);stroke-width:1}
+  table{border-collapse:collapse;width:100%;font-size:14px;margin-top:6px}
+  th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)}
+  th{color:var(--muted);font-weight:600;text-transform:uppercase;font-size:11.5px;letter-spacing:.06em}
+  td.n{text-align:right;font-family:var(--serif);font-variant-numeric:tabular-nums}
+  details{margin-top:10px;font-size:13px;color:var(--ink-2)}
+  summary{cursor:pointer;color:var(--muted);letter-spacing:.03em}
+  .flow{display:flex;flex-wrap:wrap;align-items:stretch;gap:10px;margin:18px 0}
+  .flow .step{flex:1 1 150px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;box-shadow:var(--shadow)}
+  .flow .step .k{font-size:11.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+  .flow .step .v{font-weight:700;margin-top:4px;color:var(--ink)}
+  .flow .arrow{align-self:center;color:var(--rail);font-size:22px;font-weight:700}
+  .step.hot{border-color:var(--down);box-shadow:0 0 0 1px var(--down) inset,var(--shadow)}
+  .pill{display:inline-block;font-size:12px;letter-spacing:.04em;padding:3px 10px;border-radius:999px;border:1px solid var(--line);color:var(--ink-2);background:var(--surface)}
+  ul.clean{list-style:none;padding:0;margin:12px 0}
+  ul.clean li{position:relative;padding:12px 0 12px 46px;border-bottom:1px solid var(--line)}
+  ul.clean li .idx{position:absolute;left:0;top:11px;font-family:var(--serif);font-size:16px;color:var(--rail);font-weight:700;width:34px;text-align:right}
+  ul.clean li b{color:var(--ink)}
+  .callout{border-left:3px solid var(--rail);padding:6px 0 6px 16px;margin:16px 0;color:var(--ink);font-size:1.02rem}
+  .foot{font-size:11.5px;color:var(--muted);margin-top:26px;letter-spacing:.02em}
+  .timeline{position:relative;margin:26px 0 6px;padding-left:4px}
+  .timeline .row{display:grid;grid-template-columns:78px 1fr;gap:16px;align-items:start;padding:14px 0;border-top:1px solid var(--line)}
+  .timeline .yr{font-family:var(--serif);font-size:1.5rem;color:var(--rail);font-weight:700}
+  .timeline .row.trough .yr{color:var(--down)} .timeline .row.turn .yr{color:var(--up)}
+  .waterfall-note{font-size:13px;color:var(--ink-2)}
+  .kbd{font-family:var(--serif);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:1px 7px;font-size:.95em}
+</style>
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<div class="toolbar">
+  <button id="themeBtn" aria-label="Toggle colour theme">◐ Theme</button>
+</div>
+<nav class="dots" id="dots" aria-label="Slide navigation"></nav>
+
+<!-- 1 -->
+<section class="slide" id="s1">
+  <p class="eyebrow">Emerging market note · Supply increase</p>
+  <h1>More plants,<br>cheaper milk.</h1>
+  <p class="lead">The US is absorbing its largest-ever wave of dairy processing capacity — ~$8–11&nbsp;billion across 50+ plants. Textbook logic says more buyers competing for milk should <em>lift</em> farm prices. Instead, USDA forecasts the all-milk price <span class="down">down ~10%</span> in 2026. This deck explains why the paradox is real, dissects the Upper-Midwest negative-basis symptom, and lands on how to re-wire your S&amp;D model.</p>
+  <div class="grid3" style="margin-top:32px">
+    <div class="card"><div class="stat d">$18.95</div><div class="statlabel">2026F all-milk $/cwt · was $21.17</div></div>
+    <div class="card"><div class="stat u">~30M</div><div class="statlabel">lbs/day new milk draw at full run</div></div>
+    <div class="card"><div class="stat">2027</div><div class="statlabel">when the cycle is expected to tighten</div></div>
+  </div>
+  <p class="foot">Compiled Aug 2026 · Sources: USDA AOF Dairy Outlook, CoBank, Rabobank, StoneX, Terrain, HighGround, Vesper. Full citations in the CSVs alongside this file.</p>
+</section>
+
+<!-- 2 -->
+<section class="slide" id="s2">
+  <p class="num">02 / 10</p>
+  <p class="eyebrow">The mechanism</p>
+  <h2>Milk price is set by the <span class="accent">product</span>, not by the buyers</h2>
+  <p class="lead">Under Federal Milk Marketing Orders, farm milk uses <strong>end-product pricing</strong>: the mailbox price is a formula run <em>backwards</em> from wholesale cheese, butter, whey and powder. So causation flows product&nbsp;→&nbsp;milk. New capacity floods the product market, wholesale prices fall, and the milk price is dragged down with them.</p>
+  <div class="flow">
+    <div class="step"><div class="k">Capacity</div><div class="v">+50 plants ▲</div></div>
+    <div class="arrow">→</div>
+    <div class="step"><div class="k">Cheese output</div><div class="v">+~70M lb/mo ▲</div></div>
+    <div class="arrow">→</div>
+    <div class="step hot"><div class="k">CME cheese price</div><div class="v">▼ falls</div></div>
+    <div class="arrow">→</div>
+    <div class="step hot"><div class="k">Class III (formula)</div><div class="v">▼ falls</div></div>
+    <div class="arrow">→</div>
+    <div class="step hot"><div class="k">Mailbox milk</div><div class="v">▼ falls</div></div>
+  </div>
+  <div class="callout">The "more buyers → higher price" intuition is a <strong>raw-milk scarcity</strong> story. It only holds if milk is short <em>and</em> price is set by local bidding. Neither is true here: milk supply responded, and the FMMO formula ties the announced price to <em>national</em> commodity values. Local competition still exists — it shows up as <strong>basis</strong> (premiums over the class price), not in the class price itself.</p>
+</section>
+
+<!-- 3 -->
+<section class="slide" id="s3">
+  <p class="num">03 / 10</p>
+  <p class="eyebrow">The result</p>
+  <h2>Every milk-check line moved lower</h2>
+  <p>USDA's Feb-2026 outlook attributes falling prices to <strong>both</strong> more milk <strong>and</strong> more processing capacity — "particularly for cheese." The milkfat-heavy complex (cheese, butter) leads the decline; skim-solids/protein (NDM, whey) hold firmer.</p>
+  <div class="grid2" style="margin-top:14px">
+    <div>
+      <div class="legend">
+        <span><i class="swatch" style="background:var(--c-blue)"></i>2025</span>
+        <span><i class="swatch" style="background:var(--c-amber)"></i>2026 forecast</span>
+      </div>
+      <div class="fig"><div id="chartClasses"></div></div>
+      <div class="figcap">Class &amp; all-milk prices, $/cwt</div>
+    </div>
+    <div>
+      <div class="legend">
+        <span><i class="swatch" style="background:var(--c-blue)"></i>2025</span>
+        <span><i class="swatch" style="background:var(--c-amber)"></i>2026 forecast</span>
+      </div>
+      <div class="fig"><div id="chartProducts"></div></div>
+      <div class="figcap">Wholesale product prices, $/lb · cheddar 2025 approx.</div>
+    </div>
+  </div>
+  <details><summary>Show data table</summary>
+    <table><thead><tr><th>Series</th><th>2025</th><th>2026F</th></tr></thead><tbody>
+    <tr><td>All-milk ($/cwt)</td><td class="n">21.17</td><td class="n">18.95</td></tr>
+    <tr><td>Class III ($/cwt)</td><td class="n">18.01</td><td class="n">16.65</td></tr>
+    <tr><td>Class IV ($/cwt)</td><td class="n">17.38</td><td class="n">15.70</td></tr>
+    <tr><td>Cheddar ($/lb)</td><td class="n">~1.78</td><td class="n">1.60</td></tr>
+    <tr><td>Butter ($/lb)</td><td class="n">2.22</td><td class="n">1.68</td></tr>
+    <tr><td>NDM ($/lb)</td><td class="n">1.24</td><td class="n">1.32</td></tr>
+    <tr><td>Dry whey ($/lb)</td><td class="n">0.60</td><td class="n">0.69</td></tr>
+    </tbody></table>
+  </details>
+</section>
+
+<!-- 4 -->
+<section class="slide" id="s4">
+  <p class="num">04 / 10</p>
+  <p class="eyebrow">Why the formula bites</p>
+  <h2>The Class III formula — and a permanent re-rating</h2>
+  <p class="lead">Class III milk value is literally computed from the cheese price, minus a regulated <strong>make allowance</strong>, times yield, plus whey value. When cheese falls, Class III falls one-for-one. In June 2025 the make allowances were raised — a permanent downward shift in how much of the product price reaches the farm.</p>
+  <div class="card" style="margin:16px 0;font-family:var(--serif);font-size:clamp(1rem,2vw,1.35rem);text-align:center;line-height:1.7">
+    Class III ≈ (Cheese&nbsp;−&nbsp;<span class="accent">make&nbsp;allowance</span>)&nbsp;×&nbsp;yield&nbsp;&nbsp;+&nbsp;&nbsp;whey&nbsp;value
+  </div>
+  <div class="grid2">
+    <div>
+      <h3>June 2025 make allowances ($/lb)</h3>
+      <table><thead><tr><th>Product</th><th>New allowance</th></tr></thead><tbody>
+      <tr><td>Cheese</td><td class="n">0.2519</td></tr>
+      <tr><td>Butter</td><td class="n">0.2272</td></tr>
+      <tr><td>Nonfat dry milk</td><td class="n">0.2393</td></tr>
+      <tr><td>Dry whey</td><td class="n">0.2668</td></tr>
+      </tbody></table>
+    </div>
+    <div class="card">
+      <h3>Why it matters for your model</h3>
+      <p>Higher make allowances (up ~5–7¢) mechanically lower every classified milk value <em>at a given product price</em>. If mailbox prices lag while Class III sinks, <strong>basis risk widens</strong> for DRP / LGM-Dairy hedges. Treat June-2025 as a structural level shift — rebase your milk-from-product bridge, don't treat it as noise.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 5 -->
+<section class="slide" id="s5">
+  <p class="num">05 / 10</p>
+  <p class="eyebrow">The timing trap</p>
+  <h2>Capacity is <span class="accent">lumpy &amp; fast</span>; milk is slow</h2>
+  <p>A cheese plant switches on in a quarter; a milk supply response takes years — heifer inventory is at a 20-year low and a calf is ~2 years from the parlour. New plants must run to cover fixed costs, so they push product into the market <em>before</em> supply or demand can rebalance. Plants also ramp gradually (~50% of nameplate early), so cheese output keeps climbing into 2026 as they fill.</p>
+  <div class="grid2" style="margin-top:14px">
+    <div class="card"><div class="stat">−0.04% → −0.23%</div><div class="statlabel">US milk output, 2023 then 2024 — first back-to-back drops since the 1960s</div></div>
+    <div class="card"><div class="stat">+4.33%</div><div class="statlabel">2025 milkfat test (+2.1%) — components, not cows, fed the vats near-term</div></div>
+  </div>
+  <div class="callout">Net effect: a <strong>12–24 month surplus window</strong> where processing capacity outruns both milk headcount and demand. That window <em>is</em> the price pressure.</div>
+</section>
+
+<!-- 6 -->
+<section class="slide" id="s6">
+  <p class="num">06 / 10</p>
+  <p class="eyebrow">Geography</p>
+  <h2>The map is moving to the Plains</h2>
+  <p>Cows and plants are concentrating in the milk-short Central Plains &amp; Southwest, while the milk-long Upper Midwest and contracting California are left balancing surplus. Even as <em>national</em> output fell ~3M&nbsp;lb/day (Dec-24 vs Dec-23), CO/KS/TX/SD together <span class="up">added ~5M&nbsp;lb/day</span>.</p>
+  <div class="legend"><span><i class="swatch" style="background:var(--c-teal)"></i>Dairy-cow additions, 2025 (000 head)</span></div>
+  <div class="fig"><div id="chartCows"></div></div>
+  <div class="figcap">Herd growth clusters where the new plants are.</div>
+  <div class="callout">Because plants and milk are landing in <em>different</em> regions, basis has split: <span class="up">positive</span> premiums where milk is short (Plains/SW), <span class="down">negative</span> where it is long (Upper Midwest) → next slide.</div>
+</section>
+
+<!-- 7 -->
+<section class="slide" id="s7">
+  <p class="num">07 / 10</p>
+  <p class="eyebrow">Deep dive</p>
+  <h2>The Upper-Midwest negative basis</h2>
+  <p class="lead">Wisconsin &amp; Minnesota are structurally <strong>milk-long</strong> — they make far more milk than local fluid demand, so most goes to manufacturing. With cheese prices soft and new capacity landing elsewhere, the region was left holding surplus milk. Four symptoms follow, and they compound.</p>
+  <div class="flow" style="margin-top:8px">
+    <div class="step"><div class="k">1 · Structural surplus</div><div class="v">Milk-long region, soft cheese</div></div>
+    <div class="arrow">→</div>
+    <div class="step hot"><div class="k">2 · Spot milk below Class</div><div class="v">−$3 to +$3 vs Class; dumping at flush</div></div>
+    <div class="arrow">→</div>
+    <div class="step hot"><div class="k">3 · Negative PPD</div><div class="v">Blend price &lt; Class III mover</div></div>
+    <div class="arrow">→</div>
+    <div class="step hot"><div class="k">4 · Depooling</div><div class="v">Handlers pull Class III out of the pool</div></div>
+  </div>
+  <div class="grid2" style="margin-top:6px">
+    <div class="card">
+      <h3>Basis, defined</h3>
+      <p class="waterfall-note"><b>Mailbox = announced Class/blend price + basis.</b> Basis is normally positive (quality, hauling, over-order premiums). In an oversupplied manufacturing region those premiums evaporate and invert — farm milk clears <em>below</em> the FMMO Class III price. That is negative basis.</p>
+    </div>
+    <div class="card">
+      <h3>The depooling doom-loop</h3>
+      <p class="waterfall-note">When Class III jumps relative to Class IV, the <b>PPD goes negative</b> (blend &lt; Class III). Handlers then <b>depool</b> Class III milk to avoid paying into the pool — which drains pool value and makes the PPD <em>more</em> negative for whoever stays in. The June-2025 make-allowance hike thinned margins further.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 8 -->
+<section class="slide" id="s8">
+  <p class="num">08 / 10</p>
+  <p class="eyebrow">The twist nobody priced</p>
+  <h2>Whey didn't glut — it <span class="accent">bifurcated</span></h2>
+  <p>The pre-boom fear was a dry-whey glut. Instead: commodity dry whey is soft, but high-protein <strong>WPC80 / WPI are in acute shortage</strong>. Extra cheese made plenty of liquid whey — but the bottleneck is <strong>fractionation / spray-dry capacity, not cheese vats</strong>, and new fractionation won't produce until 2027–28. GLP-1 &amp; the protein craze are pulling demand hard.</p>
+  <div class="legend"><span><i class="swatch" style="background:var(--c-teal)"></i>Whey product price, Q1 2026 ($/lb)</span></div>
+  <div class="fig"><div id="chartWhey"></div></div>
+  <div class="figcap">A ~19–23× spread between commodity whey and isolate. WPC80 was ~$5.80/lb as recently as Oct 2025.</div>
+  <div class="callout">Model implication: "whey" is no longer one commodity. The value is in the <strong>fraction</strong>, and the constraint is <strong>protein-drying capacity</strong> — a different bottleneck than the cheese story on every other slide.</div>
+</section>
+
+<!-- 9 -->
+<section class="slide" id="s9">
+  <p class="num">09 / 10</p>
+  <p class="eyebrow">The arc</p>
+  <h2>A trough now, a tightening by 2027</h2>
+  <p>This is a cycle, not a permanent glut. Capacity front-loaded the pain; supply and demand catch up on a lag.</p>
+  <div class="timeline">
+    <div class="row trough"><div class="yr">2025</div><div><b>Trough wave.</b> Leprino (Lubbock TX), Hilmar (Dodge City KS), Valley Queen (Milbank SD), Great Lakes (Franklinville NY), Darigold (Pasco WA), fairlife (Webster NY) all reach operation — the single biggest step-up. Prices sag.</div></div>
+    <div class="row"><div class="yr">2026</div><div><b>Fill &amp; secondary wave.</b> 2025 plants ramp from ~50% toward nameplate (output keeps rising); whey-protein plants, Walmart Robinson TX, Idaho Milk Products come on. Surplus window at its widest.</div></div>
+    <div class="row turn"><div class="yr">2027</div><div><b>Tightening.</b> Heifer-driven herd rebuild finally arrives; demand &amp; exports catch up; fractionation capacity (Southwest Cheese WPI, Land O'Lakes Tulare) starts relieving the protein squeeze.</div></div>
+    <div class="row"><div class="yr">2028+</div><div><b>Third build-out.</b> Chobani Rome NY, Daisy Brand Boone IA, Bel/Babybel Brookings SD, fairlife Coopersville MI — a fresh demand-for-milk pulse into the next cycle.</div></div>
+  </div>
+</section>
+
+<!-- 10 -->
+<section class="slide" id="s10">
+  <p class="num">10 / 10</p>
+  <p class="eyebrow">The payoff</p>
+  <h2>How to re-wire your S&amp;D model</h2>
+  <p class="lead">The old single-commodity, national, milk-first model will misread this cycle. Eight adjustments:</p>
+  <ul class="clean">
+    <li><span class="idx">1</span><b>Price product-first, derive milk.</b> Model CME cheese/butter/NFDM/whey → apply class formulas (with June-2025 make allowances) → Class III/IV → blend → mailbox. Capacity shocks hit output prices first.</li>
+    <li><span class="idx">2</span><b>Split capacity from supply.</b> Two constrained variables, not one. Add a per-plant <em>utilization ramp</em> (~50%→full over 1–2 yrs) so cheese output keeps rising even when milk is flat.</li>
+    <li><span class="idx">3</span><b>Balance by component, not fluid volume.</b> Track butterfat and protein/skim-solids separately — that split is what drives the Class III/IV divergence and the whey story.</li>
+    <li><span class="idx">4</span><b>Give whey its own sub-model.</b> Dry whey vs WPC80/WPI are different markets; the binding constraint is fractionation capacity (relief in 2027–28), so carry a persistent, wide spread.</li>
+    <li><span class="idx">5</span><b>Regionalize.</b> At minimum Upper-Midwest (long, negative-basis risk) vs Plains/SW (short, positive basis, cow migration) vs West (contracting). Basis is now a structural regional variable.</li>
+    <li><span class="idx">6</span><b>Make basis, PPD &amp; depooling explicit outputs.</b> Model the Class III–IV spread that triggers negative PPD and depooling, not a fixed basis constant.</li>
+    <li><span class="idx">7</span><b>Asymmetric supply lags.</b> Capacity is fast &amp; lumpy; milk is slow (heifers at 20-yr low, ~2-yr lag). Components are the near-term lever; headcount rebuild is a 2027 story.</li>
+    <li><span class="idx">8</span><b>Demand = protein trend + export swing.</b> Add GLP-1/high-protein structural demand (esp. whey) and treat exports as the swing absorber — with competition risk (4 of 5 majors growing) and Mexico concentration (~28%).</li>
+  </ul>
+  <p class="foot">Data &amp; full source list: <span class="kbd">dairy_capacity_projects.csv</span> · <span class="kbd">dairy_analyst_views.csv</span> · <span class="kbd">dairy_capacity_timeline.csv</span> · <span class="kbd">README.md</span></p>
+</section>
+
+<script>
+(function(){
+  "use strict";
+  // ---------- theme ----------
+  var root=document.documentElement, btn=document.getElementById('themeBtn');
+  btn.addEventListener('click',function(){
+    var cur=root.getAttribute('data-theme');
+    var next = cur ? (cur==='dark'?'light':'dark')
+                   : (matchMedia('(prefers-color-scheme:dark)').matches?'light':'dark');
+    root.setAttribute('data-theme',next);
+    drawAll(); // recolour charts from CSS vars
+  });
+
+  // ---------- helpers ----------
+  function cssv(n){return getComputedStyle(root).getPropertyValue(n).trim();}
+  var NS='http://www.w3.org/2000/svg';
+  function el(tag,attrs,text){var e=document.createElementNS(NS,tag);for(var k in attrs)e.setAttribute(k,attrs[k]);if(text!=null)e.textContent=text;return e;}
+  function clear(id){var c=document.getElementById(id);if(c)c.innerHTML='';return c;}
+
+  // ---------- grouped vertical bars ----------
+  function groupedBars(id,cats,series,unit,fmt){
+    var host=clear(id); if(!host) return;
+    var W=520,H=300,mL=44,mR=12,mT=14,mB=46;
+    var svg=el('svg',{viewBox:'0 0 '+W+' '+H,role:'img'});
+    var maxV=0; series.forEach(function(s){s.vals.forEach(function(v){if(v>maxV)maxV=v;});});
+    maxV=maxV*1.15;
+    var plotH=H-mT-mB, plotW=W-mL-mR;
+    // gridlines
+    var ticks=4;
+    for(var t=0;t<=ticks;t++){
+      var gv=maxV*t/ticks, y=mT+plotH-(gv/maxV)*plotH;
+      svg.appendChild(el('line',{x1:mL,y1:y,x2:W-mR,y2:y,class:'gridline'}));
+      svg.appendChild(el('text',{x:mL-8,y:y+4,'text-anchor':'end',class:'axis'},Math.round(gv)));
+    }
+    var gCount=cats.length, gW=plotW/gCount, inner=gW*0.62, bw=inner/series.length;
+    cats.forEach(function(cat,ci){
+      var gx=mL+ci*gW+(gW-inner)/2;
+      series.forEach(function(s,si){
+        var v=s.vals[ci], bh=(v/maxV)*plotH, x=gx+si*bw, y=mT+plotH-bh;
+        var r=el('rect',{x:x+1.5,y:y,width:bw-3,height:bh,rx:4,fill:cssv(s.color)});
+        r.appendChild(el('title',null,cat+' · '+s.name+': '+fmt(v)+unit));
+        svg.appendChild(r);
+        svg.appendChild(el('text',{x:x+bw/2,y:y-6,'text-anchor':'middle',class:'bar-val'},fmt(v)));
+      });
+      svg.appendChild(el('text',{x:mL+ci*gW+gW/2,y:H-mB+20,'text-anchor':'middle',class:'axis'},cat));
+    });
+    svg.appendChild(el('line',{x1:mL,y1:mT+plotH,x2:W-mR,y2:mT+plotH,class:'baseline'}));
+    host.appendChild(svg);
+  }
+
+  // ---------- single horizontal bars ----------
+  function hBars(id,rows,unit,fmt,color){
+    var host=clear(id); if(!host) return;
+    var W=520, rowH=46, mT=8, mB=8, mL=118, mR=54;
+    var H=mT+mB+rows.length*rowH;
+    var svg=el('svg',{viewBox:'0 0 '+W+' '+H,role:'img'});
+    var maxV=0; rows.forEach(function(r){if(r.v>maxV)maxV=r.v;}); maxV*=1.12;
+    var plotW=W-mL-mR;
+    rows.forEach(function(r,i){
+      var y=mT+i*rowH, cy=y+rowH/2;
+      var bw=Math.max((r.v/maxV)*plotW,2);
+      svg.appendChild(el('text',{x:mL-10,y:cy+4,'text-anchor':'end',class:'axis'},r.k));
+      var rect=el('rect',{x:mL,y:cy-13,width:bw,height:26,rx:4,fill:cssv(color)});
+      rect.appendChild(el('title',null,r.k+': '+fmt(r.v)+unit));
+      svg.appendChild(rect);
+      svg.appendChild(el('text',{x:mL+bw+8,y:cy+4,class:'bar-val'},fmt(r.v)));
+    });
+    host.appendChild(svg);
+  }
+
+  function d2(v){return v.toFixed(2);} function d0(v){return ''+v;}
+
+  function drawAll(){
+    groupedBars('chartClasses',
+      ['All-milk','Class III','Class IV'],
+      [{name:'2025',color:'--c-blue',vals:[21.17,18.01,17.38]},
+       {name:'2026F',color:'--c-amber',vals:[18.95,16.65,15.70]}],
+      '/cwt', d2);
+    groupedBars('chartProducts',
+      ['Cheddar','Butter','NDM','Dry whey'],
+      [{name:'2025',color:'--c-blue',vals:[1.78,2.22,1.24,0.60]},
+       {name:'2026F',color:'--c-amber',vals:[1.60,1.68,1.32,0.69]}],
+      '/lb', d2);
+    hBars('chartCows',
+      [{k:'Texas',v:46},{k:'Kansas',v:29},{k:'South Dakota',v:21},{k:'New York',v:8}],
+      'k head', d0, '--c-teal');
+    hBars('chartWhey',
+      [{k:'WPI',v:12.75},{k:'WPC80',v:10.50},{k:'Dry whey',v:0.55}],
+      '/lb', d2, '--c-teal');
+  }
+  drawAll();
+
+  // ---------- progress + dots ----------
+  var slides=[].slice.call(document.querySelectorAll('.slide'));
+  var dots=document.getElementById('dots');
+  slides.forEach(function(s,i){
+    var a=document.createElement('a');a.href='#'+s.id;a.setAttribute('aria-label','Slide '+(i+1));
+    dots.appendChild(a);
+  });
+  var dotEls=[].slice.call(dots.children);
+  var prog=document.getElementById('progress');
+  function onScroll(){
+    var st=window.scrollY, h=document.body.scrollHeight-innerHeight;
+    prog.style.width=(h>0?(st/h*100):0)+'%';
+    var idx=0,mid=st+innerHeight/2;
+    slides.forEach(function(s,i){if(s.offsetTop<=mid)idx=i;});
+    dotEls.forEach(function(d,i){d.classList.toggle('active',i===idx);});
+  }
+  addEventListener('scroll',onScroll,{passive:true}); addEventListener('resize',onScroll); onScroll();
+})();
+</script>
+</body>
+</html>
