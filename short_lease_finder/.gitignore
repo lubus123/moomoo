@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+data/raw/
+data/comps/
+data/listings.json
+data/rightmove_locations.json

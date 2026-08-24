@@ -1,0 +1,161 @@
+# Short-lease flat finder — configuration
+# All rates, tables and weights are parameterised here; nothing is hardcoded
+# in the valuation or scoring modules.
+
+search:
+  # Postcode sectors in scope. Listings are matched to a sector from their
+  # full postcode where available; listings with only an outcode are kept
+  # and flagged sector_unknown.
+  sectors:
+    - "N8 0"
+    - "N8 7"
+    - "N8 9"
+    - "N15 3"
+    - "N15 5"
+    - "N22 5"
+    - "N22 6"
+    - "N22 7"
+    # - "N4 1"      # optional Stroud Green side — uncomment to include
+  # Outcodes are derived from sectors automatically; add extras here if needed.
+  extra_outcodes: []
+
+  max_price: 450000            # hard asking-price cap
+  max_price_short: 480000      # allowed up to this if lease < short_price_lease_years
+  short_price_lease_years: 70
+
+  max_lease_years: 80          # hard lease filter (or short_lease_flag)
+  cash_only_below_years: 65    # flag "cash/bridging only" at or below this
+
+fetch:
+  user_agent: "short-lease-finder/0.1 (personal research tool; polite crawler)"
+  min_interval_seconds: 2.0    # per-host politeness delay (>= 1 req / 2s)
+  timeout_seconds: 30
+  cache_dir: "data/raw"
+  cache_max_age_hours: 20      # re-use cached pages younger than this
+  honour_robots: true
+  # cap on listing detail pages fetched per run (search pages excluded);
+  # listings are visited cheapest-first so short leases (which cluster at
+  # low prices) are covered first even if the cap bites.
+  max_detail_fetches: 400
+
+sources:
+  rightmove:
+    enabled: true
+    base_url: "https://www.rightmove.co.uk"
+    typeahead_url: "https://los.rightmove.co.uk/typeahead"
+    # resolved OUTCODE^id cache lives in data/rightmove_locations.json;
+    # entries here are used as a fallback if the typeahead is unreachable.
+    known_location_ids:
+      N8: 1686
+  zoopla:
+    enabled: true
+    base_url: "https://www.zoopla.co.uk"
+  onthemarket:
+    enabled: true
+    base_url: "https://www.onthemarket.com"
+  auctions:
+    enabled: true
+    # current-catalogue pages to scan for target outcodes; update per cycle.
+    catalogue_urls:
+      - "https://auctions.savills.co.uk/auctions"
+      - "https://auctions.allsop.co.uk/auction-search?type=residential"
+      - "https://www.barnardmarcusauctions.co.uk/next-auction"
+      - "https://www.mchughandco.com/auctions"
+      - "https://www.auctionhouselondon.co.uk/upcoming-auctions"
+  manual:
+    enabled: true
+    urls_file: "data/manual_urls.txt"   # one listing URL per line; parsed with the matching site parser
+
+comps:
+  # Land Registry PPD via the official SPARQL endpoint, cached locally.
+  sparql_endpoint: "https://landregistry.data.gov.uk/landregistry/query"
+  lookback_months: 24
+  cache_dir: "data/comps"
+  cache_max_age_hours: 72
+  min_street_comps: 3         # need at least this many same-street sales, else fall back to sector
+  min_sector_comps: 5
+  trim_pct: 0.10              # trim tails before taking the mean of comps
+  # PPD has no bedroom counts; sector/street medians are adjusted by bedrooms
+  # with these multipliers (1.0 = median 2-bed-ish stock).
+  bed_adjustment:
+    0: 0.70     # studio
+    1: 0.82
+    2: 1.00
+    3: 1.22
+    4: 1.40
+
+valuation:
+  deferment_rate: 0.05         # Sportelli generic rate for flats
+  capitalisation_rate: 0.065   # ground-rent cap rate (6–7% typical)
+  extension_years: 90          # statutory +90 (1993 Act); LAFRA up to 990 — reversion beyond 90y is ~nil either way
+  marriage_value_threshold: 80 # marriage value applies below this (old law)
+  # Post-reform (LAFRA 2024) prescribed rates are NOT yet published.
+  # Defaults mirror the old-law rates; override when the SI lands.
+  reform:
+    deferment_rate: 0.05
+    capitalisation_rate: 0.065
+    ground_rent_cap_pct: 0.001   # GR treated as capped at 0.1% of freehold value
+    marriage_value: false
+  # Relativity: % of long-lease value for a given unexpired term (no Act rights).
+  # Piecewise-linear interpolation between points. Based on the shape of the
+  # published 2016 graphs (Savills unenfranchisable / Gerald Eve); swap freely.
+  relativity_table:
+    30: 0.462
+    40: 0.600
+    45: 0.665
+    50: 0.720
+    55: 0.766
+    60: 0.809
+    65: 0.848
+    70: 0.883
+    75: 0.914
+    80: 0.940
+    85: 0.958
+    90: 0.970
+    95: 0.978
+    100: 0.985
+    120: 0.992
+  costs:
+    legal: 3000
+    surveyor: 1500
+    freeholder_costs: 2500     # freeholder's recoverable legal + valuation
+  sdlt:
+    first_time_buyer: false
+    # England residential bands in force 2026 (post Apr-2025 reversion).
+    standard_bands:            # [threshold, marginal rate] applied above threshold
+      - [0, 0.00]
+      - [125000, 0.02]
+      - [250000, 0.05]
+      - [925000, 0.10]
+      - [1500000, 0.12]
+    ftb_bands:
+      - [0, 0.00]
+      - [300000, 0.05]
+      - [500000, null]         # null = FTB relief lost above this; standard bands apply
+  mortgageable_min_years: 70   # L >= this at completion counts as mortgageable
+
+scoring:
+  # Score = net_gain_new + sum(applicable soft adjustments).
+  # Hard filters (flat, price caps, lease <= 80 / short_lease_flag) are not weights.
+  weights:
+    new_build: -15000
+    ground_rent_over_250: -10000
+    ground_rent_escalating: -20000
+    service_charge_over_2500: -8000
+    above_commercial: -12000
+    ground_rent_fund_freeholder: -8000
+    ex_local_high_rise: -10000
+    listing_age_over_90d: 5000       # negotiation leverage
+    reduced: 4000
+    period_conversion: 6000
+  tiebreak: ["net_gain_old", "mortgageable_flag"]
+  # freeholders known to be aggressive ground-rent funds (case-insensitive substring)
+  ground_rent_fund_names:
+    - "long harbour"
+    - "wallace estates"
+    - "e&j estates"
+    - "adriatic land"
+    - "abacus land"
+
+output:
+  results_dir: "results"
