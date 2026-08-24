@@ -112,3 +112,25 @@ def test_rank_orders_by_score_and_puts_unvaluable_last():
 def test_sector_property():
     assert make_listing().sector == "N8 9"
     assert make_listing(incode=None).sector is None
+
+
+def test_strict_sector_exclusion():
+    s = score(make_listing(incode="4AA"))  # N15-style sector not in config? N8 4 not listed
+    assert s.excluded and "out of scope" in s.exclusion_reason
+    # unknown sector (no incode) is kept
+    s2 = score(make_listing(incode=None))
+    assert not s2.excluded
+
+
+def test_dedup_collapses_cross_portal_duplicates():
+    from short_lease_finder.scoring import dedup_listings
+    rm = make_listing(source="rightmove", source_id="1", street="Belmont Road",
+                      address="Belmont Road, Tottenham", incode="3AA")
+    otm = make_listing(source="onthemarket", source_id="2", street="Belmont Road",
+                       address="Belmont Road, Tottenham, London", incode=None)
+    other = make_listing(source="onthemarket", source_id="3", street="Belmont Road",
+                         address="Belmont Road", price=340_000)
+    out = dedup_listings([otm, rm, other])
+    assert len(out) == 2
+    kept = {l.source_id for l in out}
+    assert kept == {"1", "3"}  # richer rightmove record wins over the OTM twin

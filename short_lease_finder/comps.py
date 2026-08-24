@@ -79,18 +79,24 @@ class CompsStore:
     def _fetch_sector(self, sector: str) -> Optional[list[dict]]:
         min_date = (date.today() - timedelta(days=int(self.lookback_months * 30.44))).isoformat()
         query = SPARQL_TEMPLATE.format(sector=sector, min_date=min_date)
-        try:
-            resp = httpx.post(
-                self.endpoint,
-                data={"query": query},
-                headers={"Accept": "application/sparql-results+json"},
-                timeout=120,
-            )
-            resp.raise_for_status()
-            rows = resp.json()["results"]["bindings"]
-        except Exception as exc:  # network/endpoint failure -> caller may use stale cache
-            print(f"  [comps] SPARQL fetch failed for {sector}: {exc}")
-            return None
+        rows = None
+        for attempt, delay in enumerate((0, 3, 8, 15)):
+            if delay:
+                time.sleep(delay)  # the endpoint 503s under bursts; back off
+            try:
+                resp = httpx.post(
+                    self.endpoint,
+                    data={"query": query},
+                    headers={"Accept": "application/sparql-results+json"},
+                    timeout=120,
+                )
+                resp.raise_for_status()
+                rows = resp.json()["results"]["bindings"]
+                break
+            except Exception as exc:
+                if attempt == 3:
+                    print(f"  [comps] SPARQL fetch failed for {sector}: {exc}")
+                    return None
 
         sales = []
         for r in rows:

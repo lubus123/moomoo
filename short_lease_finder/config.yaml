@@ -25,6 +25,9 @@ search:
 
   max_lease_years: 80          # hard lease filter (or short_lease_flag)
   cash_only_below_years: 65    # flag "cash/bridging only" at or below this
+  # true = exclude listings whose (known) sector is outside `sectors`;
+  # listings with only an outcode are always kept and flagged in the note.
+  strict_sectors: true
 
 fetch:
   user_agent: "short-lease-finder/0.1 (personal research tool; polite crawler)"
@@ -58,10 +61,10 @@ sources:
     # current-catalogue pages to scan for target outcodes; update per cycle.
     catalogue_urls:
       - "https://auctions.savills.co.uk/auctions"
-      - "https://auctions.allsop.co.uk/auction-search?type=residential"
-      - "https://www.barnardmarcusauctions.co.uk/next-auction"
-      - "https://www.mchughandco.com/auctions"
-      - "https://www.auctionhouselondon.co.uk/upcoming-auctions"
+      - "https://www.allsop.co.uk/auctions/"
+      - "https://www.barnardmarcusauctions.co.uk/"
+      - "https://www.mchughandco.com/"
+      - "https://www.auctionhouselondon.co.uk/current-auction"
   manual:
     enabled: true
     urls_file: "data/manual_urls.txt"   # one listing URL per line; parsed with the matching site parser

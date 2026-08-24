@@ -6,7 +6,7 @@ from datetime import date
 from typing import Optional
 
 from .comps import CompsStore
-from .models import LeaseConfidence, Listing, ScoredListing
+from .models import LeaseConfidence, Listing, ScoredListing  # noqa: F401 (LeaseConfidence used in dedup)
 from .valuation import ValuationParams, premium_1993, premium_reform, sdlt
 
 
@@ -26,6 +26,9 @@ def _passes_hard_filters(l: Listing, cfg: dict) -> Optional[str]:
     if l.shared_ownership or re.search(r"shared ownership|\b\d{1,2}% share\b",
                                        (l.address or "") + " " + l.description[:2000], re.I):
         return "shared ownership (price is for a share)"
+
+    if s.get("strict_sectors") and l.sector and l.sector not in s["sectors"]:
+        return f"sector {l.sector} out of scope"
 
     if l.price is None:
         return "no price"
@@ -73,6 +76,28 @@ def _soft_adjustments(l: Listing, cfg: dict, today: date) -> dict[str, float]:
         adj["reduced"] = w["reduced"]
 
     return adj
+
+
+def _dedup_key(l: Listing) -> tuple:
+    street = re.sub(r"[^a-z0-9]", "", (l.street or l.address or l.url).lower())
+    return (street, l.price, l.bedrooms,
+            round(l.lease_years) if l.lease_years is not None else None)
+
+
+def dedup_listings(listings: list[Listing]) -> list[Listing]:
+    """Collapse the same flat listed on several portals; keep the richest record
+    (one with a full postcode wins, then structured lease info, then rightmove)."""
+    def quality(l: Listing) -> tuple:
+        return (l.incode is not None,
+                l.lease_confidence == LeaseConfidence.EXPLICIT_YEARS,
+                l.source == "rightmove")
+
+    best: dict[tuple, Listing] = {}
+    for l in listings:
+        k = _dedup_key(l)
+        if k not in best or quality(l) > quality(best[k]):
+            best[k] = l
+    return list(best.values())
 
 
 def score_listing(

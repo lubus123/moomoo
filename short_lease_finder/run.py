@@ -25,7 +25,8 @@ from short_lease_finder.comps import CompsStore                      # noqa: E40
 from short_lease_finder.models import Listing                        # noqa: E402
 from short_lease_finder.output import (diff_runs, previous_result,   # noqa: E402
                                        write_csv, write_html)
-from short_lease_finder.scoring import rank, score_listing           # noqa: E402
+from short_lease_finder.scoring import (dedup_listings, rank,        # noqa: E402
+                                        score_listing)
 from short_lease_finder.sources.auctions import AuctionSource        # noqa: E402
 from short_lease_finder.sources.base import PoliteFetcher            # noqa: E402
 from short_lease_finder.sources.manual import ManualSource           # noqa: E402
@@ -115,7 +116,10 @@ def load_listings(base_dir: Path) -> list[Listing]:
 def cmd_score(cfg: dict, base_dir: Path, listings: list[Listing]):
     params = ValuationParams.from_config(cfg)
     comps = CompsStore(cfg, base_dir)
-    scored = [score_listing(l, cfg, comps, params) for l in listings]
+    unique = dedup_listings(listings)
+    if len(unique) < len(listings):
+        print(f"[score] {len(listings) - len(unique)} cross-portal duplicates collapsed")
+    scored = [score_listing(l, cfg, comps, params) for l in unique]
 
     excluded = [s for s in scored if s.excluded]
     ranked = rank(scored)
