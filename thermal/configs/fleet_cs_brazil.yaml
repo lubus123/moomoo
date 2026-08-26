@@ -11,7 +11,7 @@ fleet:
   pad_km: 0.4
   min_clear_frac_box: 0.6
   min_scenes_mill: 40
-  core_px: 9                  # fixed core: top-K pooled crush-season anomaly pixels
+  core_px: 70                 # fixed core: top-K pooled crush-season anomaly pixels (K swept 5-70; validity plateaus ~50-70)
   core_min_obs: 8
   core_min_clear_px: 6
 
