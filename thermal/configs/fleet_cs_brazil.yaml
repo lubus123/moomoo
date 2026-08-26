@@ -1,0 +1,48 @@
+# Fleet activity index: Center-South Brazil sugarcane mills (UNICA scope).
+# Mills come from data/udop_mills.csv (scripts/fetch_udop.py).
+fleet:
+  mills_csv: "data/udop_mills.csv"
+  states: ["SP", "GO", "MG", "MS", "PR", "MT"]
+  require_cane: true          # materias_primas must include Cana-de-Acucar
+  # pilot subsample per state (deterministic; 0 = take all). SP carries ~half of
+  # CS crush so it is overweighted.
+  pilot_per_state: {SP: 10, GO: 3, MG: 3, MS: 2, PR: 2, MT: 0}
+  box_km: 1.2
+  pad_km: 0.4
+  min_clear_frac_box: 0.6
+  min_scenes_mill: 40
+  core_px: 9                  # fixed core: top-K pooled crush-season anomaly pixels
+  core_min_obs: 8
+  core_min_clear_px: 6
+
+time:
+  start: "2017-01-01"
+  end: null
+
+landsat:
+  collection: "landsat-c2-l2"
+  platforms: ["landsat-8", "landsat-9"]
+  bands: ["lwir11", "qa_pixel"]
+  st_scale: 0.00341802
+  st_offset: 149.0
+  qa_bad_bits: [1, 3, 4, 5]
+
+paths:
+  cache_dir: "data/cache_fleet"
+  parquet: "data/fleet_cs_scores.parquet"
+  figs_dir: "figs/fleet"
+  outputs_dir: "outputs/fleet"
+
+# UNICA Center-South cane crush by safra year (million tonnes), for validation.
+# 2023/24-2025/26 confirmed from public UNICA-reporting sources; earlier years
+# compiled from UNICA season reports (approximate to ~1 Mt).
+unica_crush_mt:
+  2017: 596.3
+  2018: 573.1
+  2019: 590.4
+  2020: 605.5
+  2021: 523.1
+  2022: 548.8
+  2023: 654.4
+  2024: 621.9
+  2025: 611.2

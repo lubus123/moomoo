@@ -1,0 +1,1255 @@
+id_empresa,status,nome_fantasia,grupo,cidade,estado,pais,latitude,longitude,coordenadas_validas,materias_primas,produtos,associada,data_ultima_atualizacao
+20000,A,Aralco Alcoazul S/A,Aralco,Araçatuba,SP,Brasil,-21.076839,-50.544233,1,Cana-de-Açúcar,Açúcar | Etanol,N,1755561600000
+20001,A,Alcoeste Bioenergia,Arakaki,Fernandópolis,SP,Brasil,-20.269741,-50.338972,1,Cana-de-Açúcar,Açúcar | Bagaço | Bioeletricidade | Etanol | Levedura,S,1739232000000
+20002,A,Raízen - Parque de Bioenergia Mundial,Raízen,Mirandópolis,SP,Brasil,-21.196834,-51.216873,1,Cana-de-Açúcar,Bioeletricidade | Etanol,S,1754611200000
+20003,A,Alto Alegre - Unidade Floresta,Lincoln Junqueira,Presidente Prudente,SP,Brasil,-21.866356,-51.259262,1,Cana-de-Açúcar,Açúcar,S,1734048000000
+20005,A,Raízen - Parque de Bioenergia Benálcool,Raízen,Bento de Abreu,SP,Brasil,-21.227226,-50.78076,1,Cana-de-Açúcar,Bioeletricidade | Etanol,S,1754611200000
+20006,A,Branco Peres Agribusiness,Branco Peres,Adamantina,SP,Brasil,-21.489261,-51.027941,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Crédito de Carbono | Etanol,S,1734048000000
+20007,A,Zilor - Unidade Salto Botelho,Zilor,Lucélia,SP,Brasil,-21.566696,-50.959826,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol | Levedura | Vinhaça,S,1734048000000
+20008,A,Clealco - Unidade Clementina,Clealco,Clementina,SP,Brasil,-21.577753,-50.43359,1,Cana-de-Açúcar,Açúcar | Bagaço | Bioeletricidade | Etanol | Levedura | Melaço | Óleo | Vinhaça,S,1755043200000
+20009,A,Cocal - Unidade Paraguaçu Paulista,Cocal,Paraguaçú Paulista,SP,Brasil,-22.47692,-50.790168,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol | Vinhaça,S,1778630400000
+20010,A,Usina Califórnia,,Parapuã,SP,Brasil,-21.914496,-50.865905,1,Cana-de-Açúcar,Açúcar | Bagaço | Etanol,S,1734048000000
+20011,A,Raízen - Parque de Bioenergia Destivale,Raízen,Araçatuba,SP,Brasil,-21.057733,-50.465011,1,Cana-de-Açúcar,Bioeletricidade | Etanol,S,1754611200000
+20012,A,Diana Bioenergia,Santa Isabel,Avanhandava,SP,Brasil,-21.402284,-49.894699,1,Cana-de-Açúcar,Açúcar | Bagaço | Bioeletricidade | Crédito de Carbono | Etanol | Levedura,S,1734048000000
+20013,A,Grupo Renuka do Brasil - Unidade Madhu,Renuka do Brasil,Promissão,SP,Brasil,-21.634631,-49.840988,1,Cana-de-Açúcar,Açúcar | Bagaço | Bioeletricidade | Etanol | Levedura | Óleo,S,1734048000000
+20014,I,Cia. Flórida,,Flórida Paulista,SP,Brasil,-21.5092,-51.1343,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721347200000
+20015,A,Aralco Generalco S/A,Aralco,General Salgado,SP,Brasil,-20.573816,-50.387057,1,Cana-de-Açúcar,Açúcar | Etanol,N,1755561600000
+20016,A,Usina Santa Adélia - Pioneiros,Santa Adélia,Sud Mennucci,SP,Brasil,-20.729077,-50.959881,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1734048000000
+20017,A,Viterra Bioenergia - Unidade Nova Unialco,Glencane,Guararapes,SP,Brasil,-21.463056,-50.791864,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,S,1734048000000
+20018,A,Raízen - Parque de Bioenergia Univalem,Raízen,Valparaíso,SP,Brasil,-21.327942,-50.949095,1,Cana-de-Açúcar,Açúcar | Etanol,S,1734048000000
+20038,I,Santa Ana,,Bebedouro,SP,Brasil,-20.95237,-48.484,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+20134,A,JBS Energia - UTE Biolins,JBS,Lins,SP,Brasil,-21.675505,-49.779736,1,Cana-de-Açúcar,Bagaço | Bioeletricidade,S,1734048000000
+20257,A,Usina Cedro,Bertin,Paranaíba,MS,Brasil,-19.398898116784213,-51.32582146772359,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,S,1734048000000
+20261,I,Itarumã,,Itarumã,GO,Brasil,-18.5794444444,-51.7641666667,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721606400000
+20269,A,Zilor - Biorigin e P&D São José,Zilor,Macatuba,SP,Brasil,-22.49757,-48.781806,1,Cana-de-Açúcar,Açúcar | Etanol,N,1759190400000
+20283,I,Momesso,,Barra Bonita,SP,Brasil,-22.4403,-48.53013,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+20310,I,Renuka - Unidade Revati,Renuka do Brasil,Brejo Alegre,SP,Brasil,-21.217198,-50.206666,1,Cana-de-Açúcar,Açúcar | Bagaço | Bioeletricidade | Etanol | Levedura | Óleo,N,1734048000000
+20319,A,Da Prata,,Prata,MG,Brasil,-19.3703852,-48.901,1,Cana-de-Açúcar,Açúcar | Etanol | Levedura,N,1723420800000
+20331,A,Usina Vertente,Tereos,Guaraci,SP,Brasil,-20.405302,-49.001647,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,S,1734048000000
+20340,A,Goiás Bioenergia,,Porteirão,GO,Brasil,-17.8407401,-50.0708648,1,Cana-de-Açúcar,Açúcar | Etanol,N,1709596800000
+20347,A,Álcool Ferreira,,Cordeirópolis,SP,Brasil,-22.496032241300185,-47.40303182568331,1,Cana-de-Açúcar,Etanol,N,1721260800000
+20360,I,UMOE - Unidade I*,,Presidente Prudente,SP,Brasil,-22.6479472222,-51.6165388889,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+20375,A,Cafealcool Agroindustrial,Cafealcool,Cafelândia,SP,Brasil,-21.707454,-49.512867,1,Cana-de-Açúcar,Açúcar | Aguardente/Cachaça | Bagaço | Bioeletricidade | Levedura,S,1734048000000
+20423,I,Pignata,,Sertãozinho,SP,Brasil,-21.1233333333,-47.9672222222,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+20446,I,CEV ,,Veríssimo,MG,Brasil,-19.7678888889,-48.3485,1,Cana-de-Açúcar,Etanol,N,1721347200000
+20472,I,Renascença,,Ibirarema,SP,Brasil,-22.8496388889,-50.0874444444,1,Cana-de-Açúcar,Etanol,N,1721606400000
+20490,A,Tereos - Cruz Alta,Tereos,Olímpia,SP,Brasil,-20.692852,-49.10848,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol | Vinhaça,S,1734048000000
+20491,I,Abraham Lincoln (PA) *,,Medicilândia,PA,Brasil,-3.4632957133300737,-52.90893267758584,1,Cana-de-Açúcar,Açúcar,N,1721260800000
+20500,A,Agropéu,AZC - EBB (Envien Bioenergia Brasil),Pompéu,MG,Brasil,-19.252409,-44.985694,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,S,1776124800000
+20501,A,Agro Serra,Agro Serra,São Raimundo das Mangabeiras,MA,Brasil,-6.78161,-45.878235,1,Cana-de-Açúcar,Etanol,S,1734048000000
+20502,A,bp bioenergy - Unidade Santa Juliana,BP Bunge Bioenergia,Santa Juliana,MG,Brasil,-19.544355,-47.424434,1,Cana-de-Açúcar,Açúcar | Etanol,N,1729468800000
+20503,I,Albesa,,Boa Esperança,ES,Brasil,-18.5402086,-40.2973289,1,Cana-de-Açúcar,Etanol,N,1721260800000
+20504,I,Alcana,,Nanuque,MG,Brasil,-17.9397969,-40.2767909,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721260800000
+20505,A,Atvos - Unidade Alcídia,Mubadala Capital,Teodoro Sampaio,SP,Brasil,-22.34946,-52.52364,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Crédito de Carbono | Etanol,N,1756771200000
+20507,A,Japungu,Japungu,Santa Rita,PB,Brasil,-6.990987,-35.023072,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20508,A,Mandacaru - Agrovale,Agrovale,Juazeiro,BA,Brasil,-9.499641,-40.36851,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20509,A,Grupo Água Bonita,,Tarumã,SP,Brasil,-22.746422,-50.6013,1,Cana-de-Açúcar,Açúcar | Etanol,S,1762905600000
+20510,I,Oeste Paulista*,,Monte Aprazível,SP,Brasil,-20.748611,-49.717222,1,Cana-de-Açúcar,Etanol,N,1721606400000
+20511,I,Albertina,,Sertãozinho,SP,Brasil,-21.0383333333,-47.9705555556,1,,,N,1676246400000
+20512,A,Usimat,,Campos de Júlio,MT,Brasil,-14.265378,-59.233211,1,Cana-de-Açúcar | Milho,Etanol,N,1693440000000
+20513,A,Alcon,Archangelo,Conceição da Barra,ES,Brasil,-18.456137,-39.948852,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20514,I,Alcopan*,,Poconé,MT,Brasil,-16.023752218192257,-56.76917039102829,1,Cana-de-Açúcar,Etanol,N,1721260800000
+20516,I,Coopercana,,Porto Xavier,RS,Brasil,-27.9044306977,-55.1608889656,1,Cana-de-Açúcar,Etanol,N,1721347200000
+20517,A,Alta Mogiana - Unidade São Joaquim da Barra,Lincoln Junqueira,São Joaquim da Barra,SP,Brasil,-20.48531,-47.870974,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+20518,A,Alto Alegre - Unidade Junqueira - Matriz,Lincoln Junqueira,Colorado,PR,Brasil,-22.929077,-51.946158,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20520,A,Araporã,Alvorada,Araporã,MG,Brasil,-18.441763,-49.189542,1,Cana-de-Açúcar,Açúcar | Etanol,N,1741737600000
+20521,I,Alvorada do Bebedouro,,Guaranésia,MG,Brasil,-21.3002777778,-46.8572222222,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721260800000
+20523,I,Dasa - Americana,,Nova América da Colina,PR,Brasil,-23.390035,-50.711805,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721347200000
+20524,A,Tereos - Andrade,Viralcool,Pitangueiras,SP,Brasil,-21.005151,-48.286113,1,Cana-de-Açúcar,Açúcar | Etanol,S,1769731200000
+20525,A,Anicuns - Grupo Farias,Farias,Anicuns,GO,Brasil,-16.41475,-49.945611,1,Cana-de-Açúcar,Açúcar | Etanol,N,1755043200000
+20527,A,Tietê - Unidade Paraíso,Tietê,Paraíso,SP,Brasil,-21.044521,-48.719903,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20528,I,Archangelo *,,Ourinhos,SP,Brasil,-22.808350086287568,-49.83216428465537,1,Cana-de-Açúcar,Etanol,N,1721347200000
+20537,A,Jatiboca - São Pedro dos Ferros,Pontenovense,São Pedro dos Ferros,MG,Brasil,-20.1875,-42.5625,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20539,A,Vale Verde - Unidade Baía Formosa,Farias,Baía Formosa,RN,Brasil,-6.414209,-35.057085,1,Cana-de-Açúcar,Açúcar | Etanol,S,1748908800000
+20540,A,Usiban,,Bandeirantes,PR,Brasil,-23.097359,-50.348829,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20541,I,Suassuna - (PE)*,,Escada,PE,Brasil,-8.343858615811927,-35.28164333427458,1,Cana-de-Açúcar,Açúcar,N,1721606400000
+20542,A,Zilor - Unidade Barra Grande,Zilor,Lençóis Paulista,SP,Brasil,-22.631702,-48.752595,1,Cana-de-Açúcar,Açúcar | Etanol,N,1759190400000
+20543,A,Barralcool,,Barra do Bugres,MT,Brasil,-15.034009,-57.216299,1,Cana-de-Açúcar | Gordura Animal,Açúcar | Biodiesel | Etanol,N,1693440000000
+20544,A,Usina Batatais,Batatais,Batatais,SP,Brasil,-20.749694,-47.570453,1,Cana-de-Açúcar,Açúcar | Etanol,N,1761091200000
+20545,A,Bazan,Bazan,Pontal,SP,Brasil,-21.009699,-47.992251,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20546,A,Bela Vista,Bazan,Pontal,SP,Brasil,-20.938795,-48.080024,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687824000000
+20548,A,Bom Jesus (PE),,Cabo de Santo Agostinho,PE,Brasil,-8.237216,-35.029254,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693785600000
+20549,I,Raízen - Unidade Bom Retiro,,Capivari,SP,Brasil,-22.8772027,-47.4512387,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20550,A,Raízen - Unidade Bonfim,Raízen,Guariba,SP,Brasil,-21.418966,-48.288949,1,Cana-de-Açúcar,Açúcar | Etanol | Vinhaça,N,1754611200000
+20551,I,Bulhões,,Jaboatão dos Guararapes,PE,Brasil,-8.11563,-35.03234,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+20552,A,Usina Caeté - Unidade Cachoeira,Carlos Lyra,Maceió,AL,Brasil,-9.503519,-35.593139,1,Cana-de-Açúcar,Açúcar | Etanol,N,1736121600000
+20553,A,Usina Caeté - Unidade São Miguel - (Matriz),Carlos Lyra,São Miguel dos Campos,AL,Brasil,-9.761421,-36.06782,1,Cana-de-Açúcar,Açúcar | Etanol,N,1736121600000
+20580,A,Camaragibe,Santo Antônio,Matriz de Camaragibe,AL,Brasil,-9.072341,-35.551994,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20581,I,Clealco - Unidade Penápolis,,Penápolis,SP,Brasil,-21.480571,-50.121522,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20586,I,Agrest JJ,,Espírito Santo do Turvo,SP,Brasil,-22.694929,-49.426339,1,Cana-de-Açúcar,Etanol,N,1721260800000
+20593,A,Sinimbu (AL),Silveira Coutinho,Jequiá da Praia,AL,Brasil,-9.884782,-36.157577,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20595,A,Capricho,Toledo,Cajueiro,AL,Brasil,-9.380945,-36.161242,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20596,I,Casquel,,Cambará,PR,Brasil,-22.993252,-49.99158,1,Cana-de-Açúcar,Etanol,N,1721347200000
+20597,A,Virgolino de Oliveira - Catanduva,GVO - Virgolino de Oliveira,Ariranha,SP,Brasil,-21.12905,-48.838483,1,Cana-de-Açúcar,Açúcar | Bagaço | Bioeletricidade | Etanol | Mel | Óleo | Vinhaça,N,1721347200000
+20598,I,Catende*,,Catende,PE,Brasil,-8.6697423,-35.7184,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+20602,I,Central Barreiros - (PE) *,,Barreiros,PE,Brasil,-8.810112751910196,-35.20082333314176,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+20604,I,Central do Paraná,,Porecatu,PR,Brasil,-22.7696722,-51.3852132,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721347200000
+20605,I,Central Paulista*,,Jaú,SP,Brasil,-22.351824,-48.5453,1,Cana-de-Açúcar,Açúcar,N,1721347200000
+20606,A,Utinga Leão,EQM,Rio Largo,AL,Brasil,-9.541375,-35.855077,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20607,A,COFCO International - Unidade Catanduva,COFCO Agri,Catanduva,SP,Brasil,-21.102399,-48.977414,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687824000000
+20611,I,Carval - Coave - (GO)*,,Carmo do Rio Verde,GO,Brasil,-15.353056875865624,-49.70702160197996,1,Cana-de-Açúcar | Milho,Açúcar | Bioeletricidade | Etanol,N,1733702400000
+20613,I,Usina Santa Terezinha - Unidade de São Tomé,Usaçúcar,São Tomé,PR,Brasil,-23.542865,-52.648947,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1736121600000
+20614,A,Renuka - Unidade Cambuí,Renuka do Brasil,Marialva,PR,Brasil,-23.605691,-51.865032,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20615,A,Alto Alegre - Unidade Florestópolis,Lincoln Junqueira,Florestópolis,PR,Brasil,-22.875964,-51.41005,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20616,A,Colombo Agroindústria - Unidade Ariranha,Colombo,Ariranha,SP,Brasil,-21.214910240662828,-48.836706874522626,1,Cana-de-Açúcar,Açúcar | Etanol,S,1769472000000
+20617,I,Colônia - (PE) *,,Jaqueira,PE,Brasil,-8.727671046814947,-35.79647503068927,1,Cana-de-Açúcar,Etanol,N,1721347200000
+20618,A,Colorado,Colorado,Guaíra,SP,Brasil,-20.280562,-48.183149,1,Cana-de-Açúcar,Açúcar | Etanol,N,1728432000000
+20619,A,Comvap,Olho D´Água,União,PI,Brasil,-4.853781,-42.881087,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20620,A,Conceição do Peixe - (AL),,Flexeiras,AL,Brasil,-9.105529571210228,-35.624011725208085,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721347200000
+20621,A,Usina Santa Terezinha - Unidade Rondon,Usaçúcar,Rondon,PR,Brasil,-23.370304,-52.709575,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,S,1734048000000
+20623,A,Coopcana,Coopcana,São Carlos do Ivaí,PR,Brasil,-23.269321,-52.489178,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+20624,A,Cooper-Rubi,Japungu,Rubiataba,GO,Brasil,-15.180881,-49.761106,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+20626,I,Usinavi,Amerra,Naviraí,MS,Brasil,-23.1320861111,-54.1999111111,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721347200000
+20627,A,Cooperval,,Jandaia do Sul,PR,Brasil,-23.68726,-51.687391,1,Cana-de-Açúcar | Milho,Açúcar | Etanol,N,1693785600000
+20633,A,Coprodia,,Campo Novo do Parecís,MT,Brasil,-13.786112,-57.844369,1,Cana-de-Açúcar | Milho,Açúcar | Etanol,N,1693785600000
+20635,A,Usina Coruripe - Matriz - (AL),Tércio Wanderley,Coruripe,AL,Brasil,-10.121382,-36.267516,1,Cana-de-Açúcar,Açúcar | Etanol,N,1736121600000
+20636,A,Raízen - Unidade Costa Pinto,Raízen,Piracicaba,SP,Brasil,-22.637224,-47.684649,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20637,A,Ferrari Agroindústria - Leme,Ferrari Agroindústria,Leme,SP,Brasil,-22.162291,-47.260133,1,Cana-de-Açúcar,Açúcar | Etanol,N,1747008000000
+20638,I,Cridasa,,Pedro Canário,ES,Brasil,-18.0869847,-40.114646,1,Cana-de-Açúcar,Etanol,N,1721347200000
+20639,A,Cruangi - Coaf,Cruangi,Timbaúba,PE,Brasil,-7.550754,-35.275914,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20640,A,Cucaú,EQM,Rio Formoso,PE,Brasil,-8.641303,-35.268919,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20641,A,Raízen - Unidade Da Barra,Raízen,Barra Bonita,SP,Brasil,-22.479604,-48.541243,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20642,A,Usina da Pedra,Da Pedra,Serrana,SP,Brasil,-21.178916,-47.628776,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20643,A,Raízen - Unidade Da Serra,Raízen,Ibaté,SP,Brasil,-22.011728,-48.000311,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20644,A,Dacalda,,Jacarezinho,PR,Brasil,-23.159243,-50.102972,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+20645,A,Clarion (PR),Clarion,Ibaiti,PR,Brasil,-23.681353,-50.413888,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+20647,A,Dasa,,Serra dos Aimorés,MG,Brasil,-17.837794,-40.188316,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+20648,A,Grupo José Pessoa - Agrisul Brasilândia,CBAA - José Pessoa,Brasilândia,MS,Brasil,-21.504587,-52.208525,1,Eucalipto,Eucalipto,S,1734048000000
+20649,I,Decasa*,,Marabá Paulista,SP,Brasil,-21.9705555556,-52.0214722222,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721347200000
+20653,A,DCBio,,Bariri,SP,Brasil,-22.058595,-48.715742,1,Cana-de-Açúcar,Açúcar | Bagaço | Bioeletricidade | Etanol | Levedura | Óleo,S,1734048000000
+20654,A,Delta - Unidade Delta,Delta,Delta,MG,Brasil,-19.97577,-47.770688,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+20655,A,Denusa,Japungu,Jandaia,GO,Brasil,-17.274969,-50.149124,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+20656,I,Tocantins*,,Arraias,TO,Brasil,-12.784225,-46.88063,1,Cana-de-Açúcar,Açúcar | Aguardente/Cachaça,N,1721606400000
+20658,I,Desal - (MG)*,,Lassance,MG,Brasil,-17.886575671778033,-44.576686735694885,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+20659,A,Grupo Itajobi,Grupo Itajobi,Marapoama,SP,Brasil,-21.192269,-49.136649,1,Cana-de-Açúcar,Açúcar | Etanol,N,1738022400000
+20660,A,Raízen - Unidade Diamante,Raízen,Jaú,SP,Brasil,-22.367143,-48.685807,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20662,I,Disa,Infinity Bioenergy,Conceição da Barra,ES,Brasil,-18.4951861111,-39.918325,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+20667,A,Usina Açucareira Ester,Coutinho Nogueira,Cosmópolis,SP,Brasil,-22.659921,-47.211872,1,Cana-de-Açúcar,Açúcar | Etanol,N,1759795200000
+20668,A,Usina Estivas,Pipas Agroindustrial,Arês,RN,Brasil,-6.201036,-35.166869,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20669,A,CooafSul,Interiorana,Ribeirão,PE,Brasil,-8.3903,-35.2176,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+20671,A,Ferrari,Ferrari Agroindústria,Pirassununga,SP,Brasil,-21.840843,-47.361406,1,Cana-de-Açúcar,Açúcar | Etanol,N,1768348800000
+20673,I,Furlan - Santa Bárbara do Oeste,Furlan,Santa Bárbara d'Oeste,SP,Brasil,-22.757758,-47.477052,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1721347200000
+20674,I,Galo Bravo Energia,,Ribeirão Preto,SP,Brasil,-21.1128972222,-47.8224277778,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721347200000
+20675,I,Araguaia*,,Confresa,MT,Brasil,-10.6530269,-51.4174372,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721260800000
+20676,A,Raízen - Parque de Bioenergia Gasa,Raízen,Andradina,SP,Brasil,-20.770448,-51.259612,1,Cana-de-Açúcar,Bioeletricidade | Etanol,S,1754611200000
+20677,A,Giasa,Olho D´Água,Pedras de Fogo,PB,Brasil,-7.352708,-35.025776,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20678,A,Usina Goianésia,Goianésia,Goianésia,GO,Brasil,-15.216155816853279,-49.09887107116384,1,Cana-de-Açúcar,Açúcar | Etanol,S,1754265600000
+20679,A,Goiasa,Construcap,Goiatuba,GO,Brasil,-18.071627,-49.671543,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20680,A,Usina Santa Terezinha - Unidade Moreira Sales,Usaçúcar,Moreira Sales,PR,Brasil,-23.93905,-53.088478,1,Cana-de-Açúcar,Açúcar | Etanol,N,1736121600000
+20681,A,Guaíra,Otávio Junqueira,Guaíra,SP,Brasil,-20.418737,-48.213367,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20682,A,Tereos - Unidade Industrial Severínia,Tereos,Severínia,SP,Brasil,-20.822132,-48.822063,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20683,I,Guaricanga,,Presidente Alves,SP,Brasil,-22.056952485,-49.3175440564,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1757635200000
+20684,I,Laginha - Unidade Guaxuma,,Coruripe,AL,Brasil,-9.95,-36.15,1,,,N,1676246400000
+20687,A,Raízen - Unidade Ipaussu,Raízen,Ipaussu,SP,Brasil,-23.101779,-49.590451,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20688,A,Ipiranga - Descalvado,Titoto - Ipiranga,Descalvado,SP,Brasil,-21.831952,-47.751109,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20689,A,Ipojuca,Ipojuca,Ipojuca,PE,Brasil,-8.392401,-35.091771,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20690,A,Iracema,São Martinho,Iracemápolis,SP,Brasil,-22.581614,-47.530011,1,Cana-de-Açúcar,Açúcar | Etanol,N,1748908800000
+20691,A,Itaiquara - Tapirativa,Itaiquara,Tapiratiba,SP,Brasil,-21.476806,-46.806686,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20692,A,Itajubara,João Santos,Coelho Neto,MA,Brasil,-4.285649,-42.988455,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20693,A,uisa,Itamarati,Nova Olímpia,MT,Brasil,-14.768786,-57.193697,1,Cana-de-Açúcar | Milho,Açúcar | Etanol,S,1734048000000
+20694,I,Unial,Unial,Amélia Rodrigues,BA,Brasil,-12.49467,-38.6318,1,Cana-de-Açúcar,Açúcar,N,1721347200000
+20695,A,Grupo Maringá - Usina Jacarezinho,,Jacarezinho,PR,Brasil,-23.094316,-49.940349,1,Cana-de-Açúcar,Açúcar | Etanol,N,1755043200000
+20696,A,Da Mata,Grendene,Valparaíso,SP,Brasil,-21.051137,-50.844469,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol | Levedura | Óleo,S,1749168000000
+20697,I,Jaciara,Porto Seguro,Jaciara,MT,Brasil,-15.980334,-54.99358,1,Cana-de-Açúcar,Etanol,N,1721606400000
+20698,I,Grupo José Pessoa - Agrisul Icém,CBAA - José Pessoa,Icém,SP,Brasil,-20.3345,-49.26775,1,Cana-de-Açúcar,Açúcar,N,1734048000000
+20699,I,Jacuipe - (PB)*,,Santa Rita,PB,Brasil,-7.145354789654314,-34.97263520578889,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+20700,I,Jacuipe - (PE)*,,Água Preta,PE,Brasil,-8.70767336343088,-35.52165348770462,1,Cana-de-Açúcar,Etanol,N,1721606400000
+20701,A,Jalles,Otavio Lage,Goianésia,GO,Brasil,-15.212852,-48.989124,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20702,A,Agroval,Japungu,Santa Rita,PB,Brasil,-7.090445,-34.982601,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20703,I,Raízen - Unidade Jardest,Raízen,Jardinópolis,SP,Brasil,-20.9440361111,-47.8800055556,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20704,A,Jatiboca,Pontenovense,Urucânia,MG,Brasil,-20.300669,-42.690766,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20705,A,CAN - Companhia Alcoolquímica Nacional,JB,Vitória de Santo Antão,PE,Brasil,-8.225843,-35.277151,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20708,I,João de Deus - (AL) *,,Capela,AL,Brasil,-9.389118922611141,-36.086899676723164,1,Cana-de-Açúcar,Açúcar,N,1721347200000
+20712,I,Junivan,,Senhora de Oliveira,MG,Brasil,-20.7817249,-43.3214308,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+20713,I,Laginha - Unidade União,,União dos Palmares,AL,Brasil,-9.1833,-36.0333,1,,,N,1676246400000
+20714,I,Santa Fany*,,Regente Feijó,SP,Brasil,-22.277051,-51.23496,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+20715,A,Laranjeiras,EQM,Vicência,PE,Brasil,-7.657768,-35.365762,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20716,A,Lasa,JB,Linhares,ES,Brasil,-19.339763,-40.010635,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20717,A,Lasa - Lago Azul (GO),Biolasa,Ipameri,GO,Brasil,-17.279355,-47.543245,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20718,A,Libra,,São José do Rio Claro,MT,Brasil,-13.8118,-56.526723,1,Cana-de-Açúcar | Milho,Açúcar | Etanol,N,1693440000000
+20724,A,Londra,Londra,Itaí,SP,Brasil,-23.528166,-48.940144,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20725,I,Delos - (Lopes da Silva),,Sertãozinho,SP,Brasil,-21.199459,-48.04212,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+20726,A,Raízen - Unidade Lagoa da Prata,Biosev,Lagoa da Prata,MG,Brasil,-20.075817,-45.563985,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20729,A,Malosso,,Itápolis,SP,Brasil,-21.62793,-48.830739,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687824000000
+20731,A,Tereos - Mandu,Tereos,Guaíra,SP,Brasil,-20.478369,-48.40847,1,Cana-de-Açúcar,Açúcar | Etanol,S,1734048000000
+20732,I,Açusa - (CE)*,,Barbalha,CE,Brasil,-7.309934099395969,-39.30750846453272,1,Cana-de-Açúcar,Açúcar,N,1721260800000
+20734,A,Raízen - Unidade MB,Biosev,Morro Agudo,SP,Brasil,-20.780267,-48.20097,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20735,A,Santa Maria - (BA),São Luiz,Medeiros Neto,BA,Brasil,-17.457997,-40.138551,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20736,A,Cia Melhoramentos,CMNP - Melhoramentos,Jussara,PR,Brasil,-23.570564,-52.428246,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20737,A,Delta - Unidade Conquista,Delta,Conquista,MG,Brasil,-20.0212181,-47.6254749,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+20738,A,Raízen - Unidade Maracaí,Raízen,Maracaí,SP,Brasil,-22.575563,-50.653431,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20739,I,Raízen - Unidade Maracajú,Biosev,Maracajú,MS,Brasil,-21.350312,-55.437889,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20740,I,Maravilhas*,,Goiana,PE,Brasil,-7.535137,-34.99459,1,Cana-de-Açúcar,Açúcar | Aguardente/Cachaça | Bagaço | Etanol,N,1721606400000
+20744,I,Maringá,,Araraquara,SP,Brasil,-21.7769444444,-48.0944444444,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1721606400000
+20746,A,Usina Caeté - Unidade Marituba,Carlos Lyra,Igreja Nova,AL,Brasil,-10.147941,-36.544039,1,Cana-de-Açúcar,Açúcar | Etanol,N,1736121600000
+20748,A,Miriri,Miriri,Santa Rita,PB,Brasil,-6.945402,-35.132697,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20749,A,bp bioenergy - Unidade Moema,BP Bunge Bioenergia,Orindiúva,SP,Brasil,-20.234012,-49.357435,1,Cana-de-Açúcar,Açúcar | Etanol,N,1780876800000
+20750,A,Adecoagro - Unidade Monte Alegre,Adecoagro,Monte Belo,MG,Brasil,-21.386448,-46.247252,1,Cana-de-Açúcar,Açúcar | Etanol,N,1754611200000
+20751,A,Monte Alegre,Açúcar Alegre,Mamanguape,PB,Brasil,-6.858604,-35.129195,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20752,A,Moreno,Moreno,Luís Antônio,SP,Brasil,-21.483616,-47.769945,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20753,A,Grupo Itajobi - Unidade Carolo,Carolo,Pontal,SP,Brasil,-21.003307,-48.025458,1,Cana-de-Açúcar,Açúcar | Etanol,N,1704412800000
+20754,A,Nardini,Nardini,Vista Alegre do Alto,SP,Brasil,-21.175152,-48.634298,1,Cana-de-Açúcar,Açúcar | Etanol,N,1768348800000
+20756,I,Virgolino de Oliveira - Nossa Senhora Aparecida,GVO - Virgolino de Oliveira,Itapira,SP,Brasil,-22.413219,-46.803694,1,Cana-de-Açúcar,Açúcar | Bagaço | Bioeletricidade | Etanol | Mel | Óleo | Vinhaça,N,1721347200000
+20757,A,Coruripe - Filial Carneirinho,Tércio Wanderley,Carneirinho,MG,Brasil,-19.813585,-50.783183,1,Cana-de-Açúcar,Açúcar | Etanol,N,1726012800000
+20760,I,Nova União,,Serrana,SP,Brasil,-21.210286,-47.55942,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721606400000
+20762,A,Olho D´Água,Olho D´Água,Camutanga,PE,Brasil,-7.41902,-35.259418,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20765,A,Paineiras,,Itapemirim,ES,Brasil,-20.954946,-40.953105,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20766,I,Pal - (PE)*,,Nazaré da Mata,PE,Brasil,-7.696687961905645,-35.24198281534463,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+20767,I,Pantanal - (MT),Naoum,Jaciara,MT,Brasil,-15.924619,-55.226882,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721606400000
+20768,A,Raízen - Unidade Paraíso,Raízen,Brotas,SP,Brasil,-22.3487067806,-48.1068918389,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20769,I,Paraíso - (RJ)*,,Campos dos Goytacazes,RJ,Brasil,-21.877301,-41.28102,1,Cana-de-Açúcar,Açúcar,N,1721347200000
+20770,A,Raízen - Parque de Bioenergia Paraguaçu,Raízen,Paraguaçú Paulista,SP,Brasil,-22.464094,-50.493425,1,Cana-de-Açúcar,Bioeletricidade | Etanol,S,1754611200000
+20771,A,Cocal - Unidade Passa Tempo,Cocal,Rio Brilhante,MS,Brasil,-21.517092,-54.711299,1,Cana-de-Açúcar,Açúcar | Etanol,N,1756857600000
+20772,I,Passos,Itaiquara,Passos,MG,Brasil,-20.665017,-46.552987,1,Cana-de-Açúcar,Açúcar,N,1721347200000
+20773,A,Usina Enersugar,,Ibirarema,SP,Brasil,-22.771199,-50.112152,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,S,1749168000000
+20776,I,Vale Verde - Unidade Pedroza (PE),Farias,Cortês,PE,Brasil,-8.503117,-35.515566,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721347200000
+20778,I,Santo Antonio - (PB),Santo Antônio (PB),Rio Tinto,PB,Brasil,-7.130712,-35.010132,1,Cana-de-Açúcar,Etanol,N,1721606400000
+20779,I,Penedo,Toledo,Penedo,AL,Brasil,-10.2833,-36.5833,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721606400000
+20780,I,Sabarálcool - Filial Cedro,,Perobal,PR,Brasil,-23.9133222,-53.4697509,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721606400000
+20781,A,Petribú,Petribú,Lagoa do Itaenga,PE,Brasil,-7.887596,-35.243784,1,Cana-de-Açúcar,Açúcar | Etanol,N,1774396800000
+20782,A,Pindorama,Pindorama,Coruripe,AL,Brasil,-10.160625,-36.3487,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20783,I,Triálcool,CMAA,Canápolis,MG,Brasil,-18.8763888889,-49.2677777778,1,,,N,1676246400000
+20784,A,Pitangueiras,Pitangueiras,Pitangueiras,SP,Brasil,-21.048823,-48.262904,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20793,I,Porto Alegre,Olival Tenório,Colônia Leopoldina,AL,Brasil,-8.982765,-35.7842,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+20794,A,Porto Rico,Olival Tenório,Campo Alegre,AL,Brasil,-9.807721,-36.21022,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20800,A,Agrocan,,Joaquim Nabuco,PE,Brasil,-8.641599,-35.54628,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+20801,A,Zilor - Unidade Quatá,Zilor,Quatá,SP,Brasil,-22.26147,-50.648202,1,Cana-de-Açúcar,Açúcar | Etanol,S,1775001600000
+20802,I,Quissamã - (RJ) *,,Quissamã,RJ,Brasil,-22.10774798073902,-41.46621289349127,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721606400000
+20803,A,Raízen - Unidade Rafard,Raízen,Rafard,SP,Brasil,-23.008585,-47.531004,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20805,A,Rio do Cachimbo,,João Pinheiro,MG,Brasil,-17.845213,-45.872144,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687824000000
+20806,A,Roçadinho,,São Miguel dos Campos,AL,Brasil,-9.793542,-36.049965,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693785600000
+20815,I,Sabarálcool - Matriz,,Engenheiro Beltrão,PR,Brasil,-23.704831,-52.16585,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721606400000
+20816,I,Salgado,,Ipojuca,PE,Brasil,-8.42626944444,-35.0157277778,1,,,N,1676246400000
+20817,I,Rio Grande,,Fronteira,MG,Brasil,-20.3037031389,-49.2060716667,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+20818,I,Grupo José Pessoa - Agrisul Japoatã,CBAA - José Pessoa,Japoatã,SE,Brasil,-10.656113,-36.986331,1,Cana-de-Açúcar,Açúcar,N,1734048000000
+20819,I,Raízen - Unidade Dois Córregos,,Dois Córregos,SP,Brasil,-22.3401525,-48.404324,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20820,A,Usina Santa Adélia - Jaboticabal,Santa Adélia,Jaboticabal,SP,Brasil,-21.334666,-48.302829,1,Cana-de-Açúcar,Açúcar | Etanol,S,1734048000000
+20823,A,Santa Clotilde,,Rio Largo,AL,Brasil,-9.455399,-35.851089,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20824,A,Santa Cruz - (SP),Ometto,Américo Brasiliense,SP,Brasil,-21.752793,-48.080948,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20825,A,Raízen - Santa Elisa,Biosev,Sertãozinho,SP,Brasil,-21.112211,-48.076343,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20826,A,Usina Santa Fé,Santa Fé - Malzoni,Nova Europa,SP,Brasil,-21.81834,-48.61224,1,Cana-de-Açúcar,Açúcar | Etanol,N,1763942400000
+20827,A,Raízen - Unidade Santa Helena,Raízen,Rio das Pedras,SP,Brasil,-22.801896,-47.662629,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734307200000
+20828,A,Novaera Bioenergia,,Ibaté,SP,Brasil,-21.96515,-48.087153,1,Cana-de-Açúcar,Etanol,S,1734048000000
+20829,A,Santa Helena - (GO),Naoum,Santa Helena de Goiás ,GO,Brasil,-17.821107,-50.537803,1,Cana-de-Açúcar | Milho,Açúcar | Etanol,N,1693785600000
+20830,A,Energética Santa Helena,Benedito Coutinho,Nova Andradina,MS,Brasil,-21.99925,-53.424376,1,Cana-de-Açúcar,Etanol,S,1781222400000
+20831,A,Viralcool - Unidade Sertãozinho,Irmãos Toniello,Sertãozinho,SP,Brasil,-21.085627,-48.033311,1,Cana-de-Açúcar,Açúcar | Etanol,N,1757548800000
+20832,A,Santa Isabel,Santa Isabel,Novo Horizonte,SP,Brasil,-21.506116,-49.20784,1,Cana-de-Açúcar,Açúcar | Etanol,N,1713744000000
+20833,A,Santa Lúcia,Ometto,Araras,SP,Brasil,-22.335998,-47.408738,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20834,I,Santa Luiza*,,Motuca,SP,Brasil,-21.503492385686492,-48.19060742327682,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721606400000
+20835,I,Santa Lydia*,,Ribeirão Preto,SP,Brasil,-21.1973612,-47.9161566,1,,,N,1676246400000
+20836,A,Santa Maria - (Cerquilho),,Cerquilho,SP,Brasil,-23.162608,-47.784265,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20837,I,Grupo José Pessoa - Agrisul Sidrolândia,CBAA - José Pessoa,Sidrolândia,MS,Brasil,-20.800473,-55.00198,1,Cana-de-Açúcar,Açúcar,N,1734048000000
+20838,A,Santa Rita,Nelson Coury,Santa Rita do Passa Quatro,SP,Brasil,-21.723058,-47.626337,1,Cana-de-Açúcar,Açúcar | Etanol,N,1724630400000
+20840,A,Santa Rosa,Família Labronici,Boituva,SP,Brasil,-23.238424,-47.613403,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20841,I,Usina Ibirá,Da Pedra,Santa Rosa de Viterbo,SP,Brasil,-21.4407111,-47.343763,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1734048000000
+20842,A,Santa Teresa,João Santos,Olinda,PE,Brasil,-7.587733,-35.006988,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693785600000
+20844,A,Santa Maria - (AL),,Porto Calvo,AL,Brasil,-9.008028,-35.431782,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20845,A,Ipiranga - Mococa,Titoto - Ipiranga,Mococa,SP,Brasil,-21.344424,-47.153852,1,Cana-de-Açúcar,Açúcar | Etanol,N,1768435200000
+20846,A,Usina Santo Ângelo,Santo Ângelo,Pirajuba,MG,Brasil,-19.959656,-48.566158,1,Cana-de-Açúcar,Açúcar | Etanol,N,1750896000000
+20847,I,Santo Antônio *,,Piracicaba,SP,Brasil,-22.735615473844735,-47.648958976924646,1,Cana-de-Açúcar | Milho,Açúcar | Bioeletricidade | Etanol,N,1733702400000
+20848,A,USA - Santo Antônio,Balbo,Sertãozinho,SP,Brasil,-21.119983,-47.959909,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20849,A,Santo Antônio - (AL),Santo Antônio,São Luís do Quitunde,AL,Brasil,-9.290054,-35.564826,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20850,I,Biosev - Unidade São Carlos,,Jaboticabal,SP,Brasil,-21.2841666667,-48.1761111111,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721347200000
+20851,A,São Domingos,Grupo Helio Zancaner Sanches,Catanduva,SP,Brasil,-21.100751,-49.013267,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20852,A,São Francisco - (UFRA),Balbo,Sertãozinho,SP,Brasil,-21.174685,-48.118198,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20853,I,Ecoenergia,,Ceará-Mirim,RN,Brasil,-5.61,-35.428,1,,,N,1676246400000
+20854,A,Raízen - Unidade São Francisco - (Elias Fausto),Raízen,Elias Fausto,SP,Brasil,-23.0236,-47.457232,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20858,A,U.S.J - Unidade São João de Araras,USJ,Araras,SP,Brasil,-22.426692,-47.359178,1,Cana-de-Açúcar,Açúcar | Etanol,N,1724630400000
+20859,I,Abengoa Bioenergia - Unidade São João da Boa Vista,Abengoa Bioenergia,São João da Boa Vista,SP,Brasil,-21.926059,-46.924026,1,Cana-de-Açúcar,Etanol,N,1721260800000
+20860,A,São João (PB),São João (PB),Santa Rita,PB,Brasil,-7.132486,-34.994505,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20862,A,São José - (SP),Farias,Rio das Pedras,SP,Brasil,-22.6497222222,-47.5680555556,1,Cana-de-Açúcar,Açúcar,N,1721606400000
+20864,A,Estiva Bioenergia,São José da Estiva,Novo Horizonte,SP,Brasil,-21.4872,-49.18786,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,S,1761868800000
+20865,A,São José do Pinheiro,,Laranjeiras,SE,Brasil,-10.769637,-37.213415,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20866,A,Usina São Luiz,,Ourinhos,SP,Brasil,-22.9347998,-49.7693969,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20867,I,Una Álcool*,,Maraial,PE,Brasil,-8.79498,-35.8034,1,Cana-de-Açúcar,Etanol,N,1721347200000
+20868,A,Vale do Verdão - Unidade São Luiz,Ferrari Agroindústria,Pirassununga,SP,Brasil,-21.887406,-47.308402,1,Cana-de-Açúcar,Açúcar | Etanol,N,1747008000000
+20869,A,São Manoel,,São Manuel,SP,Brasil,-22.670214,-48.54357,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20870,A,São Martinho,São Martinho,Pradópolis,SP,Brasil,-21.320456,-48.126,1,Cana-de-Açúcar,Açúcar | Etanol,N,1763942400000
+20871,I,Sapucaia,,Campos dos Goytacazes,RJ,Brasil,-21.673328,-41.41494,1,Cana-de-Açúcar,Açúcar,N,1721606400000
+20873,A,Seresta,,Teotônio Vilela,AL,Brasil,-9.915154,-36.33286,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20875,A,USGA - Serra Grande,Andrade Bezerra,São José da Laje,AL,Brasil,-8.973286,-36.066334,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20877,A,Raízen - Unidade Junqueira,Raízen,Igarapava,SP,Brasil,-19.991564,-47.794082,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20878,A,Usina Sonora,,Sonora,MS,Brasil,-17.6167,-54.76442,1,Cana-de-Açúcar,Açúcar | Etanol,N,1776038400000
+20881,A,Usina Santa Terezinha - Unidade Ivaté,Usaçúcar,Ivaté,PR,Brasil,-23.398605,-52.092135,1,Cana-de-Açúcar,Açúcar | Etanol,N,1736121600000
+20883,A,Usina Santa Terezinha - Unidade Paranacity,Usaçúcar,Paranacity,PR,Brasil,-23.457412,-51.992761,1,Cana-de-Açúcar,Açúcar | Etanol,N,1736121600000
+20884,A,Usina Santa Terezinha - Unidade Tapejara,Usaçúcar,Tapejara,PR,Brasil,-23.457425,-51.992754,1,Cana-de-Açúcar,Açúcar | Etanol,N,1736121600000
+20889,A,Sumaúma,Toledo,Marechal Deodoro,AL,Brasil,-9.743091,-35.901941,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20890,A,Tabu,Tabu,Caaporã,PB,Brasil,-7.509295,-34.876756,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20891,I,Tanques - (PB)*,,Alagoa Grande,PB,Brasil,-7.038373572370088,-35.63016684254076,1,,,N,1733702400000
+20892,A,Taquara,,Colônia Leopoldina,AL,Brasil,-8.981693,-35.784394,1,Cana-de-Açúcar,Açúcar,N,1724976000000
+20894,A,Trapiche,Andrade Bezerra,Sirinhaém,PE,Brasil,-8.580594,-35.128956,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20895,A,Triunfo,,Boca da Mata,AL,Brasil,-9.627082,-36.199093,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20907,I,Una*,,Sapé,PB,Brasil,-7.09391,-35.2327,1,Cana-de-Açúcar,Açúcar,N,1721347200000
+20909,A,União e Indústria,União e Indústria,Primavera,PE,Brasil,-8.349711,-35.379548,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20912,I,Laginha - Unidade Uruba,João Lyra,Atalaia,AL,Brasil,-9.5855,-35.9527,1,,,N,1676246400000
+20913,A,Usina Santa Terezinha - Unidade Cidade Gaúcha,Usaçúcar,Cidade Gaúcha,PR,Brasil,-23.371197,-52.903753,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,S,1734048000000
+20915,A,Renuka - Unidade São Pedro do Ivaí,Renuka do Brasil,São Pedro do Ivaí,PR,Brasil,-23.854556,-51.888763,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20916,A,Vale - Onda Verde,Toledo,Onda Verde,SP,Brasil,-20.603148,-49.201425,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20917,A,Raízen - Unidade Vale do Rosário,Biosev,Morro Agudo,SP,Brasil,-20.613533,-48.001201,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20918,A,Vale do Verdão,Vale do Verdão,Maurilândia,GO,Brasil,-17.968499,-50.317196,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+20919,I,Usalpa,Sócias Fundadoras - UDOP 1986,Junqueirópolis,SP,Brasil,-21.5874222222,-51.4558333333,1,Cana-de-Açúcar,Etanol,N,1721347200000
+20920,I,Vassoura - (SE)*,,Capela,SE,Brasil,-10.503926620846347,-37.05556573914063,1,Cana-de-Açúcar,Açúcar,N,1721347200000
+20921,A,Viralcool - Unidade Pitangueiras (Matriz),Irmãos Toniello,Pitangueiras,SP,Brasil,-20.938095,-48.252966,1,Cana-de-Açúcar,Açúcar | Etanol,N,1757548800000
+20922,A,Vista Alegre Bioenergia,"Tatez - Tavares de Almeida, Tejofran e Zogbi",Itapetininga,SP,Brasil,-23.489664463952657,-48.10453790399396,1,Cana-de-Açúcar,Açúcar | Etanol,S,1764115200000
+20923,A,Delta - Unidade Volta Grande,Delta,Conceição das Alagoas,MG,Brasil,-19.981812,-48.26577,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+20925,A,Raízen - Unidade Araraquara - (Zanin),Raízen,Araraquara,SP,Brasil,-21.858798,-48.186376,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+20941,A,Usina Coruripe - Filial Iturama,Tércio Wanderley,Iturama,MG,Brasil,-19.710077,-50.336244,1,Cana-de-Açúcar,Açúcar | Etanol,N,1736121600000
+20944,A,Pagrisa,Olival Tenório,Ulianópolis,PA,Brasil,-3.698123,-47.767583,1,Cana-de-Açúcar,Açúcar | Etanol,S,1734048000000
+20992,A,Alcoolvale,Unialco,Aparecida do Taboado,MS,Brasil,-20.087623,-51.299108,1,Cana-de-Açúcar,Açúcar | Etanol,S,1749168000000
+20993,I,Coraci,,São Pedro do Turvo,SP,Brasil,-22.749764,-49.73593,1,Cana-de-Açúcar,Etanol,N,1721347200000
+20994,A,Centroalcool,,Inhumas,GO,Brasil,-16.344645,-49.483537,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+20995,I,Safi Brasil*,,Nova Alvorada do Sul,MS,Brasil,-21.4283611111,-54.3674722222,1,Cana-de-Açúcar,Etanol,N,1721606400000
+20996,I,Rio Grande - (MG) *,,Passos,MG,Brasil,-20.55029688954852,-46.65701704654092,1,Cana-de-Açúcar,Açúcar,N,1721347200000
+20997,A,Agrisa,,Cabo Frio,RJ,Brasil,-22.603415,-42.153742,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+20998,I,Barcelos*,,São João da Barra,RJ,Brasil,-21.74956,-41.1574,1,Cana-de-Açúcar,Açúcar,N,1721347200000
+20999,I,Carapebus - (RJ) *,,Campos dos Goytacazes,RJ,Brasil,-22.2329691611978,-41.67757771392255,1,Cana-de-Açúcar,Açúcar,N,1721347200000
+21000,I,Cupim*,,Campos dos Goytacazes,RJ,Brasil,-21.813431,-41.33253,1,Cana-de-Açúcar,Açúcar,N,1721347200000
+21001,I,Pureza*,,São Fidélis,RJ,Brasil,-21.64953047467364,-41.742331118892004,1,Cana-de-Açúcar,Etanol,N,1721606400000
+21003,A,Coagro,Coagro,Campos dos Goytacazes,RJ,Brasil,-21.653589,-41.40552,1,Cana-de-Açúcar,Açúcar | Etanol,N,1711929600000
+21004,A,Usina Buriti,Da Pedra,Buritizal,SP,Brasil,-20.219548,-47.65442,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+21005,I,Bellão - Schiavon *,,Santa Cruz das Palmeiras,SP,Brasil,-21.82631685829818,-47.24784787946675,1,Cana-de-Açúcar,Etanol,N,1721347200000
+21006,A,Usina Aliança e Penápolis,Atena,Penápolis,SP,Brasil,-21.410177,-50.095132,1,Cana-de-Açúcar,Açúcar | Etanol,N,1762819200000
+21007,I,Grizzo,,Jaú,SP,Brasil,-22.265013,-48.442244,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+21008,A,Zambianco Açúcar e Álcool,Zambianco,Tietê,SP,Brasil,-22.972077,-47.794317,1,Cana-de-Açúcar,Açúcar | Bagaço | Etanol | Melaço,S,1734048000000
+21010,A,Nova Platina Bioenergia,Zambianco,Platina,SP,Brasil,-22.665231,-50.219045,1,Cana-de-Açúcar,Aguardente/Cachaça | Bagaço | Etanol | Xarope,S,1734048000000
+21012,A,Cevasa,Batatais,Patrocínio Paulista,SP,Brasil,-20.752125,-47.433114,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687910400000
+21013,I,Bertolo,,Pirangi,SP,Brasil,-21.291178,-48.77533,1,Cana-de-Açúcar,Etanol,N,1721347200000
+21038,I,Raízen - Unidade Tamoio,,Araraquara,SP,Brasil,-21.912679,-48.11437,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+21043,A,WD Agroindustrial,Detoni,João Pinheiro,MG,Brasil,-18.218282,-45.989947,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+21044,I,Iracema - Itaí,,Itaí,SP,Brasil,-23.462567,-49.093861,1,Cana-de-Açúcar,Etanol,N,1721606400000
+21087,I,Outeiro*,,Canguaretama,RN,Brasil,-6.3501038,-35.1638,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+21088,I,Senhor do Bonfim*,,Varjão de Minas,MG,Brasil,-18.368396770061874,-46.03185453864636,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+21090,A,Cemma,Moreno,Monte Aprazível,SP,Brasil,-20.829501,-49.765095,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+21183,A,Nova Produtiva,Nova Produtiva,Astorga,PR,Brasil,-23.096716,-51.641429,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+21284,A,Bioenergética Aroeira,Maubisa,Tupaciguara,MG,Brasil,-18.751808,-48.611635,1,Cana-de-Açúcar,Etanol,S,1775520000000
+21293,I,Aurora,Aurora,Anaurilândia,MS,Brasil,-22.1987694444,-52.9474472222,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721347200000
+21349,I,Altam *,,Mucuri,BA,Brasil,-17.942966790058016,-40.241609104293026,1,Cana-de-Açúcar,Etanol,N,1721260800000
+21368,I,Usina Santa Terezinha - Unidade Costa Bioenergia,Usaçúcar,Umuarama,PR,Brasil,-23.666756,-53.410769,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1736121600000
+21384,A,Usina Ibéria,Toledo,Borá,SP,Brasil,-22.165924,-50.483811,1,Cana-de-Açúcar,Açúcar | Etanol,S,1748908800000
+21413,I,Santa Rita - (Alto Alegre) *,,Alto Alegre,SP,Brasil,-21.58200360469685,-50.16639727114534,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1733702400000
+21420,A,Usina Wagro Trade - Unidade Dracena,,Dracena,SP,Brasil,-21.586552,-51.676773,1,Cana-de-Açúcar,Açúcar | Etanol,N,1738713600000
+21438,I,João Paulo II,,São Simão,SP,Brasil,-21.473997,-47.5502,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+21452,A,Usina Coruripe - Filial Campo Florido,Tércio Wanderley,Campo Florido,MG,Brasil,-19.813603,-48.733615,1,Cana-de-Açúcar,Açúcar | Etanol,N,1736121600000
+21477,A,Iolando Leite,,Capela,SE,Brasil,-10.509191,-36.97439,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+21481,A,Usinova,,Paraúna,GO,Brasil,-17.329264,-50.494282,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+21533,I,Ribeirão Bioenergia,,Sacramento,MG,Brasil,-19.87274,-47.4183,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+21618,A,União de Minas,Tércio Wanderley,União de Minas,MG,Brasil,-19.570500402160334,-50.327296327991625,1,Cana-de-Açúcar,Açúcar,N,1723680000000
+21645,I,Vale do São Simão,Andrade,Santa Vitória,MG,Brasil,-19.065218,-50.373626,1,Cana-de-Açúcar,Bioeletricidade | Etanol,N,1721347200000
+21679,A,Atvos - Unidade Eldorado,Mubadala Capital,Rio Brilhante,MS,Brasil,-21.86806,-54.016305,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Crédito de Carbono | Etanol,S,1740441600000
+21708,I,Santa Mônica,,Santa Mônica,PR,Brasil,-23.0388304,-53.1350864,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1721606400000
+21740,A,Jayoro,,Presidente Figueiredo,AM,Brasil,-2.05554,-60.024717,1,Cana-de-Açúcar | Guaraná,Açúcar | Etanol | Extrato,S,1734048000000
+21741,I,Campo Bello,,Amaraji,PE,Brasil,-8.3743,-35.4509,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+21742,I,Cachoeira (PE),,Pombos,PE,Brasil,-8.1526,-35.4017,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+21744,A,São José - (PE),Farias,Igarassu,PE,Brasil,-7.819709,-35.011164,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+21745,A,Una Açúcar,Una,Tamandaré,PE,Brasil,-8.766018,-35.282034,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693785600000
+21797,A,bp bioenergy - Unidade Ituiutaba,BP Bunge Bioenergia,Ituiutaba,MG,Brasil,-19.018296,-49.673266,1,Cana-de-Açúcar,Açúcar | Etanol,N,1729468800000
+21859,A,São Joaquim,,Palmital,SP,Brasil,-22.788987,-50.216346,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+21884,A,Santa Maria - (Manduri),Grupo Helio Zanata,Manduri,SP,Brasil,-23.08141,-49.280149,1,Cana-de-Açúcar,Açúcar | Etanol,N,1762905600000
+21937,A,Adecoagro - Unidade Angélica,Adecoagro,Angélica,MS,Brasil,-22.08659,-53.823633,1,Cana-de-Açúcar,Açúcar | Etanol | Vinhaça,N,1734048000000
+21946,I,Ibirálcool,Amerra,Ibirapuã,BA,Brasil,-17.6420487,-40.183391,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+21971,A,Viterra Bioenergia - Unidade Rio Vermelho,Viterra - The Agricultural Network,Junqueirópolis,SP,Brasil,-21.339375,-51.36656,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,S,1734048000000
+21988,A,Baldin - Unidade Taboão,Baldin Bioenergia ,Pirassununga,SP,Brasil,-22.007653,-47.442941,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+21995,A,COFCO International - Unidade Sebastianópolis,COFCO Agri,Sebastianópolis do Sul,SP,Brasil,-20.582125,-49.95232,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687910400000
+22018,A,bp bioenergy - Unidade Frutal,BP Bunge Bioenergia,Frutal,MG,Brasil,-20.082318,-48.819302,1,Cana-de-Açúcar,Açúcar | Etanol,N,1729468800000
+22028,A,bp bioenergy - Unidade Tropical,BP Bunge Bioenergia,Edéia,GO,Brasil,-17.685819,-50.11622,1,Cana-de-Açúcar,Açúcar | Etanol,N,1729468800000
+22035,A,Destilaria Cachoeira,,Tupaciguara,MG,Brasil,-18.518313,-48.728936,1,Cana-de-Açúcar,Açúcar | Etanol,N,1762128000000
+22054,A,CerradinhoBio,Cerradinho Bio,Chapadão do Céu,GO,Brasil,-18.468935,-52.602332,1,Cana-de-Açúcar,Açúcar | Etanol,S,1734048000000
+22072,I,Eldorado - (AL)*,,Jundiá,AL,Brasil,-10.414444,-45.982222,1,,,N,1723680000000
+22074,I,TGM Destilaria,,Cerqueira César,SP,Brasil,-23.0882198,-49.1688448,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721606400000
+22090,I,São Pedro,,São Pedro,SP,Brasil,-22.46882,-47.89136,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1755129600000
+22099,A,Álcool Verde,Farias,Capixaba,AC,Brasil,-10.401454,-67.72353,1,Cana-de-Açúcar,Açúcar | Etanol,N,1736121600000
+22122,A,Usina Caeté - Unidade Paulicéia,Carlos Lyra,Paulicéia,SP,Brasil,-21.278599,-51.779876,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,S,1744243200000
+22123,A,Norte Sul,,Palmares,PE,Brasil,-8.682437,-35.597231,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+22127,A,Itapecuru Bioenergia  - Filial,Itapecuru,Aldeias Altas,MA,Brasil,-4.625314,-43.612772,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+22128,I,Alvorada do Oeste,,Santo Anastácio,SP,Brasil,-22.1231916667,-51.7674,1,Cana-de-Açúcar,Etanol,N,1721260800000
+22271,A,CRV Industrial,Japungu,Carmo do Rio Verde,GO,Brasil,-15.345643,-49.72973,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+22272,A,Rio Verde - Flex,Andrade,Rio Verde,GO,Brasil,-17.544376,-51.075786,1,Cana-de-Açúcar | Milho,Açúcar | DDG | Etanol,N,1718928000000
+22273,A,Energética Serranópolis,,Serranópolis,GO,Brasil,-18.386532,-52.105692,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+22274,I,Pite *,,Itapuranga,GO,Brasil,-15.560031366464383,-49.94368009968773,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721606400000
+22275,A,Vale Verde - Unidade Itapací (GO),Farias,Itapaci,GO,Brasil,-14.98098,-49.53814,1,Cana-de-Açúcar,Açúcar | Etanol,N,1736121600000
+22291,A,Usina Coruripe - Unidade Limeira do Oeste,Tércio Wanderley,Limeira do Oeste,MG,Brasil,-19.524285,-50.660339,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,S,1734048000000
+22293,I,Destilaria Mello,,Ribeirão do Sul,SP,Brasil,-22.74200550048229,-49.94199716181207,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+22295,I,Comanche - Canitar,Comanche Clean Energy,Canitar,SP,Brasil,-23.005593,-49.784074,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721347200000
+22296,A,Santa Clara,,Jaboticabal,SP,Brasil,-21.08287,-48.28565,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+22297,I,Dcoil,,Iguatemi,MS,Brasil,-23.1673333333,-54.3940833333,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721347200000
+22307,I,Biosauro*,,Guararapes,SP,Brasil,-21.2431849649,-50.7053235375,1,Cana-de-Açúcar,Etanol,N,1721347200000
+22310,A,Tereos - São José,Tereos,Colina,SP,Brasil,-20.662741,-48.534583,1,Cana-de-Açúcar,Açúcar | Etanol,S,1734048000000
+22324,A,Lins Agroindustrial,Grupo Lins,Lins,SP,Brasil,-21.601441,-49.540889,1,Cana-de-Açúcar | Soja,Açúcar | Bagaço | Crédito de Carbono | Etanol | Levedura | Soja in natura,S,1761177600000
+22326,A,Usina Santa Terezinha - Unidade Terra Rica,Usaçúcar,Terra Rica,PR,Brasil,-22.788717,-52.707809,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+22329,I,Damfi,Aimorés,Canápolis,MG,Brasil,-18.646278,-49.241599,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721347200000
+22330,A,Veredas,,João Pinheiro,MG,Brasil,-17.731284,-45.831377,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+22331,I,Araguari,,Ibiá,MG,Brasil,-19.522419,-46.767983,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721347200000
+22332,A,bp bioenergy - Unidade Itapagipe,BP Bunge Bioenergia,Itapagipe,MG,Brasil,-19.890397,-49.690172,1,Cana-de-Açúcar,Açúcar | Etanol,N,1729468800000
+22334,I,Laginha - Unidade Vale do Paranaíba,,Capinópolis,MG,Brasil,-18.6875,-49.6875,1,,,N,1676246400000
+22335,A,Cargill Bioenergia - Filial Usina São Francisco (USF),USJ,Quirinópolis,GO,Brasil,-18.431996,-50.261446,1,Cana-de-Açúcar | Milho,Açúcar | Etanol,N,1759190400000
+22359,A,Santa Cruz - (BA),São Luiz,Santa Cruz Cabrália,BA,Brasil,-16.181577,-39.334167,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+22379,I,Destialcool*,,Barbosa,SP,Brasil,-21.266733987501627,-49.952181082694004,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+22383,A,Laguna,,Batayporã,MS,Brasil,-22.460051,-53.300854,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+22565,I,Bernardino de Campos,,Bernardino de Campos,SP,Brasil,-22.9868616389,-49.47925025,1,Cana-de-Açúcar,Etanol,N,1721347200000
+22586,A,Viralcool - Unidade Castilho,Irmãos Toniello,Castilho,SP,Brasil,-21.087325,-51.586668,1,Cana-de-Açúcar,Açúcar | Bagaço | Bioeletricidade | Etanol | Levedura,S,1734048000000
+22587,A,Usina Santa Adélia - Pereira Barreto,Santa Adélia,Pereira Barreto,SP,Brasil,-20.530592,-51.245524,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+22621,A,Jalles - Unidade Santa Vitória,Jalles Machado,Santa Vitória,MG,Brasil,-18.779444,-50.233773,1,Cana-de-Açúcar,Bioeletricidade | Etanol,S,1743033600000
+22624,A,bp bioenergy - Unidade Ouroeste,BP Bunge Bioenergia,Ouroeste,SP,Brasil,-19.950382,-50.434111,1,Cana-de-Açúcar,Açúcar | Etanol,N,1729468800000
+22625,A,COFCO International - Unidade Meridiano,COFCO Agri,Meridiano,SP,Brasil,-20.452542,-50.205772,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687910400000
+22626,A,bp bioenergy - Unidade Guariroba,BP Bunge Bioenergia,Pontes Gestal,SP,Brasil,-20.113116,-49.760652,1,Cana-de-Açúcar,Açúcar | Etanol,N,1729468800000
+22627,A,Colombo - Palestina,Colombo,Palestina,SP,Brasil,-20.212033558924357,-49.61284114570899,1,Cana-de-Açúcar,Açúcar | Etanol,N,1759276800000
+22628,A,Tereos - Tanabi,Tereos,Tanabi,SP,Brasil,-20.489346,-49.538308,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,S,1754611200000
+22629,A,Usina Nova Moreno,Moreno,Planalto,SP,Brasil,-20.990446,-49.894162,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+22630,I,Virgolino de Oliveira - José Bonifácio,GVO - Virgolino de Oliveira,José Bonifácio,SP,Brasil,-21.086609,-49.921097,1,Cana-de-Açúcar,Açúcar | Bagaço | Bioeletricidade | Etanol | Mel | Óleo | Vinhaça,N,1721347200000
+22631,A,Tietê - Unidade Ubarana,Tietê,Ubarana,SP,Brasil,-21.21109,-49.741758,1,Cana-de-Açúcar,Açúcar | Etanol,S,1734048000000
+22632,A,Santa Isabel - Unidade Mendonça,Santa Isabel,Mendonça,SP,Brasil,-21.153082,-49.61134,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+22633,A,COFCO International - Unidade Potirendaba,COFCO Agri,Potirendaba,SP,Brasil,-21.105938,-49.327428,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687910400000
+22634,A,Aralco Figueira S/A,Aralco,Buritama,SP,Brasil,-21.101455,-50.228269,1,Cana-de-Açúcar,Açúcar | Etanol,N,1755561600000
+22636,A,CMNP Unidade Vale do Paraná,Manuelita,Suzanápolis,SP,Brasil,-20.390129,-51.031386,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,S,1734048000000
+22637,I,Santa Adelia - Ilha Solteira*,,Ilha Solteira,SP,Brasil,-20.443521,-51.3357,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721606400000
+22638,A,Usina Ipê,Da Pedra,Nova Independência,SP,Brasil,-21.166437,-51.468266,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,S,1734048000000
+22639,A,Clealco - Unidade Queiroz,Clealco,Queiroz,SP,Brasil,-21.806972,-50.220999,1,Cana-de-Açúcar,Açúcar | Bagaço | Bioeletricidade | Etanol | Levedura | Melaço | Óleo | Vinhaça,S,1734048000000
+22640,I,São José da Estiva - (Pongaí),,Pongaí,SP,Brasil,-21.4844992,-49.1872072,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1721606400000
+22641,A,Cocal - Unidade Narandiba,Cocal,Narandiba,SP,Brasil,-22.532818,-51.505356,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+22642,A,Atena - Martinópolis,Atena,Martinópolis,SP,Brasil,-22.151205,-51.027997,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+22643,A,Raízen - Unidade Continental,Biosev,Colômbia,SP,Brasil,-20.232822,-48.622404,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+22645,I,Açúcar Guarani - Unidade Pedranópolis*,,Pedranópolis,SP,Brasil,-20.1876,-50.06431,1,,,N,1723680000000
+22646,A,Colombo - Santa Albertina,Colombo,Santa Albertina,SP,Brasil,-20.039628937646025,-50.67943011687666,1,Cana-de-Açúcar,Açúcar | Etanol,N,1759276800000
+22647,A,Umoe Bioenergy,Umoe AS,Sandovalina,SP,Brasil,-22.559441,-51.828263,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687910400000
+22648,I,Clealco - Unidade Rinópolis,,Rinópolis,SP,Brasil,-21.72178,-50.75506,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+22649,A,Furlan - Avaré,Furlan,Avaré,SP,Brasil,-22.926194,-48.924141,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+22650,A,Ipiranga - Iacanga,Titoto - Ipiranga,Iacanga,SP,Brasil,-21.798957,-49.009212,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687910400000
+22651,I,Santa Rita II,Nelson Coury,São Félix do Araguaia,MT,Brasil,-11.810753,-51.16119,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721606400000
+22653,A,CEM,Colorado,Morrinhos,GO,Brasil,-17.930087,-49.236727,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+22654,A,Panorama,Vale do Verdão,Itumbiara,GO,Brasil,-18.338944,-49.86485,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+22656,A,Cocal - Unidade Rio Brilhante,Cocal,Rio Brilhante,MS,Brasil,-21.731627,-54.504795,1,Cana-de-Açúcar,Açúcar | Etanol,N,1756857600000
+22657,A,Alto Alegre - Unidade Santo Inácio,Lincoln Junqueira,Santo Inácio,PR,Brasil,-22.652761,-51.778915,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+22660,A,Córrego Azul,,Promissão,SP,Brasil,-21.564732,-49.85952,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+22662,A,CMAA - Vale do Pontal,ADM,Limeira do Oeste,MG,Brasil,-19.311867,-50.724225,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+22663,A,Uberaba,Balbo,Uberaba,MG,Brasil,-19.393489,-47.822877,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+22664,A,CMAA - Vale do Tijuco,CMAA,Uberaba,MG,Brasil,-19.352479,-48.242555,1,Cana-de-Açúcar,Açúcar | Etanol,N,1780963200000
+22690,I,Paranaíba,,Paranaíba,MS,Brasil,-19.5901666667,-51.1586388889,1,Cana-de-Açúcar,Etanol,N,1721606400000
+22696,A,Usina Rio Pardo,"Tatez - Tavares de Almeida, Tejofran e Zogbi",Cerqueira César,SP,Brasil,-22.915978,-49.000102,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,S,1734048000000
+22753,A,bp bioenergy - Unidade Monteverde,BP Bunge Bioenergia,Ponta Porã,MS,Brasil,-22.298622,-55.10252,1,Cana-de-Açúcar,Açúcar | Etanol,N,1729468800000
+22764,A,Rio Verde,Andrade,Rio Verde,GO,Brasil,-17.951625,-51.0000222222,1,Cana-de-Açúcar | Milho,Açúcar | Etanol,N,1693785600000
+22819,A,São Martinho - Boa Vista,São Martinho,Quirinópolis,GO,Brasil,-18.548725,-50.433934,1,Cana-de-Açúcar | Milho,Açúcar | Etanol,N,1693785600000
+22825,A,Caçú,,Vicentinópolis,GO,Brasil,-17.689887,-49.986415,1,Cana-de-Açúcar | Milho,Açúcar | Etanol,N,1693785600000
+22831,I,Brilhante,,Maracajú,MS,Brasil,-21.4925,-55.2125,1,Cana-de-Açúcar,Açúcar,N,1721347200000
+22832,I,Vale Verde - Unidade Turvânia (GO),,Turvânia,GO,Brasil,-16.557474,-50.13561,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721347200000
+22833,I,Vale Verde - Unidade Itaberaí (GO),,Itaberaí,GO,Brasil,-15.998859,-49.73455,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721347200000
+22834,A,Bom Sucesso - BSA,Vrec,Goiatuba,GO,Brasil,-17.953562,-49.8551,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+22835,I,Alpha ,,Cláudio,MG,Brasil,-20.4448177,-44.8415137,1,Cana-de-Açúcar,Etanol,N,1721260800000
+22869,I,Itel,,Itumbiara,GO,Brasil,-18.31568,-49.01838,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721606400000
+22904,I,Agrison,,Campo Grande,MS,Brasil,-21.1179444444,-55.3244444444,1,Cana-de-Açúcar,Etanol,N,1721260800000
+22906,I,São Pedro,Jatiboca,Pirassununga,SP,Brasil,-22.0766666667,-47.5444444444,1,Cana-de-Açúcar,Açúcar,N,1721606400000
+23040,I,Planalto - (GO),,Itumbiara,GO,Brasil,-18.249889,-49.13907,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721606400000
+23152,I,Santo Antonio - (MS),,Anaurilândia,MS,Brasil,-22.069975,-52.5694944444,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+23266,I,Cespt,,São Pedro do Turvo,SP,Brasil,-22.8072777778,-49.8302777778,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721347200000
+23318,A,Uruaçu,Japungu,Uruaçú,GO,Brasil,-14.417571,-49.065636,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+23319,I,Quixadá,,Pontalina,GO,Brasil,-17.5763888889,-49.6613888889,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721606400000
+23376,I,Rio Doce I,,Cachoeira Alta,GO,Brasil,-18.43551,-50.92819,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721606400000
+23377,I,Rio Doce II,,Caçú,GO,Brasil,-18.603429,-51.30278,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721606400000
+23384,I,Comanche - Tatuí,Comanche Clean Energy,Tatuí,SP,Brasil,-23.422434,-47.785007,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721347200000
+23389,A,Atvos - Unidade Conquista do Pontal,Mubadala Capital,Mirante do Paranapanema,SP,Brasil,-22.398767,-52.103718,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Crédito de Carbono | Etanol,S,1734048000000
+23584,I,Canadá,,Acreúna,GO,Brasil,-17.3216666667,-50.3283333333,1,Cana-de-Açúcar | Milho,Etanol,N,1721347200000
+23595,A,Agro Serra - Ibiapina/CE,Soares Penido,Ibiapina,CE,Brasil,-4.284273,-41.106944,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+23628,I,Corvo Branco*,,Lençóis Paulista,SP,Brasil,-22.5831,-48.717,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+23945,I,Cabrera - (SP),,Gastão Vidigal,SP,Brasil,-20.77872,-50.15684,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721347200000
+24219,A,Vicentina,,Vicentina,MS,Brasil,-22.484152,-54.411118,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+24330,I,Raízen - Jataí,Raízen,Jataí,GO,Brasil,-18.2274045675,-51.5031042958,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+24331,I,Juara,,Juara,MT,Brasil,-11.25508,-57.52042,1,,,N,1676246400000
+24333,I,Sinimbu - (GO),,Serranópolis,GO,Brasil,-18.0611894444,-52.0496036111,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721606400000
+24359,I,USAA*,,Santo Antônio do Aracanguá,SP,Brasil,-20.8554722222,-50.6508333333,1,Cana-de-Açúcar,Etanol,N,1721347200000
+24368,I,Tupaciguara,,Tupaciguara,MG,Brasil,-18.5852777778,-48.8188888889,1,,,N,1721606400000
+24369,I,Bom Jardim,,Itumbiara,GO,Brasil,-18.3805555556,-49.1566666667,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721347200000
+24372,I,Paraíso - CEPAR (MG),,São Sebastião do Paraíso,MG,Brasil,-20.8356611111,-47.0008555556,1,Cana-de-Açúcar,Açúcar,N,1721606400000
+24378,A,Iaco Agrícola,,Chapadão do Sul,MS,Brasil,-18.77158,-52.920193,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+24387,I,Centro-Oeste,,Brasília,DF,Brasil,-15.6922222222,-47.3630555556,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721347200000
+25006,A,Raízen - Unidade Caarapó,Raízen,Caarapó,MS,Brasil,-22.613859,-54.696098,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+25007,I,Curupay Agroenergia*,,Naviraí,MS,Brasil,-22.858,-53.9542083333,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721347200000
+25105,I,Itaguassu,,Bataguassú,MS,Brasil,-21.8834521244,-52.5734101872,1,,,N,1721606400000
+25141,A,CBB - Companhia Bioenergética Brasileira Vila Boa,,Vila Boa,GO,Brasil,-14.88427,-47.167932,1,Cana-de-Açúcar,Açúcar | Etanol,S,1744588800000
+25147,I,Cerona*,,Nova Andradina,MS,Brasil,-22.3111861111,-53.3460055556,1,,,N,1676246400000
+25151,A,Raízen - Unidade Tarumã,Raízen,Tarumã,SP,Brasil,-22.785556,-50.547311,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+25159,I,Eldorado - (Dourados - MS),,Dourados,MS,Brasil,-22.1267130556,-54.3605352778,1,,,N,1676246400000
+25160,I,Ponta Porã,,Ponta Porã,MS,Brasil,-22.436842,-55.49026,1,Cana-de-Açúcar,Etanol,N,1721606400000
+25161,A,Cargill Bioenergia - Filial Usina Rio Dourado (URD),USJ,Cachoeira Dourada,GO,Brasil,-18.50163,-49.653565,1,Cana-de-Açúcar,Açúcar | Etanol,S,1745798400000
+25167,A,Cerradão,Pitangueiras,Frutal,MG,Brasil,-19.924204,-49.155546,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+25168,I,Clealco - Unidade Tupã,,Tupã,SP,Brasil,-21.943371,-50.5853,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+25170,I,Brazcana Agroindustrial,,Paranavaí,PR,Brasil,-22.933954,-52.41045,1,Cana-de-Açúcar,Açúcar,N,1721347200000
+25188,I,Tonon - Unidade Vista Alegre,Nova Tonon,Maracajú,MS,Brasil,-21.778922,-55.577707,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721606400000
+25229,I,Usina Santa Terezinha - Unidade Rio Parana,Usaçúcar,Eldorado,MS,Brasil,-23.7022,-54.274,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1736121600000
+25296,A,bp bioenergy - Unidade Itumbiara,BP Bunge Bioenergia,Itumbiara,GO,Brasil,-18.519436,-49.360472,1,Cana-de-Açúcar,Açúcar | Etanol,N,1729468800000
+25304,A,VPA Bioenergia,Polimix,Paracatu,MG,Brasil,-17.10157,-46.637158,1,Cana-de-Açúcar,Açúcar | Etanol,N,1726099200000
+25338,I,Gurinhatã,,Gurinhatã,MG,Brasil,-19.035,-49.766,1,,,N,1676246400000
+25349,A,Serra do Caiapó,,Montividiu,GO,Brasil,-17.224081,-51.242723,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693785600000
+25350,I,Cotril Bio Energética,,Goiânia,GO,Brasil,-17.3895026,-50.3757155,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1721347200000
+25351,A,Nardini Agroindustrial - Unidade Aporé,Nardini,Aporé,GO,Brasil,-18.93822,-51.97974,1,Cana-de-Açúcar,Açúcar | Etanol,S,1742342400000
+25352,A,Raízen - Unidade Centroeste,Raízen,Jataí,GO,Brasil,-17.701431,-51.626105,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+25354,I,Entre Rios,,Chapadão do Céu,GO,Brasil,-18.4153406,-52.6309705,1,,,N,1676246400000
+25355,A,CMAA - Canápolis,CMAA,Uberlândia,MG,Brasil,-19.083576,-48.135515,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+25356,A,Atvos - Unidade Rio Claro,Mubadala Capital,Caçú,GO,Brasil,-18.794306,-51.010977,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Crédito de Carbono | Etanol,S,1734048000000
+25357,A,Atvos - Unidade Morro Vermelho,Mubadala Capital,Mineiros,GO,Brasil,-17.720823,-53.042161,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Crédito de Carbono | Etanol,S,1734048000000
+25358,I,SMBJ - Agroindustrial,,Bom Jesus de Goiás,GO,Brasil,-18.177,-49.826,1,Cana-de-Açúcar,Etanol,N,1721606400000
+25361,A,Bevap Bioenergia,Bevap,João Pinheiro,MG,Brasil,-17.061519,-46.181914,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,S,1774569600000
+25372,I,Virgolino de Oliveira - Monções,GVO - Virgolino de Oliveira,Monções,SP,Brasil,-20.876904,-50.126859,1,Cana-de-Açúcar,Açúcar | Bagaço | Bioeletricidade | Etanol | Mel | Óleo | Vinhaça,N,1721347200000
+25376,I,Vale Verde - Unidade Taquarituba (SP),Farias,Taquarituba,SP,Brasil,-23.486015,-49.245489,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721347200000
+25379,I,Vale do Vacaria*,,Sidrolândia,MS,Brasil,-21.137299,-54.753084,1,Cana-de-Açúcar,Etanol,N,1721347200000
+25387,A,Atvos - Unidade Santa Luzia,Mubadala Capital,Nova Alvorada do Sul,MS,Brasil,-21.586143,-54.248157,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Crédito de Carbono | Etanol,S,1734048000000
+25459,A,Aralco Aracanguá S/A,Aralco,Santo Antônio do Aracanguá,SP,Brasil,-20.93681691323324,-50.49296415545395,1,,,N,1755561600000
+25474,I,Vale Verde - Unidade Itapuranga (GO),,Itapuranga,GO,Brasil,-15.390211,-49.932339,1,Cana-de-Açúcar,Açúcar | Etanol,N,1736121600000
+25478,A,ADM (MT),,Rondonópolis,MT,Brasil,-16.470635,-54.671102,1,Soja,Biodiesel,N,1693785600000
+25527,A,Binatural,,Formosa,GO,Brasil,-15.561003,-47.3250869,1,Soja,Biodiesel,N,1693353600000
+25534,A,Granol - (GO),,Anápolis,GO,Brasil,-16.397337,-48.953851,1,Soja,Biodiesel | Óleo,N,1693440000000
+25577,I,Agroverde*,,Taquarituba,SP,Brasil,-23.4905555556,-49.2594444444,1,,,N,1723680000000
+25578,A,Aguapei Agroenergia,Goianésia,São Simão,GO,Brasil,-18.969681,-50.634476,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+25581,A,Jalles - Unidade Otávio Lage,Otavio Lage,Goianésia,GO,Brasil,-15.082756,-49.305576,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+25625,I,Elcana Agroenergética,,Jataí,GO,Brasil,-18.0380555556,-51.4047222222,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721347200000
+25692,I,Vitória - (MS)*,,Dourados,MS,Brasil,-22.085833,-55.401111,1,Cana-de-Açúcar,Açúcar,N,1721347200000
+25791,A,Bambuí,,Bambuí,MG,Brasil,-20.085559,-46.044589,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+25839,I,Terra Verde,,Nova Andradina,MS,Brasil,-22.219347,-53.506028,1,,,N,1676246400000
+25876,A,Oleoplan - (Veranópolis/RS),,Veranópolis,RS,Brasil,-28.94062,-51.5485,1,Soja,Biodiesel,N,1693440000000
+25877,A,Granol - (RS),,Cachoeira do Sul,RS,Brasil,-30.04487,-52.85599,1,Soja,Biodiesel,N,1693440000000
+25894,A,Amazonbio,,Ji-Paraná,RO,Brasil,-10.844112,-61.993691,1,Palma,Biodiesel | Bioeletricidade,N,1693353600000
+25898,A,Be8 Energy,,Passo Fundo,RS,Brasil,-28.23616,-52.3774,1,Soja,Biodiesel,N,1722384000000
+26271,A,Novo Milênio - Lambari D´Oeste,Novo Milênio,Lambari do Oeste,MT,Brasil,-15.398062,-57.949544,1,Cana-de-Açúcar,Etanol,N,1693440000000
+26273,A,Novo Milênio - Mirassol D´Oeste,Novo Milênio,Mirassol do Oeste,MT,Brasil,-15.713057,-58.1301,1,Cana-de-Açúcar,Etanol,N,1693785600000
+26274,I,Liberdade,,Escada,PE,Brasil,-8.5339597,-35.3878,1,Cana-de-Açúcar,Etanol,N,1721606400000
+26276,I,Usi 800 - (Palmas),,São Vicente do Sul,RS,Brasil,-28.63,-54.6,1,Milho,Etanol,N,1721347200000
+26277,A,Taquari,,Capela,SE,Brasil,-10.60601,-37.062481,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+26278,A,Junco Novo,,Capela,SE,Brasil,-10.455927,-37.018561,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693785600000
+26280,A,Cereale Brasil,,Dois Córregos,SP,Brasil,-22.379888,-48.365494,1,Milho,Etanol,N,1693785600000
+26281,I,Engenho Meneghetti,,Brotas,SP,Brasil,-22.295053,-48.136208,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+26282,A,Usina Granelli,Granelli,Charqueada,SP,Brasil,-22.519734,-47.713615,1,Cana-de-Açúcar,Açúcar | Aguardente/Cachaça | Etanol | Melaço | Xarope,S,1755043200000
+26284,A,Destilaria Santo Antonio (Palmital),,Palmital,SP,Brasil,-22.894853,-50.260448,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687910400000
+26285,A,São Francisco - (Barrinha),,Barrinha,SP,Brasil,-21.174291,-48.120622,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+26287,I,Brasil Bioenergética,,Gurupi,TO,Brasil,-11.73024,-49.06382,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721347200000
+26288,A,Floresta,Vale do Verdão,Santo Antônio da Barra,GO,Brasil,-17.586062,-50.722965,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+26289,A,Boa Esperança,,Santa Luzia do Oeste,RO,Brasil,-12.006381,-61.577303,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693785600000
+26430,A,Biopar - (MT),,Nova Marilândia,MT,Brasil,-14.368879,-56.975073,1,Algodão | Gordura Animal | Soja,Biodiesel,N,1693785600000
+26927,A,Bocchi,,Muitos Capões,RS,Brasil,-28.325863,-51.770172,1,Soja,Biodiesel,N,1693353600000
+46737,A,COFCO Agri - (MT),COFCO Agri,Rondonópolis,MT,Brasil,-16.473497,-54.604306,1,Milho | Soja,Biodiesel | Etanol | Óleo,N,1693353600000
+46994,I,São Judas Tadeu,Sada,Jaíba,MG,Brasil,-15.200706,-43.884109,1,Cana-de-Açúcar | Milho,Açúcar | Bioeletricidade | Etanol,N,1721606400000
+50238,A,Cia. Müller de Bebidas (Porto Ferreira),Companhia Müller de Bebidas,Porto Ferreira,SP,Brasil,-21.839129,-47.474777,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+50637,A,Inpasa,,Nueva Esperanza,Ca,Paraguai,-24.623611,-54.868351,1,Milho,Bioeletricidade | DDG | Etanol | Óleo,N,1687824000000
+51109,I,Melhoramentos (Paranapoema/PR),,Paranapoema,PR,Brasil,-22.64182,-52.08148,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1734048000000
+51152,A,Adecoagro - Unidade Ivinhema,Adecoagro,Ivinhema,MS,Brasil,-22.392239,-53.887189,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol | Vinhaça,S,1770163200000
+51153,A,Atvos - Unidade Costa Rica,Mubadala Capital,Costa Rica,MS,Brasil,-18.463566,-53.16807,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Crédito de Carbono | Etanol,S,1734048000000
+51187,A,Bunge Biodiesel (MT),,Nova Mutum,MT,Brasil,-13.282717,-56.350776,1,Soja,Biodiesel,N,1693785600000
+51556,A,BSBIOS (PR),,Marialva,PR,Brasil,-23.4781852,-51.826061,1,Gordura Animal | Soja,Biodiesel,N,1696464000000
+51693,A,bp bioenergy - Unidade Pedro Afonso,BP Bunge Bioenergia,Pedro Afonso,TO,Brasil,-9.195066,-48.138826,1,Cana-de-Açúcar,Açúcar | Etanol,N,1729468800000
+51705,A,Santa Mercedes,Santa Mercedes,Santa Mercedes,SP,Brasil,-22.107274,-50.164258,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687910400000
+51721,A,Illovo Sugar - Dwangwa Sugar Mill,Illovo Sugar,Dwangwa,Nkhotakota,Malawi,-12.498029,34.15029,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687910400000
+51722,A,Illovo Sugar - Nchalo Sugar Mill,Illovo Sugar,Blantyre,Blantyre,Malawi,-15.821306,35.061286,1,Cana-de-Açúcar,Açúcar | Xarope,N,1687910400000
+51725,A,Illovo Sugar - Maragra Plant,Illovo Sugar,Maputo,Maputo,Moçambique,-25.447007,32.778765,1,Cana-de-Açúcar,Açúcar,N,1687910400000
+51726,A,Tongaat Hulett - Moçambique,Tongaat Hulett Sugar,Maputo,Maputo,Moçambique,-25.039502066088474,32.81531587301695,1,Cana-de-Açúcar,Açúcar,N,1687910400000
+51728,A,Illovo Sugar - Ubombo Plant,Illovo Sugar,Big Bend,Lubombo,Suazilândia,-26.792204,31.939165,1,Cana-de-Açúcar,Açúcar,N,1687910400000
+51729,A,Kenana Sugar Company,,Cartum,Cartum,Sudão,15.568046,32.562986,1,Cana-de-Açúcar,Açúcar | Etanol | Levedura,N,1687910400000
+51730,A,Illovo Sugar - Kilombero Plant,Illovo Sugar,Kidatu,Morogoro,Tanzânia,-7.688063,36.998122,1,Cana-de-Açúcar,Açúcar,N,1687910400000
+51731,A,Illovo Sugar - Zambia Sugar Mill,Illovo Sugar,Mazabuka,Southern,Zâmbia,-15.396373,28.270493,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687910400000
+51734,A,Ingenio Aguilares,,Tucumán,Tucumán,Argentina,-27.428052,-65.61745,1,Cana-de-Açúcar,Açúcar,N,1687910400000
+51735,A,Ingenio Bella Vista,,Tucumán,Tucumán,Argentina,-27.025468,-65.303714,1,Cana-de-Açúcar,Açúcar | Melaço,N,1687910400000
+51736,A,Ingenio Concepción,Grupo Atanor,Banda del Rio Sali,Tucumán,Argentina,-26.849271,-65.149915,1,Cana-de-Açúcar,Açúcar,N,1711929600000
+51737,A,Ingenio Cruz Alta,,Colombres,Tucumán,Argentina,-26.817181,-65.085446,1,Cana-de-Açúcar,Açúcar | Etanol | Vinhaça,N,1688342400000
+51738,A,Inaza - Santa Fé,,Villa Ocampo,Santa Fé,Argentina,-27.5909,-65.6255,1,Cana-de-Açúcar,Açúcar,N,1711929600000
+51739,A,Ingenio La Corona,,Tucumán,Tucumán,Argentina,-26.838,-65.1696,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1688342400000
+51741,A,Ingenio La Florida,,Cruz Alta,Tucumán,Argentina,-26.817181,-65.085392,1,Cana-de-Açúcar,Açúcar | Etanol | Vinhaça,N,1688342400000
+51742,A,La Fronterita,,La Florida,Tucumán,Argentina,-27.024816,-65.304699,1,Cana-de-Açúcar,Açúcar,N,1711929600000
+51743,A,Arcor S.A. I.C.,BSM - Beta San Miguel,Rio Seco,Tucumán,Argentina,-27.260528,-65.571143,1,Cana-de-Açúcar,Açúcar | Melaço,N,1764028800000
+51744,A,Ingenio La Trinidad,,Villa La Trinidad,Santa Fé,Argentina,-27.410671,-65.522498,1,Cana-de-Açúcar,Açúcar | Etanol,N,1688342400000
+51746,A,Ingenio Leales,,Tucumán,Tucumán,Argentina,-27.08723021230305,-65.24839003281166,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol | Vinhaça,S,1775001600000
+51747,A,Ingenio Ledesma,,Ledesma,Jujuy,Argentina,-23.828,-64.79292,1,Beterraba | Cana-de-Açúcar,Açúcar | Etanol,N,1688342400000
+51748,A,Ingenio Marapa,,San Miguel de Tucumán,Tucumán,Argentina,-27.59021,-65.614814,1,Cana-de-Açúcar,Açúcar,N,1711929600000
+51749,A,Ingenio Ñuñorco,,Monteros,Tucumán,Argentina,-27.174738,-65.498988,1,Cana-de-Açúcar,Açúcar | Etanol,N,1688342400000
+51750,A,Ingenio Río Grande,,La Mendieta,Jujuy,Argentina,-24.313426,-64.96847,1,Cana-de-Açúcar,Açúcar,N,1688342400000
+51753,A,San Juan,,Banda del Rio Sali,Tucumán,Argentina,-28.4895,-59.3519,1,Cana-de-Açúcar,Açúcar | Etanol,N,1711929600000
+51755,A,Ingenio Santa Barbara,,Tucumán,Tucumán,Argentina,-27.4610107576829,-65.60603501773295,1,Cana-de-Açúcar,Açúcar,S,1775001600000
+51756,A,Ingenio Santa Rosa,,León Rouges ,Tucumán,Argentina,-27.221428,-65.516923,1,Cana-de-Açúcar,Açúcar | Etanol,N,1711929600000
+51762,A,Atvos - Unidade Alto Taquari,Mubadala Capital,Alto Taquari,MT,Brasil,-17.738689,-53.317779,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Crédito de Carbono | Etanol,S,1740441600000
+51817,A,Nova Canabrava,,Campos dos Goytacazes,RJ,Brasil,-21.528203,-41.259564,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687910400000
+52083,A,Fátima do Sul,,Fátima do Sul,MS,Brasil,-22.327462,-54.607603,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687910400000
+52114,I,Abengoa Bioenergia - Unidade Santo Antônio de Posse,Abengoa Bioenergia,Santo Antônio de Posse,SP,Brasil,-22.656165,-46.898322,1,Cana-de-Açúcar,Etanol,N,1721260800000
+52125,A,Atvos - Unidade Água Emendada,Mubadala Capital,Perolândia,GO,Brasil,-17.535598,-52.258908,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Crédito de Carbono | Etanol,S,1740441600000
+52139,A,Luso,,Ventania,PR,Brasil,-24.254192,-50.236955,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687910400000
+52141,A,Campo Lindo,,Nossa Senhora das Dores,SE,Brasil,-10.483186,-37.121262,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+52143,I,Colonial,,São Pedro,SP,Brasil,-22.605738,-47.86321,1,Cana-de-Açúcar,Etanol,N,1721347200000
+52144,A,IMCOPA,,Araucária,PR,Brasil,-25.555149,-49.372924,1,Soja,Etanol | Óleo,N,1693440000000
+52145,I,Foltran,,Leme,SP,Brasil,-22.179,-47.302,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721347200000
+52173,A,Usina Santa Terezinha - Unidade Iguatemi,Usaçúcar,Maringá,PR,Brasil,-23.399795,-52.09008,1,Cana-de-Açúcar,Açúcar | Etanol,N,1736121600000
+52174,A,Tongaat Hulett - Unidade Mafambisse,Tongaat Hulett Sugar,Beira,Sofala,Moçambique,-19.539613556800806,34.62067054418079,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687910400000
+52175,A,Tongaat Hulett - Unidade Xinavane,Tongaat Hulett Sugar,Maputo,Maputo,Moçambique,-25.042992848144646,32.8011631969847,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687910400000
+52176,A,Tongaat Hulett - Unidade Triangle Limited,Tongaat Hulett Sugar,Triangle,Masvingo,Zimbábue,-21.022691989474765,31.442428995796238,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687910400000
+52177,A,Tongaat Hulett - Unidade Hippo Valley Estates Limited,Tongaat Hulett Sugar,Chiredzi,Masvingo,Zimbábue,-21.071849526725806,31.64810825170123,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687910400000
+52178,A,Abengoa Bioenergy - Biocarburantes de Castilla y León,Abengoa Bioenergy,Babilafuente,Salamanca,Espanha,40.968525,-5.43526,1,Milho,Etanol,N,1687824000000
+52179,A,Abengoa Bioenergy - Unidade Bioetanol Galicia,Abengoa Bioenergy,Teixeiro-Curtis ,La Coruña,Espanha,43.156087,-8.023382,1,Milho,Etanol,N,1687824000000
+52180,A,Abengoa Bioenergy - Unidade Ecocarburantes Españoles,Abengoa Bioenergy,Cartagena,Murcia,Espanha,37.676665,-0.8966,1,Milho,Etanol,N,1687824000000
+52181,A,Abengoa Bioenergy - Unidade York,Abengoa Bioenergy,York,NE,Estados Unidos,34.168021,-103.368661,1,Milho,Etanol,N,1687824000000
+52182,A,Abengoa Bioenergy - Unidade Portales,Abengoa Bioenergy,Portales,NM,Estados Unidos,34.167994,-103.36864,1,Milho | Sorgo,Etanol,N,1687824000000
+52183,A,Abengoa Bioenergy - Unidade Illinois,Abengoa Bioenergy,Madison,IL,Estados Unidos,38.68167,-90.17855,1,Milho,Etanol,N,1687824000000
+52184,A,Abengoa Bioenergy - Unidade Indiana ,Abengoa Bioenergy,Mount Vernon,IN,Estados Unidos,37.90714,-87.72539,1,Milho,Etanol,N,1687824000000
+52188,A,Abengoa Bioenergy - Unidade Nebraska,Abengoa Bioenergy,Ravenna,NE,Estados Unidos,41.0224,-98.8698,1,Milho,Etanol,N,1687824000000
+52189,A,Abengoa Bioenergy - Unidade Colwich,Abengoa Bioenergy,Colwich,KS,Estados Unidos,37.78649,-97.5314,1,Milho | Sorgo,Etanol,N,1687824000000
+52190,A,Abengoa Bioenergy - Unidade France,Abengoa Bioenergy,Arancé,Aquitaine,França,43.401073,-0.634525,1,Milho,Etanol,N,1687824000000
+52191,A,Abengoa Bioenergy - Unidade Netherlands,Abengoa Bioenergy,Roterdam,Zuid-Holland,Holanda,51.92655,4.18788,1,Milho,Etanol,N,1687824000000
+52194,A,Ace Ethanol,,Stanley,WI,Estados Unidos,44.959792,-90.961022,1,Milho,Etanol | Óleo,N,1687910400000
+52195,A,Adkins Energy,,Lena,IL,Estados Unidos,42.3617127,-89.803777,1,Milho,Biodiesel | DDG | Etanol | Óleo,N,1687910400000
+52197,I,Advanced Bioenergy - Unidade ABE Fairmont,Advanced Bioenergy LLC.,Fairmont,MN,Estados Unidos,41.45554875894973,-99.31835316853252,1,,,N,1687910400000
+52198,I,Advance Bioenergy - Unidade ABE Aberdeen,Advanced Bioenergy LLC.,Aberdeen,SD,Estados Unidos,45.4595527,-98.54281,1,,,N,1687910400000
+52199,I,Advanced Bioenergy - Unidade ABE Huron,Advanced Bioenergy LLC.,Huron,SD,Estados Unidos,41.99048,-95.39618,1,,,N,1687910400000
+52201,A,Agrana - Unidade Leopoldsdorf Sugar Refinery,Agrana Group,Leopoldsdorf,Wien,Áustria,48.23973,16.70062,1,Beterraba,Açúcar | Etanol,N,1687910400000
+52202,A,Agrana - Unidade Tulln Sugar Refinery,Agrana Group,Tulln,Niederösterreich,Áustria,48.32575,16.0407,1,Beterraba,Açúcar | Etanol,N,1687910400000
+52203,A,Agrana - Unidade Rafinerija Secera d.o.o. Brcko,Agrana Group,Brcko,Brcko Distrikt,Bósnia,44.868714,18.822161,1,Beterraba,Açúcar | Etanol,N,1687910400000
+52204,A,Agrana - Unidade Bulgaria EAD/Sofia,Agrana Group,Sófia,Sofia-grad ,Bulgária,42.73845,23.2602,1,Beterraba,Açúcar | Etanol,N,1687910400000
+52205,A,Agrana - Unidade Slovenské Cukrovary,Agrana Group,Sered,Trnava,Eslováquia,48.27555,17.73667,1,Beterraba,Açúcar | Etanol,N,1687910400000
+52206,A,Agrana - Unidade Magyar Cukor Zrt. Kaposvári Cukorgyára,Agrana Group,Kaposvár,Somogy,Hungria,46.35597,17.81197,1,Beterraba,Açúcar | Etanol,N,1687910400000
+52207,A,Agrana - Unidade HQ and Hrusovany Plant,Agrana Group,Hrusovany nad Jevisovkou,Znojmo,República Tcheca,48.81342,16.40542,1,Beterraba,Açúcar | Etanol,N,1687996800000
+52208,A,Agrana - Unidade Opava Plant,Agrana Group,Opava-Vavrovice,Moravian-Silesia,República Tcheca,49.9672,17.86568,1,Beterraba,Açúcar | Etanol,N,1687996800000
+52209,A,Agrana - Unidade Buzau Plant,Agrana Group,Buzau,Buzau,Romênia,45.13348,26.83643,1,Beterraba,Açúcar | Etanol,N,1687996800000
+52210,A,Agrana - Unidade Roman Plant,Agrana Group,Roman,Neamt,Romênia,46.93925,26.91353,1,Beterraba,Açúcar | Etanol,N,1687996800000
+52211,A,Amaizeingly Green Products,,Collingwood,Ontairo,Canadá,44.497914,-80.191947,1,Milho,Etanol,N,1687996800000
+52212,A,Amaizing Energy,,Denison,TX,Estados Unidos,40.6172,-97.6026,1,Milho,Etanol,N,1687996800000
+52213,A,Amalgamated - Unidade Mini-Cassia Factory,Amalgamated Sugar,Paul,ID,Estados Unidos,42.61207,-113.75333,1,Beterraba,Açúcar,N,1687996800000
+52214,A,Amalgamated - Unidade Nampa Factory,Amalgamated Sugar,Nampa,ID,Estados Unidos,43.6052,-116.57413,1,Beterraba,Açúcar,N,1687996800000
+52215,A,Amalgamated - Unidade Nyssa Factory,Amalgamated Sugar,Nyssa,OR,Estados Unidos,43.8766,-116.98953,1,Beterraba,Açúcar,N,1687996800000
+52216,A,Amalgamated - Unidade Twin Falls Factory,Amalgamated Sugar,Twin Falls,ID,Estados Unidos,42.53333,-114.43333,1,Beterraba,Açúcar,N,1687996800000
+52217,A,Azucarera Ebro - Unidade Benavente,"Azucarera Ebro, S.L.",Benavente,Zamora,Espanha,41.986974,-5.673577,1,Beterraba | Cana-de-Açúcar,Açúcar,N,1687910400000
+52218,A,Azucarera Ebro - Unidade La Bañeza,"Azucarera Ebro, S.L.",La Bañeza,León,Espanha,42.30388,-5.90833,1,Beterraba | Cana-de-Açúcar,Açúcar,N,1687910400000
+52219,A,Azucarera Ebro - Unidade Miranda,"Azucarera Ebro, S.L.",Miranda de Ebro,Burgos,Espanha,42.69806,-2.925786,1,Beterraba | Cana-de-Açúcar,Açúcar,N,1687910400000
+52220,A,Azucarera Ebro - Unidade Peñafiel,"Azucarera Ebro, S.L.",Peñafiel,Valladolid,Espanha,41.690091,-4.75605,1,Beterraba | Cana-de-Açúcar,Açúcar,N,1687910400000
+52221,A,Azucarera Ebro - Unidade Planta de Jerez,"Azucarera Ebro, S.L.",Jerez de la Frontera,Cádiz,Espanha,36.65555,-6.12833,1,Beterraba | Cana-de-Açúcar,Açúcar,N,1687910400000
+52222,I,Azucarera Ebro - Unidade Toro,"Azucarera Ebro, S.L.",Toro,Zamora,Espanha,41.511325,-5.374833,1,Cana-de-Açúcar,Açúcar | Xarope,N,1721606400000
+52223,A,Big River - West Burlington,,West Burlington,IA,Estados Unidos,40.83184,-91.222045,1,Milho,Etanol,N,1687996800000
+52224,A,Biofuel Energy -  Unidade Buffalo Lake Energy,Biofuel Energy Corporation ,Fairmont,MN,Estados Unidos,43.6682,-94.4986,1,Milho,Etanol,N,1687996800000
+52225,A,Biofuel Energy - Unidade Pioneer Trail Energy,Biofuel Energy Corporation ,Wood River,NE,Estados Unidos,40.819,-98.6073,1,Milho,Biodiesel,N,1687996800000
+52226,A,Blue Flint Ethanol,,Underwood,ND,Estados Unidos,47.37787,-101.1522,1,Milho,DDG | Etanol | Óleo,N,1687996800000
+52227,A,Bluefire Ethanol,,Irvine,CA,Estados Unidos,33.661846,-117.704759,1,Materiais Residuais / Biomassa não Alimentar,Etanol,N,1687996800000
+52228,A,Bridgeport Ethanol,,Bridgeport,NE,Estados Unidos,41.643685,-103.078889,1,Milho,Etanol,N,1687996800000
+52229,A,British Sugar - Unidade Allscott Factory,British Sugar plc,Allscott,West Midlands,Inglaterra,52.7103833,-2.5865,1,Beterraba,Açúcar | Xarope,N,1687996800000
+52230,A,British Sugar - Unidade Cantley Factory,British Sugar plc,Norwich,East of England,Inglaterra,52.57647,1.52178,1,Beterraba,Açúcar | Xarope,N,1687996800000
+52231,A,British Sugar - Unidade Newark Factory,British Sugar plc,Newark-on-Trend,East Midlands,Inglaterra,53.0892951,-0.8148351,1,Beterraba,Açúcar | Xarope,N,1687996800000
+52232,A,Bundaberg Sugar - Unidade Millaquin Mill,Bundaberg Sugar,Bundaberg,Queensland,Austrália,-24.85555,152.36667,1,Cana-de-Açúcar,Açúcar,N,1687910400000
+52233,A,Bundaberg Sugar - Unidade Tableland Mill,Bundaberg Sugar,Mareeba,Queensland,Austrália,-17.12,145.345,1,Cana-de-Açúcar,Açúcar,N,1687910400000
+52234,I,Bunge - Ergon Vickburg,,Vicksburg,MS.,Estados Unidos,32.389114,-90.896713,1,Milho,Etanol,N,1721692800000
+52235,A,Castle Rock Renewable Fuels,,Necedah,WI,Estados Unidos,43.990585,-90.075961,1,Milho,Etanol,N,1687996800000
+52236,A,Central Indiana Ethanol,,Marion,IN,Estados Unidos,40.564263,-85.72831,1,Milho,Etanol,N,1687996800000
+52237,A,Chelsea Refinery,,Birkenhead,Auckland,Nova Zelândia,-36.821,174.72325,1,Cana-de-Açúcar,Açúcar,N,1687910400000
+52238,A,Chief Ethanol Fuels,,Hastings,NE,Estados Unidos,40.584748,-98.318439,1,Milho,Etanol,N,1687996800000
+52239,A,Chippewa Valley Ethanol Company,,Benson,MN,Estados Unidos,45.327618,-95.636206,1,Milho,DDG | Etanol | Óleo,N,1687996800000
+52240,A,Commonwealth Agri-energy,,Hopkinsville,KY,Estados Unidos,36.808299,-87.414056,1,Milho,Etanol,N,1687996800000
+52241,A,Conestoga Energy Partners - Unidade Arkalon Ethanol,"Conestoga Energy Partners, LLC",Liberal,KS,Estados Unidos,37.057578,-100.92065,1,Milho,DDG | Etanol,N,1687996800000
+52242,A,Conestoga Energy Partners - Unidade Bonanza BioEnergy,"Conestoga Energy Partners, LLC",Garden City,KS,Estados Unidos,38.0071,-100.9124,1,Milho,DDG | Etanol,N,1687996800000
+52243,A,Cora Texas,,White Castle,LA,Estados Unidos,30.1699,-91.13263,1,Cana-de-Açúcar,Açúcar | Mel,N,1687910400000
+52244,A,Corn LP,,Goldfield,IA,Estados Unidos,42.733791,-93.911666,1,Milho,Etanol,N,1687996800000
+52245,A,Corn Plus,,Winnebago,MN,Estados Unidos,43.762361,-94.15165,1,Milho,Etanol,N,1687996800000
+52247,A,Cornhusker Energy Lexington,,Lexington,NE,Estados Unidos,40.767114,-99.72266,1,Milho,Etanol,N,1687996800000
+52248,A,Cristal Union - Unidade Corbeilles-en-Gâtinais,Cristal Union,Corbeilles,Centre,França,48.06388,2.55,1,Beterraba | Trigo,Açúcar | Etanol,N,1688083200000
+52249,A,Cristal Union - Unidade d´Arcis sur Aube,Cristal Union,Vilette-sur-Aube,Champagne Ardennes,França,48.533649,4.12057,1,Beterraba | Trigo,Açúcar | Etanol,N,1688083200000
+52250,A,Cristal Union - Unidade Bazancourt,Cristal Union,Bazancourt,Champagne Ardennes,França,49.350375,4.165471,1,Beterraba | Trigo,Açúcar | Etanol,N,1688083200000
+52251,A,American Crystal Sugar - Unidade Crookston,American Crystal Sugar Company,Crookston,MN,Estados Unidos,47.76265,-96.63217,1,Beterraba,Açúcar,N,1688083200000
+52252,A,American Crystal Sugar - Unidade Drayton,American Crystal Sugar Company,Drayton,ND,Estados Unidos,48.59225,-97.17467,1,Beterraba,Açúcar,N,1688083200000
+52253,A,American Crystal Sugar - Unidade East Grand Forks,American Crystal Sugar Company,East Grand Forks,MN,Estados Unidos,47.92588,-97.00647,1,Beterraba,Açúcar,N,1688083200000
+52254,A,American Cystal Sugar - Unidade Hillsboro,,Hillsboro,ND,Estados Unidos,47.4353,-97.06268,1,Beterraba,Açúcar,N,1688083200000
+52255,A,American Crystal Sugar - Unidade Moorhead,American Crystal Sugar Company, Moorhead,MN,Estados Unidos,46.9,-96.75833,1,Beterraba,Açúcar,N,1688083200000
+52256,A,Cukrovar Vrbátky,,Vrbátky,Olomouc,República Tcheca,49.50555,17.20333,1,Beterraba,Açúcar,N,1688342400000
+52257,A,Cukrovary a lihovary  - Unidade Lihovar Dobrovice,Cukrovary a lihovary TTD,Dobrovice,Central Bohemian,República Tcheca,50.36667,14.96445,1,Beterraba,Açúcar,N,1688342400000
+52258,A,Cukrovary a lihovary  - Unidade Balicí centrum Melník,Cukrovary a lihovary TTD,Melník,Central Bohemian,República Tcheca,50.33908,14.49213,1,Beterraba,Açúcar,N,1724112000000
+52259,A,Cukrovary a lihovary  - Unidade Cukrovar Ceské Mezirící,Cukrovary a lihovary TTD,Ceské Mezirící,Hradec Králové,República Tcheca,50.284764,16.049537,1,Beterraba,Açúcar,N,1688342400000
+52260,A,Cukrovary a lihovary  - Unidade závod lihovar Chrudim,Cukrovary a lihovary TTD,Chrudim IV,Pardubice,República Tcheca,49.95547,15.80087,1,Beterraba,Açúcar,N,1688342400000
+52261,A,Dakota Ethanol,,Wentworth,SD,Estados Unidos,43.974015,-96.957472,1,Milho,Etanol,N,1721692800000
+52263,A,Danisco - Unidade Assens,Danisco,Assens,Assens,Dinamarca,55.26152,9.8971,1,Beterraba,Emulsificantes | Enzimas | Xarope,N,1690848000000
+52264,A,Danisco - Unidade Nakskov,Danisco,Nakskov,Lolland,Dinamarca,54.82917,11.14778,1,Beterraba,Emulsificantes | Enzimas | Xarope,N,1690848000000
+52265,A,Danisco - Unidade Nykøbing,Danisco,Nykobing Falster,Guldborgsund,Dinamarca,54.75802,11.87278,1,Beterraba,Emulsificantes | Enzimas | Xarope,N,1690848000000
+52266,A,Danisco - Unidade Kantvik,Danisco,Kantvik,Uusimaa,Finlândia,60.08583,24.375,1,Beterraba,Emulsificantes | Enzimas | Xarope,N,1690848000000
+52267,A,Danisco - Unidade Säkylä,Danisco,Säkylä,Satakunta,Finlândia,61.07833,22.25695,1,Beterraba,Emulsificantes | Enzimas | Xarope,N,1690848000000
+52268,I,Danisco - Unidade Salo,,Salo,Varsinais-Suomi,Finlândia,60.36968,23.10282,1,Beterraba,Emulsificantes | Enzimas | Xarope,N,1723680000000
+52269,A,Danisco - Unidade Kedainiai,Danisco,Kedainiai,Kaunas,Lituânia,55.27333,24.01112,1,Beterraba,Emulsificantes | Enzimas | Xarope,N,1690848000000
+52270,A,Danisco - Unidade Arlöv,Danisco,Arlöv,Skåne,Suécia,55.63195,13.06833,1,Beterraba,Emulsificantes | Enzimas | Xarope,N,1690848000000
+52272,A,Danisco - Unidade Köpingebro,Danisco,Köpingebro,Skåne,Suécia,55.45862,13.93805,1,Beterraba,Emulsificantes | Enzimas | Xarope,N,1690848000000
+52273,A,Danisco - Unidade Örtofta,Danisco,Örtofta,Skåne,Suécia,55.78333,13.25833,1,Beterraba,Emulsificantes | Enzimas | Xarope,N,1690848000000
+52274,A,Denco,,Morris,MN,Estados Unidos,45.574811,-95.911951,1,Milho,Etanol,N,1688342400000
+52275,A,Didion Milling,,Cambria,WI,Estados Unidos,43.538099,-89.100644,1,Milho,Etanol,N,1688342400000
+52276,A,E Energy Adams,,Adams,NE,Estados Unidos,40.485695,-96.547833,1,Milho,Etanol,N,1688342400000
+52277,A,East Kansas Agri-energy,,Garnett,KS,Estados Unidos,38.272353,-95.237817,1,Milho,Etanol,N,1688342400000
+52282,A,Elkhorn Valley Ethanol,,Norfolk,NE,Estados Unidos,42.067664,-97.384518,1,Milho,DDG | Etanol | Óleo,N,1688428800000
+52283,A,Enerkem - Edmonton plant (projeto),Enerkem Inc,Edmonton,Alberta,Canadá,53.592869,-113.340935,1,Materiais Residuais / Biomassa não Alimentar,Etanol,N,1690416000000
+52284,A,Finasucre - Unidade Fontenoy,Finasucre,Fontenoy,Henegouwen ,Bélgica,50.575,3.47778,1,Beterraba | Cana-de-Açúcar,Açúcar,N,1690416000000
+52285,A,Finasucre - Unidade Mons,Finasucre,Veurne,West-Vlaanderen,Bélgica,51.07083,2.67333,1,Beterraba | Cana-de-Açúcar,Açúcar,N,1690416000000
+52286,A,First United Ethanol,,Pelham,GA,Estados Unidos,31.168975,-84.160608,1,Milho,Etanol,N,1690848000000
+52287,A,Florida Crystals,,West Palm Beach,FL,Estados Unidos,26.5811,-80.75,1,Cana-de-Açúcar,Açúcar,N,1687910400000
+52288,A,Front Range Energy,,Windsor,CO,Estados Unidos,40.457244,-104.859802,1,Milho,DDG | Etanol,N,1690848000000
+52289,A,FSC - Unidade Lautoka Mill,FSC Limited,Lautoka,Ba,Fiji,-17.61,177.44167,1,Cana-de-Açúcar,Açúcar | Melaço,N,1687910400000
+52290,A,FSC - Unidade Penang Mill,FSC Limited,Rakiraki,Ra,Fiji,-17.37222,178.1625,1,Cana-de-Açúcar,Açúcar | Melaço,N,1687910400000
+52291,A,FSC - Unidade Rarawai Mill,FSC Limited,Ba,Ba,Fiji,-17.54583,177.68167,1,Cana-de-Açúcar,Açúcar | Melaço,N,1687910400000
+52292,A,GLE Mina,Glacial Lakes Energy LLC,Mina,SD,Estados Unidos,45.443384,-98.786402,1,Milho,DDG | Etanol,N,1690848000000
+52293,A,GLE Watertown,Glacial Lakes Energy LLC,Watertown,SD,Estados Unidos,44.876961,-97.113751,1,Milho,Etanol,N,1690848000000
+52294,A,Golden Grain Energy,,Mason City,IA,Estados Unidos,43.11602,-93.2304,1,Milho,Etanol,N,1690848000000
+52295,A,Golden Triangle Energy,,Craig,CO,Estados Unidos,40.18878,-95.36898,1,Milho,DDG | Etanol,N,1690848000000
+52296,A,Grain Processing Corporation - Muscatine,,Muscatine,IA,Estados Unidos,41.392908,-91.058979,1,Milho,Etanol,N,1690848000000
+52300,A,Granite Falls Energy,,Granite Falls,MN,Estados Unidos,44.797042,-95.484445,1,Milho,Etanol,N,1721692800000
+52301,A,Green Plains Bluffton,Green Plains Renewable Enegy,Bluffton,IN,Estados Unidos,40.722902,-85.196545,1,Milho,Etanol,N,1721692800000
+52302,A,Green Plains Central City,Green Plains Renewable Enegy,Central City,NE,Estados Unidos,41.111105,-97.972883,1,Milho,Etanol,N,1721692800000
+52303,A,Green Plains Lakota,Green Plains Renewable Enegy,Lakota,IA,Estados Unidos,43.38447,-94.14342,1,Milho,Etanol,N,1721692800000
+52304,A,Green Plains Obion,Green Plains Renewable Enegy,Rives,TN,Estados Unidos,36.28272,-89.14743,1,Milho,Etanol,N,1721692800000
+52305,A,Green Plains Ord,Green Plains Renewable Enegy,Ord,NE,Estados Unidos,41.570839,-98.818862,1,Milho,Etanol,N,1721692800000
+52306,A,Green Plains Otter Tail,Green Plains Renewable Enegy,Fergus Falls,MN,Estados Unidos,46.31323,-96.13373,1,Milho,Etanol,N,1721692800000
+52307,A,Green Plains Riga,Green Plains Renewable Enegy,Blissfield,MI,Estados Unidos,41.818801,-83.837597,1,Milho,Etanol,N,1721692800000
+52308,A,Green Plains Shenandoah,Green Plains Renewable Enegy,Shenandoah,IA,Estados Unidos,40.755096,-95.395209,1,Milho,Etanol,N,1721692800000
+52309,A,Green Plains Superior,Green Plains Renewable Enegy,Superior,IA,Estados Unidos,43.431456,-94.954672,1,Milho,Etanol,N,1721692800000
+52311,A,Greenfield Ethanol - Unidade Johnstown,Greenfield Ethanol,Prescott,Ontairo,Canadá,44.731845,-75.4847,1,Milho,Etanol,N,1721606400000
+52312,A,Greenfield Ethanol - Unidade Tiverton,Greenfield Ethanol,Tiverton,Ontairo,Canadá,44.308078,-81.55352,1,Milho,Etanol,N,1721606400000
+52313,A,Greenfield Ethanol - Unidade Varennes,Greenfield Ethanol,Varennes,Ontairo,Canadá,45.697383,-73.425837,1,Milho,Etanol,N,1721606400000
+52314,A,Ingenio Manuelita,Manuelita,Palmira,Valle del Cauca,Colômbia,3.58888,-76.30555,1,Cana-de-Açúcar,Açúcar | Bioeletricidade,N,1680739200000
+52315,A,Sol de Laredo,Manuelita,Laredo,La Libertad,Peru,-8.09445,-78.95972,1,Cana-de-Açúcar,Açúcar,N,1680652800000
+52316,A,Guyana Sugar - Unidade Albion,"Guyana Sugar Corporation, Inc.",Albion,East Berbice-Corentyne,Guiana,6.2522,-57.37973,1,Cana-de-Açúcar,Açúcar | Melaço,N,1687910400000
+52317,A,Guyana Sugar - Unidade Blairmont Central Factory,"Guyana Sugar Corporation, Inc.",Blairmont,Mahaica-Berbice,Guiana,6.25303,-57.54508,1,Cana-de-Açúcar,Açúcar | Melaço,N,1687910400000
+52318,A,Guyana Sugar - Unidade Enmore,"Guyana Sugar Corporation, Inc.",Enmore,East Coast Demerara,Guiana,6.74607,-57.99285,1,Cana-de-Açúcar,Açúcar | Melaço,N,1687910400000
+52319,A,Guyana Sugar - Unidade Rosehall,"Guyana Sugar Corporation, Inc.",Rosehall,East Berbice-Corentyne,Guiana,6.2388,-57.48587,1,Cana-de-Açúcar,Açúcar | Melaço,N,1687910400000
+52320,A,Guyana Sugar - Unidade Skeldon,"Guyana Sugar Corporation, Inc.",Corriverton,East Berbice-Corentyne,Guiana,5.87918,-57.14353,1,Cana-de-Açúcar,Açúcar | Melaço,N,1687910400000
+52321,A,Guyana Sugar - Unidade Uitvlugt,"Guyana Sugar Corporation, Inc.",Uitvlugt,West Coast Demerara,Guiana,6.8675,-58.305,1,Cana-de-Açúcar,Açúcar | Melaço,N,1687910400000
+52324,A,Hawaiian Commercial & Sugar Company,,Pu´unene,Maui/Hawaii,Estados Unidos,20.86667,-156.45333,1,Cana-de-Açúcar,Açúcar,N,1687910400000
+52325,A,Hawkeye Gold,Hawkeye Energy,Ames,IA,Estados Unidos,45.8399,-119.7024,1,Milho,Etanol,N,1721692800000
+52327,A,Hawkeye Growth,Hawkeye Energy,Menlo,IA,Estados Unidos,41.5254,-94.3759,1,,,N,1676246400000
+52333,A,Hawkeye Renewables - Unidade Iowa Falls,Hawkeye Energy,Iowa Falls,IA,Estados Unidos,42.50718,-93.28203,1,Milho,Etanol,N,1721692800000
+52334,A,Hawkeye Renewables - Unidade Fairbank,Hawkeye Energy,Fairbank,IA,Estados Unidos,41.608333,-88.213879,1,Milho,Etanol,N,1721692800000
+52335,A,Hawkeye Shell Rock,Hawkeye Energy,Shell Rock,IA,Estados Unidos,42.7365,-92.61735,1,Milho,Etanol,N,1721692800000
+52336,A,Hellenic Sugar - Factory Plati,Hellenic Sugar Industry S.A.,Plati,Imathia,Grécia,40.65667,22.52833,1,Beterraba,Açúcar,N,1721692800000
+52337,A,Hellenic Sugar - Larisa Factory,Hellenic Sugar Industry S.A.,Larisa,Larisa,Grécia,39.67667,22.45417,1,Beterraba,Açúcar,N,1721692800000
+52338,A,Hellenic Sugar - Orestias Factory,Hellenic Sugar Industry S.A.,Orestias,Evros,Grécia,41.47362,26.53333,1,Beterraba,Açúcar,N,1721692800000
+52339,A,Hellenic Sugar - Serres Factory,Hellenic Sugar Industry S.A.,Serres,Serres,Grécia,41.07333,23.53888,1,Beterraba,Açúcar,N,1721692800000
+52340,A,Hellenic Sugar - Xanthi Factory,Hellenic Sugar Industry S.A.,Xanthi,Xanthi,Grécia,41.07778,24.82667,1,Beterraba,Açúcar,N,1721692800000
+52341,A,Heron Lake Bioenergy,,Heron Lake,MN,Estados Unidos,43.80763,-95.28832,1,Milho,Etanol,N,1721692800000
+52342,A,Highwater Ethanol,,Lamberton,MN,Estados Unidos,44.23198,-95.3002,1,Milho,Etanol,N,1721692800000
+52343,A,Homeland Energy Solutions,,Lawler,IA,Estados Unidos,44.23198,-95.3002,1,Milho,Etanol,N,1721692800000
+52344,A,Husker Ag,,Plainview,NE,Estados Unidos,42.3499,-97.70892,1,Milho,Etanol,N,1721779200000
+52345,A,Illinois River Energy,,Rochelle,IL,Estados Unidos,41.893271,-89.02965,1,Milho,Etanol,N,1721779200000
+52346,A,Ingenio del Cauca (Incauca),,Cali,Valle del Cauca,Colômbia,3.27737,-76.31833,1,Cana-de-Açúcar,Açúcar,N,1753142400000
+52347,A,Italia Zuccheri - Unidade Pontelongo,Italia Zuccheri,Pontelongo,Padova,Itália,45.24305,12.03055,1,Beterraba,Açúcar,N,1721692800000
+52348,A,Italia Zuccheri - Unidade San Quirico,Italia Zuccheri,Trecasali,Parma,Itália,44.925,10.30555,1,Beterraba,Açúcar,N,1721692800000
+52351,A,Kaapa Ethanol,,Minden,NE,Estados Unidos,40.48265,-99.07497,1,Milho,Etanol,N,1721779200000
+52352,A,Kansas Ethanol,,Lyons,KS,Estados Unidos,38.286716,-98.195002,1,Milho,Etanol,N,1721779200000
+52353,A,Lifeline Foods,,Saint Joseph,MO,Estados Unidos,39.73813,-94.8465,1,Milho,Etanol,N,1721779200000
+52355,A,Lincolnland Agri-Enegy,,Palestine,IL,Estados Unidos,39.00445,-87.6313,1,Milho,Etanol,N,1721779200000
+52356,A,Lincolnway Energy,,Nevada,IA,Estados Unidos,42.025201,-93.510408,1,Milho,Etanol,N,1721779200000
+52357,A,Little Sioux Corn Processors ,,Marcus,IA,Estados Unidos,42.82155,-95.76435,1,Milho,Etanol,N,1721779200000
+52358,A,M.A.Patout and Son - Unidade M.A.Patout and Son,"M.A.Patout and Son, ltd",Jeanerette,LA,Estados Unidos,29.90343,-91.72365,1,Cana-de-Açúcar,Açúcar | Melaço,N,1687910400000
+52359,A,M.A.Patout and Son - Unidade Raceland Raw Sugars,"M.A.Patout and Son, ltd",Raceland,LA,Estados Unidos,29.72775,-90.59815,1,Cana-de-Açúcar,Açúcar | Melaço,N,1687910400000
+52360,A,M.A.Patout and Son - Unidade Sterling Sugars,"M.A.Patout and Son, ltd",Franklin,LA,Estados Unidos,29.80353,-91.49088,1,Cana-de-Açúcar,Açúcar | Melaço,N,1687910400000
+52361,A,Mackay Sugar Limited - Unidade Farleigh Mill,Mackay Sugar Limited,Farleigh,Queensland,Austrália,-21.166594,149.133965,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Melaço,N,1721606400000
+52362,A,Mackay Sugar Limited - Unidade Marian Mill,Mackay Sugar Limited,Marian,Queensland,Austrália,-21.14278,148.94083,1,Cana-de-Açúcar,Açúcar | Melaço,N,1687910400000
+52363,A,Mackay Sugar Limited - Unidade Pleystowe Mill,Mackay Sugar Limited,Pleystowe,Queensland,Austrália,-21.14305,149.03888,1,Cana-de-Açúcar,Açúcar | Melaço,N,1687910400000
+52364,A,Mackay Sugar Limited - Unidade Racecourse Mill & Refinery,Mackay Sugar Limited,Mackay,Queensland,Austrália,-21.16445,149.13333,1,Cana-de-Açúcar,Açúcar | Melaço,N,1687910400000
+52365,A,Marquis Energy - Unidade Hennepin,Marquis Energy LLC,Hennepin,IL,Estados Unidos,41.276986,-89.314747,1,Milho,Etanol,N,1721779200000
+52366,A,Marquis Energy - Unidade Necedah,Marquis Energy LLC,Necedah,WI,Estados Unidos,43.990535,-90.075907,1,Milho,Etanol,N,1721779200000
+52367,A,Marysville Ethanol,,Marysville,MI,Estados Unidos,42.88385,-82.49482,1,Milho,Etanol,N,1721779200000
+52368,A,Michigan Sugar Company - Unidade Bay City,Michigan Sugar Company,Bay City,MI,Estados Unidos,43.57467,-83.91828,1,Milho,Etanol,N,1721779200000
+52369,A,Michigan Sugar Company - Unidade Caro,Michigan Sugar Company,Caro,MI,Estados Unidos,43.48055,-83.395,1,Milho,Etanol,N,1721779200000
+52370,A,Michigan Sugar Company - Unidade Croswell,Michigan Sugar Company,Croswell,MI,Estados Unidos,43.26612,-82.61937,1,Milho,Etanol,N,1721779200000
+52371,A,Michigan Sugar Company - Unidade Sebewaing,Michigan Sugar Company,Sebewaing,MI,Estados Unidos,43.74083,-83.43972,1,Milho,Etanol,N,1721779200000
+52372,A,Mid-Missouri Energy,,Malta Bend,MO,Estados Unidos,39.19613,-93.38288,1,Milho,Etanol,N,1721779200000
+52373,A,Nedak Ethanol,,Atkinson,NE,Estados Unidos,40.28035,-100.159788,1,Milho,Etanol,N,1721779200000
+52374,A,New South Wales Sugar - Unidade Broadwater,New South Wales Sugar,Broadwater,New South Wales,Austrália,-29.01167,153.43445,1,Cana-de-Açúcar,Açúcar | Melaço,N,1687996800000
+52375,A,New South Wales Sugar - Unidade Condong,New South Wales Sugar,Condong,New South Wales,Austrália,-28.3125,153.43417,1,Cana-de-Açúcar,Açúcar | Melaço,N,1687996800000
+52376,A,New South Wales Sugar - Unidade Harwood,New South Wales Sugar,Harwood,New South Wales,Austrália,-29.425,153.24722,1,Cana-de-Açúcar,Açúcar | Melaço,N,1687996800000
+52385,A,Nordzucker - Unidade Trencianska Teplá,Nordzucker,Trencianska Teplá,Trencín,Eslováquia,48.94167,18.12,1,Beterraba,Açúcar,N,1721606400000
+52386,A,Nordzucker - Unidade Hatvan,Nordzucker,Hatvan,Heves,Hungria,47.66528,19.67612,1,Beterraba,Açúcar,N,1721606400000
+52387,A,Nordzucker - Unidade Chelmza,Nordzucker,Chelmza,Cujávia-Pomerânia,Polônia,53.18333,18.59445,1,Beterraba,Açúcar,N,1721692800000
+52388,A,Nordzucker - Unidade Opalenica,Nordzucker,Opalenica,Wielkopolskie,Polônia,52.31555,16.40833,1,Beterraba,Açúcar,N,1721692800000
+52389,A,Otisa Sugar Mill,,Asunción,Asunción,Paraguai,42.013,-95.3389,1,Cana-de-Açúcar,Açúcar | Etanol | Melaço,N,1687996800000
+52390,A,Pacific Ethanol - Unidade Columbia,Pacific Ethanol Inc,Boardman,OR,Estados Unidos,42.5353,-113.7933,1,Milho,Etanol,N,1721779200000
+52391,A,Pacific Ethanol - Unidade Madera,Pacific Ethanol Inc,Madera,CA,Estados Unidos,37.9537,-121.2905,1,Milho,Etanol,N,1721779200000
+52392,A,Pacific Ethanol - Unidade Magic Valley,Pacific Ethanol Inc,Burley,ID,Estados Unidos,36.9232,-119.9753,1,Milho,Etanol,N,1721779200000
+52393,A,Pacific Ethanol - Unidade Stockton,Pacific Ethanol Inc,Stockton,CA,Estados Unidos,42.0186,-93.5753,1,Milho,Etanol,N,1721779200000
+52394,A,Parallel Products - Unidade Bronx Processing Plant,Parallel Products,New York,NY,Estados Unidos,40.8021,-73.9087,1,Milho,Etanol,N,1721779200000
+52395,A,Parallel Products - Unidade California Processing Plant,Parallel Products,Rancho Cucamonga,CA,Estados Unidos,38.2186,-85.7873,1,Milho,Etanol,N,1721779200000
+52396,A,Parallel Products - Unidade Kentucky Processing Plant,Parallel Products,Louisville,KY,Estados Unidos,34.0957,-117.537,1,Milho,Etanol,N,1721779200000
+52399,A,Parallel Products - Unidade New England Processing Plant,Parallel Products,Taunton,MA,Estados Unidos,41.8742,-71.0611,1,Milho,Etanol,N,1721779200000
+52401,A,Patriot Renewable Fuels,,Annawan,IL,Estados Unidos,41.39405,-89.87303,1,Milho,Etanol,N,1721779200000
+52402,A,Permolex,,Red Deer,Alberta,Canadá,33.0141,-111.9827,1,Trigo,Vinhaça,N,1721606400000
+52409,A,Pinal Energy,,Maricopa,AZ,Estados Unidos,52.3124,-113.8552,1,Milho,Etanol,N,1721779200000
+52410,A,Poet Biorefining - Unidade Alexandria,Poet Biorefining,Alexandria,IN,Estados Unidos,-32.748,-60.7543,1,Milho,Etanol,N,1721692800000
+52411,A,Poet Biorefining - Unidade Ashton,Poet Biorefining,Ashton,IA,Estados Unidos,43.2737,-95.81087,1,Milho,Etanol,N,1721692800000
+52412,A,Poet Biorefining - Unidade Big Stone,Poet Biorefining,Big Stone City,SD,Estados Unidos,45.29883,-96.51337,1,Milho,Etanol,N,1721692800000
+52413,A,Poet Biorefining - Unidade Bingham Lake,Poet Biorefining,Bingham Lake,MN,Estados Unidos,43.90185,-95.05697,1,Milho,Etanol,N,1721692800000
+52414,A,Poet Biorefining - Unidade Caro,Poet Biorefining,Caro,MI,Estados Unidos,43.4716,-83.413,1,Milho,Etanol,N,1721692800000
+52415,A,Poet Biorefining - Unidade Chancellor,Poet Biorefining,Chancellor,SD,Estados Unidos,43.37097,-96.96173,1,Milho,Etanol,N,1721692800000
+52416,A,Poet Biorefining - Unidade Coon Rapids,Poet Biorefining,Coon Rapids,IA,Estados Unidos,41.86087,-94.62868,1,Milho,Etanol,N,1721692800000
+52417,A,Poet Biorefining - Unidade Corning,Poet Biorefining,Corning,IA,Estados Unidos,40.96535,-94.79673,1,Milho,Etanol,N,1721692800000
+52418,A,Poet Biorefining - Unidade Emmetsburg,Poet Biorefining,Emmetsburg,IA,Estados Unidos,43.0948,-94.6532,1,Milho,Etanol,N,1721692800000
+52419,A,Poet Biorefining - Unidade Fostoria,Poet Biorefining,Fostoria,OH,Estados Unidos,41.17128,-83.37862,1,Milho,Etanol,N,1721692800000
+52420,A,Poet Biorefining - Unidade Glenville,Poet Biorefining,Albert Lea,MN,Estados Unidos,43.0948,-96.48,1,Milho,Etanol,N,1721692800000
+52421,A,Poet Biorefining - Unidade Gowrie,Poet Biorefining,Gowrie,IA,Estados Unidos,42.32087,-94.28807,1,Milho,Etanol,N,1721692800000
+52422,A,Poet Biorefining - Unidade Groton,Poet Biorefining,Groton,SD,Estados Unidos,45.45395,-98.13757,1,Milho,Etanol,N,1721692800000
+52423,A,Poet Biorefining - Unidade Hanlontown,Poet Biorefining,Hanlontown,IA,Estados Unidos,43.29127,-93.39312,1,Milho,Etanol,N,1721692800000
+52424,A,Poet Biorefining - Unidade Hudson,Poet Biorefining, Hudson,SD,Estados Unidos,43.5769,-93.3031,1,Milho,Etanol,N,1721692800000
+52426,A,Poet Biorefining - Unidade Jewell,Poet Biorefining,Jewell,IA,Estados Unidos,42.3282,-93.66233,1,Milho,Etanol,N,1721692800000
+52427,A,Poet Biorefining - Unidade Laddonia,Poet Biorefining,Laddonia,MO,Estados Unidos,44.1015,-94.2726,1,Milho,Etanol,N,1721692800000
+52428,A,Poet Biorefining - Unidade Lake Crystal,Poet Biorefining,Lake Crystal,MN,Estados Unidos,39.2493,-91.6401,1,Milho,Etanol,N,1721692800000
+52429,A,Poet Biorefining - Unidade Leipsic,Poet Biorefining,Leipsic,OH,Estados Unidos,43.7999,-98.1011,1,Milho,Etanol,N,1721692800000
+52430,A,Poet Biorefining - Unidade Macon,Poet Biorefining,Macon,MO,Estados Unidos,39.7489,-92.38578,1,Milho,Etanol,N,1721692800000
+52431,A,Poet Biorefining - Unidade Marion,Poet Biorefining,Marion,OH,Estados Unidos,41.1206,-83.9711,1,Milho,Etanol,N,1721692800000
+52432,A,Poet Biorefining - Unidade Mitchell,Poet Biorefining,Mitchell,SD,Estados Unidos,40.9457,-85.7852,1,Milho,Etanol,N,1721692800000
+52433,A,Poet Biorefining - Unidade North Manchester,Poet Biorefining,North Manchester,IN,Estados Unidos,40.4138,-85.0263,1,Milho,Etanol,N,1721692800000
+52434,A,Poet Biorefining - Unidade Portland,Poet Biorefining,Portland,IN,Estados Unidos,43.6882,-92.0942,1,Milho,Etanol,N,1721692800000
+52435,A,Poet Biorefining - Unidade Preston,Poet Biorefining,Preston,MN,Estados Unidos,55.1695,-114.511,1,Milho,Etanol,N,1721692800000
+52436,A,Poet Biorefining- Unidade Cloverdale,Poet Biorefining,Cloverdale,IN,Estados Unidos,39.5492,-86.8171,1,Milho,Etanol,N,1721692800000
+52437,A,Pound-Maker,,Lanigan,Alberta,Canadá,42.3252,-71.5849,1,Trigo,Etanol,N,1721606400000
+52438,A,Prairie Horizon Agri-Energy ,,Phillipsburg,KS,Estados Unidos,39.7606,-99.3069,1,Milho,Etanol,N,1721779200000
+52439,A,Qteros Headquarters,,Marlborough,MA,Estados Unidos,40.6245,-83.1604,1,Milho,Etanol,N,1721779200000
+52440,A,Quad County Corn Processors,,Galva,IA,Estados Unidos,42.4779,-95.41422,1,Milho,Etanol,N,1721779200000
+52441,A,Red Trail Energy,,Richardton,ND,Estados Unidos,-25.2974,-57.6277,1,,,N,1676246400000
+52442,A,Reeve Agri Energy,,Garden City,KS,Estados Unidos,37.88073,-100.88607,1,Milho,Etanol,N,1721779200000
+52445,A,Rogers Sugar - Unidade Montreal Refinery,Rogers Sugar,Montréal,Quebec,Canadá,45.54685,-73.53388,1,Cana-de-Açúcar,Açúcar,N,1687996800000
+52446,A,Rogers Sugar - Unidade Taber,Rogers Sugar,Taber,Alberta,Canadá,49.79167,-112.125,1,,,N,1723680000000
+52447,A,Rogers Sugar - Unidade Vancouver Refinery,Rogers Sugar,Vancouver,British Columbia,Canadá,49.28385,-123.08008,1,Cana-de-Açúcar,Açúcar,N,1687996800000
+52448,A,Saint Louis Sucre - Unidade Guignicourt,Saint Louis Sucre,Guignicourt,Picardie,França,49.425,3.9625,1,Beterraba,Açúcar,N,1721692800000
+52449,A,Saint Louis Sucre - Unidade Roye,Saint Louis Sucre,Roye,Picardie,França,49.7025,2.79445,1,Beterraba,Açúcar,N,1721692800000
+52450,A,Saint Louis Sucre - Unidade Sucrerie d´Etrepagny,Saint Louis Sucre,Etrepagny,Haute-Normandie,França,49.29602,1.61085,1,Beterraba,Açúcar,N,1721692800000
+52451,A,Saint Louis Sucre - Unidade Sucrerie de Cagny,Saint Louis Sucre,Cagny,Basse-Normandie,França,49.14167,0.25222,1,Beterraba,Açúcar,N,1721692800000
+52452,A,Show me Ethanol,,Carrollton,MO,Estados Unidos,46.8794,-102.3073,1,Milho,Etanol,N,1721779200000
+52453,A,Sidney Sugars Incorporated,,Sidney,MT,Estados Unidos,47.71562,-104.13128,1,Milho,Etanol,N,1721779200000
+52454,A,Sidul Refinery,,EC Santa Iria de Azóia,Lisboa,Portugal,38.84258,-9.08106,1,Cana-de-Açúcar,Açúcar,N,1687996800000
+52455,A,Siouxland - Sioux Center,,Sioux Center,IA,Estados Unidos,43.08665,-96.23082,1,Milho,Etanol,N,1721779200000
+52456,A,St. James Factory,,St. James,LA,Estados Unidos,29.99482,-90.84595,1,Milho,Etanol,N,1721779200000
+52457,A,Standard Ethanol,,North Platte,NE,Estados Unidos,39.3557,-93.4798,1,,,N,1676246400000
+52467,A,Sugar Mill Santa María,,Asunción,Asunción,Paraguai,44.2919,-96.6984,1,Cana-de-Açúcar,Açúcar,N,1721606400000
+52468,A,Suiker Unie Dinteloord,Suiker Unie,Dinteloord,Noord-Brabant,Holanda,51.61743,4.43038,1,Beterraba,Açúcar,N,1721692800000
+52470,A,Suiker Unie Specialties Puttershoek,Suiker Unie,Puttershoek,Zuid-Holland,Holanda,51.80983,4.56118,1,Beterraba,Açúcar,N,1721692800000
+52471,A,Suiker Unie Specialties Roosendaal,Suiker Unie,Roosendaal,Noord-Brabant,Holanda,51.53653,4.45237,1,Beterraba,Açúcar,N,1721692800000
+52472,A,Suiker Unie Vierverlaten,Suiker Unie,Hoogkerk,Groningen,Holanda,53.21465,6.4981,1,Beterraba,Açúcar,N,1721692800000
+52473,A,Trenton Agri Products ,,Trenton ,NE,Estados Unidos,40.2026,-100.9725,1,Milho,Etanol,N,1721779200000
+52474,A,Viro tvornica ecera,,Virovitica,Virovitica-Podravina,Croácia,45.85695,17.4,1,Beterraba,Açúcar,N,1721606400000
+52475,A,United States Sugar Corporation,,Clewiston,FL,Estados Unidos,26.73583,-80.93667,1,Cana-de-Açúcar,Açúcar,N,1687996800000
+52476,A,United Wisconsin Grain Producers,,Friesland,WI,Estados Unidos,43.57007,-87.06188,1,Milho,Etanol,N,1721779200000
+52477,A,Valero Renewables Albert City,Valero Renewables Fuels LLC,Albert City,IA,Estados Unidos,42.7739,-94.94175,1,Milho,Etanol,N,1721779200000
+52479,A,Valero Renewables Aurora,Valero Renewables Fuels LLC,Aurora,SD,Estados Unidos,41.6806,-97.9788,1,Milho,Etanol,N,1721779200000
+52480,A,Valero Renewables Albion,Valero Renewables Fuels LLC,Albion,NE,Estados Unidos,43.2103,-78.37,1,Milho,Etanol,N,1721779200000
+52481,A,Valero Renewables Charles City,Valero Renewables Fuels LLC,Charles City,IA,Estados Unidos,43.0978,-92.74518,1,Milho,Etanol,N,1721779200000
+52482,A,Valero Renewables Fort Dodge,Valero Renewables Fuels LLC,Fort Dodge,IA,Estados Unidos,42.51182,-94.30292,1,Milho,Etanol,N,1721779200000
+52483,A,Valero Renewables Hartley,Valero Renewables Fuels LLC,Hartley,IA,Estados Unidos,43.17542,-95.5025,1,Milho,Etanol,N,1721779200000
+52484,A,Valero Renewables Welcome,Valero Renewables Fuels LLC,Welcome,MN,Estados Unidos,43.66355,-94.58598,1,Milho,Etanol,N,1721865600000
+52485,A,Valero Renewables Bloomingburg,Valero Renewables Fuels LLC,Bloomingburg,OH,Estados Unidos,39.59795,-83.3832,1,Milho,Etanol,N,1721779200000
+52486,A,Valero Renewables Jefferson,Valero Renewables Fuels LLC,Jefferson,WI,Estados Unidos,43.03773,-88.79502,1,Milho,Etanol,N,1721865600000
+52487,A,Valero Renewables Linden,Valero Renewables Fuels LLC,Linden,IN,Estados Unidos,40.19795,-86.90183,1,Milho,Etanol,N,1721865600000
+52488,A,Tereos - Unidade Chevrières,Tereos International,Chevrières,Picardie,França,49.35888,2.66888,1,Beterraba,Açúcar,N,1734048000000
+52489,A,Tereos - Unidade Escaudoeuvres,Tereos International, Escaudoeuvres,Nord-Pas-de-Calais,França,41.09,-100.7423,1,Beterraba,Açúcar,N,1734048000000
+52491,A,Tereos - Unidade Vic-sur-Aisne,Tereos International,Vic-sur-Aisne,Picardie,França,49.39722,3.10833,1,Beterraba,Açúcar,N,1734048000000
+52492,A,Tharaldson Ethanol,,Casselton,ND,Estados Unidos,46.90003,-97.25975,1,Milho,Etanol,N,1721779200000
+52493,A,Tiense Suiker - Unidade Brugelette,Tiense Suiker,Brugelette,Henegouwen ,Bélgica,50.59392,3.85763,1,Beterraba,Açúcar,N,1721606400000
+52494,A,Tiense Suiker - Unidade Genappe,Tiense Suiker,Genappe,Brabant Wallon ,Bélgica,50.60498,4.44517,1,Beterraba,Açúcar,N,1721606400000
+52495,A,Tiense Suiker - Unidade Tienen,Tiense Suiker,Tienen,Vlaams Brabant,Bélgica,50.8,4.94583,1,Beterraba,Açúcar,N,1721606400000
+52496,A,Tiense Suiker - Unidade Wanze,Tiense Suiker,Wanze,Liège,Bélgica,50.5297,5.20728,1,Beterraba,Açúcar,N,1721606400000
+52497,A,Vermandoise - Sucrerie de Fontaine le Dun ,Vermandoise,Fontaine-le-Dun,Haute-Normandie,França,49.80833,0.83222,1,Beterraba,Açúcar,N,1721692800000
+52498,A,Vermandoise - Sucrerie de Pithiviers-Le-Vieil ,Vermandoise,Pithiviers-Le-Vieil,Centre,França,48.1675,2.2375,1,Beterraba,Açúcar,N,1721692800000
+52499,A,Vermandoise - Sucrerie de Sainte-Émilie,Vermandoise,Villers Faucon,Picardie,França,49.98333,3.12083,1,Beterraba,Açúcar,N,1721692800000
+52500,A,Vermandoise - Sucrerie de Toury,Vermandoise,Toury,Centre,França,48.19485,1.9438,1,Beterraba,Açúcar,N,1721692800000
+52501,A,Western New York Energy,,Medina,NY,Estados Unidos,34.179,-101.6271,1,Milho,Etanol,N,1721865600000
+52502,A,White Energy - Plainview,White Energy,Plainview,TX,Estados Unidos,34.8219,-102.3703,1,Milho,Etanol,N,1721865600000
+52503,A,White Energy - Hereford,White Energy,Hereford,TX,Estados Unidos,35.7343,-84.3201,1,Milho,Etanol,N,1721865600000
+52504,A,White Energy - Russell,White Energy,Russell,KS,Estados Unidos,38.89922,-98.84257,1,Milho,Etanol,N,1721865600000
+52505,A,Zucker Fabriken - Unidade Aarberg,,Aarberg,BE,Suíça,47.03862,7.27612,1,Beterraba,Açúcar,N,1721606400000
+52506,A,Zucker Fabriken - Unidade Frauenfeld,,Frauenfeld,TG,Suíça,47.55417,8.87362,1,Beterraba,Açúcar,N,1721606400000
+52507,A,Isis Mill,,Childers,Queensland,Austrália,-25.19583,152.2083,1,Cana-de-Açúcar,Açúcar | Melaço,N,1687996800000
+52508,A,Mulgrave Central Mill,,Gordonvale,Queensland,Austrália,-17.09333,145.78888,1,Cana-de-Açúcar,Açúcar,N,1687996800000
+52509,A,Tully Sugar Limited,,Tully,Queensland,Austrália,-17.93667,145.92778,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Melaço,N,1687996800000
+52510,A,JSC Gorodeya Sugar Refinery ,,Gorodeya,Minsk,Bielorrússia,53.310043,26.516581,1,Beterraba,Açúcar,N,1721606400000
+52511,A,Sladorana,,upanja,Vukovar-Syrmia,Croácia,45.08922,18.69417,1,Cana-de-Açúcar,Açúcar,N,1687996800000
+52512,A,Nile Sugar,,Alexandria,Alexandria,Egito,30.85313,29.90163,1,Beterraba,Açúcar,N,1721606400000
+52513,A,Tovarna Sladkorja,,Ormo,Podravska,Eslovênia,46.4,16.16833,1,Beterraba,Açúcar,N,1721606400000
+52514,A,Penang Refinery,,Perai,Penang,Malásia,5.37992,100.37995,1,Cana-de-Açúcar,Açúcar,N,1687996800000
+52515,A,Cukrownia Kluczewo,,Stargard Szczecinski,Zachodniopomorskie,Polônia,53.3,15.02222,1,Beterraba,Açúcar,N,1721692800000
+52516,A,Senta,,Senta,Vojvodina,Sérvia,45.90833,20.10833,1,,,N,1723680000000
+52517,A,Al Khaleej Refinery,,Dubai,Abu Dhabi,Emirados Árabes Unidos,25.00232,55.0594,1,Cana-de-Açúcar,Açúcar,N,1721606400000
+52518,A,Tate & Lyle - Unidade Loudon,,Loudon,TN,Estados Unidos,19.3311,105.3172,1,Milho,Etanol,N,1721779200000
+52519,A,Tate & Lyle - Unidade Sucromiles AS,,Palmira,Valle del Cauca,Colômbia,28.7596,77.9924,1,,,N,1723680000000
+52520,A,Tate & Lyle - Unidade Nghe Na Tate & Lyle,,Quy Hop,Nghe An,Vietnã,32.7977,35.0471,1,Cana-de-Açúcar,Açúcar,N,1687996800000
+52521,A,Tate & Lyle - Unidade Gadot Manufacturing Ltd,,Haifa Bay,Haifa,Israel,27.5705,81.6003,1,,,N,1723680000000
+52522,I,The Jeypore Sugars - Unidade V.V.S. Sugars Chagallu,The Jeypore Sugars Limited,Chagallu,AP,Índia,16.99918,81.66825,1,,,N,1723680000000
+52523,A,KCP Sugarland - Unidade Vuyyuru Sugar Factory,,Vuyyuru,AP,Índia,16.360328,80.8587,1,Cana-de-Açúcar,Açúcar | Crédito de Carbono | Etanol,N,1687996800000
+52527,A,Simbhaoli Sugar - Simbhaoli Sugar Division,Simbhaoli Sugar,Simbhaoli,AR,Índia,3.5421,-76.2783,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol | Palha/Biomassa,N,1687996800000
+52528,A,Simbhaoli Sugar - Chilwaria Sugar Division,Simbhaoli Sugar,Chilwaria,AR,Índia,28.6464,77.7743,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol | Palha/Biomassa,N,1687996800000
+52529,A,Simbhaoli Sugar - Brijnathpur Sugar Division,Simbhaoli Sugar,Brijnathpur ,AR,Índia,20.6574,85.5969,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol | Palha/Biomassa,N,1687996800000
+52530,A,Sakthi Sugars - Sakthinagar Unit,Sakthi Sugars Limited,Sakthinagar,TN,Índia,9.8546,78.37,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687996800000
+52531,A,Sakthi Sugars - Sivaganga Unit,Sakthi Sugars Limited,Padamathur,TN,Índia,11.2136,77.7554,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687996800000
+52532,A,Sakthi Sugars - Dhenkanal Unit,Sakthi Sugars Limited,Dhenkanal,OR,Índia,-17.7863,-63.1812,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687996800000
+52533,A,Sakthi Sugars - Modakurichi Unit,Sakthi Sugars Limited,Poondurai Semur,TN,Índia,12.7576,77.8395,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687996800000
+52534,A,Bajaj Hindusthan - Golagokarannath Unit,Bajaj Hindusthan Ltd,Gola Gokaran Nath,AR,Índia,28.085778,80.472043,1,Cana-de-Açúcar,Açúcar | Etanol | Melaço,N,1687996800000
+52535,A,Bajaj Hindusthan - Palia Kalan Unit,Bajaj Hindusthan Ltd,Palia Kalan,AR,Índia,28.421042,80.571817,1,Cana-de-Açúcar,Açúcar | Etanol | Melaço,N,1687996800000
+52536,A,Bajaj Hindusthan - Khambharkhera Unit,Bajaj Hindusthan Ltd,Khambharkhera,AR,Índia,28.01535,80.82672,1,Cana-de-Açúcar,Açúcar | Etanol | Melaço,N,1687996800000
+52537,A,Bajaj Hindusthan - Barkhera Unit,Bajaj Hindusthan Ltd,Barkhera,AR,Índia,28.454926,79.806216,1,Cana-de-Açúcar,Açúcar | Etanol | Melaço,N,1687996800000
+52538,A,Bajaj Hindusthan - Kinauni Unit,Bajaj Hindusthan Ltd,Kinauni,AR,Índia,28.432003,79.992501,1,Cana-de-Açúcar,Açúcar | Etanol | Melaço,N,1687996800000
+52539,A,Bajaj Hindusthan - Gangnauli Unit,Bajaj Hindusthan Ltd,Gangnauli,AR,Índia,28.01535,80.82672,1,Cana-de-Açúcar,Açúcar | Etanol | Melaço,N,1687996800000
+52540,A,Bajaj Hindusthan - Thanabhawan Unit,Bajaj Hindusthan Ltd,Thanabhawan,AR,Índia,29.568567,77.406427,1,Cana-de-Açúcar,Açúcar | Etanol | Melaço,N,1687996800000
+52542,A,Bajaj Hindusthan - Bilai Unit,Bajaj Hindusthan Ltd,Bilai,AR,Índia,29.473319,78.280118,1,Cana-de-Açúcar,Açúcar | Etanol | Melaço,N,1687996800000
+52543,A,Bajaj Hindusthan - Rudauli Unit,Bajaj Hindusthan Ltd,Rudauli,AR,Índia,28.034338,80.840563,1,Cana-de-Açúcar,Açúcar | Etanol | Melaço,N,1687996800000
+52544,A,Bajaj Hindusthan - Kundarkhi Unit,Bajaj Hindusthan Ltd,Kundarkhi,AR,Índia,27.32435,82.739211,1,Cana-de-Açúcar,Açúcar | Etanol | Melaço,N,1687996800000
+52545,A,Bajaj Hindusthan - Utraula Unit,Bajaj Hindusthan Ltd,Utraula,AR,Índia,27.348725,82.313687,1,Cana-de-Açúcar,Açúcar | Etanol | Melaço,N,1687996800000
+52546,A,Bajaj Hindusthan - Maqsoodapur Unit,Bajaj Hindusthan Ltd,Maqsood Pur,PB,Índia,30.133937,77.461541,1,Cana-de-Açúcar,Açúcar | Bagaço | Mel,N,1721865600000
+52547,A,Bajaj Hindusthan - Pratappur Unit,Bajaj Hindusthan Ltd,Pratappur,CT,Índia,26.28748,84.1719,1,Cana-de-Açúcar,Açúcar | Etanol | Melaço,N,1687996800000
+52548,A,Balrampur Chini - Balrampur,Balrampur Chini Mills Limited,Balrampur,AR,Índia,22.541308,88.352256,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1687996800000
+52549,A,Balrampur Chini - Babhnan,Balrampur Chini Mills Limited,Babhnan,AR,Índia,26.938454,82.49786,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1687996800000
+52550,I,Balrampur Chini - Tulsipur Sugar Co,Balrampur Chini Mills Limited,Tulsipur,AR,Índia,27.541643,82.423623,1,Cana-de-Açúcar | Milho,Açúcar | Bagaço | DDG | Etanol,N,1721865600000
+52551,A,Balrampur Chini - Haidergarh Chini Mills,Balrampur Chini Mills Limited,Haidergarh,AR,Índia,26.686337,81.30387,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1687996800000
+52552,A,Balrampur Chini - Akbarpur Chini Mills,Balrampur Chini Mills Limited,Akbarpur,AR,Índia,26.477922,82.412495,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1687996800000
+52553,A,Balrampur Chini - Rauzagaon Chini Mills,Balrampur Chini Mills Limited,Rauzagaon,AR,Índia,27.405339,82.157524,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1687996800000
+52554,A,Balrampur Chini - Mankapur Chini Mills,Balrampur Chini Mills Limited,Mankapur,AR,Índia,27.405329,82.157556,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1687996800000
+52555,A,Balrampur Chini - Kumbhi Chini Mills,Balrampur Chini Mills Limited,Kumbhi,AR,Índia,27.958734,80.363569,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1687996800000
+52556,A,Balrampur Chini - Gularia Chini Mills,Balrampur Chini Mills Limited,Gola Gokaran Nath,AR,Índia,28.085711,80.472043,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1687996800000
+52557,A,Balrampur Chini - Maizapur Chini Mills,Balrampur Chini Mills Limited,Maizapur,AR,Índia,27.154616,81.788655,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1687996800000
+52570,A,BioStreet Canada,,Kelowna,British Columbia,Canadá,45.494621,-73.689837,1,Canola,Biodiesel,N,1721606400000
+52663,A,Eber Bio - Rio Claro de Goiás,Sada,Montes Claros de Goiás ,GO,Brasil,-15.868562,-51.554741,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+52665,A,Ingenio La Esperanza,,San Pedro de Jujuy,Jujuy,Argentina,-24.224479392959015,-64.83518245912188,1,Cana-de-Açúcar,Açúcar | Bagaço | Melaço,S,1775001600000
+52688,A,Ingenio Azucarero de Bermejo,,Bermejo,Tarija,Bolívia,-22.702405,-64.291622,1,Cana-de-Açúcar,Açúcar,N,1721606400000
+52689,A,Ingenio Azucarero San Aurelio (Ciasa),,Santa Cruz de la Sierra,Santa Cruz de la Sierra,Bolívia,-17.814469,-63.161107,1,Cana-de-Açúcar,Açúcar,N,1687996800000
+52691,A,Unagro,,Santa Cruz de la Sierra,Santa Cruz de la Sierra,Bolívia,3.7998,-76.3062,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687996800000
+52692,A,Iansa - Linares,,Linares,Maule,Chile,-35.832547,-71.586934,1,Cana-de-Açúcar,Açúcar,N,1721606400000
+52693,A,Los Ángeles,,Los Ángeles,Bio-Bio,Chile,-37.482446,-72.364565,1,Cana-de-Açúcar,Açúcar,N,1721606400000
+52694,A,Iansa - Curicó,,Curicó,Maule,Chile,-35.020428,-71.243449,1,Cana-de-Açúcar,Açúcar,N,1721606400000
+52699,A,Ingenio Carmelita,,Riofrío,Valle del Cauca,Colômbia,4.070845,-76.316957,1,Cana-de-Açúcar,Açúcar | Bagaço | Bioeletricidade | Mel,N,1680566400000
+52700,A,Castilla,,Pradera,Valle del Cauca,Colômbia,3.363876,-76.269274,1,Cana-de-Açúcar,Açúcar | Etanol | Vinhaça,N,1687996800000
+52701,A,Central Sicarare,,Codazzi,Cesar,Colômbia,4.6542472,-74.058766,1,Palma,Biodiesel,N,1687996800000
+52702,A,Central Tumaco,,Palmira,Valle del Cauca,Colômbia,3.549437,-76.328244,1,Cana-de-Açúcar,Açúcar | Mel,N,1687996800000
+52703,A,La Cabaña,,Caloto,Cauca,Colômbia,3.180966,-76.396443,1,Cana-de-Açúcar,Açúcar | Bioeletricidade,N,1687996800000
+52704,A,Ingenio María Luisa,,Florida,Valle del Cauca,Colômbia,3.346618271211146,-76.28542017116358,1,Cana-de-Açúcar,Açúcar | Bioeletricidade,N,1680566400000
+52705,A,Mayagüez,,Candelaria,Valle del Cauca,Colômbia,3.399379,-76.328727,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol | Óleo,N,1687996800000
+52706,A,Ingenio Pichichí,,Sonso,Valle del Cauca,Colômbia,4.3197,-76.0723,1,Cana-de-Açúcar,Açúcar | Mel,N,1680652800000
+52707,A,Ingenio Providencia,,Palmira,Valle del Cauca,Colômbia,50.1927,3.2588,1,Cana-de-Açúcar,Açúcar,N,1680652800000
+52708,A,Ingenio Riopaila Castilla,,Zarzal,Valle del Cauca,Colômbia,22.3581,-83.8598,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1753142400000
+52709,A,Ingenio Risaralda,,La Virginia,Risaralda,Colômbia,22.7169,-80.9058,1,Cana-de-Açúcar,Açúcar | Bioeletricidade,N,1753142400000
+52710,A,Ingenio Sancarlos,,Tuluá,Valle del Cauca,Colômbia,22.6129,-79.8655,1,Cana-de-Açúcar,Açúcar | Mel,N,1680652800000
+52712,A,Treinta de Noviembre,,San Cristóbal ,Pinar del Río,Cuba,4.9015,-75.8796,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52713,A,Harlem,,Bahía Honda,Pinar del Río,Cuba,22.92050951653914,-83.19457420247593,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52714,A,Central Niágara,,La Palma,Pinar del Río,Cuba,22.819128826015998,-83.5269681287035,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52718,A,Central Azucarero Habana Libre (Central Habana),,Caimito,La Habana,Cuba,23.0138916359723,-82.61009668650779,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52719,A,Central Mercedita,,Melena del Sur,La Habana,Cuba,22.81314930629514,-82.15179850433036,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52721,A,Boris Luis Santa Coloma,,Madruga,La Habana,Cuba,23.106189706469802,-82.37354252883593,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52725,A,España Republicana,,Perico,Matanzas,Cuba,22.806652569769412,-81.02445203316645,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52726,A,Central Guipúzcoa,,Martí,Matanzas,Cuba,22.952337270752682,-80.93838670432656,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52728,A,Rene Fraga,,Colón,Matanzas,Cuba,4.086,-76.1963,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52729,A,Central Santo Domingo,,Juan Gualberto Gómez,Juan Gualberto Gómez,Cuba,22.838092633677434,-81.4981110423813,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52732,A,Heriberto Duquesne,,Remedios,Villa Clara,Cuba,22.383451808374804,-79.49707037439937,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52733,A,Central Abel Santamaria,,Encrucijada,Villa Clara,Cuba,22.655320016638573,-79.85700679560206,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52735,A,Perucho Figueredo,,Encrucijada,Villa Clara,Cuba,22.1036,-79.7216,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52736,A,Central San Agustín,,Remedios,Villa Clara,Cuba,22.38048082451058,-79.54436683966415,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52737,A,Panchito Gomez Toro,,Quemado de Güines ,Villa Clara,Cuba,21.9588,-79.1572,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52738,A,Central Santa Lutgarda,,Cifuentes,Villa Clara,Cuba,22.63670664045585,-79.94796515757619,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52740,A,Diez de Octubre,,Ranchuelo,Villa Clara,Cuba,22.376732568327718,-80.1246855466702,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52741,A,Central Héctor Rodríguez,,Sagua la Grande ,Villa Clara,Cuba,22.743349789416616,-80.0887354,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52742,A,Central Carlos Baliño,,Santo Domingo,Villa Clara,Cuba,22.855296432122945,-80.18862712753435,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52744,A,Central Andreita,,Cruces,Cienfuegos,Cuba,22.31655303423671,-80.26732640434363,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52746,A,Central Constancia,,Constancia,Constancia,Cuba,22.241979721247088,-80.58009014667373,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52750,A,Uruguay,,Jatibonico,Sancti Spíritus,Cuba,22.7843,-80.2659,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52752,A,Ramon Ponciano,,Fomento,Sancti Spíritus,Cuba,21.488,-77.6039,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52753,A,Central Azucarero FNTA,,Trinidad,Sancti Spíritus,Cuba,21.826917307667678,-79.83625422889953,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52755,A,Central Azucarero Enrique José Varona (Central Adelaida),,Chambas,Ciego de Ávila,Cuba,22.172334018357287,-78.79784597551148,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52756,A,Central Algodones,,Orlando González,Orlando González,Cuba,21.863550158702115,-78.9904267906048,1,,,N,1721260800000
+52758,A,Ciro Redondo,,Ciro Redondo,Ciego de Ávila,Cuba,22.009641,-78.705455,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52760,A,Primero de Enero,,Primero de Enero,Ciego de Ávila,Cuba,21.9512,-78.4248,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52762,A,Central Azucarera Ignacio Agramonte,,Florida,Camagüey,Cuba,21.509691531404908,-78.22642816256801,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52763,A,Central Carlos Manuel de Céspedes,,Carlos Manuel de Céspedes,Camagüey,Cuba,21.574150483883766,-78.27049448901911,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52766,A,Sierra de Cubitas,,Minas,Camagüey,Cuba,21.2345,-77.5291,1,,,N,1676246400000
+52768,A,Siboney,,Sibanicú,Camagüey,Cuba,21.2554,-78.1575,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52769,A,Panama,,Vertientes,Camagüey,Cuba,20.5946,-76.1394,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52770,A,Central Azucarera Majibacoa,,Majibacoa,Las Tunas,Cuba,20.893023,-76.786767,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52771,A,Central Chaparra,,Jesus Menendez,Las Tunas,Cuba,21.16070284547144,-76.47473310437323,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52774,A,Central Amancio Rodríguez Herrero,,Amancio,Las Tunas,Cuba,20.82613645766182,-77.58193480677268,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52775,A,Central Azucarera Loynaz Hechavarría Cordovés,,Cueto,Holguín,Cuba,20.5658230278425,-75.9365904003003,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52776,A,Central Azucarera López-Peña,,Báguanos,Holguín,Cuba,22.63293967369686,-83.16893586726437,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52780,A,Central Azucarera Urbano Noris Cruz,,Urbano Noris,Holguín,Cuba,20.599082818703362,-76.40913652432167,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52781,A,Central Azucarera Fernando de Dios Buñuel,,Báguanos,Holguín,Cuba,20.749932047605007,-76.03363073189486,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52782,A,Grito de Yara Agroindustrial Azucarera,,Río Cauto,Granma,Cuba,20.611997,-76.782262,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52783,A,Central Azucarera Bartolomé Masó,,Bartolomé Masó,Granma,Cuba,20.165909100423036,-76.94530419645966,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52784,A,Central Azucarero Juan Manuel Marquez,,Media Luna ,Granma,Cuba,20.15290132651222,-77.43005127450623,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52785,A,Quintin Banderas,,Corralillo,Villa Clara,Cuba,22.9825,-80.5925,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52797,A,Central Azucarera Arquimides Colina,,Julia Mabay,JM,Cuba,20.348388467461533,-76.77488917740857,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52798,A,Roberto Ramírez Delgado Agroindustrial Azucarera,,Niquero,Granma,Cuba,20.1783,-75.8567,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52799,A,Central Azucarera Santa Regina,,Ceiba Hueca,Ceiba Hueca,Cuba,20.222451096079926,-77.32394439090376,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52801,A,América Libre Agroindustrial Azucarera,,Contramaestre,Santiago de Cuba,Cuba,20.293247239218765,-76.23793483508179,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52803,A,Paquito Rosales,,San Luis ,Santiago de Cuba,Cuba,20.1782,-75.0516,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52807,A,Argeo Martinez Agroindustrial Azucarera,,Guantánamo,Guantánamo,Cuba,20.20547684726673,-75.17690576391966,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52808,A,Manuel Tames,,Manuel Tames,Guantánamo,Cuba,-2.1393,-79.5917,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52809,I,El Salvador,,El Salvador,Guantánamo,Cuba,20.32145546449669,-75.26483171796582,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52816,A,Central Izalco,"Compañía Azucarera Salvadoreña, S.A. de C.V. (Cassa)",Izalco,Sonsonate,El Salvador,13.73043,-89.706284,1,Cana-de-Açúcar,Açúcar | Melaço | Palha/Biomassa,N,1687996800000
+52817,A,FSC - Unidade Labasa Mill,,Labasa,Macuata,Fiji,-16.428099,179.386578,1,Cana-de-Açúcar,Açúcar | Melaço,N,1687996800000
+52827,A,Concepción (Guatemala),Grupo Pantaleon,Escuintla,ES,Guatemala,14.33052,-90.787749,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol | Mel,N,1687996800000
+52828,A,Grupo Pantaleon,Grupo Pantaleon,Siquinalá,ES,Guatemala,15.3171,-87.9933,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol | Mel,N,1753142400000
+52829,A,Azucarera La Grecia,Grupo Pantaleon,Marcovia,Choluteca,Honduras,13.275475,-87.352577,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol | Mel,N,1687996800000
+52830,A,Ingenio Monte Rosa,Grupo Pantaleon,El Viejo,Chinandega,Nicaragua,12.706797,-87.235683,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol | Mel,N,1680220800000
+52832,A,Ingenio Palo Gordo,,San Antonio Suchitepéquez,Suchitepequez,Guatemala,14.487254,-91.397267,1,Cana-de-Açúcar,Açúcar,N,1722211200000
+52833,A,Los Tarros,,Santa Lucía Cotzumalguapa,ES,Guatemala,14.397292,-90.994463,1,Cana-de-Açúcar,Açúcar | Bioeletricidade,N,1687996800000
+52834,A,Madre Tierra,,Santa Lucía Cotzumalguapa,ES,Guatemala,14.346646,-91.065035,1,Cana-de-Açúcar,Açúcar | Bioeletricidade,N,1687996800000
+52835,A,San Diego,,Escuintla,ES,Guatemala,14.371248,-90.806507,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Melaço,N,1687996800000
+52836,A,Ingenio Santa Teresa,,Villa Canales,Guatemala,Guatemala,14.480059,-90.531386,1,Cana-de-Açúcar,Açúcar,N,1687996800000
+52837,A,Ingenio Santa Ana,,Escuintla,ES,Guatemala,14.241753,-90.842812,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Melaço,N,1687996800000
+52839,A,El Angel,,Apopa,San Salvador,El Salvador,13.800275,-89.199693,1,Cana-de-Açúcar,Açúcar | Bioeletricidade,N,1687996800000
+52840,A,Chaparrastique,"Compañía Azucarera Salvadoreña, S.A. de C.V. (Cassa)",San Miguel,San Miguel,El Salvador,13.439461,-88.15163,1,Cana-de-Açúcar,Açúcar,N,1687996800000
+52841,A,La Cabaña (El Salvador),,El Paisnal,San Salvador,El Salvador,14.017582,-89.183504,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687996800000
+52842,A,La Magdalena,,Chalchuapa,Santa Ana,El Salvador,14.043825,-89.695985,1,Cana-de-Açúcar,Açúcar,N,1722211200000
+52844,A,Santa Matilde,,Villanueva,Cortés,Honduras,14.5947,-90.518,1,Cana-de-Açúcar,Açúcar,N,1687996800000
+52846,A,Los Mangos,,Marcovia,Choluteca,Honduras,13.253563,-87.332392,1,Cana-de-Açúcar,Açúcar | Aguardente/Cachaça | Melaço,N,1687996800000
+52847,A,Francisco Morazán,,San Juan de Flores,Francisco Morazán,Honduras,14.245897,-86.994782,1,Cana-de-Açúcar,Açúcar | Bioeletricidade,N,1687996800000
+52848,A,Chumbagua,,San Marcos,Santa Bárbara,Honduras,15.237842,-88.489626,1,Cana-de-Açúcar,Açúcar | Mel,N,1687996800000
+52849,A,Ingenio Central Progreso,,Santa Rita,Yoro,Honduras,15.284874,-87.88815,1,Cana-de-Açúcar,Açúcar,N,1688083200000
+52850,A,Valdez,,Milagro,Guayas,Equador,3.5421,-76.2783,1,Cana-de-Açúcar,Açúcar,N,1688083200000
+52852,A,La Troncal,,La Troncal,Cañar,Equador,-2.439489,-79.350708,1,Cana-de-Açúcar,Açúcar | Bioeletricidade,N,1680652800000
+52853,A,Monterrey ,,Catamayo,Loja,Equador,-2.189368,-80.026379,1,Cana-de-Açúcar,Açúcar,N,1688083200000
+52854,A,San Carlos,,Coronel Marcelino Maridueña,Guayas,Equador,-2.207789,-79.435775,1,Cana-de-Açúcar,Açúcar,N,1688083200000
+52855,A,Ingenio Tamazula,Grupo Sáens,Tamazula de Gordiano,JAL,México,19.6835257,-103.244977,1,Cana-de-Açúcar,Açúcar | Etanol | Mel,N,1688083200000
+52856,A,Ingenio El Mante,Grupo Sáens,Ciudad Mante,Tamaulipas,México,22.726497,-98.980493,1,Cana-de-Açúcar,Açúcar | Etanol,N,1688083200000
+52858,A,Ingenio Rio Guayalejo (Aarón Sáenz Garza),Grupo Sáens,Ciudad Xicoténcatl,Tamaulipas,México,23.133091,-99.259674,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+52859,A,Ingenio Tres Valles,Grupo Piasa,Tres Valles,Veracruz,México,19.6386,-102.4936,1,Cana-de-Açúcar,Açúcar | Bioeletricidade,N,1688083200000
+52860,A,Ingenio Adolfo López Mateos,Grupo Piasa,Tuxtepec,Oaxaca,México,18.049937,-96.15499,1,Cana-de-Açúcar,Açúcar,N,1688083200000
+52861,A,Atoyac,Alcoholera de Zapopan,Atoyac,Veracruz,México,18.885057,-96.817466,1,Cana-de-Açúcar,Aguardente/Cachaça | Etanol,N,1688083200000
+52862,A,Zapopan - Matriz,Alcoholera de Zapopan,Zapopan,JAL,México,20.606258,-103.426849,1,Cana-de-Açúcar,Aguardente/Cachaça | Etanol,N,1688083200000
+52863,A,"México, D.F.",Alcoholera de Zapopan,Ciudad de Mexico,México D.F.,México,19.475342,-99.105148,1,Cana-de-Açúcar,Etanol,N,1688083200000
+52866,A,Escobedo,Alcoholera de Zapopan,Escobedo,Nuevo León,México,25.775088,-100.283556,1,Cana-de-Açúcar,Etanol,N,1688083200000
+52867,A,Alcoholera de Zapopan,Alcoholera de Zapopan,Oaxaca,Oaxaca,México,17.062862,-96.66951,1,Cana-de-Açúcar,Etanol,N,1688083200000
+52868,A,Zacatecas,Alcoholera de Zapopan,Zacatecas,Zacatecas,México,19.1413,-101.4689,1,Cana-de-Açúcar,Etanol,N,1688083200000
+52869,A,Ingenio Bellavista,Ingenios Santos,Bellavista,JAL,México,20.435095,-103.633309,1,Cana-de-Açúcar,Açúcar | Melaço,N,1688083200000
+52870,A,Ingenio Tala,Grupo Azucarero México,Tala,JAL,México,20.669054,-103.719114,1,Cana-de-Açúcar,Açúcar,N,1688083200000
+52872,A,El Dorado,Grupo Azucarero México,Taretan,Michoacán ,México,19.331496,-101.913844,1,Cana-de-Açúcar,Açúcar,N,1688083200000
+52873,A,Ingenio Lázaro Cárdenas,Grupo Azucarero México,Taretan,Michoacán ,México,19.331132,-101.91393,1,Cana-de-Açúcar,Açúcar,N,1688083200000
+52874,A,Ingenio Calípam,,Calipan,Puebla,México,18.293611,-97.163902,1,Cana-de-Açúcar,Açúcar,N,1688083200000
+52875,A,Ingenio Central Casasano,BSM - Beta San Miguel,Casasano,Morelos,México,18.850131,-98.96365,1,Cana-de-Açúcar,Açúcar | Mel,N,1688083200000
+52876,A,Ingenio Central Motzorongo,,Motzorongo,Veracruz,México,18.641789,-96.728378,1,Cana-de-Açúcar,Açúcar,N,1688083200000
+52878,A,Ingenio Constancia,BSM - Beta San Miguel,Consolapa,Veracruz,México,18.604478,-96.686805,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Mel,N,1688083200000
+52879,A,Cuatotolapam,,Hueyapan de Ocampo,Veracruz,México,18.164311,-95.187274,1,Cana-de-Açúcar,Açúcar | Melaço,N,1688083200000
+52880,A,Ingenio El Carmen,,Fortin De Las Flores,Veracruz,México,18.873538,-97.024172,1,Cana-de-Açúcar,Açúcar,N,1688083200000
+52881,A,Ingenio El Molino,,Tepic,Nayarit,México,21.501607,-104.887444,1,Cana-de-Açúcar,Açúcar | Mel,N,1688083200000
+52882,A,Ingenio Central El Potrero,BSM - Beta San Miguel,Atoyac,Veracruz,México,18.897222,-96.792131,1,Cana-de-Açúcar,Açúcar,N,1688083200000
+52883,A,Ingenio El Refugio,,Cosolapa,Oaxaca,México,18.587172,-96.657929,1,Cana-de-Açúcar,Açúcar | Mel,N,1688083200000
+52884,A,Ingenio Emiliano Zapata,BSM - Beta San Miguel,Zacatepec,Morelos,México,18.655131,-99.186967,1,Cana-de-Açúcar,Açúcar | Mel,N,1688083200000
+52885,A,Ingenio Huixtla,,Huixtla,Chiapas,México,15.089617,-92.495568,1,Cana-de-Açúcar,Açúcar,N,1688083200000
+52886,A,Ingenio Santa Clara,Grupo Porres,Tocumbo,Michoacán ,México,18.7773,-96.7142,1,Cana-de-Açúcar,Açúcar,N,1688083200000
+52887,A,Ingenio José María Morelos,,Casimiro Castillo,JAL,México,19.599739,-104.441602,1,Cana-de-Açúcar,Açúcar,N,1688083200000
+52888,A,Ingenio La Margarita,,Vicente Camalote,Oaxaca,México,18.508869,-96.541288,1,Cana-de-Açúcar,Açúcar,N,1688083200000
+52889,A,Ingenio Pedernales,Ingenios Santos,Pedernales,Michoacán ,México,22.7708,-102.5989,1,Cana-de-Açúcar,Açúcar | Mel,N,1688083200000
+52890,A,Ingenio Plan de Ayala,Ingenios Santos,Ciudad Valles,San Luis Potosí,México,22.21594,-99.232876,1,Cana-de-Açúcar,Açúcar,N,1688083200000
+52891,A,Ingenio San Francisco Ameca,BSM - Beta San Miguel,Ameca,JAL,México,20.544876,-104.053327,1,Cana-de-Açúcar,Açúcar | Mel,N,1688083200000
+52892,A,Ingenio Azucarera San Jose de Abajo,,Cuitlahuac,Veracruz,México,-18.3025,35.9322,1,Cana-de-Açúcar,Açúcar,N,1688083200000
+52893,A,Casur - Benjamin Zeledón,,Potosí,Rivas,Nicaragua,11.486956,-85.836689,1,Cana-de-Açúcar | Milho,Açúcar | Bioeletricidade | Etanol,N,1680220800000
+52894,A,San Antonio,,Chichigalpa,Chinandega,Nicaragua,12.576988,-87.023547,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1688083200000
+52895,A,Alanje,,El Tejar,Chiriquí,Panamá,8.432645,-82.558681,1,Cana-de-Açúcar,Açúcar,N,1688083200000
+52896,A,Alcoholes del Istmo,,Pesé,Herrera,Panamá,7.900577,-80.598816,1,Cana-de-Açúcar,Aguardente/Cachaça | Etanol | Mel,N,1688083200000
+52897,A,La Estrella,,Aguadulce,Coclé,Panamá,8.674069,-80.410623,1,Cana-de-Açúcar,Açúcar | Melaço,N,1688083200000
+52899,A,Casa Grande,Grupo Gloria,Casa Grande,La Libertad,Peru,-7.745253,-79.183233,1,Cana-de-Açúcar,Açúcar | Bagaço | Etanol | Mel,N,1680652800000
+52900,A,Cartavio,Grupo Gloria,Cartavio,La Libertad,Peru,-7.892371,-79.218251,1,Cana-de-Açúcar,Açúcar | Bagaço | Etanol | Mel,N,1680652800000
+52901,A,Paramonga,,Paramonga ,Lima,Peru,-10.675317,-77.823127,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol | Mel,N,1680652800000
+52905,A,San Jacinto,,San Jacinto,Ancash,Peru,-9.146677,-78.278654,1,Cana-de-Açúcar,Açúcar | Bagaço | Etanol | Mel,N,1680652800000
+52933,A,BioCom - Unidade Luanda,,Luanda,Luanda,Angola,-8.907471,13.185662,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1688083200000
+52937,A,Tereos - Unidade Marromeu,Tereos International,Marromeu,Sofala,Moçambique,40.4707,-88.3954,1,Cana-de-Açúcar,Açúcar,N,1734048000000
+52962,A,BioCom - Unidade AgroIndustrial de Cacuso,,Cacuso,Malanje,Angola,-9.580252,15.722562,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1688083200000
+53132,A,Cambuí,Vale do Verdão,Santa Helena de Goiás ,GO,Brasil,-17.924918,-50.634606,1,Cana-de-Açúcar,Açúcar | Etanol,N,1709596800000
+53373,A,ALUR - Agroindustria Metropolitana,,Montevideo,MO,Uruguai,-34.870131,-56.221284,1,Cana-de-Açúcar,Açúcar | Etanol,N,1721692800000
+53409,A,Granol - (TO),,Porto Nacional,TO,Brasil,-10.606027,-48.368431,1,Milho,Biodiesel,N,1723680000000
+53410,A,Camera - Ijuí,,Ijuí,RS,Brasil,-28.4360768,-53.887917,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+53414,A,Oleoplan Nordeste,,Iraquara,BA,Brasil,-12.197421,-41.615045,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+53416,A,Delta Biocombustíveis,,Rio Brilhante,MS,Brasil,-21.744831,-54.517224,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+53483,A,Al-Corn Clean Fuel,,Claremont,MN,Estados Unidos,44.05098,-93.017321,1,Milho,Etanol,N,1721692800000
+53484,A,Three Rivers Energy,,Coshocton,OH,Estados Unidos,40.214894,-81.864411,1,Milho,Etanol,N,1721779200000
+53485,A,ADM - Cedar Rapids,,Cedar Rapids,IA,Estados Unidos,41.928119,-91.687112,1,Milho,Biodiesel | Etanol,N,1721692800000
+53486,A,ADM - Decatur,,Decatur,IL,Estados Unidos,39.845086,-88.953621,1,Milho,Biodiesel | Etanol,N,1721692800000
+53487,A,ADM - Clinton,,Clinton,IA,Estados Unidos,41.952351,-89.864582,1,Milho,Biodiesel | Etanol,N,1721692800000
+53488,A,BioUrja Renewables,,Peoria,IL,Estados Unidos,40.678172,-89.605043,1,Milho,Etanol,N,1721692800000
+53489,A,ADM - Marshall,,Marshall,MN,Estados Unidos,44.47471,-95.783363,1,Milho,Biodiesel | Etanol,N,1721692800000
+53490,A,ADM - Columbus,,Columbus,NE,Estados Unidos,39.933726,-82.883978,1,Milho,Biodiesel | Etanol,N,1721692800000
+53491,A,Aventine - Pekin,,Pekin,IL,Estados Unidos,40.569383,-89.617384,1,Milho,Etanol,N,1721692800000
+53492,A,Aventine - Aurora,,Aurora,NE,Estados Unidos,41.16093,-101.091887,1,Milho,Etanol,N,1721692800000
+53493,I,Aventine - Canton,,Canton,IL,Estados Unidos,38.117578,-87.840615,1,Milho,Etanol,N,1721692800000
+53494,A,Big River - Boyceville,,Boyceville,WI,Estados Unidos,45.049607,-91.977506,1,Milho,Etanol,N,1721692800000
+53495,A,Aventine - Mount Vernon,,Mount Vernon,IN,Estados Unidos,37.304,-77.2866,1,Milho,Etanol,N,1721692800000
+53496,A,Badger ,,Monroe,WI,Estados Unidos,42.594554,-89.666953,1,Milho,Etanol,N,1721692800000
+53497,A,Big River - Dyersville,,Dyersville,IA,Estados Unidos,42.48908,-91.159159,1,Milho,Etanol,N,1721692800000
+53498,A,Big River - Galva,,Galva,IL,Estados Unidos,41.167358,-90.023941,1,Milho,Etanol,N,1721692800000
+53499,I,BP Biofuels - Jennings,BP Bunge Bioenergia,Jennings,LA,Estados Unidos,30.236426,-92.649371,1,Milho,Etanol,N,1721692800000
+53500,A,Bushmills Ethanol,,Atwater,MN,Estados Unidos,45.138139,-94.807185,1,Milho,Etanol,N,1721692800000
+53501,A,Calgren Renewable,,Pixley,CA,Estados Unidos,36.002414,-119.302475,1,Milho,Etanol,N,1721692800000
+53502,A,Carbon Green BioEnergy,,Lake Odessa,MI,Estados Unidos,42.765775,-85.076849,1,Milho,Etanol,N,1721692800000
+53503,A,Cardinal Ethanol ,,Union City,IN,Estados Unidos,40.18468,-84.863374,1,Milho,Etanol,N,1721692800000
+53504,A,Cargill - Eddyville,,Eddyville,IA,Estados Unidos,41.139726,-92.642974,1,Milho,Etanol,N,1721692800000
+53506,A,Cargill - Blair,,Blair,NE,Estados Unidos,41.538711,-96.10353,1,Milho,Etanol,N,1721692800000
+53507,I,Center Ethanol Company,,Sauget,IL,Estados Unidos,38.601506,-90.175914,1,Milho,Etanol,N,1721692800000
+53508,I,Central MN Ethanol,,Little Falls,MN,Estados Unidos,46.021309,-94.33928,1,Milho,Etanol,N,1721692800000
+53509,A,Columbia Pacific Bio Refinery,,Clatskanie,OR,Estados Unidos,46.176052,-123.168054,1,Milho,Etanol,N,1721692800000
+53510,A,New Goodland Energy Center,,Goodland,KS,Estados Unidos,39.350987,-101.709769,1,Milho,Etanol,N,1721779200000
+53512,A,ESE Alcohol ,,Leoti,KS,Estados Unidos,38.482429,-101.329122,1,Milho,Etanol,N,1721692800000
+53513,A,Fiberight,,Blairstown,IA,Estados Unidos,51.646376,-4.019076,1,Milho,Etanol,N,1721692800000
+53514,A,Gateway Ethanol,,Pratt,KS,Estados Unidos,37.68599,-98.709282,1,Milho,Etanol,N,1721692800000
+53515,A,Gevo´s,,Luverne,MN,Estados Unidos,43.647493,-96.22457,1,Milho,Etanol,N,1721692800000
+53517,A,Grain Processing Corporation - Washington,,Washington,IN,Estados Unidos,38.63583,-87.224455,1,,,N,1676246400000
+53518,A,Guardian Energy,,Janesville,MN,Estados Unidos,44.112081,-93.675719,1,Milho,Etanol,N,1721692800000
+53519,A,Guardian Lima,,Lima,OH,Estados Unidos,40.706349,-84.077646,1,Milho,Etanol,N,1721692800000
+53520,A,Hankinson Renewable Energy,,Hankinson,ND,Estados Unidos,46.069655,-96.874002,1,Milho,Etanol,N,1721692800000
+53521,A,Heartland Corn,,Winthrop,MN,Estados Unidos,44.542689,-94.340115,1,Milho,Etanol,N,1721692800000
+53522,A,Iroquois Bio-Energy Co LLC,,Rensselaer,IN,Estados Unidos,40.93256,-87.058779,1,Milho,Etanol,N,1721779200000
+53523,A,Hockley County Ethanol,,Levelland,TX,Estados Unidos,33.592697,-102.333666,1,Milho,Etanol,N,1721692800000
+53524,A,Louis Dreyfus - Grand Junction,,Grand Junction,IA,Estados Unidos,42.055999,-94.242378,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1688083200000
+53531,I,Abengoa Bioenergy - Unidade de Biomass,Abengoa Bioenergy,Babilafuente,Salamanca,Espanha,40.96858188873805,-5.43531413246967,1,,,N,1723680000000
+53533,A,Abengoa Bioenergy - Biomass of Kansas,Abengoa Bioenergy,Hugoton,KS,Estados Unidos,37.17082,-101.37868,1,Milho,Etanol,N,1721692800000
+53537,I,Santa Luzia,,Palmital,SP,Brasil,-22.9078035,-50.2816772,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1721606400000
+53538,I,Unial - Lajedão,Unial,Lajedão,BA,Brasil,-17.54024,-40.281929,1,Cana-de-Açúcar,Açúcar,N,1721347200000
+53548,A,Mid America Bio Energy,,North Platte,NE,Estados Unidos,41.09017,-100.740975,1,Milho,Etanol,N,1721779200000
+53549,A,Midwest Renewable Energy,,Sutherland,NE,Estados Unidos,41.160958,-101.091984,1,Milho,Etanol,N,1721779200000
+53550,I,Murphy,,Hereford,TX,Estados Unidos,34.838661,-102.405816,1,Milho,Etanol | Óleo,N,1721779200000
+53552,A,Melhoramentos Nova Londrina,CMNP - Melhoramentos,Nova Londrina,PR,Brasil,-22.798327,-52.9895,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+53554,A,Ouroana,,Rio Verde,GO,Brasil,-18.10397496738519,-50.76316088464064,1,Cana-de-Açúcar,Etanol,N,1733702400000
+53567,A,NCP - Nebraska,,Cambridge ,NE,Estados Unidos,40.28035,-100.159692,1,Milho,Etanol,N,1721779200000
+53568,A,Nesika Energy,,Scandia,KS,Estados Unidos,39.786538,-97.821198,1,Milho,Etanol,N,1721779200000
+53569,I,North Country,,Rosholt,SD,Estados Unidos,40.887966503167945,-73.15707398979593,1,Milho,Etanol,N,1721779200000
+53570,A,New Energy Corporation,,South Bend,IN,Estados Unidos,41.654498,-86.293459,1,Milho,Etanol,N,1721779200000
+53571,A,NuGen Energy,,Marion,SD,Estados Unidos,43.436369,-97.268859,1,Milho,Etanol,N,1721779200000
+53572,A,One Earth ,,Gibson City,IL,Estados Unidos,37.9324,-87.8729,1,Milho,Etanol,N,1721779200000
+53573,A,Osage Bio Energy,,Hopewell,VA,Estados Unidos,42.4557,-93.0568,1,Milho,Etanol,N,1721779200000
+53574,A,Penford,,Cedar Rapids,IA,Estados Unidos,42.33,-95.3528,1,Milho,Etanol,N,1721779200000
+53575,A,Pennsylvania Grain ,,Clearfield,PA,Estados Unidos,42.7317,-96.2527,1,Milho,Etanol,N,1721779200000
+53576,A,Pine Lake,,Steamboat Rock,IA,Estados Unidos,41.9686,-91.6656,1,Milho,Etanol,N,1721779200000
+53577,A,Platinum Ethanol ,,Arthur,IA,Estados Unidos,41.0308,-78.4298,1,Milho,Etanol,N,1721779200000
+53578,A,Plymouth Energy,,Merrill,IA,Estados Unidos,43.1476,-97.7259,1,Milho,Etanol,N,1721779200000
+53579,A,Poet Biorefining - Scotland,,Scotland,SD,Estados Unidos,18.2445,-96.1392,1,Milho,Etanol,N,1721692800000
+53580,A,Purified,,Buffalo Lake,MN,Estados Unidos,44.735,-94.6227,1,Milho,Etanol,N,1721779200000
+53581,A,Redfield Energia,,Redfield,SD,Estados Unidos,31.2326,-84.2064,1,Milho,Etanol,N,1721779200000
+53586,A,Renova Energy,,Torrington,WI,Estados Unidos,42.4556,-96.5977,1,Milho,Etanol,N,1721779200000
+53587,A,Siouxland - Jackson,,Jackson,NE,Estados Unidos,41.8014,-73.0862,1,Milho,Etanol,N,1721779200000
+53588,A,SWGE ,,Camilla,GA,Estados Unidos,41.2274,-96.4834,1,Milho,Etanol,N,1721779200000
+53589,A,Southwest Iowa,,Council Bluffs,IA,Estados Unidos,44.9198,-98.5021,1,,,N,1676246400000
+53590,A,Spectrum - Mead,,Mead,NE,Estados Unidos,40.6361,-103.1929,1,Milho,Etanol,N,1721779200000
+53591,A,Sterling ,,Sterling,CO,Estados Unidos,41.2612,-95.8464,1,Milho,Etanol,N,1721779200000
+53593,A,Sunoco,,Volney,NY,Estados Unidos,42.2581,-84.7885,1,Milho,Etanol,N,1721779200000
+53594,A,The Andersons - Michigan,,Albion,MI,Estados Unidos,43.2995,-76.3814,1,Milho,Etanol,N,1721779200000
+53595,A,The Andersons - Indiana,,Logansport,IN,Estados Unidos,42.7636,-88.9181,1,Milho,Etanol,N,1721779200000
+53596,A,The Andersons - Iowa,,Denison,IA,Estados Unidos,42.013,-95.3389,1,Milho,Etanol,N,1721779200000
+53597,A,The Andersons - Ohio,,Greenville,OH,Estados Unidos,40.0778,-84.5915,1,Milho,Etanol,N,1721779200000
+53598,A,United Ethanol,,Milton,WI,Estados Unidos,-21.8227,-47.4957,1,Milho,Etanol,N,1721779200000
+53618,A,Western - Campus,,Campus,KS,Estados Unidos,39.1215,-100.7288,1,Milho,Etanol,N,1721865600000
+53620,A,Yuma Ethanol,,Yuma,CO,Estados Unidos,-26.8278,-65.2104,1,Milho,Etanol,N,1721865600000
+53650,A,Itapecuru Bioenergia - Matriz,Itapecuru,Aldeias Altas,MA,Brasil,-4.625304,-43.612772,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+53658,A,Fuga Couros,,Camargo,RS,Brasil,-19.256299,-51.065243,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+53660,A,PB-BIOS,,Lapa,PR,Brasil,-25.720196,-49.735766,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+53664,A,Três Tentos,,Ijuí,RS,Brasil,-28.41682,-53.908786,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+53802,A,Beta Renewables,,Crescentino,VC,Itália,44.886481,8.853999,1,Cana-de-Açúcar,Etanol,N,1721692800000
+53847,A,Ingenio Sucroalcoholero Aguai - (Bolívia),,Santa Cruz de la Sierra,Santa Cruz de la Sierra,Bolívia,-16.8588889,-63.2836,1,Cana-de-Açúcar,Açúcar | Etanol,N,1688083200000
+53960,A,Destilaria Cristais,,Cristais,MG,Brasil,-20.801986,-45.631247,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+54226,A,Onda Verde,Toledo,Onda Verde,SP,Brasil,-20.60252875619732,-49.201467515343715,1,Cana-de-Açúcar,Etanol,N,1721606400000
+54248,A,Caña Brava-Sucroalcolera del Chira,,Piura,PI,Peru,-5.611213,-79.427349,1,Cana-de-Açúcar,Açúcar | Aguardente/Cachaça | Bagaço | Etanol | Vinhaça,N,1680652800000
+54285,I,Apoena Agroindustrial,,Martinópolis,SP,Brasil,-22.14911929434161,-51.1698063139873,1,Cana-de-Açúcar,Etanol,N,1721260800000
+54386,A,Santa Clara Álcool de Cereais,,Vera,MT,Brasil,-12.454284,-55.353845,1,Cana-de-Açúcar | Milho,DDG | Etanol,N,1693785600000
+54397,I,Usalpa - Unidade II,,Dracena,SP,Brasil,-21.465676,-51.547594,1,Cana-de-Açúcar,Etanol,N,1721347200000
+54417,A,CEVN,,Denise,MT,Brasil,-14.727346,-57.050606,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693785600000
+54418,A,GranBio - AL,,São Miguel dos Campos,AL,Brasil,-9.772381,-36.083272,1,Cana-de-Açúcar,Etanol,N,1693785600000
+54533,A,Cereálcool,,São Pedro do Turvo,SP,Brasil,-22.77821,-49.720207,1,Milho | Soja,Etanol,N,1711929600000
+54572,A,Copervales Agro Industrial,,Atalaia,AL,Brasil,-9.481295,-35.959905,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+54579,A,Destilaria Buriti,,Sorriso,MT,Brasil,-12.475384,-55.604828,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+54663,A,Ipiranga - Passos,Titoto - Ipiranga,Passos,MG,Brasil,-20.665014,-46.552988,1,Cana-de-Açúcar,Açúcar | Etanol,N,1741305600000
+54731,A,Bahia Etanol,Arai Energy,Ibirapuã,BA,Brasil,-17.641604,-40.182709,1,Cana-de-Açúcar,Etanol,S,1734048000000
+55245,I,Orbi Bioenergia,,Paranaíba,MS,Brasil,-20.647042,-51.792392,1,,,N,1723680000000
+55318,A,FS Fueling Sustainability,,Lucas do Rio Verde,MT,Brasil,-13.004779,-55.947094,1,Milho,Etanol,N,1729123200000
+55509,A,Rio Amambai Agroenergia,Amerra,Naviraí,MS,Brasil,-23.130837,-54.199585,1,Cana-de-Açúcar,Açúcar | Etanol,S,1734048000000
+55779,A,Copersul,Farias,Cortês,PE,Brasil,-8.503141,-35.514626,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+55788,A,Destilaria Alternativa,,Tuntum,MA,Brasil,-5.254727,-44.644758,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693785600000
+55789,A,D´Padua Agroindustrial,,Rio Tinto,PB,Brasil,-6.611821,-35.057184,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693785600000
+55842,A,Bioenergética Boa Esperança,,Boa Esperança,ES,Brasil,-18.458355,-40.403562,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693785600000
+55860,A,Maity Bioenergia,Maity,Campestre do Maranhão,MA,Brasil,-6.122417,-47.283869,1,Cana-de-Açúcar,Açúcar | Etanol,S,1734048000000
+55861,A,Safra Biocombustíveis,,Sorriso,MT,Brasil,-12.558942,-55.717912,1,Milho,Biodiesel | Etanol,N,1693785600000
+55862,A,Destilla Bioenergia Agroindustrial,,Itauba,MT,Brasil,-11.105509,-55.301487,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693785600000
+55868,A,Canex Bioenergia,,São Vicente do Sul,RS,Brasil,-29.650354,-54.543356,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+55869,A,Ceará-Mirim Agroindústria,Agropaulo,Ceará-Mirim,RN,Brasil,-5.626163,-35.468063,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+55873,I,"Usina Porto Seguro de Açúcar,Etanol e Bioenergia",,Jaciara,MT,Brasil,-15.924629,-55.226882,1,Cana-de-Açúcar | Milho,Etanol,N,1693267200000
+55874,A,Raízen Unidade Santa Candida,Raízen,Bocaina,SP,Brasil,-22.105013,-48.481124,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000
+55876,A,Usina Central Mata Sul,,Ribeirão,PE,Brasil,-8.513496,-35.374752,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+56060,A,Inpasa Agroindustrial,,Sinop,MT,Brasil,-12.020343,-55.514879,1,Milho,Etanol,N,1693440000000
+56068,A,Impacto Bioenergia Alagoas,,Teotônio Vilela,AL,Brasil,-9.915115,-36.333111,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+56080,A,Inpasa Agroindustrial,,Nova Mutum,MT,Brasil,-13.780498,-56.060105,1,Milho,Etanol,N,1693440000000
+56082,A,Docican,,Terra Boa,PR,Brasil,-23.800417,-52.452226,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+56097,A,ALD Bioenergia,,Nova Marilândia,MT,Brasil,-14.173897,-57.407064,1,Milho,Etanol,N,1693353600000
+56098,A,Bioflex - Unidade de Poconé,,Poconé,MT,Brasil,-16.247781,-56.655586,1,Cana-de-Açúcar | Milho,Açúcar | Etanol,N,1693353600000
+56099,A,Caramuru Alimentos,,Sorriso,MT,Brasil,-12.576501,-55.717427,1,Soja,Biodiesel | Etanol,N,1693353600000
+56100,A,Cluster de Bioenergia,,Barra do Garças,MT,Brasil,-15.88775,-52.261452,1,Milho,Etanol,N,1693785600000
+56102,A,Lida Nitro,,Alta Floresta,MT,Brasil,-9.902855,-56.078908,1,Cana-de-Açúcar,Etanol,N,1693785600000
+56103,A,FS Fueling Sustainability,Amerra,Sorriso,MT,Brasil,-12.412913,-55.651597,1,Milho,Etanol,N,1708387200000
+56191,A,Millenium Bioenergia Bomfim,Millenium Holding,Bonfim,RR,Brasil,3.363195,-59.850325,1,Milho,Etanol,N,1711929600000
+56231,A,Vale do Xingu,Companhia Müller de Bebidas,Porto Ferreira,SP,Brasil,-21.91723134438568,-47.50711166138285,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693785600000
+56255,A,FRCB Biocombustível,,Várzea Grande,MT,Brasil,-15.594129,-56.227889,1,Soja,Biodiesel,N,1693353600000
+56258,I,Millenium Bioenergy - Tabaporã,Millenium Holding,Tabaporã,MT,Brasil,-11.297605,-56.448236,1,Milho,Etanol,N,1721606400000
+56264,I,FS Fueling Sustainability - Querência,Amerra,Querência,MT,Brasil,,,0,Milho,Etanol,N,1782345600000
+56265,A,FS Fueling Sustainability - Primavera do Leste,Amerra,Primavera do Leste,MT,Brasil,-15.356258857126077,-54.207611142327686,1,Milho,Etanol,N,1782345600000
+56266,A,FS Fueling Sustainability - Nova Mutum,Amerra,Nova Mutum,MT,Brasil,-13.805963971470618,-55.97445671789256,1,Milho,Etanol,N,1782345600000
+56267,A,FS Fueling Sustainability - Campo Novo do Parecís,Amerra,Campo Novo do Parecís,MT,Brasil,-13.560538589374415,-57.896905775570545,1,Milho,Etanol,N,1782345600000
+56269,A,JBS - Biodiesel,JBS,Campo Verde,MT,Brasil,-15.556914,-55.170532,1,Gordura Animal,Biodiesel,N,1693440000000
+56270,I,Usina Parecis,,Campo Novo do Parecís,MT,Brasil,-13.550063,-57.674722,1,Cana-de-Açúcar,Açúcar | Etanol,N,1692835200000
+56298,A,Usina Ipanema,,Barbosa,SP,Brasil,-21.296319,-49.99998,1,Cana-de-Açúcar,Etanol,S,1734048000000
+56344,A,Cj Selecta - Unidade Araguari,,Araguari,MG,Brasil,-18.68082066468179,-48.15575654845225,1,Soja,Etanol,N,1782345600000
+56399,A,GNR Fortaleza,,Caucaia,CE,Brasil,-3.794566,-38.679868,1,Cana-de-Açúcar,Vinhaça,N,1724630400000
+56404,I,Montepinho,,Santa Cruz do Rio Pardo,SP,Brasil,-22.889093,-49.6433,1,Cana-de-Açúcar,Etanol,N,1721606400000
+56430,A,Amaraji,,Amaraji,PE,Brasil,-8.377046,-35.45049,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693785600000
+56467,A,Albioma Esplanada,Jalles Machado,Goianésia,GO,Brasil,-15.08187,-49.30662,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000
+56470,A,UTE Vale do Paraná Albioma,Manuelita,Suzanápolis,SP,Brasil,-20.462,-51.0697,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000
+56509,A,Ingenio San Isidro,,Campo Santo,Salta,Argentina,-24.68638,-65.096339,1,Cana-de-Açúcar,Açúcar | Etanol | Mel,N,1688342400000
+56552,A,AgrOlmos,,Lambayeque,LA,Peru,-6.086501,-80.060799,1,Cana-de-Açúcar,Açúcar | Mel,N,1680652800000
+56559,A,Seaboard Energías Renovables y Alimentos,,El Tabacal,Salta,Argentina,-23.25274,-64.241543,1,Cana-de-Açúcar,Açúcar | Etanol,S,1734048000000
+56709,A,Neomille,Cerradinho Bio,Maracajú,MS,Brasil,-18.467529,-52.602488,1,Milho,Etanol | Farelo | Óleo,N,1704412800000
+56711,A,Nova Castilho Agroindustrial,,Nova Castilho,SP,Brasil,-20.762857,-50.344472,1,Cana-de-Açúcar,Aguardente/Cachaça,N,1747267200000
+56744,A,Inpasa Agroindustrial,,Dourados,MS,Brasil,-22.370964,-54.79738,1,Milho,Etanol,N,1693785600000
+56906,A,Tereos Amido e Adoçantes - Palmital,,Palmital,SP,Brasil,-22.73838993152302,-50.20782013068928,1,,,N,1734048000000
+56926,A,Ingenio Famailla - Arca Continental,,San Miguel de Tucumán,Tucumán,Argentina,-33.1725,-63.2834,1,Cana-de-Açúcar,Açúcar,N,1711929600000
+56928,I,Ingenio Azucarero Arno,,Villa Ocampo,Santa Fé,Argentina,-28.489435123192184,-59.3596363,1,Cana-de-Açúcar,Açúcar,N,1721606400000
+56930,A,Promaíz,,Alejandro Roca,Córdoba,Argentina,-33.3256,-66.3634,1,Milho,Etanol,N,1711929600000
+56931,A,Bioetanol Río Cuarto,,Río Cuarto,Córdoba,Argentina,-29.1176,-59.6573,1,Milho,Etanol,N,1711929600000
+56932,A,Diaser,,San Luís,Córdoba,Argentina,-33.29485969832789,-66.36926365378181,1,Milho,Biodiesel,N,1711929600000
+56934,A,Vicentin SAIC,,Avellaneda,Santa Fé,Argentina,-33.117,-64.3449,1,Milho,Biodiesel,N,1711929600000
+56964,A,Moinho La Gloria,Grupo Azucarero Del Trópico,Ursulo Galván,Veracruz,México,19.427477471344766,-96.40309894603712,1,Cana-de-Açúcar,Açúcar | Etanol | Mel,N,1680134400000
+56966,A,Cía. Azucarera la Fe (Pujiltic),Zucarmex,Huixtla,Chiapas,México,16.27710937674259,-92.45370237562307,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+56967,A,Ingenio de Huixtla,Grupo Porres,Huixtla,Chiapas,México,15.089597173125696,-92.49558986028858,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+56969,A,Ingenio El Higo,Zucarmex,Veracruz,Veracruz,México,21.773494073472104,-98.45558447370118,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+56970,A,Industrial Azucarera San Cristóbal,Zucarmex,Carlos A. Carrillo,Veracruz,México,18.371719233520654,-95.74096196025472,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+56971,A,Ingenio Mahuixtlán,Zucarmex,Coatepec,Veracruz,México,19.409060439863218,-96.91745924489646,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+56972,A,Industrial Azucarera Atencingo,Zucarmex,Atencingo,Puebla,México,18.509068621659498,-98.60889233141665,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+56973,A,Ingenio Melchor Ocampo,Zucarmex,El Grullo,JAL,México,19.78712215101622,-104.23630344603713,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+56974,A,California Sugar Refiners - Zucarmex,Zucarmex,San Diego,CA,Estados Unidos,32.558837410089545,-116.92447530000001,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+56975,A,Ingenio Quesería,BSM - Beta San Miguel,Quesería,Colima,México,19.387989811660436,-103.57245751606034,1,Cana-de-Açúcar,Açúcar | Mel,N,1721692800000
+56977,A,Ingenio Alianza Popular,Ingenios Santos,Tamasopo,San Luis Potosí,México,21.965152986215998,-99.29950220253481,1,Cana-de-Açúcar,Açúcar | Mel,N,1721692800000
+56978,A,Compañia Industrial Azucarera,Ingenios Santos,Hueyapan de Ocampo,Veracruz,México,18.14930005193082,-95.1434605,1,Cana-de-Açúcar,Açúcar | Mel,N,1721692800000
+56980,A,Ingenio De Puga,,Madero,Nay,México,21.584258415221246,-104.82300377184883,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+56981,A,Ingenio San Rafael de Pucté,BSM - Beta San Miguel,Quintana,Roo,México,18.276383000897496,-88.68409227560154,1,Cana-de-Açúcar,Açúcar | Mel,N,1721692800000
+56982,A,Ingenio Plan de San Luis,Grupo Piasa,Ciudad Valles,San Luis Potosí,México,22.216886240917496,-99.23318218904045,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+56983,A,Ingenio San Miguel del Naranjo,BSM - Beta San Miguel,Ciudad Valles,San Luis Potosí,México,22.53249191649883,-99.33459687938554,1,Cana-de-Açúcar,Açúcar | Mel,N,1721692800000
+56984,A,Ingenio Eldorado,Grupo Gamsa,Eldorado,Sinaloa,México,24.319351798776975,-107.37028067366197,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+56985,A,Ingenio Presidente Benito Juárez,Ingenios Santos,Cardenas,Tabasco,México,18.00762964297174,-93.58619649312766,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+56986,A,Ingenio Santa Rosalía de la Chontalpa,BSM - Beta San Miguel,Cardenas,Tabasco,México,18.08856665247728,-93.35625616931246,1,Cana-de-Açúcar,Açúcar | Mel,N,1721692800000
+56987,A,Ingenio Azucarero Modelo,Grupo Porres,José Cardel,Veracruz,México,19.37787575062487,-96.37157640680857,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+56988,A,Ingenio Central San Miguelito,BSM - Beta San Miguel,Córdoba,Veracruz,México,18.864346419350085,-96.9185718673113,1,Cana-de-Açúcar,Açúcar | Mel,N,1721692800000
+56989,A,Ingenio Grupo Azucarero San Pedro,Grupo Porres,Medellín,Veracruz,México,19.22475110076161,-96.25450974489878,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+56990,A,Ingenio Panuco,Grupo Pantaleon,Pánuco,Veracruz,México,22.018976270389093,-98.18063039295271,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol | Mel,N,1721692800000
+56997,A,Empresas Iansa,,Bío Bío,Concepción,Chile,-36.517386068477066,-72.05787873197046,1,Beterraba,Açúcar,N,1754352000000
+57000,A,Ingenio San Antonio - ISA,,Chichigalpa,Chinandega,Nicaragua,12.531983607754155,-87.0465235299901,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1680220800000
+57001,A,Montelimar,,Manágua,Manágua,Nicaragua,11.81747071324296,-86.51186777380425,1,Cana-de-Açúcar,Açúcar | Mel,N,1680739200000
+57003,A,Consorcio Azucarero de Empresas Industriales - CAEI,,San Pedro de Macoris,San Pedro de Macoris,República Dominicana,18.47088345227625,-69.3301743,1,Cana-de-Açúcar,Açúcar | Bagaço | Mel,N,1680220800000
+57006,A,Ingenio Cabaña,,Caloto,Cauca,Colômbia,3.177785276816829,-76.39482374205251,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Mel,N,1680566400000
+57009,A,Ingenio Mayagüez,,Santiago de Cali,Cauca,Colômbia,3.3994009652060195,-76.32866331772283,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1680652800000
+57023,A,Serpasa Agroindustrial,,Muquém de São Francisco,BA,Brasil,-12.29811446010359,-43.29024278465429,1,Cana-de-Açúcar,Etanol,S,1744588800000
+57147,A,Etamil Bioenergia,,Campo Novo do Parecís,MT,Brasil,-13.785877492476542,-57.84437400440511,1,Milho,Etanol,N,1698105600000
+57148,A,VMG Bioenergia,,Jataí,GO,Brasil,-17.922596356166697,-51.683757815343775,1,Milho,Etanol,N,1722384000000
+57255,I,FZ BioEnergia,,Viadutos,RS,Brasil,-27.57093156585834,-52.020211959342504,1,Milho,Etanol,N,1721347200000
+57265,A,Central Ifraín Alfonso Liriano,,Ranchuelo,Villa Clara,Cuba,22.37729493541614,-80.1957374908498,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+57267,A,Central Azucarero Augusto César Sandino (Central Merceditas),,Sandino,Artemisa,Cuba,22.982993236943194,-82.90282497116408,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+57268,A,Central Azucarero Eduardo García Lavandero (Central El Pilar),,Artemisa,La Habana,Cuba,22.843084854619555,-82.76190475767189,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+57269,A,Central Azucarero Pablo Noriega (Central Occidente),,Pablo Noriega,PN,Cuba,22.78763333133029,-82.38871227116408,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+57270,A,Central Francisco Gómez Toro,,Amancio,Las Tunas,Cuba,20.970465363793082,-76.92381890437791,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+57271,A,Central Azucarero Cándido González (Central Santa Marta),,Cándido Gónzalez,CG,Cuba,20.81329552066168,-78.01635302766323,1,Cana-de-Açúcar,Açúcar,N,1721692800000
+57364,A,Ingenio Magdalena,,La Democracia,ES,Guatemala,14.601206521223467,-90.48492057567147,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1722211200000
+57366,A,Ingenio Madre Tierra,,Escuintla,ES,Guatemala,14.346407794261157,-91.06502522883594,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Mel,N,1722211200000
+57368,A,AGT - Unidade Estrela do Oeste,,Anaurilândia,MS,Brasil,-22.197166707028625,-52.93667400531675,1,Cana-de-Açúcar,Etanol,S,1750377600000
+57369,A,Ha-Agro Bioenergia,,Carlinda,MT,Brasil,-9.966750068697872,-55.82328977675312,1,Milho,Etanol,N,1722297600000
+57370,A,Inpasa - Sidrolândia,,Sidrolândia,MS,Brasil,-20.94134807602659,-54.962500650802305,1,Milho,Etanol,N,1722297600000
+57371,A,Inpasa - Balsas,,Balsas,MA,Brasil,-7.464210747178908,-46.227120844087246,1,Milho,Etanol,N,1722297600000
+57372,A,Agricola Alvorada Bioenergia,,Canarana,MT,Brasil,-13.41297764571659,-52.5318604,1,Milho,Etanol,N,1722297600000
+57373,A,RRP Energia,,Tapurah,MT,Brasil,-12.737081546683859,-56.51621020476111,1,Milho,Etanol,N,1722384000000
+57374,A,Agro Bio Energia,,Júlio de Castilhos,RS,Brasil,-29.225230756973943,-53.68047140765873,1,Milho,Etanol,N,1722384000000
+57375,A,Fazendão Agronegócio - Industrial Luzimangues,,Porto Nacional,TO,Brasil,-10.23853146036686,-48.55463309999999,1,Milho,Etanol,N,1722384000000
+57376,A,Lazarotto Bioenergia,,Tapurah,MT,Brasil,-12.613618995159273,-56.614987886507784,1,Milho,Etanol,N,1722384000000
+57377,A,Álcool Safra - Santa Francisca,,Rio Claro,SP,Brasil,-22.3699118401494,-47.495168632918336,1,Milho,Etanol,N,1722384000000
+57379,A,Destilaria Tj - Industria,,Sorriso,MT,Brasil,-12.546599740650498,-55.72659087939602,1,Milho,Etanol,N,1722384000000
+57380,A,C. B. Bioenergia,,Santiago,RS,Brasil,-29.093993661057283,-54.92287688889096,1,Trigo,Etanol,N,1722384000000
+57381,A,Pantanal Bioenergia,,Jangada,MT,Brasil,-15.235748698100508,-56.49146267536434,1,Batata-Doce,Etanol,N,1722384000000
+57382,A,Usiflex JuÍna Agro Energia,,Juína,MT,Brasil,-11.413215108303401,-58.7100187865078,1,Batata-Doce | Milho,Etanol,N,1722384000000
+57383,A,Contegran,,Itamaraju,BA,Brasil,-17.035342052141733,-39.536756881881686,1,Cana-de-Açúcar,Açúcar,N,1722816000000
+57395,A,Atvos - Unidade Santa Luzia Biometano,,Nova Alvorada do Sul,MS,Brasil,-21.593680569174104,-54.25329143063894,1,Cana-de-Açúcar,Vinhaça,N,1753660800000
+57409,A,Uisa Geo Biogas,,Nova Olímpia,MT,Brasil,-14.768786,-57.193697,1,Cana-de-Açúcar,Vinhaça,N,1734048000000
+57460,I,Goalcool - Destilaria Serranapolis,Sócias Fundadoras - UDOP 1986,Araçatuba,SP,Brasil,-21.206716766814274,-50.44130921164284,1,,,N,1738108800000
+57461,I,Destilaria Vale Verde,Sócias Fundadoras - UDOP 1986,Junqueirópolis,SP,Brasil,-21.509993301333317,-51.439401941966985,1,,,N,1738108800000
+57462,I,Cruzálcool,Sócias Fundadoras - UDOP 1986,Araçatuba,SP,Brasil,-21.2070883869993,-50.43407398571137,1,,,N,1738108800000
+57463,I,Destilaria Madre Paulina,Sócias Fundadoras - UDOP 1986,Guaimbê,SP,Brasil,-21.911072170557627,-49.89885060991911,1,,,N,1738108800000
+60949,A,Trapiche Lucerna,,Cali,Valle del Cauca,Colômbia,3.4736017153351466,-76.52153418900474,1,Cana-de-Açúcar,Açúcar | Mel,N,1753142400000

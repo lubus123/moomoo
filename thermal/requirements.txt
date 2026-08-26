@@ -11,3 +11,5 @@ pyarrow
 pyyaml
 pyproj
 zarr
+tabulate
+pypdf
