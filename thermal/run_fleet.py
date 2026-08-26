@@ -110,8 +110,13 @@ def main():
     # The index is a within-(mill, calendar-month) anomaly, so the comparable
     # crush quantity is the same month's deviation from its cross-year mean.
     unica_monthly = None
-    mapa_path = Path("data/mapa_moagem_cs_monthly.csv")
-    if mapa_path.exists():
+    # prefer the series pulled from UNICA's own PowerBI backend (2010-present);
+    # the MAPA-vintages series is the independent cross-check
+    mapa_path = next(
+        (p for p in (Path("data/unica_monthly_cs.csv"), Path("data/mapa_moagem_cs_monthly.csv")) if p.exists()),
+        None,
+    )
+    if mapa_path is not None:
         mapa = pd.read_csv(mapa_path)
         stats = mapa.groupby("month")["crush_t"].agg(["mean", "std"])
         mapa = mapa.merge(stats, on="month")
