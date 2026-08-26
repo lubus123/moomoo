@@ -9,7 +9,7 @@ Per scene and mill:
 - ctrl_anom: top-9 core minus the next-warmest 9-pixel tier (matched control)
 - hot3_cnt: pixels with anomaly > 3 C
 
-Output: data/fleet_features_v2.parquet
+Output: data/fleet_features_v3.parquet
 """
 import sys
 from concurrent.futures import ThreadPoolExecutor
@@ -24,7 +24,7 @@ from src import features, fetch, fleet  # noqa: E402
 
 CFG = yaml.safe_load(Path("configs/fleet_cs_brazil.yaml").read_text())
 CACHE = Path(CFG["paths"]["cache_dir"])
-KS = (5, 9, 15, 25)
+KS = (25, 35, 50, 70)
 
 
 def process_mill(row):
@@ -95,9 +95,10 @@ def main():
             if i % 20 == 0:
                 print(f"[{i}/{len(mills)}]", flush=True)
     allf = pd.concat(out, ignore_index=True)
-    allf["ctrl_score"] = allf["core9_anom"] - allf["ctrl_tier_anom"]
-    allf.to_parquet("data/fleet_features_v2.parquet", index=False)
-    print(f"{len(allf)} scene rows, {allf.mill_id.nunique()} mills -> data/fleet_features_v2.parquet")
+    if "core9_anom" in allf:
+        allf["ctrl_score"] = allf["core9_anom"] - allf["ctrl_tier_anom"]
+    allf.to_parquet("data/fleet_features_v3.parquet", index=False)
+    print(f"{len(allf)} scene rows, {allf.mill_id.nunique()} mills -> data/fleet_features_v3.parquet")
 
 
 if __name__ == "__main__":
