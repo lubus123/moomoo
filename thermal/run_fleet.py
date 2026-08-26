@@ -28,10 +28,17 @@ def select_pilot(cfg):
     ]
     if f["require_cane"]:
         m = m[m["materias_primas"].fillna("").str.contains("Cana")]
+    # crushing mills only: must produce sugar or ethanol, and not be a
+    # co-located power station / biogas unit that lists cane as feedstock
+    m = m[m["produtos"].fillna("").str.contains("Etanol|Açúcar|Acucar")]
+    m = m[~(m["nome_fantasia"] + " " + m["produtos"].fillna("")).str.contains(
+        "UTE|Biogás|Biogas|Biometano|Cereais", case=False)]
     picks = []
     for state, k in f["pilot_per_state"].items():
+        if not k:
+            continue  # quota 0 = state excluded
         sub = m[m["estado"] == state].sort_values("id_empresa")
-        if k and k < len(sub):
+        if k < len(sub):
             # deterministic spread across the list
             idx = np.linspace(0, len(sub) - 1, k).round().astype(int)
             sub = sub.iloc[idx]

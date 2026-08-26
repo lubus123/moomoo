@@ -4,7 +4,7 @@ fleet:
   mills_csv: "data/udop_mills.csv"
   states: ["SP", "GO", "MG", "MS", "PR", "MT"]
   require_cane: true          # materias_primas must include Cana-de-Acucar
-  # pilot subsample per state (deterministic; 0 = take all). SP carries ~half of
+  # pilot subsample per state (deterministic; 0 = exclude state). SP carries ~half of
   # CS crush so it is overweighted.
   pilot_per_state: {SP: 10, GO: 3, MG: 3, MS: 2, PR: 2, MT: 0}
   box_km: 1.2
