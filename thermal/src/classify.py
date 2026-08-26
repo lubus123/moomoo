@@ -138,16 +138,30 @@ def classify(df, cfg, log=print):
         "residual_separable": bool(r_means[1] - r_means[0] >= c["min_separation_c"]),
     }
 
-    # --- primary: seasonal-mixture on the best available signal ---
-    signal = "core_anom" if "core_anom" in df and df["core_anom"].notna().sum() >= 30 else "anomaly"
-    fit_df = df[df[signal].notna()]
-    C = seasonal_design(fit_df["datetime"], c["seasonal_harmonics"])
-    a, g, sig, post, w = em_seasonal_mixture(fit_df[signal].values, C)
+    # --- primary model ---
+    # seasonal_mixture: controls for a solar/seasonal cycle common to both states
+    #   (right when the plant's schedule is independent of season, e.g. Azomures).
+    # raw_gmm: the plain mixture on the raw anomaly (right when operation itself
+    #   is seasonal, e.g. sugarcane crush campaigns - seasonal control would
+    #   absorb the very signal we are after).
+    model = c.get("model", "seasonal_mixture")
+    if model == "raw_gmm":
+        signal = "anomaly"
+        fit_df = df[df[signal].notna()]
+        means_f, stds_f, post, gm_f = fit_gmm(fit_df[signal])
+        a, sig = means_f, stds_f
+        w = gm_f.weights_[np.argsort(gm_f.means_.ravel())]
+    else:
+        signal = "core_anom" if "core_anom" in df and df["core_anom"].notna().sum() >= 30 else "anomaly"
+        fit_df = df[df[signal].notna()]
+        C = seasonal_design(fit_df["datetime"], c["seasonal_harmonics"])
+        a, g, sig, post, w = em_seasonal_mixture(fit_df[signal].values, C)
     sep = float(a[1] - a[0])
-    report["seasonal_mixture"] = {
+    report["primary"] = {
+        "model": model,
         "signal": signal,
         "n_fit": len(fit_df),
-        "intercepts_c": [round(float(v), 2) for v in a],
+        "means_c": [round(float(v), 2) for v in a],
         "sigmas_c": [round(float(s), 2) for s in sig],
         "separation_c": round(sep, 2),
         "weights": [round(float(v), 3) for v in w],

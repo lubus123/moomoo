@@ -138,7 +138,9 @@ def main():
         print("modis:", mcounts, len(modis_df), "composites")
         modis_df.to_parquet(Path(paths["parquet"]).parent / f"{cfg['site']['name']}_modis_night.parquet", index=False)
 
-    plot.anomaly_timeseries(df, report, figs / "anomaly_timeseries.png", modis_df)
+    plot.anomaly_timeseries(
+        df, report, figs / "anomaly_timeseries.png", modis_df, site_name=cfg["site"]["name"]
+    )
     labels_emitted = report["separability"] in ("separable", "marginal")
     if labels_emitted:
         plot.st_chips(df, cfg, cache_dir, plant_mask, figs / "plant_chips")
@@ -148,7 +150,7 @@ def main():
     # ---- summary ----
     gaps = gap_stats(df)
     plat = platform_comparison(df)
-    sm = report["seasonal_mixture"]
+    sm = report["primary"]
     lines = [
         f"# {cfg['site']['name']} thermal on/off summary",
         "",
@@ -167,9 +169,10 @@ def main():
         f"day-of-year cycle; separation on deseasonalised residuals "
         f"{report['seasonal_check']['residual_separation_c']} degC "
         f"(survives: {report['seasonal_check']['residual_separable']}).",
-        f"- Primary model: 2-component mixture on `{sm['signal']}` with shared seasonal "
-        f"harmonics - season-free intercepts {sm['intercepts_c']} degC, "
-        f"sigmas {sm['sigmas_c']}, **state separation {sm['separation_c']} degC** "
+        f"- Primary model `{sm['model']}` on `{sm['signal']}`: "
+        f"{'season-free intercepts' if sm['model'] == 'seasonal_mixture' else 'component means'} "
+        f"{sm['means_c']} degC, sigmas {sm['sigmas_c']}, "
+        f"**state separation {sm['separation_c']} degC** "
         f"(floor {cfg['classify']['min_separation_c']}).",
     ]
     if "gmm_hot_frac" in report:
@@ -195,24 +198,29 @@ def main():
         json.dumps(plat, indent=2),
         "```",
     ]
-    events_path = Path("data/reported_events.csv")
+    events_path = Path(paths.get("events", "data/reported_events.csv"))
     if labels_emitted and events_path.exists():
         lines += ["", "## Validation vs publicly reported status", ""]
         verdicts = validate_events(df, events_path, lines, modis_df)
         lines += ["", f"Verdicts: {pd.Series(verdicts).value_counts().to_dict()}"]
+    lines += ["", "## Caveats"]
+    if sm["model"] == "seasonal_mixture":
+        lines += [
+            "- Daytime Landsat ST is dominated by solar heating of roofs/concrete; labels",
+            "  come from the season-controlled mixture, and the seasonal-leakage check above",
+            "  shows how much of the raw anomaly is season rather than state.",
+        ]
+    else:
+        lines += [
+            "- Labels come from the RAW anomaly GMM (`classify.model: raw_gmm`). This is",
+            "  appropriate only when operation itself is seasonal (e.g. crush campaigns);",
+            "  the seasonal-leakage check above then flags the operating cycle, not a bug.",
+        ]
     lines += [
-        "",
-        "## Caveats",
-        "- Daytime Landsat ST is dominated by solar heating of roofs/concrete: at this site",
-        "  the raw plant-minus-background anomaly has a larger seasonal cycle than the",
-        "  ON/OFF signal itself. All labels come from the season-controlled mixture on the",
-        "  core-hotspot anomaly; the raw-anomaly GMM would mislabel winter ON scenes as OFF.",
-        "- OFF detection during winter cloud cover has multi-week blind gaps.",
-        "- Partial-load operation (downstream units on imported ammonia, 2022-2023) sits",
-        "  between the two modes and is genuinely ambiguous.",
-        "- MODIS LST_Night_1km cross-check: plant heat is diluted into 1 km pixels, so the",
-        "  night anomaly shifts by only a few tenths of a degC between states - use it as a",
-        "  directional check on multi-month periods, not per scene.",
+        "- OFF detection during extended cloud cover has multi-week blind gaps.",
+        "- Partial-load operation sits between the two modes and is genuinely ambiguous.",
+        "- MODIS LST_Night_1km cross-check (if enabled): plant heat is diluted into 1 km",
+        "  pixels - use it as a directional check on multi-month periods, not per scene.",
     ]
     (outputs / "summary.md").write_text("\n".join(lines) + "\n")
     print("\n".join(lines))

@@ -13,8 +13,8 @@ LABEL_COLORS = {"ON": "#d62728", "OFF": "#1f77b4", "UNCERTAIN": "#999999"}
 PLATFORM_MARKERS = {"landsat-8": "o", "landsat-9": "^"}
 
 
-def anomaly_timeseries(df, report, out_path, modis_df=None):
-    signal = report.get("seasonal_mixture", {}).get("signal", "anomaly")
+def anomaly_timeseries(df, report, out_path, modis_df=None, site_name="site"):
+    signal = report.get("primary", {}).get("signal", "anomaly")
     nrows = 3 if modis_df is not None else 2
     fig, axes = plt.subplots(
         nrows, 1, figsize=(14, 4 * nrows), sharex=True, gridspec_kw={"hspace": 0.15}
@@ -32,8 +32,8 @@ def anomaly_timeseries(df, report, out_path, modis_df=None):
                 )
     ax.set_ylabel("plant_p95 - bg_median (degC)")
     ax.set_title(
-        "Azomures thermal anomaly (Landsat C2 L2 ST_B10) - raw box anomaly; "
-        "labels from seasonal mixture"
+        f"{site_name} thermal anomaly (Landsat C2 L2 ST_B10) - raw box anomaly; "
+        f"labels from {report.get('primary', {}).get('model', '?')}"
     )
     ax.legend(ncol=3, fontsize=8, loc="upper right")
     ax.grid(alpha=0.3)
@@ -43,11 +43,12 @@ def anomaly_timeseries(df, report, out_path, modis_df=None):
         for label, color in LABEL_COLORS.items():
             sel = df[df["label"] == label]
             ax.scatter(sel["datetime"], sel[signal], c=color, s=20, alpha=0.85, edgecolors="none")
-    sm = report.get("seasonal_mixture", {})
+    sm = report.get("primary", {})
     ax.set_ylabel(f"{signal} (degC)")
+    kind = "season-free intercepts" if sm.get("model") == "seasonal_mixture" else "component means"
     ax.set_title(
-        f"classification signal: {signal} - season-free intercepts "
-        f"{sm.get('intercepts_c')} degC (gap {sm.get('separation_c')} degC, "
+        f"classification signal: {signal} ({sm.get('model')}) - {kind} "
+        f"{sm.get('means_c')} degC (gap {sm.get('separation_c')} degC, "
         f"{report.get('separability')})"
     )
     ax.grid(alpha=0.3)
