@@ -57,11 +57,30 @@ uv venv .venv && uv pip install -p .venv/bin/python -r requirements.txt
 
 ## New sites
 
-Edit the `site` block in `config.yaml` (or copy the file). Before trusting a new
-site: render a true-colour chip (`scripts/verify_site.py`) and confirm the box,
-then check the separability section of `summary.md` — if the GMM means differ by
-<3 C the site is not thermally separable at Landsat resolution and the pipeline
-says so instead of emitting labels.
+Edit the `site` block in `config.yaml` (or copy the file, see `configs/`).
+Before trusting a new site: render a true-colour chip (`scripts/verify_site.py`)
+and confirm the box, then check the separability section of `summary.md` — if
+the GMM means differ by <3 C the site is not thermally separable at Landsat
+resolution and the pipeline says so instead of emitting labels. Pick
+`classify.model` per site: `seasonal_mixture` when the plant's schedule is
+independent of season, `raw_gmm` when operation itself is seasonal.
+
+### Case study: Parapua sugar mill (Brazil) — a warning about validation
+
+`configs/parapua_mill.yaml` runs the original raw-GMM approach on a sugarcane
+mill in Sao Paulo (crush season Apr–Nov). The GMM passes its own gates
+(3.4 C separation, small day-of-year sine fit) yet the crush-calendar
+validation shows **16/23 windows mismatched with the sign inverted**: the
+"hot" component is the austral-summer *off-season*. Two confounds stack the
+same way: peak solar heating of mill roofs falls in Dec–Feb (the off-season),
+and the background ring is sugarcane that is cool green canopy in the wet
+off-season but hot bare/stubble during the dry crush season (`bg_median`
+swings 25→39 C). Real process heat is visible — winter (Jun–Aug) anomaly maps
+show a persistent mill hotspot that dimmed from ~5 C to ~2 C in the 2021–22
+drought years and recovered by 2024 (`figs/parapua/winter_era_comparison.png`)
+— but a season-blind box-level GMM is the wrong extractor for it. Moral:
+never ship labels from this pipeline without an external validation table;
+the statistical gates alone cannot catch a confounder that mimics bimodality.
 
 ## Validation sources (reported Azomures status, data/reported_events.csv)
 
