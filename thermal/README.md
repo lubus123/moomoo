@@ -113,3 +113,19 @@ UNICA's monthly/fortnightly Center-South crush numbers:
 - Ammonia III restart Sep 2023 (~50%): [Azomures press release](https://www.azomures.com/storage/media/Comunicat-de-presa-repornire-Azomures-50-EN-septembrie-2023.pdf)
 - No production since Aug 2024; restart Jul 2025 at ~30%: [Romania Insider](https://www.romania-insider.com/azomures-restarts-operation-july-2025), [Fertilizer Daily](https://www.fertilizerdaily.com/20250725-azomures-restarts-fertilizer-production-after-year-long-shutdown/)
 - Mothballed 2026, workforce cut, Romgaz acquisition: [Argus](https://www.argusmedia.com/en/news-and-insights/latest-market-news/2774648-romania-s-azomures-mothballs-ferts-production), [Fertilizer Daily](https://www.fertilizerdaily.com/20260323-azomures-cuts-95-workforce-as-prolonged-shutdown-deepens-crisis/), [Fertilizer Daily](https://www.fertilizerdaily.com/20260602-romgaz-buys-idled-fertilizer-producer-azomure%C8%99-for-%E2%82%AC69m/)
+
+## Raw scene-cache archives
+
+Raw Landsat per-scene caches (`data/cache*/`, gitignored) are archived as
+orphan branches of split tar parts — no LFS/Releases needed and normal clones
+never download them: `cache-archive-parapua-v1`, `cache-archive-fleet-v1`
+(pushed when the strategic fetch completes). Restore:
+
+```bash
+git fetch origin cache-archive-fleet-v1
+git archive FETCH_HEAD | tar -x            # extracts parts/
+cat parts/cache_fleet.tar.part-* | tar -x  # recreates data/cache_fleet/
+```
+
+Created by `scripts/archive_cache_to_git.sh`. Equivalent alternative: re-run
+the fetch scripts against Planetary Computer (caches are pure downloads).
