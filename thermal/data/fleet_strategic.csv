@@ -1,0 +1,154 @@
+id_empresa,status,nome_fantasia,grupo,cidade,estado,pais,latitude,longitude,coordenadas_validas,materias_primas,produtos,associada,data_ultima_atualizacao,builtup_px
+21859,A,São Joaquim,,Palmital,SP,Brasil,-22.788987,-50.216346,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000,1292
+54417,A,CEVN,,Denise,MT,Brasil,-14.727346,-57.050606,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693785600000,1262
+20883,A,Usina Santa Terezinha - Unidade Paranacity,Usaçúcar,Paranacity,PR,Brasil,-23.457412,-51.992761,1,Cana-de-Açúcar,Açúcar | Etanol,N,1736121600000,1139
+20884,A,Usina Santa Terezinha - Unidade Tapejara,Usaçúcar,Tapejara,PR,Brasil,-23.457425,-51.992754,1,Cana-de-Açúcar,Açúcar | Etanol,N,1736121600000,1139
+50238,A,Cia. Müller de Bebidas (Porto Ferreira),Companhia Müller de Bebidas,Porto Ferreira,SP,Brasil,-21.839129,-47.474777,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000,1039
+21006,A,Usina Aliança e Penápolis,Atena,Penápolis,SP,Brasil,-21.410177,-50.095132,1,Cana-de-Açúcar,Açúcar | Etanol,N,1762819200000,988
+20654,A,Delta - Unidade Delta,Delta,Delta,MG,Brasil,-19.97577,-47.770688,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000,849
+51705,A,Santa Mercedes,Santa Mercedes,Santa Mercedes,SP,Brasil,-22.107274,-50.164258,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687910400000,844
+21988,A,Baldin - Unidade Taboão,Baldin Bioenergia ,Pirassununga,SP,Brasil,-22.007653,-47.442941,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000,822
+20803,A,Raízen - Unidade Rafard,Raízen,Rafard,SP,Brasil,-23.008585,-47.531004,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,774
+51152,A,Adecoagro - Unidade Ivinhema,Adecoagro,Ivinhema,MS,Brasil,-22.392239,-53.887189,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol | Vinhaça,S,1770163200000,765
+56102,A,Lida Nitro,,Alta Floresta,MT,Brasil,-9.902855,-56.078908,1,Cana-de-Açúcar,Etanol,N,1693785600000,676
+21995,A,COFCO International - Unidade Sebastianópolis,COFCO Agri,Sebastianópolis do Sul,SP,Brasil,-20.582125,-49.95232,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687910400000,662
+20013,A,Grupo Renuka do Brasil - Unidade Madhu,Renuka do Brasil,Promissão,SP,Brasil,-21.634631,-49.840988,1,Cana-de-Açúcar,Açúcar | Bagaço | Bioeletricidade | Etanol | Levedura | Óleo,S,1734048000000,634
+20550,A,Raízen - Unidade Bonfim,Raízen,Guariba,SP,Brasil,-21.418966,-48.288949,1,Cana-de-Açúcar,Açúcar | Etanol | Vinhaça,N,1754611200000,627
+22641,A,Cocal - Unidade Narandiba,Cocal,Narandiba,SP,Brasil,-22.532818,-51.505356,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,605
+20676,A,Raízen - Parque de Bioenergia Gasa,Raízen,Andradina,SP,Brasil,-20.770448,-51.259612,1,Cana-de-Açúcar,Bioeletricidade | Etanol,S,1754611200000,581
+20754,A,Nardini,Nardini,Vista Alegre do Alto,SP,Brasil,-21.175152,-48.634298,1,Cana-de-Açúcar,Açúcar | Etanol,N,1768348800000,568
+20749,A,bp bioenergy - Unidade Moema,BP Bunge Bioenergia,Orindiúva,SP,Brasil,-20.234012,-49.357435,1,Cana-de-Açúcar,Açúcar | Etanol,N,1780876800000,565
+20490,A,Tereos - Cruz Alta,Tereos,Olímpia,SP,Brasil,-20.692852,-49.10848,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol | Vinhaça,S,1734048000000,555
+20347,A,Álcool Ferreira,,Cordeirópolis,SP,Brasil,-22.496032241300185,-47.40303182568331,1,Cana-de-Açúcar,Etanol,N,1721260800000,547
+20641,A,Raízen - Unidade Da Barra,Raízen,Barra Bonita,SP,Brasil,-22.479604,-48.541243,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,543
+25356,A,Atvos - Unidade Rio Claro,Mubadala Capital,Caçú,GO,Brasil,-18.794306,-51.010977,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Crédito de Carbono | Etanol,S,1734048000000,525
+20018,A,Raízen - Parque de Bioenergia Univalem,Raízen,Valparaíso,SP,Brasil,-21.327942,-50.949095,1,Cana-de-Açúcar,Açúcar | Etanol,S,1734048000000,519
+20520,A,Araporã,Alvorada,Araporã,MG,Brasil,-18.441763,-49.189542,1,Cana-de-Açúcar,Açúcar | Etanol,N,1741737600000,514
+23389,A,Atvos - Unidade Conquista do Pontal,Mubadala Capital,Mirante do Paranapanema,SP,Brasil,-22.398767,-52.103718,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Crédito de Carbono | Etanol,S,1734048000000,492
+20696,A,Da Mata,Grendene,Valparaíso,SP,Brasil,-21.051137,-50.844469,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol | Levedura | Óleo,S,1749168000000,472
+22819,A,São Martinho - Boa Vista,São Martinho,Quirinópolis,GO,Brasil,-18.548725,-50.433934,1,Cana-de-Açúcar | Milho,Açúcar | Etanol,N,1693785600000,472
+51153,A,Atvos - Unidade Costa Rica,Mubadala Capital,Costa Rica,MS,Brasil,-18.463566,-53.16807,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Crédito de Carbono | Etanol,S,1734048000000,468
+20941,A,Usina Coruripe - Filial Iturama,Tércio Wanderley,Iturama,MG,Brasil,-19.710077,-50.336244,1,Cana-de-Açúcar,Açúcar | Etanol,N,1736121600000,466
+25006,A,Raízen - Unidade Caarapó,Raízen,Caarapó,MS,Brasil,-22.613859,-54.696098,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,465
+20518,A,Alto Alegre - Unidade Junqueira - Matriz,Lincoln Junqueira,Colorado,PR,Brasil,-22.929077,-51.946158,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,465
+22625,A,COFCO International - Unidade Meridiano,COFCO Agri,Meridiano,SP,Brasil,-20.452542,-50.205772,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687910400000,455
+22633,A,COFCO International - Unidade Potirendaba,COFCO Agri,Potirendaba,SP,Brasil,-21.105938,-49.327428,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687910400000,453
+20636,A,Raízen - Unidade Costa Pinto,Raízen,Piracicaba,SP,Brasil,-22.637224,-47.684649,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,449
+22664,A,CMAA - Vale do Tijuco,CMAA,Uberaba,MG,Brasil,-19.352479,-48.242555,1,Cana-de-Açúcar,Açúcar | Etanol,N,1780963200000,444
+20615,A,Alto Alegre - Unidade Florestópolis,Lincoln Junqueira,Florestópolis,PR,Brasil,-22.875964,-51.41005,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,443
+20543,A,Barralcool,,Barra do Bugres,MT,Brasil,-15.034009,-57.216299,1,Cana-de-Açúcar | Gordura Animal,Açúcar | Biodiesel | Etanol,N,1693440000000,440
+20607,A,COFCO International - Unidade Catanduva,COFCO Agri,Catanduva,SP,Brasil,-21.102399,-48.977414,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687824000000,419
+21971,A,Viterra Bioenergia - Unidade Rio Vermelho,Viterra - The Agricultural Network,Junqueirópolis,SP,Brasil,-21.339375,-51.36656,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,S,1734048000000,412
+55874,A,Raízen Unidade Santa Candida,Raízen,Bocaina,SP,Brasil,-22.105013,-48.481124,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,409
+20824,A,Santa Cruz - (SP),Ometto,Américo Brasiliense,SP,Brasil,-21.752793,-48.080948,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000,402
+22310,A,Tereos - São José,Tereos,Colina,SP,Brasil,-20.662741,-48.534583,1,Cana-de-Açúcar,Açúcar | Etanol,S,1734048000000,399
+20870,A,São Martinho,São Martinho,Pradópolis,SP,Brasil,-21.320456,-48.126,1,Cana-de-Açúcar,Açúcar | Etanol,N,1763942400000,399
+20660,A,Raízen - Unidade Diamante,Raízen,Jaú,SP,Brasil,-22.367143,-48.685807,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,389
+21679,A,Atvos - Unidade Eldorado,Mubadala Capital,Rio Brilhante,MS,Brasil,-21.86806,-54.016305,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Crédito de Carbono | Etanol,S,1740441600000,388
+22335,A,Cargill Bioenergia - Filial Usina São Francisco (USF),USJ,Quirinópolis,GO,Brasil,-18.431996,-50.261446,1,Cana-de-Açúcar | Milho,Açúcar | Etanol,N,1759190400000,387
+20009,A,Cocal - Unidade Paraguaçu Paulista,Cocal,Paraguaçú Paulista,SP,Brasil,-22.47692,-50.790168,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol | Vinhaça,S,1778630400000,387
+20877,A,Raízen - Unidade Junqueira,Raízen,Igarapava,SP,Brasil,-19.991564,-47.794082,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,386
+20616,A,Colombo Agroindústria - Unidade Ariranha,Colombo,Ariranha,SP,Brasil,-21.214910240662828,-48.83670687452263,1,Cana-de-Açúcar,Açúcar | Etanol,S,1769472000000,384
+20643,A,Raízen - Unidade Da Serra,Raízen,Ibaté,SP,Brasil,-22.011728,-48.000311,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,383
+20542,A,Zilor - Unidade Barra Grande,Zilor,Lençóis Paulista,SP,Brasil,-22.631702,-48.752595,1,Cana-de-Açúcar,Açúcar | Etanol,N,1759190400000,377
+22650,A,Ipiranga - Iacanga,Titoto - Ipiranga,Iacanga,SP,Brasil,-21.798957,-49.009212,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687910400000,376
+20269,A,Zilor - Biorigin e P&D São José,Zilor,Macatuba,SP,Brasil,-22.49757,-48.781806,1,Cana-de-Açúcar,Açúcar | Etanol,N,1759190400000,374
+20832,A,Santa Isabel,Santa Isabel,Novo Horizonte,SP,Brasil,-21.506116,-49.20784,1,Cana-de-Açúcar,Açúcar | Etanol,N,1713744000000,370
+22639,A,Clealco - Unidade Queiroz,Clealco,Queiroz,SP,Brasil,-21.806972,-50.220999,1,Cana-de-Açúcar,Açúcar | Bagaço | Bioeletricidade | Etanol | Levedura | Melaço | Óleo | Vinhaça,S,1734048000000,369
+22646,A,Colombo - Santa Albertina,Colombo,Santa Albertina,SP,Brasil,-20.039628937646025,-50.67943011687666,1,Cana-de-Açúcar,Açúcar | Etanol,N,1759276800000,368
+20864,A,Estiva Bioenergia,São José da Estiva,Novo Horizonte,SP,Brasil,-21.4872,-49.18786,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,S,1761868800000,368
+22324,A,Lins Agroindustrial,Grupo Lins,Lins,SP,Brasil,-21.601441,-49.540889,1,Cana-de-Açúcar | Soja,Açúcar | Bagaço | Crédito de Carbono | Etanol | Levedura | Soja in natura,S,1761177600000,365
+20869,A,São Manoel,,São Manuel,SP,Brasil,-22.670214,-48.54357,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000,360
+22624,A,bp bioenergy - Unidade Ouroeste,BP Bunge Bioenergia,Ouroeste,SP,Brasil,-19.950382,-50.434111,1,Cana-de-Açúcar,Açúcar | Etanol,N,1729468800000,355
+25167,A,Cerradão,Pitangueiras,Frutal,MG,Brasil,-19.924204,-49.155546,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000,342
+20770,A,Raízen - Parque de Bioenergia Paraguaçu,Raízen,Paraguaçú Paulista,SP,Brasil,-22.464094,-50.493425,1,Cana-de-Açúcar,Bioeletricidade | Etanol,S,1754611200000,342
+22647,A,Umoe Bioenergy,Umoe AS,Sandovalina,SP,Brasil,-22.559441,-51.828263,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687910400000,341
+22587,A,Usina Santa Adélia - Pereira Barreto,Santa Adélia,Pereira Barreto,SP,Brasil,-20.530592,-51.245524,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,341
+20623,A,Coopcana,Coopcana,São Carlos do Ivaí,PR,Brasil,-23.269321,-52.489178,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000,340
+22636,A,CMNP Unidade Vale do Paraná,Manuelita,Suzanápolis,SP,Brasil,-20.390129,-51.031386,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,S,1734048000000,340
+21452,A,Usina Coruripe - Filial Campo Florido,Tércio Wanderley,Campo Florido,MG,Brasil,-19.813603,-48.733615,1,Cana-de-Açúcar,Açúcar | Etanol,N,1736121600000,339
+20597,A,Virgolino de Oliveira - Catanduva,GVO - Virgolino de Oliveira,Ariranha,SP,Brasil,-21.12905,-48.838483,1,Cana-de-Açúcar,Açúcar | Bagaço | Bioeletricidade | Etanol | Mel | Óleo | Vinhaça,N,1721347200000,339
+20003,A,Alto Alegre - Unidade Floresta,Lincoln Junqueira,Presidente Prudente,SP,Brasil,-21.866356,-51.259262,1,Cana-de-Açúcar,Açúcar,S,1734048000000,336
+20016,A,Usina Santa Adélia - Pioneiros,Santa Adélia,Sud Mennucci,SP,Brasil,-20.729077,-50.959881,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,N,1734048000000,336
+20768,A,Raízen - Unidade Paraíso,Raízen,Brotas,SP,Brasil,-22.3487067806,-48.1068918389,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,335
+20836,A,Santa Maria - (Cerquilho),,Cerquilho,SP,Brasil,-23.162608,-47.784265,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000,334
+20827,A,Raízen - Unidade Santa Helena,Raízen,Rio das Pedras,SP,Brasil,-22.801896,-47.662629,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734307200000,332
+22054,A,CerradinhoBio,Cerradinho Bio,Chapadão do Céu,GO,Brasil,-18.468935,-52.602332,1,Cana-de-Açúcar,Açúcar | Etanol,S,1734048000000,330
+20011,A,Raízen - Parque de Bioenergia Destivale,Raízen,Araçatuba,SP,Brasil,-21.057733,-50.465011,1,Cana-de-Açúcar,Bioeletricidade | Etanol,S,1754611200000,330
+25357,A,Atvos - Unidade Morro Vermelho,Mubadala Capital,Mineiros,GO,Brasil,-17.720823,-53.042161,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Crédito de Carbono | Etanol,S,1734048000000,320
+21797,A,bp bioenergy - Unidade Ituiutaba,BP Bunge Bioenergia,Ituiutaba,MG,Brasil,-19.018296,-49.673266,1,Cana-de-Açúcar,Açúcar | Etanol,N,1729468800000,319
+20701,A,Jalles,Otavio Lage,Goianésia,GO,Brasil,-15.212852,-48.989124,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,318
+20690,A,Iracema,São Martinho,Iracemápolis,SP,Brasil,-22.581614,-47.530011,1,Cana-de-Açúcar,Açúcar | Etanol,N,1748908800000,317
+22628,A,Tereos - Tanabi,Tereos,Tanabi,SP,Brasil,-20.489346,-49.538308,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,S,1754611200000,314
+20524,A,Tereos - Andrade,Viralcool,Pitangueiras,SP,Brasil,-21.005151,-48.286113,1,Cana-de-Açúcar,Açúcar | Etanol,S,1769731200000,313
+20502,A,bp bioenergy - Unidade Santa Juliana,BP Bunge Bioenergia,Santa Juliana,MG,Brasil,-19.544355,-47.424434,1,Cana-de-Açúcar,Açúcar | Etanol,N,1729468800000,312
+52125,A,Atvos - Unidade Água Emendada,Mubadala Capital,Perolândia,GO,Brasil,-17.535598,-52.258908,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Crédito de Carbono | Etanol,S,1740441600000,309
+22586,A,Viralcool - Unidade Castilho,Irmãos Toniello,Castilho,SP,Brasil,-21.087325,-51.586668,1,Cana-de-Açúcar,Açúcar | Bagaço | Bioeletricidade | Etanol | Levedura,S,1734048000000,308
+25151,A,Raízen - Unidade Tarumã,Raízen,Tarumã,SP,Brasil,-22.785556,-50.547311,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,308
+22627,A,Colombo - Palestina,Colombo,Palestina,SP,Brasil,-20.21203355892436,-49.61284114570899,1,Cana-de-Açúcar,Açúcar | Etanol,N,1759276800000,307
+22122,A,Usina Caeté - Unidade Paulicéia,Carlos Lyra,Paulicéia,SP,Brasil,-21.278599,-51.779876,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,S,1744243200000,304
+22656,A,Cocal - Unidade Rio Brilhante,Cocal,Rio Brilhante,MS,Brasil,-21.731627,-54.504795,1,Cana-de-Açúcar,Açúcar | Etanol,N,1756857600000,301
+20923,A,Delta - Unidade Volta Grande,Delta,Conceição das Alagoas,MG,Brasil,-19.981812,-48.26577,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000,295
+20738,A,Raízen - Unidade Maracaí,Raízen,Maracaí,SP,Brasil,-22.575563,-50.653431,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,295
+20633,A,Coprodia,,Campo Novo do Parecís,MT,Brasil,-13.786112,-57.844369,1,Cana-de-Açúcar | Milho,Açúcar | Etanol,N,1693785600000,293
+55509,A,Rio Amambai Agroenergia,Amerra,Naviraí,MS,Brasil,-23.130837,-54.199585,1,Cana-de-Açúcar,Açúcar | Etanol,S,1734048000000,289
+20726,A,Raízen - Unidade Lagoa da Prata,Biosev,Lagoa da Prata,MG,Brasil,-20.075817,-45.563985,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,287
+22332,A,bp bioenergy - Unidade Itapagipe,BP Bunge Bioenergia,Itapagipe,MG,Brasil,-19.890397,-49.690172,1,Cana-de-Açúcar,Açúcar | Etanol,N,1729468800000,287
+22638,A,Usina Ipê,Da Pedra,Nova Independência,SP,Brasil,-21.166437,-51.468266,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,S,1734048000000,282
+20618,A,Colorado,Colorado,Guaíra,SP,Brasil,-20.280562,-48.183149,1,Cana-de-Açúcar,Açúcar | Etanol,N,1728432000000,282
+20667,A,Usina Açucareira Ester,Coutinho Nogueira,Cosmópolis,SP,Brasil,-22.659921,-47.211872,1,Cana-de-Açúcar,Açúcar | Etanol,N,1759795200000,280
+25352,A,Raízen - Unidade Centroeste,Raízen,Jataí,GO,Brasil,-17.701431,-51.626105,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,279
+20852,A,São Francisco - (UFRA),Balbo,Sertãozinho,SP,Brasil,-21.174685,-48.118198,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000,279
+20687,A,Raízen - Unidade Ipaussu,Raízen,Ipaussu,SP,Brasil,-23.101779,-49.590451,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,276
+20002,A,Raízen - Parque de Bioenergia Mundial,Raízen,Mirandópolis,SP,Brasil,-21.196834,-51.216873,1,Cana-de-Açúcar,Bioeletricidade | Etanol,S,1754611200000,274
+25387,A,Atvos - Unidade Santa Luzia,Mubadala Capital,Nova Alvorada do Sul,MS,Brasil,-21.586143,-54.248157,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Crédito de Carbono | Etanol,S,1734048000000,266
+20918,A,Vale do Verdão,Vale do Verdão,Maurilândia,GO,Brasil,-17.968499,-50.317196,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000,264
+20848,A,USA - Santo Antônio,Balbo,Sertãozinho,SP,Brasil,-21.119983,-47.959909,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000,263
+22028,A,bp bioenergy - Unidade Tropical,BP Bunge Bioenergia,Edéia,GO,Brasil,-17.685819,-50.11622,1,Cana-de-Açúcar,Açúcar | Etanol,N,1729468800000,263
+21004,A,Usina Buriti,Da Pedra,Buritizal,SP,Brasil,-20.219548,-47.65442,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,259
+51762,A,Atvos - Unidade Alto Taquari,Mubadala Capital,Alto Taquari,MT,Brasil,-17.738689,-53.317779,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Crédito de Carbono | Etanol,S,1740441600000,255
+22291,A,Usina Coruripe - Unidade Limeira do Oeste,Tércio Wanderley,Limeira do Oeste,MG,Brasil,-19.524285,-50.660339,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,S,1734048000000,254
+20005,A,Raízen - Parque de Bioenergia Benálcool,Raízen,Bento de Abreu,SP,Brasil,-21.227226,-50.78076,1,Cana-de-Açúcar,Bioeletricidade | Etanol,S,1754611200000,250
+20825,A,Raízen - Santa Elisa,Biosev,Sertãozinho,SP,Brasil,-21.112211,-48.076343,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,250
+20331,A,Usina Vertente,Tereos,Guaraci,SP,Brasil,-20.405302,-49.001647,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol,S,1734048000000,249
+20925,A,Raízen - Unidade Araraquara - (Zanin),Raízen,Araraquara,SP,Brasil,-21.858798,-48.186376,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,234
+22626,A,bp bioenergy - Unidade Guariroba,BP Bunge Bioenergia,Pontes Gestal,SP,Brasil,-20.113116,-49.760652,1,Cana-de-Açúcar,Açúcar | Etanol,N,1729468800000,231
+20008,A,Clealco - Unidade Clementina,Clealco,Clementina,SP,Brasil,-21.577753,-50.43359,1,Cana-de-Açúcar,Açúcar | Bagaço | Bioeletricidade | Etanol | Levedura | Melaço | Óleo | Vinhaça,S,1755043200000,224
+25581,A,Jalles - Unidade Otávio Lage,Otavio Lage,Goianésia,GO,Brasil,-15.082756,-49.305576,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,221
+20007,A,Zilor - Unidade Salto Botelho,Zilor,Lucélia,SP,Brasil,-21.566696,-50.959826,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Etanol | Levedura | Vinhaça,S,1734048000000,219
+56467,A,Albioma Esplanada,Jalles Machado,Goianésia,GO,Brasil,-15.08187,-49.30662,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000,219
+20917,A,Raízen - Unidade Vale do Rosário,Biosev,Morro Agudo,SP,Brasil,-20.613533,-48.001201,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,215
+20682,A,Tereos - Unidade Industrial Severínia,Tereos,Severínia,SP,Brasil,-20.822132,-48.822063,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,211
+20642,A,Usina da Pedra,Da Pedra,Serrana,SP,Brasil,-21.178916,-47.628776,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,210
+22643,A,Raízen - Unidade Continental,Biosev,Colômbia,SP,Brasil,-20.232822,-48.622404,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,210
+25296,A,bp bioenergy - Unidade Itumbiara,BP Bunge Bioenergia,Itumbiara,GO,Brasil,-18.519436,-49.360472,1,Cana-de-Açúcar,Açúcar | Etanol,N,1729468800000,208
+20517,A,Alta Mogiana - Unidade São Joaquim da Barra,Lincoln Junqueira,São Joaquim da Barra,SP,Brasil,-20.48531,-47.870974,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693353600000,202
+20757,A,Coruripe - Filial Carneirinho,Tércio Wanderley,Carneirinho,MG,Brasil,-19.813585,-50.783183,1,Cana-de-Açúcar,Açúcar | Etanol,N,1726012800000,199
+21008,A,Zambianco Açúcar e Álcool,Zambianco,Tietê,SP,Brasil,-22.972077,-47.794317,1,Cana-de-Açúcar,Açúcar | Bagaço | Etanol | Melaço,S,1734048000000,197
+20731,A,Tereos - Mandu,Tereos,Guaíra,SP,Brasil,-20.478369,-48.40847,1,Cana-de-Açúcar,Açúcar | Etanol,S,1734048000000,196
+20688,A,Ipiranga - Descalvado,Titoto - Ipiranga,Descalvado,SP,Brasil,-21.831952,-47.751109,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000,193
+20868,A,Vale do Verdão - Unidade São Luiz,Ferrari Agroindústria,Pirassununga,SP,Brasil,-21.887406,-47.308402,1,Cana-de-Açúcar,Açúcar | Etanol,N,1747008000000,191
+22753,A,bp bioenergy - Unidade Monteverde,BP Bunge Bioenergia,Ponta Porã,MS,Brasil,-22.298622,-55.10252,1,Cana-de-Açúcar,Açúcar | Etanol,N,1729468800000,182
+22018,A,bp bioenergy - Unidade Frutal,BP Bunge Bioenergia,Frutal,MG,Brasil,-20.082318,-48.819302,1,Cana-de-Açúcar,Açúcar | Etanol,N,1729468800000,182
+20845,A,Ipiranga - Mococa,Titoto - Ipiranga,Mococa,SP,Brasil,-21.344424,-47.153852,1,Cana-de-Açúcar,Açúcar | Etanol,N,1768435200000,179
+22654,A,Panorama,Vale do Verdão,Itumbiara,GO,Brasil,-18.338944,-49.86485,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000,175
+20854,A,Raízen - Unidade São Francisco - (Elias Fausto),Raízen,Elias Fausto,SP,Brasil,-23.0236,-47.457232,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,174
+54663,A,Ipiranga - Passos,Titoto - Ipiranga,Passos,MG,Brasil,-20.665014,-46.552988,1,Cana-de-Açúcar,Açúcar | Etanol,N,1741305600000,172
+20505,A,Atvos - Unidade Alcídia,Mubadala Capital,Teodoro Sampaio,SP,Brasil,-22.34946,-52.52364,1,Cana-de-Açúcar,Açúcar | Bioeletricidade | Crédito de Carbono | Etanol,N,1756771200000,171
+20771,A,Cocal - Unidade Passa Tempo,Cocal,Rio Brilhante,MS,Brasil,-21.517092,-54.711299,1,Cana-de-Açúcar,Açúcar | Etanol,N,1756857600000,170
+22621,A,Jalles - Unidade Santa Vitória,Jalles Machado,Santa Vitória,MG,Brasil,-18.779444,-50.233773,1,Cana-de-Açúcar,Bioeletricidade | Etanol,S,1743033600000,170
+21012,A,Cevasa,Batatais,Patrocínio Paulista,SP,Brasil,-20.752125,-47.433114,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687910400000,162
+53132,A,Cambuí,Vale do Verdão,Santa Helena de Goiás ,GO,Brasil,-17.924918,-50.634606,1,Cana-de-Açúcar,Açúcar | Etanol,N,1709596800000,160
+20734,A,Raízen - Unidade MB,Biosev,Morro Agudo,SP,Brasil,-20.780267,-48.20097,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,155
+20544,A,Usina Batatais,Batatais,Batatais,SP,Brasil,-20.749694,-47.570453,1,Cana-de-Açúcar,Açúcar | Etanol,N,1761091200000,152
+22663,A,Uberaba,Balbo,Uberaba,MG,Brasil,-19.393489,-47.822877,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000,149
+20750,A,Adecoagro - Unidade Monte Alegre,Adecoagro,Monte Belo,MG,Brasil,-21.386448,-46.247252,1,Cana-de-Açúcar,Açúcar | Etanol,N,1754611200000,149
+20545,A,Bazan,Bazan,Pontal,SP,Brasil,-21.009699,-47.992251,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000,148
+20801,A,Zilor - Unidade Quatá,Zilor,Quatá,SP,Brasil,-22.26147,-50.648202,1,Cana-de-Açúcar,Açúcar | Etanol,S,1775001600000,111
+20546,A,Bela Vista,Bazan,Pontal,SP,Brasil,-20.938795,-48.080024,1,Cana-de-Açúcar,Açúcar | Etanol,N,1687824000000,91
+20820,A,Usina Santa Adélia - Jaboticabal,Santa Adélia,Jaboticabal,SP,Brasil,-21.334666,-48.302829,1,Cana-de-Açúcar,Açúcar | Etanol,S,1734048000000,77
+21010,A,Nova Platina Bioenergia,Zambianco,Platina,SP,Brasil,-22.665231,-50.219045,1,Cana-de-Açúcar,Aguardente/Cachaça | Bagaço | Etanol | Xarope,S,1734048000000,46
+22657,A,Alto Alegre - Unidade Santo Inácio,Lincoln Junqueira,Santo Inácio,PR,Brasil,-22.652761,-51.778915,1,Cana-de-Açúcar,Açúcar | Etanol,N,1734048000000,15
+21618,A,União de Minas,Tércio Wanderley,União de Minas,MG,Brasil,-19.57050040216033,-50.327296327991625,1,Cana-de-Açúcar,Açúcar,N,1723680000000,3
+21937,A,Adecoagro - Unidade Angélica,Adecoagro,Angélica,MS,Brasil,-22.08659,-53.823633,1,Cana-de-Açúcar,Açúcar | Etanol | Vinhaça,N,1734048000000,1
+26288,A,Floresta,Vale do Verdão,Santo Antônio da Barra,GO,Brasil,-17.586062,-50.722965,1,Cana-de-Açúcar,Açúcar | Etanol,N,1693440000000,0
