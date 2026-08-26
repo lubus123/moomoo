@@ -1,21 +1,154 @@
 mill_id,name,state,usable,n_scenes,core_strength_c
-20000,Aralco Alcoazul S/A,SP,True,389,2.93
-20269,Zilor - Biorigin e P&D São José,SP,True,538,5.17
-20607,COFCO International - Unidade Catanduva,SP,True,375,4.14
-20688,Ipiranga - Descalvado,SP,True,177,3.61
-20801,Zilor - Unidade Quatá,SP,True,188,7.16
-20851,São Domingos,SP,True,376,6.28
+21859,São Joaquim,SP,True,361,1.55
+54417,CEVN,MT,True,170,2.0
+20883,Usina Santa Terezinha - Unidade Paranacity,PR,True,334,2.78
+20884,Usina Santa Terezinha - Unidade Tapejara,PR,True,334,2.78
+50238,Cia. Müller de Bebidas (Porto Ferreira),SP,True,172,4.15
 21006,Usina Aliança e Penápolis,SP,True,388,2.44
-22587,Usina Santa Adélia - Pereira Barreto,SP,True,399,1.87
-22643,Raízen - Unidade Continental,SP,True,185,2.77
-56298,Usina Ipanema,SP,True,403,1.95
-20340,Goiás Bioenergia,GO,True,201,4.55
-22654,Panorama,GO,True,182,2.34
-56467,Albioma Esplanada,GO,True,375,3.87
-20319,Da Prata,MG,True,380,3.16
-21452,Usina Coruripe - Filial Campo Florido,MG,True,183,1.95
-54663,Ipiranga - Passos,MG,True,239,4.41
-20257,Usina Cedro,MS,True,182,2.3
-57368,AGT - Unidade Estrela do Oeste,MS,True,363,1.47
+20654,Delta - Unidade Delta,MG,True,192,4.45
+51705,Santa Mercedes,SP,True,421,13.38
+21988,Baldin - Unidade Taboão,SP,True,168,6.74
+20803,Raízen - Unidade Rafard,SP,True,170,3.48
+51152,Adecoagro - Unidade Ivinhema,MS,True,364,2.84
+56102,Lida Nitro,MT,True,152,2.42
+21995,COFCO International - Unidade Sebastianópolis,SP,True,204,3.2
+20013,Grupo Renuka do Brasil - Unidade Madhu,SP,True,191,3.51
+20550,Raízen - Unidade Bonfim,SP,True,323,3.02
+22641,Cocal - Unidade Narandiba,SP,True,182,2.54
+20676,Raízen - Parque de Bioenergia Gasa,SP,True,591,3.11
+20754,Nardini,SP,True,390,2.23
+20749,bp bioenergy - Unidade Moema,SP,True,182,4.44
+20490,Tereos - Cruz Alta,SP,True,188,2.03
+20347,Álcool Ferreira,SP,True,348,10.5
+20641,Raízen - Unidade Da Barra,SP,True,501,3.65
+25356,Atvos - Unidade Rio Claro,GO,True,354,2.89
+20018,Raízen - Parque de Bioenergia Univalem,SP,True,196,5.52
+20520,Araporã,MG,True,393,4.83
+23389,Atvos - Unidade Conquista do Pontal,SP,True,359,3.53
+20696,Da Mata,SP,True,388,4.22
+22819,São Martinho - Boa Vista,GO,True,179,1.56
+51153,Atvos - Unidade Costa Rica,MS,True,173,1.59
+20941,Usina Coruripe - Filial Iturama,MG,True,188,2.85
+25006,Raízen - Unidade Caarapó,MS,True,190,2.28
 20518,Alto Alegre - Unidade Junqueira - Matriz,PR,True,340,3.68
-56082,Docican,PR,True,337,3.98
+22625,COFCO International - Unidade Meridiano,SP,True,196,2.39
+22633,COFCO International - Unidade Potirendaba,SP,True,211,2.51
+20636,Raízen - Unidade Costa Pinto,SP,True,172,5.71
+22664,CMAA - Vale do Tijuco,MG,True,193,1.96
+20615,Alto Alegre - Unidade Florestópolis,PR,True,184,3.09
+20543,Barralcool,MT,True,331,4.16
+20607,COFCO International - Unidade Catanduva,SP,True,375,4.14
+21971,Viterra Bioenergia - Unidade Rio Vermelho,SP,True,360,6.3
+55874,Raízen Unidade Santa Candida,SP,True,367,3.22
+20824,Santa Cruz - (SP),SP,True,171,6.39
+22310,Tereos - São José,SP,True,193,2.79
+20870,São Martinho,SP,True,185,4.07
+20660,Raízen - Unidade Diamante,SP,True,538,3.42
+21679,Atvos - Unidade Eldorado,MS,True,184,2.94
+22335,Cargill Bioenergia - Filial Usina São Francisco (USF),GO,True,199,1.99
+20009,Cocal - Unidade Paraguaçu Paulista,SP,True,364,4.36
+20877,Raízen - Unidade Junqueira,SP,True,194,4.6
+20616,Colombo Agroindústria - Unidade Ariranha,SP,True,187,7.26
+20643,Raízen - Unidade Da Serra,SP,True,166,6.01
+20542,Zilor - Unidade Barra Grande,SP,True,520,6.06
+22650,Ipiranga - Iacanga,SP,True,191,3.46
+20269,Zilor - Biorigin e P&D São José,SP,True,538,5.17
+20832,Santa Isabel,SP,True,202,3.45
+22639,Clealco - Unidade Queiroz,SP,True,281,3.23
+22646,Colombo - Santa Albertina,SP,True,185,2.31
+20864,Estiva Bioenergia,SP,True,199,3.49
+22324,Lins Agroindustrial,SP,True,204,2.16
+20869,São Manoel,SP,True,204,5.92
+22624,bp bioenergy - Unidade Ouroeste,SP,True,193,2.0
+25167,Cerradão,MG,True,191,3.83
+20770,Raízen - Parque de Bioenergia Paraguaçu,SP,True,359,5.47
+22647,Umoe Bioenergy,SP,True,535,2.81
+22587,Usina Santa Adélia - Pereira Barreto,SP,True,399,1.87
+20623,Coopcana,PR,True,174,3.36
+22636,CMNP Unidade Vale do Paraná,SP,True,196,2.99
+21452,Usina Coruripe - Filial Campo Florido,MG,True,183,1.95
+20597,Virgolino de Oliveira - Catanduva,SP,True,379,2.82
+20003,Alto Alegre - Unidade Floresta,SP,True,185,5.59
+20016,Usina Santa Adélia - Pioneiros,SP,True,206,2.77
+20768,Raízen - Unidade Paraíso,SP,True,341,4.39
+20836,Santa Maria - (Cerquilho),SP,True,164,4.58
+20827,Raízen - Unidade Santa Helena,SP,True,175,3.09
+22054,CerradinhoBio,GO,True,171,1.62
+20011,Raízen - Parque de Bioenergia Destivale,SP,True,393,3.32
+25357,Atvos - Unidade Morro Vermelho,GO,True,169,3.24
+21797,bp bioenergy - Unidade Ituiutaba,MG,True,188,4.08
+20701,Jalles,GO,True,385,4.66
+20690,Iracema,SP,True,341,5.37
+22628,Tereos - Tanabi,SP,True,185,2.66
+20524,Tereos - Andrade,SP,True,554,3.66
+20502,bp bioenergy - Unidade Santa Juliana,MG,True,351,3.88
+52125,Atvos - Unidade Água Emendada,GO,True,356,1.66
+22586,Viralcool - Unidade Castilho,SP,True,509,2.61
+25151,Raízen - Unidade Tarumã,SP,True,183,6.47
+22627,Colombo - Palestina,SP,True,375,4.26
+22122,Usina Caeté - Unidade Paulicéia,SP,True,199,4.39
+22656,Cocal - Unidade Rio Brilhante,MS,True,197,1.81
+20923,Delta - Unidade Volta Grande,MG,True,196,3.8
+20738,Raízen - Unidade Maracaí,SP,True,364,5.85
+20633,Coprodia,MT,True,314,3.39
+55509,Rio Amambai Agroenergia,MS,True,177,4.78
+20726,Raízen - Unidade Lagoa da Prata,MG,True,176,7.05
+22332,bp bioenergy - Unidade Itapagipe,MG,True,375,3.28
+22638,Usina Ipê,SP,True,581,4.45
+20618,Colorado,SP,True,386,3.17
+20667,Usina Açucareira Ester,SP,True,535,5.25
+25352,Raízen - Unidade Centroeste,GO,True,180,3.56
+20852,São Francisco - (UFRA),SP,True,189,5.2
+20687,Raízen - Unidade Ipaussu,SP,True,172,5.24
+20002,Raízen - Parque de Bioenergia Mundial,SP,True,193,3.36
+25387,Atvos - Unidade Santa Luzia,MS,True,187,4.16
+20918,Vale do Verdão,GO,True,380,4.17
+20848,USA - Santo Antônio,SP,True,193,5.56
+22028,bp bioenergy - Unidade Tropical,GO,True,189,4.11
+21004,Usina Buriti,SP,True,192,3.12
+51762,Atvos - Unidade Alto Taquari,MT,True,158,3.17
+22291,Usina Coruripe - Unidade Limeira do Oeste,MG,True,363,2.63
+20005,Raízen - Parque de Bioenergia Benálcool,SP,True,199,4.59
+20825,Raízen - Santa Elisa,SP,True,189,6.04
+20331,Usina Vertente,SP,True,193,3.02
+20925,Raízen - Unidade Araraquara - (Zanin),SP,True,179,5.67
+22626,bp bioenergy - Unidade Guariroba,SP,True,382,2.81
+20008,Clealco - Unidade Clementina,SP,True,192,3.92
+25581,Jalles - Unidade Otávio Lage,GO,True,376,3.97
+20007,Zilor - Unidade Salto Botelho,SP,True,185,4.42
+56467,Albioma Esplanada,GO,True,375,3.87
+20917,Raízen - Unidade Vale do Rosário,SP,True,190,2.9
+20682,Tereos - Unidade Industrial Severínia,SP,True,190,4.82
+20642,Usina da Pedra,SP,True,181,6.02
+22643,Raízen - Unidade Continental,SP,True,185,2.77
+25296,bp bioenergy - Unidade Itumbiara,GO,True,378,2.66
+20517,Alta Mogiana - Unidade São Joaquim da Barra,SP,True,188,3.97
+20757,Coruripe - Filial Carneirinho,MG,True,186,2.38
+21008,Zambianco Açúcar e Álcool,SP,True,168,6.87
+20731,Tereos - Mandu,SP,True,195,3.5
+20688,Ipiranga - Descalvado,SP,True,177,3.61
+20868,Vale do Verdão - Unidade São Luiz,SP,True,165,5.38
+22753,bp bioenergy - Unidade Monteverde,MS,True,175,2.4
+22018,bp bioenergy - Unidade Frutal,MG,True,191,2.04
+20845,Ipiranga - Mococa,SP,True,166,5.23
+22654,Panorama,GO,True,182,2.34
+20854,Raízen - Unidade São Francisco - (Elias Fausto),SP,True,186,4.83
+54663,Ipiranga - Passos,MG,True,239,4.41
+20505,Atvos - Unidade Alcídia,SP,True,367,3.94
+20771,Cocal - Unidade Passa Tempo,MS,True,357,5.14
+22621,Jalles - Unidade Santa Vitória,MG,True,181,3.81
+21012,Cevasa,SP,True,185,4.54
+53132,Cambuí,GO,True,570,2.8
+20734,Raízen - Unidade MB,SP,True,565,3.67
+20544,Usina Batatais,SP,True,191,7.29
+22663,Uberaba,MG,True,451,2.24
+20750,Adecoagro - Unidade Monte Alegre,MG,True,132,4.62
+20545,Bazan,SP,True,207,5.05
+20801,Zilor - Unidade Quatá,SP,True,188,7.16
+20546,Bela Vista,SP,True,386,4.85
+20820,Usina Santa Adélia - Jaboticabal,SP,True,354,4.79
+21010,Nova Platina Bioenergia,SP,True,544,2.65
+22657,Alto Alegre - Unidade Santo Inácio,PR,True,568,2.44
+21618,União de Minas,MG,True,366,2.62
+21937,Adecoagro - Unidade Angélica,MS,True,190,2.54
+26288,Floresta,GO,True,365,3.55
