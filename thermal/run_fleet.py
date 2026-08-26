@@ -106,26 +106,21 @@ def main():
     annual = annual.join(unica, how="inner")
     corr = annual["index"].corr(annual["unica_mt"]) if len(annual) > 2 else np.nan
 
-    # monthly UNICA (from parsed biweekly reports) vs monthly index, YoY where
-    # both safras of a month are covered
+    # monthly crush series (MAPA table 012 vintages = UNICA numbers) vs index.
+    # The index is a within-(mill, calendar-month) anomaly, so the comparable
+    # crush quantity is the same month's deviation from its cross-year mean.
     unica_monthly = None
-    qz = Path("data/unica_quinzenal.csv")
-    if qz.exists():
-        q = pd.read_csv(qz)
-        q[["dd", "mm"]] = q["position_dd_mm"].str.split("/", expand=True).astype(int)
-        # a '01/mm' row is the cumulative through the end of month mm-1
-        eom = q[q["dd"] == 1].copy()
-        eom["month"] = eom["mm"] - 1
-        eom["year"] = np.where(eom["month"] >= 4, eom["safra"], eom["safra"] + 1)
-        eom = eom.sort_values(["safra", "year", "month"])
-        eom["crush_t"] = eom.groupby("safra")["cs_cum_t"].diff()
-        first = eom.groupby("safra").head(1).index
-        eom.loc[first, "crush_t"] = eom.loc[first, "cs_cum_t"]
-        unica_monthly = eom[["year", "month", "crush_t"]].dropna()
+    mapa_path = Path("data/mapa_moagem_cs_monthly.csv")
+    if mapa_path.exists():
+        mapa = pd.read_csv(mapa_path)
+        stats = mapa.groupby("month")["crush_t"].agg(["mean", "std"])
+        mapa = mapa.merge(stats, on="month")
+        mapa["crush_z"] = (mapa["crush_t"] - mapa["mean"]) / mapa["std"]
         monthly["year"] = monthly["datetime"].dt.year
         monthly["month"] = monthly["datetime"].dt.month
-        unica_monthly = unica_monthly.merge(monthly[["year", "month", "index", "n_obs"]],
-                                            on=["year", "month"], how="left")
+        unica_monthly = mapa[["safra", "year", "month", "crush_t", "crush_z"]].merge(
+            monthly[["year", "month", "index", "n_obs"]], on=["year", "month"], how="inner"
+        )
         unica_monthly.to_csv(outputs / "unica_monthly_join.csv", index=False)
 
     fig, axes = plt.subplots(3, 1, figsize=(13, 13))
@@ -144,15 +139,21 @@ def main():
     ax.set_title(f"safra-mean index (bars) vs UNICA annual crush (line), r={corr:.2f}")
     ax.grid(alpha=0.3, axis="y")
     ax = axes[2]
-    if unica_monthly is not None and unica_monthly["index"].notna().any():
-        sel = unica_monthly.dropna(subset=["index"])
-        ax.scatter(sel["crush_t"] / 1e6, sel["index"])
-        for _, r in sel.iterrows():
-            ax.annotate(f"{int(r['year'])}-{int(r['month']):02d}",
-                        (r["crush_t"] / 1e6, r["index"]), fontsize=8)
-        ax.set_xlabel("UNICA CS monthly crush (Mt)")
+    mcorr = mcorr_core = np.nan
+    if unica_monthly is not None and len(unica_monthly):
+        sel = unica_monthly.dropna(subset=["index", "crush_z"])
+        core = sel[sel["month"].isin([5, 6, 7, 8, 9, 10])]  # full-crush months
+        mcorr = sel["index"].corr(sel["crush_z"])
+        mcorr_core = core["index"].corr(core["crush_z"])
+        ax.scatter(sel["crush_z"], sel["index"], s=18, alpha=0.5, label="all months")
+        ax.scatter(core["crush_z"], core["index"], s=22, color="#d62728", label="May-Oct")
+        ax.set_xlabel("monthly crush z-score vs same-month history (MAPA/UNICA)")
         ax.set_ylabel("fleet index")
-        ax.set_title("monthly index vs UNICA monthly crush (parsed biweekly reports)")
+        ax.set_title(
+            f"monthly index vs crush anomaly: r={mcorr:.2f} all, r={mcorr_core:.2f} May-Oct "
+            f"(n={len(sel)}/{len(core)})"
+        )
+        ax.legend(fontsize=8)
     ax.grid(alpha=0.3)
     fig.tight_layout()
     fig.savefig(figs / "fleet_index.png", dpi=130)
@@ -172,12 +173,12 @@ def main():
     if unica_monthly is not None:
         lines += [
             "",
-            "## Monthly join vs UNICA (from parsed biweekly reports)",
-            unica_monthly.round(3).to_markdown(index=False),
-            "",
-            "The index is monthly/fortnightly by construction "
-            "(outputs/fleet_index_monthly.csv, outputs/fleet_index_fortnightly.csv); "
-            "join your full UNICA monthly series on year+month for the long history.",
+            "## Monthly regression vs MAPA/UNICA crush",
+            f"- Monthly correlation of fleet index with same-month crush z-score: "
+            f"**{mcorr:.2f}** (all months, n={len(unica_monthly)}), "
+            f"**{mcorr_core:.2f}** (May-Oct full-crush months)",
+            "- Full join in outputs/unica_monthly_join.csv; monthly crush series "
+            "in data/mapa_moagem_cs_monthly.csv (Apr 2017 - present).",
         ]
     (outputs / "fleet_summary.md").write_text("\n".join(lines) + "\n")
     print("\n".join(lines))
