@@ -182,8 +182,8 @@ def main():
             f"- Monthly correlation of fleet index with same-month crush z-score: "
             f"**{mcorr:.2f}** (all months, n={len(unica_monthly)}), "
             f"**{mcorr_core:.2f}** (May-Oct full-crush months)",
-            "- Full join in outputs/unica_monthly_join.csv; monthly crush series "
-            "in data/mapa_moagem_cs_monthly.csv (Apr 2017 - present).",
+            f"- Full join in outputs/unica_monthly_join.csv; monthly crush series "
+            f"from {mapa_path} (UNICA PowerBI 2010-present, MAPA vintages as fallback).",
         ]
     (outputs / "fleet_summary.md").write_text("\n".join(lines) + "\n")
     print("\n".join(lines))

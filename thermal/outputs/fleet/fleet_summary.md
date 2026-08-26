@@ -19,5 +19,5 @@
 Correlation (safra mean z vs UNICA Mt): **0.65** over 9 safras
 
 ## Monthly regression vs MAPA/UNICA crush
-- Monthly correlation of fleet index with same-month crush z-score: **0.23** (all months, n=111), **0.26** (May-Oct full-crush months)
-- Full join in outputs/unica_monthly_join.csv; monthly crush series in data/mapa_moagem_cs_monthly.csv (Apr 2017 - present).
+- Monthly correlation of fleet index with same-month crush z-score: **0.26** (all months, n=112), **0.23** (May-Oct full-crush months)
+- Full join in outputs/unica_monthly_join.csv; monthly crush series from data/unica_monthly_cs.csv (UNICA PowerBI, 2010-present).
