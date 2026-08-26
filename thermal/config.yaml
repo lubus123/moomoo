@@ -1,0 +1,66 @@
+# Site + pipeline configuration. Add new plants as additional files or edit site block.
+site:
+  name: azomures
+  description: "Azomures SA fertilizer complex (ammonia/urea/nitrates), west edge of Targu Mures, Romania"
+  # Centroid verified visually against Sentinel-2 true colour (2021-08-01) and the
+  # OSM landuse=industrial polygon (way 88175519). Do not change without re-checking
+  # figs/site_verification.png covers the ammonia unit, stacks and cooling basin.
+  centroid:
+    lat: 46.5135
+    lon: 24.5042
+  plant_box_km: 1.9        # side of square plant box centred on centroid
+  ring_inner_km: 2.5       # background annulus: distance measured from plant box edge
+  ring_outer_km: 5.0
+  # ESA WorldCover classes allowed in the background ring (cropland/grassland/bare).
+  # Excludes built-up (50) and water (80) - the Mures river runs through the scene.
+  ring_landcover_classes: [30, 40, 60]
+
+time:
+  start: "2015-01-01"
+  end: null                # null = today
+
+grid:
+  crs: "EPSG:32634"
+  resolution: 30
+
+landsat:
+  collection: "landsat-c2-l2"
+  platforms: ["landsat-8", "landsat-9"]
+  bands: ["lwir11", "qa_pixel"]
+  # ST_B10 rescale: DN * scale + offset gives Kelvin
+  st_scale: 0.00341802
+  st_offset: 149.0
+  # qa_pixel bits treated as not-clear: dilated cloud, cloud, shadow, snow
+  qa_bad_bits: [1, 3, 4, 5]
+
+features:
+  min_clear_frac_plant: 0.70   # drop scene if <70% of plant box pixels are clear
+  min_clear_ring_px: 200       # drop scene if background ring has too few clear pixels
+  hot_thresh_c: 5.0            # hot_frac counts plant pixels > bg_median + this
+  # Label-free core-hotspot detection: pixels whose anomaly is high AND variable
+  # across low-sun scenes are process-heat pixels that flip with operation
+  # (solar-heated roofs are dark at low sun; always-warm surfaces have low std).
+  core:
+    sun_elev_max: 30           # scenes with sun elevation below this are "low-sun"
+    min_low_sun_scenes: 8      # need at least this many to attempt detection
+    p90_thresh_c: 2.0          # per-pixel p90 of low-sun anomaly must exceed this
+    std_thresh_c: 1.5          # per-pixel std of low-sun anomaly must exceed this
+    min_obs: 8                 # per-pixel minimum clear low-sun observations
+    min_core_px: 20            # fall back to plant_p95 anomaly if fewer core pixels
+
+classify:
+  posterior_thresh: 0.80
+  min_separation_c: 3.0        # component means closer than this => not (fully) separable
+  marginal_separation_c: 1.0   # below this even marginal labelling is refused
+  seasonal_harmonics: 2        # shared sin/cos day-of-year terms in the mixture
+  smooth_window: 3             # rolling median over scenes
+  smooth_posterior_thresh: 0.65  # threshold on the smoothed posterior (softer than per-scene)
+
+modis:
+  enabled: true                # nighttime LST_Night_1km 8-day cross-check
+
+paths:
+  cache_dir: "data/cache"
+  parquet: "data/azomures_thermal.parquet"
+  figs_dir: "figs"
+  outputs_dir: "outputs"

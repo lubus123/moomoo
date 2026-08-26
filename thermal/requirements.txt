@@ -1,0 +1,13 @@
+pystac-client
+planetary-computer
+odc-stac
+xarray
+rioxarray
+dask
+pandas
+scikit-learn
+matplotlib
+pyarrow
+pyyaml
+pyproj
+zarr

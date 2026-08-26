@@ -1,0 +1,15 @@
+# Publicly reported Azomures operating windows for validation (dates approximate,
+# assembled from news; see README for sources). state = expected thermal state;
+# AMBIGUOUS windows (intermittent operation) are shown but not scored.
+start,end,state,note
+2015-01-01,2017-12-31,ON,normal operations (assumed baseline)
+2018-01-01,2021-06-30,ON,normal operations (assumed baseline)
+2021-12-16,2022-02-14,OFF,gas-price halt from mid-Dec 2021
+2022-02-15,2022-04-15,AMBIGUOUS,partial restart of half the units reported; re-halt after Feb 2022 gas spike
+2022-04-20,2022-06-15,ON,operations resumed Apr 2022 after ~4-month outage (below capacity)
+2022-07-15,2022-09-30,OFF,ammonia halted late Jun 2022
+2022-10-01,2023-09-15,AMBIGUOUS,downstream ran intermittently on imported ammonia
+2024-01-15,2024-07-31,ON,Ammonia III restarted (~50%) Sep 2023; full resume reported Jan 2024
+2024-09-15,2025-06-30,OFF,no fertilizer production since Aug 2024
+2025-08-01,2025-11-30,ON,restart Jul 2025 at ~30% capacity (small scale)
+2026-01-15,2026-08-01,OFF,mothballed; workforce cut; Romgaz acquisition
