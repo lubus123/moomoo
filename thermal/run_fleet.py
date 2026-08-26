@@ -19,6 +19,9 @@ from src import fleet
 
 def select_pilot(cfg):
     f = cfg["fleet"]
+    strategic = Path("data/fleet_strategic.csv")
+    if strategic.exists():
+        return pd.read_csv(strategic).sort_values("builtup_px", ascending=False).reset_index(drop=True)
     m = pd.read_csv(f["mills_csv"])
     m = m[
         (m["pais"] == "Brasil")
@@ -63,8 +66,9 @@ def main():
         mills = mills.head(args.mills)
     print(f"pilot fleet: {len(mills)} mills", dict(mills["estado"].value_counts()))
 
-    series, meta_rows = [], []
-    for _, mill in mills.iterrows():
+    from concurrent.futures import ThreadPoolExecutor
+
+    def process(mill):
         mid = int(mill["id_empresa"])
         try:
             gb, box, item_ids = fleet.fetch_mill(
@@ -75,20 +79,23 @@ def main():
             print(f"  mill {mid} FAILED: {e}")
             res = None
         if res is None:
-            meta_rows.append({"mill_id": mid, "name": mill["nome_fantasia"], "usable": False})
-            continue
+            return None, {"mill_id": mid, "name": mill["nome_fantasia"], "usable": False}
         s, core_strength = res
-        series.append(s)
-        meta_rows.append(
-            {
-                "mill_id": mid,
-                "name": mill["nome_fantasia"],
-                "state": mill["estado"],
-                "usable": True,
-                "n_scenes": len(s),
-                "core_strength_c": round(core_strength, 2),
-            }
-        )
+        return s, {
+            "mill_id": mid,
+            "name": mill["nome_fantasia"],
+            "state": mill["estado"],
+            "usable": True,
+            "n_scenes": len(s),
+            "core_strength_c": round(core_strength, 2),
+        }
+
+    series, meta_rows = [], []
+    with ThreadPoolExecutor(max_workers=3) as ex:
+        for s, meta_row in ex.map(process, [m for _, m in mills.iterrows()]):
+            if s is not None:
+                series.append(s)
+            meta_rows.append(meta_row)
     meta = pd.DataFrame(meta_rows)
     print(f"usable mills: {meta['usable'].sum()}/{len(meta)}")
 
