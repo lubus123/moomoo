@@ -82,6 +82,29 @@ drought years and recovered by 2024 (`figs/parapua/winter_era_comparison.png`)
 never ship labels from this pipeline without an external validation table;
 the statistical gates alone cannot catch a confounder that mimics bimodality.
 
+## Fleet mode: Center-South Brazil mill activity index (UNICA proxy)
+
+`run_fleet.py` scales the mill lesson into a fleet index designed to track
+UNICA's monthly/fortnightly Center-South crush numbers:
+
+- **Mills**: `scripts/fetch_udop.py` extracts all ~1,250 bioenergy plants
+  (coords, feedstock, status) from the ArcGIS service behind udopmaps.com.br
+  into `data/udop_mills.csv`; `configs/fleet_cs_brazil.yaml` filters to active
+  Center-South cane mills and defines a deterministic pilot subsample.
+- **Per-scene score**: mean ST of a fixed label-free "boiler core" (top pooled
+  crush-season anomaly pixels in a 1.2 km box) minus the same scene's box
+  median — in-scene differencing removes most solar/atmospheric common mode.
+- **Index**: scores are z-scored within each (mill, calendar month) across
+  years, cancelling both solar seasonality and the crush calendar; the fleet
+  index is the per-month (and per-fortnight) mean z. It reads as a
+  year-over-year activity anomaly — the same shape as UNICA's deviation from a
+  typical season. Single scenes are noisy by design (SNR ~1); only the
+  aggregate is meaningful.
+- **UNICA reference**: `scripts/parse_unica_pdf.py` parses the fortnightly
+  cumulative crush table (Tabela 3) from UNICA's biweekly safra report PDF
+  into `data/unica_quinzenal.csv`; annual totals live in the fleet config.
+  Outputs include a monthly join table ready to merge with a full UNICA series.
+
 ## Validation sources (reported Azomures status, data/reported_events.csv)
 
 - Halt announced Dec 2021 over gas prices: [Fertilizer Daily](https://www.fertilizerdaily.com/20211213-azomures-suspends-operations-due-to-high-gas-prices/), [World Fertilizer](https://www.worldfertilizer.com/nitrogen/07122021/azomures-moves-to-suspend-production/), [Ameropa](https://www.ameropa.com/news/news/news-today-azomures-temporarily-stops-fertilizer-production)
