@@ -35,3 +35,25 @@ was 89.2; satellite component was closer than carry). August (unpublished):
 1H 44.4 [40.7-48.1], 2H 46.3 [43.1-49.5] -> ~91 Mt, -7.5% YoY.
 
 Figures: figs/fleet/{model_actual_vs_fitted,model_scatter,forecast_2026,index_vs_crush}.png
+
+## Mid-period openings/idlings and look-ahead audit (2026-08-26)
+
+- 6/153 mills look like mid-period openings, 5 like mid-period idlings, 1 has
+  no thermal signal. Activity-masking these mill-years changes the full-period
+  index by <0.003 r - openings and idlings offset at fleet level.
+- The audit exposed look-ahead in the full-period (mill, month) standardization:
+  live-faithful trailing-only z gives monthly r 0.54 vs 0.70 flattering
+  (fortnightly nearly honest: 0.45 vs 0.47), 2019+.
+- DEPLOYABLE config adopted (trailing z, min 8 prior obs, + activity mask
+  >=1.0 C crush-season mill-year mean), data/fleet_cs_scores_deploy.parquet:
+
+| mode (2019+, n=102) | MAE Mt | corr | PI-80 |
+|---|---|---|---|
+| sat + official carry | 2.91 | 0.562 | 0.81 |
+| sat only | 3.35 | 0.311 | 0.78 |
+| blackout (self carry) | 3.29 | 0.376 | 0.78 |
+| climatology | 3.93 | - | - |
+
+Big-anomaly direction hit: 88% (n=34). Survivorship (224 now-inactive UDOP
+mills absent from early years) remains unaddressed - fixable by adding
+status-I mills for their operating years.
