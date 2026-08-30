@@ -1,0 +1,16 @@
+# Known nitrogen complexes missing from the Climate TRACE chemicals inventory.
+# Coordinates are approximate from general knowledge - needs_verification=1 means
+# a Sentinel-2 chip check (scripts/verify_site.py flow) is REQUIRED before use.
+name,country,lat,lon,capacity_note,needs_verification
+Point Lisas Industrial Estate (multiple ammonia trains),TTO,10.41,-61.47,~5 Mt NH3 across Nutrien/Yara/Trinidad Nitrogen,1
+QAFCO Mesaieed,QAT,24.99,51.55,~3.8 Mt NH3 + urea,1
+Dangote Fertilizer Lekki,NGA,6.47,4.00,~3 Mt urea,1
+Pardis Petrochemical Assaluyeh,IRN,27.37,52.71,~3 Mt urea,1
+Shiraz Petrochemical,IRN,29.78,52.72,urea/ammonia,1
+Khorasan Petrochemical,IRN,37.30,57.40,urea/ammonia,1
+SAFCO / Maaden Al-Jubail,SAU,27.05,49.55,~3 Mt urea,1
+OMIFCO Sur,OMN,22.53,59.47,~2 Mt urea,1
+Indorama Eleme,NGA,4.79,7.10,~2.8 Mt urea,1
+Ruwais Fertil,ARE,24.15,52.75,urea,1
+Bintulu ABF/PCF,MYS,3.26,113.08,urea,1
+Kaltim (Bontang complex),IDN,0.17,117.48,~3 Mt urea,1
