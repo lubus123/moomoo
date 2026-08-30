@@ -1,0 +1,58 @@
+ct_id,name,country,capacity_t,n_cached,usable,n_scenes,core_strength_c
+45257029,Abu Qir Fertilizer Complex,EGY,2200000.0,827,True,331.0,3.5
+45257213,Yara Porsgrunn,NOR,2086520.0,475,True,175.0,10.49
+45257062,Damietta Fertilizers Complex,EGY,2000000.0,316,True,208.0,5.61
+45257214,Yara Sluiskil,NLD,1900000.0,902,True,247.0,5.28
+45257239,Hengam Ammonia and Urea Petrochemical Complex,IRN,1881000.0,313,True,255.0,2.51
+45257115,Jonava Fertilizer,LTU,1650000.0,763,True,225.0,3.65
+45257036,Azomures Targu Mures Fertilizers,ROU,1632930.0,316,True,117.0,5.28
+45257135,Linz Melamine and Fertilizers Complex,AUT,1499999.9999999998,617,True,213.0,6.64
+45257166,Port Harcourt Fertilizer Complex,NGA,1400000.0,309,False,,
+45257127,Kutina Fertilizers Complex,HRV,1294000.0,866,True,284.0,4.31
+45257240,Kermanshah Urea/Ammonia Project,IRN,1168000.0,611,True,393.0,3.36
+45257156,Odessa Portside Fertilizers,UKR,1159999.9999999998,882,True,316.0,2.15
+45257229,Anwil,POL,966000.0,554,True,151.0,3.89
+45257055,Chemelot-Geleen Fertilizers facility,NLD,965000.0,903,True,235.0,2.87
+45257037,Azot Cherkassy Fertilizers,UKR,962700.0,846,True,280.0,3.79
+45257069,Dneprazot Fertilizers,UKR,834999.9999999999,313,True,106.0,3.78
+45257226,Zakłady Azotowe Puławy,POL,819999.9999999999,288,True,85.0,4.25
+33999004,BEL-Antwerpen_ammonia,BEL,810156.0000000001,590,True,176.0,3.48
+45257068,Dimitrovgrad Fertilizer Complex,BGR,766500.0,623,True,318.0,5.7
+45257157,Onne (Port Harcourt) Fertilizer Complex,NGA,730000.0,309,True,57.0,2.69
+33999241,GBR-Stockton-on-Tees_ammonia,GBR,719844.0,516,True,107.0,2.44
+45257237,Razi Petrochemical Complex,IRN,677000.0,314,True,229.0,4.58
+45257139,Marv Dasht Petrochemical Complex,IRN,676500.0,620,True,524.0,4.41
+45257159,Ottmarsheim Fertilizers,FRA,662240.0,625,True,234.0,7.44
+45257030,Alexandria Fertilizer Complex,EGY,638750.0,827,True,331.0,3.5
+45257203,Wittenberg Fertilizers Complex,DEU,600000.0,585,True,162.0,6.56
+45257171,Rivneazot Fertilizers,UKR,594950.0000000001,371,True,87.0,5.9
+45257105,Helwan Fertilizer Plant,EGY,589670.0,628,True,517.0,5.12
+45257074,Duslo Sala Chemical Complex,SVK,584000.0,1050,True,387.0,3.22
+45257256,Billingham Fertilizers,GBR,566989.9999999999,487,True,98.0,2.12
+45257079,Ferrara Fertilizers facility,ITA,544310.0,315,True,124.0,5.02
+45257033,Aswan Kima Fertilizer Complex,EGY,517100.0,628,True,584.0,4.35
+45257150,Nea Karvali Fertilizers,GRC,459999.9999999999,629,True,373.0,3.69
+45257238,Bandar Abbas Gas Condensate Refinery,IRN,450000.0,320,True,258.0,5.84
+45257154,Nitrogenous Fertilizer Complex,EGY,400000.00000000006,623,True,517.0,2.6
+45257230,Ludwigshafen,DEU,380000.0,940,True,309.0,3.52
+45257175,Salalah Methanol Complex,OMN,365000.0,318,True,216.0,2.96
+45257233,INEOS Nitriles Cologne,DEU,350000.0,909,True,239.0,4.63
+45257227,Grupa Azoty Kędzierzyn (ZAK),POL,268000.0,359,True,101.0,4.24
+33999044,HUN-Várpalota_ammonia,HUN,250968.00000000003,621,True,255.0,9.77
+45257228,Grupa Azoty S.A (Tarnów),POL,249000.00000000003,613,True,192.0,4.82
+33998934,CZE-Most_ammonia,CZE,237120.0,626,True,175.0,5.31
+33998943,BEL-Hainaut_ammonia,BEL,231636.0,625,True,185.0,3.07
+33999247,HUN-Kazincbarcikai_ammonia,HUN,213576.0,605,True,211.0,3.6
+45257235,Sagunto Catalina Project,ESP,200000.00000000003,938,True,615.0,4.98
+45257169,Puertollano Fertilizers,ESP,200000.00000000003,310,True,184.0,4.23
+45257130,Le Havre Fertilizers,FRA,181440.0,940,True,268.0,3.26
+90001,Point Lisas Industrial Estate (multiple ammonia trains),TTO,2500000.0,468,True,100.0,13.55
+90002,QAFCO Mesaieed,QAT,2500000.0,618,True,446.0,5.64
+90003,Dangote Fertilizer Lekki,NGA,2500000.0,918,True,152.0,4.57
+90005,Shiraz Petrochemical,IRN,2500000.0,620,True,530.0,4.79
+90007,SAFCO / Maaden Al-Jubail,SAU,2500000.0,317,True,269.0,3.39
+90008,OMIFCO Sur,OMN,2500000.0,313,True,273.0,2.25
+90009,Indorama Eleme,NGA,2500000.0,309,False,,
+90010,Ruwais Fertil,ARE,2500000.0,912,True,505.0,1.59
+90011,Bintulu ABF/PCF,MYS,2500000.0,620,False,,
+90012,Kaltim (Bontang complex),IDN,2500000.0,314,False,,
