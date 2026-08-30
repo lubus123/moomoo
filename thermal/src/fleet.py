@@ -87,9 +87,15 @@ def fetch_mill(mill_id, lat, lon, cfg, cache_root, workers=8, log=print):
     return gb, box, [d["id"] for d in dicts]
 
 
-def mill_series(mill_id, cfg, cache_root, gb, box, item_ids):
-    """Per-scene core score for one mill, or None if no core can be found."""
+def mill_series(mill_id, cfg, cache_root, gb, box, item_ids, core_months=CRUSH_MONTHS):
+    """Per-scene core score for one mill, or None if no core can be found.
+
+    core_months: calendar months whose scenes are pooled to locate the core
+    (crush season for sugar mills; pass None for year-round plants such as
+    ammonia complexes, which pools every quality-gated scene)."""
     f = cfg["fleet"]
+    if core_months is None:
+        core_months = tuple(range(1, 13))
     cache_dir = Path(cache_root) / str(mill_id)
     scenes = []
     for item_id in item_ids:
@@ -109,7 +115,7 @@ def mill_series(mill_id, cfg, cache_root, gb, box, item_ids):
     acc = np.zeros(box.shape)
     cnt = np.zeros(box.shape)
     for meta, anom, _ in scenes:
-        if pd.Timestamp(meta["datetime"]).month in CRUSH_MONTHS:
+        if pd.Timestamp(meta["datetime"]).month in core_months:
             ok = np.isfinite(anom)
             acc[ok] += anom[ok]
             cnt[ok] += 1
