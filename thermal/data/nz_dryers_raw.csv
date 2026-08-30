@@ -1,0 +1,27 @@
+operator,site,region,lat,lon,osm_hit,notes
+Fonterra,Fonterra Whareroa Hawera,Taranaki,-39.6078519,174.2983774,"Fonterra Whareroa dairy processing plant, Hāwera, ",largest multi-product site; gas
+Fonterra,Fonterra Clandeboye,Canterbury,-44.2124549,171.3816858,"Fonterra Clandeboye dairy factory, Clandeboye, Tim",major dryers; coal->electrification underway
+Fonterra,Fonterra Darfield,Canterbury,-43.4532743,172.0831654,"Fonterra Darfield dairy processing plant, Selwyn D",newest large WMP dryers; coal
+Fonterra,Fonterra Edendale,Southland,-46.3077649,168.7840053,"Fonterra Edendale, North Road, Edendale, Waihopai ",major dryers; coal/lignite
+Fonterra,Fonterra Te Rapa Hamilton,Waikato,-37.7632944,175.2399001,"Fonterra, Crawford Street, Fonterra Canpac, Avalon",large dryers; gas
+Fonterra,Fonterra Lichfield,Waikato,-38.13647,175.8217799,"Fonterra, Wood Road, Fonterra Lichfield dairy proc",large WMP dryer
+Fonterra,Fonterra Waitoa,Waikato,-37.5981156,175.6298271,"Fonterra Waitoa, State Highway 26, Waitoa, Matamat",dryers/UHT
+Fonterra,Fonterra Pahiatua,Manawatu,-40.4449594,175.8187577,"Fonterra Pahiatua dairy processing plant, Pahiatua",WMP dryer
+Fonterra,Fonterra Kauri Whangarei,Northland,-35.6337661,174.2990655,"Fonterra Kauri, Hikurangi, Whangārei District, Nor",dryers
+Fonterra,Fonterra Maungaturoto,Northland,-36.1029292,174.3725778,"Fonterra Maungaturoto Dairy Processing Plant, Maun",dryers
+Fonterra,Fonterra Edgecumbe,Bay of Plenty,-37.9770975,176.8328683,"Fonterra Edgecumbe dairy processing plant, Edgecum",dryers/butter
+Fonterra,Fonterra Te Awamutu,Waikato,-38.0024699,175.311476,"Fonterra Te Awamutu, Te Awamutu, Waipā District, W",dryer; coal->pellets converted 2020
+Fonterra,Fonterra Takaka,Tasman,,,,small dryer
+Fonterra,Fonterra Stirling,Otago,,,,cheese (control site)
+Open Country,Open Country Dairy Waharoa,Waikato,,,,WMP dryers
+Open Country,Open Country Dairy Awarua,Southland,-46.4967734,168.3723083,"Open Country Dairy, Awarua, Invercargill City, Sou",dryers
+Open Country,Open Country Dairy Whanganui,Whanganui,,,,dryer
+Open Country,Open Country Dairy Horotiu,Waikato,,,,dryer
+Synlait,Synlait Dunsandel,Canterbury,,,,large dryers; coal+electrode
+Synlait,Synlait Pokeno,Waikato,-37.2532196,175.0210376,"Synlait Milk, McDonald Road, Gateway Business Park",dryer
+Yili,Oceania Dairy Glenavy,Canterbury,-44.8810548,171.0953383,"Oceania Dairy, Waimate District, Canterbury, New Z",dryers
+Yili,Westland Milk Products Hokitika,West Coast,-42.7244256,170.9787767,"Westland Milk Products, 56, Hokitika, Westland Dis",dryers
+Miraka,Miraka Mokai,Waikato,,,,geothermal-powered dryer (weak thermal contrast?)
+Tatua,Tatua Dairy Morrinsville,Waikato,,,,specialty; small dryer
+MVM,Mataura Valley Milk McNab Gore,Southland,-46.0827444,168.9927082,"Mataura Valley Milk, McNab, Gore, Gore District, S",nutritional dryer
+Danone,Danone Nutricia Balclutha,Otago,,,,nutritional dryer
