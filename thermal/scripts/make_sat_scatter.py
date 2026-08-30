@@ -54,13 +54,20 @@ ax.scatter(hist.sat_idx, hist.crush_z, s=30, color=BLUE, alpha=0.55,
            edgecolors=SURF, lw=0.8, zorder=3, label="2019–2025 fortnights")
 ax.scatter(cur.sat_idx, cur.crush_z, s=64, color=ORANGE, edgecolors=INK,
            lw=0.9, zorder=5, label="2026/27 season")
+# hand-placed labels so none collide (1H Apr and 1H May nearly coincide)
+OFFSETS = {(4, 1): (-58, -16), (4, 2): (10, 6), (5, 1): (14, 14),
+           (6, 1): (12, -14), (5, 2): (-12, 14), (6, 2): (12, 4)}
 for _, row in cur.iterrows():
+    dx, dy = OFFSETS.get((row.month, row.half), (8, 4))
     ax.annotate(row.lab.replace(" 2026", ""), xy=(row.sat_idx, row.crush_z),
-                xytext=(8, 4), textcoords="offset points", fontsize=9, color=MUTED)
+                xytext=(dx, dy), textcoords="offset points", fontsize=9.5, color=INK,
+                fontweight="bold",
+                arrowprops=dict(arrowstyle="-", color=BASE, lw=0.8, shrinkB=3)
+                if abs(dx) + abs(dy) > 24 else None)
 jj = cur[(cur.month == 6) & (cur.half == 2)]
 if len(jj):
-    ax.annotate("2H Jun 2026:\nindex season-low,\ncrush z −2.2", xy=(jj.sat_idx.iloc[0], jj.crush_z.iloc[0]),
-                xytext=(-0.44, -2.05), fontsize=10, color=INK,
+    ax.annotate("index season-low,\ncrush z −2.2", xy=(jj.sat_idx.iloc[0], jj.crush_z.iloc[0]),
+                xytext=(-0.44, -1.95), fontsize=10, color=MUTED,
                 arrowprops=dict(arrowstyle="->", color=MUTED))
 # quadrant shading: agreement quadrants
 ax.axhline(0, color=BASE, lw=1)
