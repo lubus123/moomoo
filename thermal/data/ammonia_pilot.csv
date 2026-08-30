@@ -1,0 +1,61 @@
+ct_id,name,country,lat,lon,capacity_t,source,needs_verification,built_frac,flag,status
+45257029,Abu Qir Fertilizer Complex,EGY,31.2716622,30.0932573,2200000.0,climate-trace,0,0.52,0,clean
+45257213,Yara Porsgrunn,NOR,59.1163105,9.6348845,2086520.0,climate-trace,0,0.354,0,clean
+45257062,Damietta Fertilizers Complex,EGY,31.4629882,31.7799027,2000000.0,climate-trace,0,0.694,0,clean
+45257214,Yara Sluiskil,NLD,51.2778267,3.8530853,1900000.0,climate-trace,0,0.402,0,clean
+45257239,Hengam Ammonia and Urea Petrochemical Complex,IRN,27.5820987255843,52.519171552746,1881000.0,climate-trace,0,0.298,0,clean
+45257115,Jonava Fertilizer,LTU,55.0855039,24.3340412,1650000.0,climate-trace,0,0.41,0,clean
+45257036,Azomures Targu Mures Fertilizers,ROU,46.5157884,24.5021878,1632930.0,climate-trace,0,0.379,0,clean
+45257234,Brunsbüttel,DEU,53.9140811,9.1161823,1570000.0000000002,climate-trace,0,0.011,1,deferred
+45257135,Linz Melamine and Fertilizers Complex,AUT,48.2895958,14.3307955,1499999.9999999998,climate-trace,0,0.676,0,clean
+45257166,Port Harcourt Fertilizer Complex,NGA,4.8354765,7.1029183,1400000.0,climate-trace,0,0.547,0,clean
+45257127,Kutina Fertilizers Complex,HRV,45.4664391,16.7965075,1294000.0,climate-trace,0,0.302,0,clean
+45257240,Kermanshah Urea/Ammonia Project,IRN,34.3547213630215,47.4552215972079,1168000.0,climate-trace,0,0.211,0,clean
+45257156,Odessa Portside Fertilizers,UKR,46.6264974,31.1026765,1159999.9999999998,climate-trace,0,0.422,0,clean
+45257229,Anwil,POL,52.6986934223594,18.9685232403693,966000.0,climate-trace,0,0.432,0,clean
+45257055,Chemelot-Geleen Fertilizers facility,NLD,50.9754643,5.8023248,965000.0,climate-trace,0,0.504,0,clean
+45257037,Azot Cherkassy Fertilizers,UKR,49.4075415,32.1213683,962700.0,climate-trace,0,0.527,0,clean
+45257069,Dneprazot Fertilizers,UKR,48.4925986,34.6561695,834999.9999999999,climate-trace,0,0.251,0,clean
+45257226,Zakłady Azotowe Puławy,POL,51.4520685565023,21.9829638501153,819999.9999999999,climate-trace,0,0.492,0,clean
+33999004,BEL-Antwerpen_ammonia,BEL,51.3624,4.2772,810156.0000000001,climate-trace,0,0.029,0,verified-fixed
+45257068,Dimitrovgrad Fertilizer Complex,BGR,42.0514348,25.6174539,766500.0,climate-trace,0,0.476,0,clean
+45257157,Onne (Port Harcourt) Fertilizer Complex,NGA,4.7744893,7.012544,730000.0,climate-trace,0,0.794,0,clean
+33999241,GBR-Stockton-on-Tees_ammonia,GBR,54.5630516937368,-1.32997994510473,719844.0,climate-trace,0,0.557,0,clean
+45257237,Razi Petrochemical Complex,IRN,30.452301571242,49.0874570399817,677000.0,climate-trace,0,0.66,0,clean
+45257139,Marv Dasht Petrochemical Complex,IRN,29.8875278,52.741112,676500.0,climate-trace,0,0.29,0,clean
+45257159,Ottmarsheim Fertilizers,FRA,47.7959398,7.5227782,662240.0,climate-trace,0,0.25,0,clean
+45257030,Alexandria Fertilizer Complex,EGY,31.2716622,30.0932573,638750.0,climate-trace,0,0.52,0,clean
+45257203,Wittenberg Fertilizers Complex,DEU,51.8712639,12.582233,600000.0,climate-trace,0,0.587,0,clean
+45257171,Rivneazot Fertilizers,UKR,50.7180091,26.1600144,594950.0000000001,climate-trace,0,0.288,0,clean
+45257105,Helwan Fertilizer Plant,EGY,29.7758725,31.3022137,589670.0,climate-trace,0,0.801,0,clean
+45257074,Duslo Sala Chemical Complex,SVK,48.1808202,17.9378555,584000.0,climate-trace,0,0.395,0,clean
+45257256,Billingham Fertilizers,GBR,54.5943025,-1.2918619,566989.9999999999,climate-trace,0,0.401,0,clean
+45257079,Ferrara Fertilizers facility,ITA,44.8581344,11.5935729,544310.0,climate-trace,0,0.755,0,clean
+45257033,Aswan Kima Fertilizer Complex,EGY,24.0611469,32.9161871,517100.0,climate-trace,0,0.431,0,clean
+45257150,Nea Karvali Fertilizers,GRC,40.955,24.4796,459999.9999999999,climate-trace,0,0.09,0,verified-fixed
+45257238,Bandar Abbas Gas Condensate Refinery,IRN,27.1627057993862,56.0518374287844,450000.0,climate-trace,0,0.417,0,clean
+45257154,Nitrogenous Fertilizer Complex,EGY,29.9463098,32.4672762,400000.00000000006,climate-trace,0,0.478,0,clean
+45257230,Ludwigshafen,DEU,49.551684416784,8.40087390938092,380000.0,climate-trace,0,0.261,0,clean
+45257175,Salalah Methanol Complex,OMN,16.9344039,53.9872367,365000.0,climate-trace,0,0.271,0,clean
+45257233,INEOS Nitriles Cologne,DEU,51.0723534866003,6.85601303697041,350000.0,climate-trace,0,0.448,0,clean
+45257227,Grupa Azoty Kędzierzyn (ZAK),POL,50.3122158800777,18.2467943536275,268000.0,climate-trace,0,0.317,0,clean
+33999044,HUN-Várpalota_ammonia,HUN,47.1565,18.1401,250968.00000000003,climate-trace,0,0.061,0,verified-fixed
+45257228,Grupa Azoty S.A (Tarnów),POL,50.0148632255032,20.9208675212722,249000.00000000003,climate-trace,0,0.418,0,clean
+33998934,CZE-Most_ammonia,CZE,50.5521841185891,13.6253630022868,237120.0,climate-trace,0,0.244,0,clean
+33998943,BEL-Hainaut_ammonia,BEL,50.4636955021351,3.97003361295229,231636.0,climate-trace,0,0.309,0,clean
+33999247,HUN-Kazincbarcikai_ammonia,HUN,48.2479,20.6639,213576.0,climate-trace,0,0.0,0,verified-fixed
+45257235,Sagunto Catalina Project,ESP,39.6476923210642,-0.224196877555634,200000.00000000003,climate-trace,0,0.468,0,clean
+45257169,Puertollano Fertilizers,ESP,38.66396,-4.0584502,200000.00000000003,climate-trace,0,0.388,0,clean
+45257130,Le Havre Fertilizers,FRA,49.480361,0.2063795,181440.0,climate-trace,0,0.421,0,clean
+90001,Point Lisas Industrial Estate (multiple ammonia trains),TTO,10.3967,-61.4821,2500000.0,supplement,1,0.547,0,verified-fixed
+90002,QAFCO Mesaieed,QAT,24.9201,51.5657,2500000.0,supplement,1,0.828,0,verified-fixed
+90003,Dangote Fertilizer Lekki,NGA,6.4418,4.0482,2500000.0,supplement,1,0.108,0,verified-fixed
+90004,Pardis Petrochemical Assaluyeh,IRN,27.37,52.71,2500000.0,supplement,1,0.016,1,deferred
+90005,Shiraz Petrochemical,IRN,29.8839,52.7459,2500000.0,supplement,1,0.518,0,verified-fixed
+90006,Khorasan Petrochemical,IRN,37.3,57.4,2500000.0,supplement,1,0.0,1,deferred
+90007,SAFCO / Maaden Al-Jubail,SAU,27.05,49.55,2500000.0,supplement,1,0.311,0,verified-fixed
+90008,OMIFCO Sur,OMN,22.6407,59.4292,2500000.0,supplement,1,0.058,0,verified-fixed
+90009,Indorama Eleme,NGA,4.8356,7.103,2500000.0,supplement,1,0.097,0,verified-fixed
+90010,Ruwais Fertil,ARE,24.1349,52.7389,2500000.0,supplement,1,0.004,0,verified-fixed
+90011,Bintulu ABF/PCF,MYS,3.26,113.08,2500000.0,supplement,1,0.398,0,verified-fixed
+90012,Kaltim (Bontang complex),IDN,0.1816,117.4902,2500000.0,supplement,1,0.394,0,verified-fixed

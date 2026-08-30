@@ -1,0 +1,25 @@
+# Ammonia/urea pilot: Europe + opaque exporters. Plants from data/ammonia_pilot.csv
+# (Climate TRACE registry + verified supplement).
+fleet:
+  box_km: 1.8            # nitrogen complexes are large (Azomures needed 1.9)
+  pad_km: 0.4
+  min_clear_frac_box: 0.6
+  min_scenes_mill: 40
+  core_px: 70
+  core_min_obs: 8
+  core_min_clear_px: 6
+
+time:
+  start: "2017-01-01"
+  end: null
+
+landsat:
+  collection: "landsat-c2-l2"
+  platforms: ["landsat-8", "landsat-9"]
+  bands: ["lwir11", "qa_pixel"]
+  st_scale: 0.00341802
+  st_offset: 149.0
+  qa_bad_bits: [1, 3, 4, 5]
+
+paths:
+  cache_dir: "data/cache_ammonia"
