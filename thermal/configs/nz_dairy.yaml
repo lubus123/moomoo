@@ -5,6 +5,8 @@ fleet:
   box_km: 1.2
   pad_km: 0.4
   min_clear_frac_box: 0.6
+  clear_frac_of_coverage: true   # Lichfield/Awarua sit on WRS-2 tile edges
+  min_coverage_px: 300
   min_scenes_mill: 40
   core_px: 40             # dryer+boiler block is smaller than a mill boiler house
   core_min_obs: 8

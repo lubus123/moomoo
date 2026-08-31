@@ -105,7 +105,15 @@ def mill_series(mill_id, cfg, cache_root, gb, box, item_ids, core_months=CRUSH_M
         st = features.st_celsius(arrs["lwir11"], cfg)
         clear = features.clear_mask(arrs["qa_pixel"], cfg) & np.isfinite(st)
         boxc = clear & box
-        if boxc.sum() < f["min_clear_frac_box"] * box.sum():
+        # sites on a WRS-2 tile edge never see the full box: optionally gate on
+        # the covered (finite-ST) part instead, with an absolute pixel floor
+        if f.get("clear_frac_of_coverage"):
+            denom = (np.isfinite(st) & box).sum()
+            if denom < f.get("min_coverage_px", 300):
+                continue
+        else:
+            denom = box.sum()
+        if boxc.sum() < f["min_clear_frac_box"] * denom:
             continue
         med = float(np.median(st[boxc]))
         scenes.append((meta, np.where(clear, st - med, np.nan), med))

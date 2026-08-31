@@ -170,4 +170,57 @@ Ordered by expected value for our use cases.
 
 ## 4. NZ dairy pilot results
 
-*(to be filled by scripts/score_nz.py + validate — fetch in progress)*
+26 dryer sites (17 OSM-verified, 9 chip-located), Landsat 2014-2026,
+box 1.2 km, 40-px core pooled over operating months (Aug-May). All 26
+usable after one fix; ground truth = DCANZ/NZX monthly milk solids
+(127 months, 2016 - Jul 2026). Details: `outputs/nz/validation.md`.
+
+**F1 — On/off detection works, and the control proves it's process heat.**
+The dryer-fleet raw differential runs 4.8 °C in the Oct-Dec milk peak and
+collapses to 1.25 °C in the Jun-Jul dry-off — a 3.5 °C amplitude — while the
+Stirling cheese control (same machinery, same latitudes, low process heat)
+shows **−0.06 °C** amplitude. That is the cleanest single falsification test
+run on any fleet so far: the seasonal signal is milk drying, not sun.
+
+**F2 — Year-over-year tracking is a genuine null, and we can say why.**
+Monthly index vs milk-solids z: r = 0.04 (no better in any season segment:
+peak +0.21, shoulder +0.07, summer −0.18, all within noise). Split-half
+reliability of the index is 0.28 (Spearman-Brown full-fleet 0.44), so the
+index measures *something* stable — it just isn't milk volume. The physics:
+NZ milk varies only ±3.6% interannually (CV by calendar month), and dryers
+run at or near capacity through the season, with surplus milk shifting
+between product streams (WMP vs cheese vs UHT), not switching dryers off.
+Thermal sees ON/OFF; it does not see a 4% flow change (weakness W8 at its
+purest). The within-year story is the mirror image: across the season's
+10x swing the fleet differential traces the milk curve with a 12-point
+seasonal shape correlation of **0.90** — thermal scales with utilisation
+when utilisation actually moves. Contrast with sugar, where fortnight
+crush swings ±20-30% and mills genuinely idle.
+
+**F3 — New weakness discovered: W12, WRS-2 tile-edge sites.** Fonterra
+Lichfield and OCD Awarua sit on Landsat tile edges: every scene covers only
+~51% of their box, so the clear-fraction gate (fraction of the full box)
+rejected 100% of 1,000+ cached scenes each. Fixed by gating on the covered
+fraction with an absolute pixel floor (`clear_frac_of_coverage`), recovering
+both sites. Any future fleet assembly should check tile-edge geometry at
+registration time.
+
+**F4 — Small/confounded sites attenuate as predicted (W9).** The weakest
+cores are exactly the predicted ones: Miraka Mokai 1.5 °C (geothermal
+background — the plant's neighbourhood is hot), MVM Gore 2.0 °C and
+Whanganui 2.1 °C (small nutritional/single-dryer sites), tile-edge sites
+~1.5-2.5 °C (fewer core-pooling obs). Two big-site anomalies worth a
+coordinate re-check rather than a physics story: Darfield 2.4 °C and
+Lichfield 2.5 °C are among NZ's largest dryers — their OSM points may be
+centred on the campus rather than the dryer block.
+
+**Product implication.** NZ dairy supports a dry-off calendar / capacity
+watchlist (when did each site start and stop, which sites idled a season,
+new-dryer commissioning) — not a monthly production nowcast. The monetizable
+analogue of the sugar blackout-nowcast does not exist here because the
+official series (DCANZ/NZX, ~20th of the following month) is regular,
+free, and the quantity barely varies. If a dairy signal is wanted, the
+higher-value target is product *mix* (WMP vs other streams, which moves GDT
+pricing) — thermal cannot see mix; that would need a different sensor
+(e.g. plume/logistics proxies), so we recommend against extending this
+pilot toward trading.
