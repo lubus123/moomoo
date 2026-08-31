@@ -122,9 +122,22 @@ Ordered by expected value for our use cases.
    plants (W1) and cloudy regions (W4, more chances to catch clear sky).
    Sources: ECOSTRESS diurnal LST literature (e.g. ScienceDirect
    S2210670723004444; merged ECOSTRESS+Landsat annual/diurnal cycle
-   modelling, S1569843226001925). Caveats: ±52° inclination covers all our
-   fleets; irregular sampling needs the seasonal-harmonic machinery we
-   already built.
+   modelling, S1569843226001925). Caveats: irregular sampling needs the
+   seasonal-harmonic machinery we already built; ISS inclination cuts off
+   coverage above ~54.5° latitude.
+
+   *Measured (CMR audit, outputs/ecostress_coverage.csv, all 236 sites):*
+   median granules/site 2018-2025 in ECO_L2T_LSTE v002 — sugar 1,040 (46%
+   night), ammonia 1,016 (41% night), NZ dairy 2,147 (53% night); i.e.
+   **3-6x Landsat's cadence before clouds, half of it at night**, with the
+   overpass local hour uniformly spread over all 24h (Clandeboye: every 2-h
+   bin holds 168-250 granules). Four ammonia sites lose coverage to the
+   inclination cutoff: Porsgrunn (59.1°N), Jonava (55.1°N — our best
+   validated curtailment case), Stockton and Billingham (54.6°N).
+   Access: granule search/links are public (CMR); the data itself sits
+   behind a free NASA Earthdata login — `scripts/fetch_ecostress.py` is
+   ready to run once $EARTHDATA_TOKEN is set (windowed COG reads, ~100s of
+   KB per scene instead of full tiles).
 
 2. **VIIRS Nightfire (VNF) for flare-bearing plants.** Nightly global
    product; Planck-fit of sub-pixel IR emitters gives source temperature and
