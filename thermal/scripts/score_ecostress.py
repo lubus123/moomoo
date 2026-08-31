@@ -70,8 +70,10 @@ def score_site(scene_dir, k):
         cv = anom[core & np.isfinite(anom)]
         if len(cv) < max(2, k // 3):
             continue
+        flat = np.sort(anom[np.isfinite(anom)])
         rows.append({"datetime": pd.Timestamp(meta["datetime"]).tz_convert("UTC").tz_localize(None),
-                     "day_night": meta["day_night"], "score": float(cv.mean())})
+                     "day_night": meta["day_night"], "score": float(cv.mean()),
+                     "top3": float(flat[-3:].mean())})  # jitter-immune per-scene pooling
     if len(rows) < 25:
         return None
     return pd.DataFrame(rows), float(mean_map[core].mean())
@@ -160,14 +162,25 @@ def main():
         eco, _ = res
         az = eco[eco.site_id == 45257036].copy()
         if len(az):
-            off = pd.read_csv("outputs/onoff_periods.csv", parse_dates=["start", "end"])
-            offw = off[off.state == "OFF"]
-            az["off"] = az.datetime.apply(
-                lambda t: bool(((offw.start <= t) & (t <= offw.end + pd.Timedelta(days=15))).any()))
-            a_on, a_off = az[~az["off"]].score, az[az["off"]].score
-            lines += ["## Ammonia: Azomures night score vs its validated OFF windows",
-                      f"- ON periods: {a_on.mean():.2f} K (n={len(a_on)}); OFF windows: "
-                      f"{a_off.mean():.2f} K (n={len(a_off)}); d' = {dprime(a_on, a_off):.2f}", ""]
+            per = pd.read_csv("outputs/onoff_periods.csv", parse_dates=["start", "end"])
+            az["state"] = "UNC"
+            for st in ("OFF", "ON"):
+                for _, w in per[per.state == st].iterrows():
+                    m = (az.datetime >= w.start) & (az.datetime <= w.end + pd.Timedelta(days=15))
+                    az.loc[m, "state"] = st
+            az["moy"] = az.datetime.dt.month
+            lines += ["## Ammonia: Azomures night vs its validated ON/OFF windows "
+                      "(z within calendar month)"]
+            for col in ("score", "top3"):
+                cs = az.groupby("moy")[col].agg(["mean", "std", "count"])
+                z = az.merge(cs, on="moy")
+                z = z[z["count"] >= 8]
+                z["zv"] = (z[col] - z["mean"]) / z["std"].clip(lower=0.3)
+                a_on, a_off = z[z.state == "ON"].zv, z[z.state == "OFF"].zv
+                lines.append(f"- {col}: ON z {a_on.mean():+.2f} (n={len(a_on)}) vs OFF z "
+                             f"{a_off.mean():+.2f} (n={len(a_off)}); d' = {dprime(a_on, a_off):.2f} "
+                             "(positive = detects the halt)")
+            lines.append("")
         piv = (eco.assign(yr=eco.datetime.dt.year)
                .groupby(["site_id", "yr"]).score.mean().unstack().round(2))
         lines += ["Per-plant annual mean night score (K):", piv.to_markdown(), ""]
