@@ -1,16 +1,7 @@
 # ECOSTRESS night pilot vs Landsat day
 
-## Ammonia: Azomures night vs its validated ON/OFF windows (z within calendar month)
-- score: ON z +0.02 (n=61) vs OFF z -0.47 (n=12); d' = 0.57 (positive = detects the halt)
-- top3: ON z -0.07 (n=61) vs OFF z +0.07 (n=12); d' = -0.14 (positive = detects the halt)
-
-Per-plant annual mean night score (K):
-|   site_id |   2018 |   2019 |   2020 |   2021 |   2022 |   2023 |   2024 |   2025 |   2026 |
-|----------:|-------:|-------:|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
-|     90002 |   2.11 |   1.28 |   1.19 |   2.23 |   2.84 |   1.63 |   2.8  |   1.85 |   0.64 |
-|     90003 |   0.03 |   0.38 |   0.16 |   1.27 |   1.99 |   3.11 |   3.29 |   4.75 |   8.84 |
-|  45257036 |   1.55 |   1.35 |   0.53 |   0.69 |   0.48 |   0.87 |   0.53 |   0.96 |   0.74 |
-|  45257159 |   2.39 |   1.27 |   1.21 |   1.25 |   1.82 |   1.12 |   0.9  |   1.38 |   0.84 |
-|  45257214 |   1.13 |   0.57 |   0.52 |   0.43 |   0.79 |   0.69 |   0.1  |   0.66 |   1    |
-|  45257227 |   1.05 |   0.08 |   0.83 |   0.49 |   0.58 |   0.25 |   0.45 |   0.16 |   0.3  |
+## NZ dairy: night dry-off amplitude
+- dryers: Oct-Dec 0.18 K vs Jun-Jul 0.22 K -> amplitude **-0.05 K** (n=444/504); d' = -0.03
+- Stirling control: 0.20 vs 0.12 -> amplitude 0.08 K (n=68/78)
+- Landsat-day baseline: amplitude 3.53 C, control -0.06 C
 

@@ -237,3 +237,56 @@ higher-value target is product *mix* (WMP vs other streams, which moves GDT
 pricing) — thermal cannot see mix; that would need a different sensor
 (e.g. plume/logistics proxies), so we recommend against extending this
 pilot toward trading.
+
+## 5. ECOSTRESS night pilot (all three industries)
+
+Ran on targeted subsets with an Earthdata token: 6 sugar mills, 6 ammonia
+plants, 9 NZ dairy sites; night-only ECO_L2T_LSTE v002+v003, ~40% of
+granules usable after swath clipping (100-900 night scenes/site). Full
+numbers: `outputs/ecostress_pilot.md`.
+
+**Verdict: a complement for large exothermic plants, not a general upgrade.**
+
+- **Ammonia — modest but real.** Fixed-core month-z night scores detect
+  Azomures's validated halts (ON z +0.02 vs OFF z −0.47, d' = +0.57), and
+  Dangote's commissioning ramp is textbook (annual night score 0.03 K in
+  2018 construction rising monotonically to 8.8 K in 2026) with zero solar
+  term. Night core strengths run 0.4-3.9 K vs 3.4-5.6 °C by day: a ~3x
+  contrast cost from 70 m dilution plus the inertia backdrop.
+- **Sugar — nothing.** Raw crush-vs-offseason separation d' ≈ 0.1 with a
+  fixed core and *negative* with per-scene top-k. (For scale, day-Landsat's
+  per-scene raw d' is also only ~0.2 — sugar lives on aggregation — but
+  night pooling starts from a worse per-scene base and adds W13.)
+- **NZ dairy — nothing at all.** Night dry-off amplitude −0.05 K vs the
+  +3.53 °C day amplitude; the Stirling control is indistinguishable
+  (+0.08 K). Low-grade dairy process heat (insulated buildings, ~90 °C
+  exhaust) does not survive night 70 m LST.
+
+**W13 — night thermal-inertia confound (new).** At night the built fabric
+re-radiates stored solar heat: a 2-3.5 K plant-vs-fields contrast that
+exists whether or not the plant runs, seasonally peaks with summer
+insolation (hence *anti*-correlated with southern-winter crush), and
+dominates per-scene hotspot statistics. Consequences measured: per-scene
+top-k pooling reads inertia, not process (Azomures top-k d' −0.14 where
+fixed-core d' +0.57); any night method needs the fixed-core + within-month
+z recipe, and even then only high-grade heat (reformers, flares) shows.
+
+**W14 — ECOSTRESS geolocation jitter.** Per-orbit geolocation error of
+1-2 pixels smears pooled core maps (fixed cores collapse to 0.3-0.6 K
+while single scenes hold multi-K hotspots). Fixed cores survive it only
+via large scene counts; per-scene pooling avoids it but hits W13.
+
+Engineering notes for reuse: the L2T tiled COGs are already float32 Kelvin
+(the 0.02 scale belongs to the HDF5 L2G product — scaling twice flattens
+everything); LP DAAC's URS redirect chain breaks GDAL /vsicurl auth, so
+download whole tiles (<1.5 MB) into memory; ~60% of granules over a site
+are swath-empty there, so probe LST first and cache empty markers. Also
+caught: UDOP lists both Santa Terezinha units (Paranacity/Tapejara) at one
+coordinate — the sugar fleet double-counts that site (W5).
+
+Where night data *should* be pointed next: VIIRS Nightfire directly for
+flare-bearing ammonia/refinery-class sites (built for exactly the
+high-grade-heat regime that survived here), and ECOSTRESS day scenes as
+extra clear-sky chances for the existing day pipeline in cloudy fleets —
+its day overpasses at varied hours are Landsat-compatible signal, and the
+cadence (not the physics) was our binding constraint in Europe and NZ.
