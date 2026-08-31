@@ -30,7 +30,8 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 COLLECTIONS = ["C2076090826-LPCLOUD", "C3998139651-LPCLOUD"]  # v002 history, v003 forward
-LST_SCALE = 0.02  # DN -> Kelvin
+# NOTE: the L2T tiled COGs are already float32 Kelvin (the 0.02 DN scale
+# applies to the L2G HDF5 product, not these tifs) - do not rescale.
 BOX_KM = {"sugar": 1.2, "ammonia": 1.8, "dairy": 1.2}
 
 FLEETS = {
@@ -127,7 +128,7 @@ def fetch_one(g, lat, lon, box_km, cache_dir, token):
             win = from_bounds(min(xs), min(ys), max(xs), max(ys), src.transform)
             a = src.read(1, window=win, boundless=True, fill_value=0)
             if key == "lst":
-                a = np.where(a == 0, np.nan, a * LST_SCALE).astype(np.float32)
+                a = np.where(a == 0, np.nan, a).astype(np.float32)
                 if np.isfinite(a).mean() < 0.3:  # site not (usably) in this swath
                     empty_marker.touch()
                     return "empty"
