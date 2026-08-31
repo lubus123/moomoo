@@ -82,36 +82,58 @@ def cmr_granules(lat, lon):
     return ded
 
 
+def load_token():
+    tok = os.environ.get("EARTHDATA_TOKEN")
+    if tok:
+        return tok.strip()
+    p = Path("/root/.earthdata_token")
+    if p.exists():
+        return p.read_text().strip()
+    return None
+
+
 def fetch_one(g, lat, lon, box_km, cache_dir, token):
+    """Download the granule's LST/QC/cloud tiles (each well under 2 MB), clip
+    the site window, save npz. Full-file download into a MemoryFile: LP DAAC's
+    URS redirect chain does not reliably pass GDAL's /vsicurl auth, and the
+    tiles are small enough that windowed range-reads buy nothing."""
     import rasterio
+    from rasterio.io import MemoryFile
     from rasterio.windows import from_bounds
     from pyproj import Transformer
 
     npz = cache_dir / "scenes" / f"{g['granule']}.npz"
     meta_p = npz.with_suffix(".json")
+    empty_marker = npz.with_suffix(".empty")
     if npz.exists() and meta_p.exists():
         return "cached"
+    if empty_marker.exists():
+        return "empty"
     npz.parent.mkdir(parents=True, exist_ok=True)
     half_deg = box_km / 2 / 110.0
-    env = rasterio.Env(GDAL_HTTP_HEADERS=f"Authorization: Bearer {token}",
-                       GDAL_DISABLE_READDIR_ON_OPEN="EMPTY_DIR",
-                       CPL_VSIL_CURL_ALLOWED_EXTENSIONS=".tif")
     arrs = {}
-    with env:
-        for key, name, dtype in (("lst", "lst_k", np.float32), ("qc", "qc", np.uint16),
-                                 ("cloud", "cloud", np.uint8)):
-            if key not in g:
-                continue
-            with rasterio.open(f"/vsicurl/{g[key]}") as src:
-                tf = Transformer.from_crs("EPSG:4326", src.crs, always_xy=True)
-                xs, ys = tf.transform([lon - half_deg, lon + half_deg],
-                                      [lat - half_deg, lat + half_deg])
-                win = from_bounds(min(xs), min(ys), max(xs), max(ys), src.transform)
-                a = src.read(1, window=win, boundless=True, fill_value=0)
-                if key == "lst":
-                    a = np.where(a == 0, np.nan, a * LST_SCALE).astype(np.float32)
-                arrs[name] = a.astype(dtype) if key != "lst" else a
-    if "lst_k" not in arrs or np.isfinite(arrs["lst_k"]).sum() == 0:
+    # LST first: swath-clipped tiles often miss the site, so bail before
+    # paying for QC/cloud downloads
+    for key, name, dtype in (("lst", "lst_k", np.float32), ("qc", "qc", np.uint16),
+                             ("cloud", "cloud", np.uint8)):
+        if key not in g:
+            continue
+        req = urllib.request.Request(g[key], headers={"Authorization": f"Bearer {token}"})
+        buf = urllib.request.urlopen(req, timeout=180).read()
+        with MemoryFile(buf) as mf, mf.open() as src:
+            tf = Transformer.from_crs("EPSG:4326", src.crs, always_xy=True)
+            xs, ys = tf.transform([lon - half_deg, lon + half_deg],
+                                  [lat - half_deg, lat + half_deg])
+            win = from_bounds(min(xs), min(ys), max(xs), max(ys), src.transform)
+            a = src.read(1, window=win, boundless=True, fill_value=0)
+            if key == "lst":
+                a = np.where(a == 0, np.nan, a * LST_SCALE).astype(np.float32)
+                if np.isfinite(a).mean() < 0.3:  # site not (usably) in this swath
+                    empty_marker.touch()
+                    return "empty"
+            arrs[name] = a.astype(dtype) if key != "lst" else a
+    if "lst_k" not in arrs:
+        empty_marker.touch()
         return "empty"
     np.savez_compressed(npz, **arrs)
     meta_p.write_text(json.dumps({"granule": g["granule"], "datetime": g["time"],
@@ -125,17 +147,22 @@ def main():
     ap.add_argument("--limit", type=int, default=0, help="cap number of sites")
     ap.add_argument("--probe", action="store_true", help="search only, no downloads")
     ap.add_argument("--night-only", action="store_true")
+    ap.add_argument("--sites", default="", help="comma-separated site ids to restrict to")
     args = ap.parse_args()
 
-    token = os.environ.get("EARTHDATA_TOKEN")
+    token = load_token()
     if not token and not args.probe:
-        sys.exit("EARTHDATA_TOKEN not set. Create a free account at urs.earthdata.nasa.gov, "
-                 "generate a token, and export EARTHDATA_TOKEN=<token>. Or run with --probe.")
+        sys.exit("No Earthdata token ($EARTHDATA_TOKEN or /root/.earthdata_token). "
+                 "Create a free account at urs.earthdata.nasa.gov and generate one, "
+                 "or run with --probe.")
 
     path, idc, namec, latc, lonc, filt = FLEETS[args.fleet]
     reg = pd.read_csv(path)
     if filt is not None:
         reg = reg[reg[filt[0]] == filt[1]]
+    if args.sites:
+        want = {int(s) for s in args.sites.split(",")}
+        reg = reg[reg[idc].astype(int).isin(want)]
     if args.limit:
         reg = reg.head(args.limit)
     root = Path(f"data/cache_eco_{args.fleet}")
