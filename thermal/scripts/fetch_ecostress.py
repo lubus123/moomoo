@@ -66,9 +66,16 @@ def cmr_granules(lat, lon):
             headers = {"User-Agent": "moo"}
             if search_after:
                 headers["CMR-Search-After"] = search_after
-            r = urllib.request.urlopen(urllib.request.Request(u, headers=headers), timeout=120)
-            search_after = r.headers.get("CMR-Search-After")
-            entries = json.load(r)["feed"]["entry"]
+            for attempt in range(4):
+                try:
+                    r = urllib.request.urlopen(urllib.request.Request(u, headers=headers), timeout=120)
+                    sa = r.headers.get("CMR-Search-After")
+                    entries = json.load(r)["feed"]["entry"]
+                    break
+                except Exception:
+                    if attempt == 3:
+                        raise
+            search_after = sa
             out += [g for g in (_parse_entry(e) for e in entries) if g]
             if len(entries) < 2000 or not search_after:
                 break
