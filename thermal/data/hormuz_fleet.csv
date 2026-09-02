@@ -1,0 +1,23 @@
+site_id,name,country,lat,lon,position,source,needs_verification
+90004,Pardis Petrochemical Assaluyeh,IRN,27.54598,52.56443,inside,osm-polygon,0
+90006,Khorasan Petrochemical Bojnurd,IRN,37.5197,57.5111,inland,wikidata+chip,0
+90013,Lordegan Urea,IRN,31.23484,51.28374,inland,osm-polygon,0
+90014,Masjed Soleyman Petrochemical,IRN,32.16474,49.06454,inland,osm-node,1
+90015,Maaden Ras Al Khair,SAU,27.533,49.194,inside,chip-located,1
+90016,GPIC Sitra,BHR,26.14371,50.64375,inside,osm-polygon,0
+90017,Khor Al Zubair Fertilizer,IRQ,30.18646,47.83719,inside,osm-polygon,0
+90018,OQ Sohar (urea),OMN,24.466,56.624,outside,chip-located,1
+90002,QAFCO Mesaieed,QAT,24.9201,51.5657,inside,cached,0
+90007,SAFCO/Maaden Al-Jubail,SAU,27.05,49.55,inside,cached,0
+90008,OMIFCO Sur,OMN,22.6407,59.4292,outside,cached,0
+90010,Ruwais Fertil,ARE,24.1349,52.7389,inside,cached,0
+90005,Shiraz Petrochemical,IRN,29.8839,52.7459,inland,cached,0
+45257239,Hengam Assaluyeh,IRN,27.5820987255843,52.519171552746,inside,cached,0
+45257240,Kermanshah Urea/Ammonia,IRN,34.3547213630215,47.4552215972079,inland,cached,0
+45257237,Razi Bandar Imam,IRN,30.452301571242,49.0874570399817,inside,cached,0
+45257139,Marv Dasht,IRN,29.8875278,52.741112,inland,cached,0
+45257238,Bandar Abbas,IRN,27.1627057993862,56.0518374287844,inside,cached,0
+45257175,Salalah (OMN control),OMN,16.9344039,53.9872367,outside,cached,0
+45257029,Abu Qir (EGY control),EGY,31.2716622,30.0932573,control,cached,0
+45257062,Damietta (EGY control),EGY,31.4629882,31.7799027,control,cached,0
+45257154,NFC Egypt (control),EGY,29.9463098,32.4672762,control,cached,0
