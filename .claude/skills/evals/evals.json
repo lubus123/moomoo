@@ -1,0 +1,41 @@
+{
+ "skill_name": "thermal-monitoring-skills",
+ "evals": [
+  {
+   "id": 0,
+   "prompt": "Check ECOSTRESS coverage for Kirkuk (35.53,44.38) and Jonava (55.09,24.29), verify download access, recommend fetch approach.",
+   "expected_output": "Reports that Jonava (~55N) has zero or near-zero ECOSTRESS coverage because of the ISS inclination cutoff; Reports concrete granule counts for the Kirkuk site with a day/night split; Correctly determines that download access IS available in this environment (Earthdata token at /root/.earthdata_token); Recommends a night-only fetch and points to the existing fetch tooling rather than writing a new downloader",
+   "files": [],
+   "assertions": [
+    "Reports that Jonava (~55N) has zero or near-zero ECOSTRESS coverage because of the ISS inclination cutoff",
+    "Reports concrete granule counts for the Kirkuk site with a day/night split",
+    "Correctly determines that download access IS available in this environment (Earthdata token at /root/.earthdata_token)",
+    "Recommends a night-only fetch and points to the existing fetch tooling rather than writing a new downloader"
+   ]
+  },
+  {
+   "id": 1,
+   "prompt": "Feasibility of thermal monitoring for Bintulu LNG trains + palm-oil refineries to trade Malaysian LNG exports.",
+   "expected_output": "Flags equatorial cloud cover at Bintulu as a first-order risk (our own Bintulu site was unusable in the ammonia pilot); Flags partial-load blindness: thermal sees ON/OFF, not the throughput changes LNG trading needs; Recommends the plant-level watchlist product shape rather than an aggregate index (few sites, heterogeneous); Describes coordinate/registry verification as an explicit setup step",
+   "files": [],
+   "assertions": [
+    "Flags equatorial cloud cover at Bintulu as a first-order risk (our own Bintulu site was unusable in the ammonia pilot)",
+    "Flags partial-load blindness: thermal sees ON/OFF, not the throughput changes LNG trading needs",
+    "Recommends the plant-level watchlist product shape rather than an aggregate index (few sites, heterogeneous)",
+    "Describes coordinate/registry verification as an explicit setup step"
+   ]
+  },
+  {
+   "id": 2,
+   "prompt": "Fetch 2024-H1 Landsat thermal for GPIC Bahrain into a throwaway cache and report counts + npz structure.",
+   "expected_output": "Scenes were actually fetched into the cache (npz + json files exist, count > 10); The npz contains lwir11 and qa_pixel arrays; The run reused the repo's existing fetch machinery (fleet.fetch_mill / src/fetch.py) instead of writing new STAC download code; The report states fetched vs errored counts",
+   "files": [],
+   "assertions": [
+    "Scenes were actually fetched into the cache (npz + json files exist, count > 10)",
+    "The npz contains lwir11 and qa_pixel arrays",
+    "The run reused the repo's existing fetch machinery (fleet.fetch_mill / src/fetch.py) instead of writing new STAC download code",
+    "The report states fetched vs errored counts"
+   ]
+  }
+ ]
+}
