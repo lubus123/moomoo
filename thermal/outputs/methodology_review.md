@@ -253,10 +253,22 @@ numbers: `outputs/ecostress_pilot.md`.
   2018 construction rising monotonically to 8.8 K in 2026) with zero solar
   term. Night core strengths run 0.4-3.9 K vs 3.4-5.6 °C by day: a ~3x
   contrast cost from 70 m dilution plus the inertia backdrop.
-- **Sugar — nothing.** Raw crush-vs-offseason separation d' ≈ 0.1 with a
-  fixed core and *negative* with per-scene top-k. (For scale, day-Landsat's
-  per-scene raw d' is also only ~0.2 — sugar lives on aggregation — but
-  night pooling starts from a worse per-scene base and adds W13.)
+- **Sugar — nothing in raw seasonal contrast, but real fusion value in
+  z-space.** Raw crush-vs-offseason separation d' ≈ 0.1 (negative with
+  per-scene top-k) — yet the within-(mill, month, day/night) z of night
+  scores carries genuine year-over-year crush signal at fortnight
+  aggregation. Head-to-head on the 5-mill subset vs UNICA fortnight z
+  (2018+, matched fortnights, n=116): Landsat-only r = 0.295; **Landsat +
+  ECOSTRESS-night r = 0.379** (bootstrap Δ +0.083, 90% CI [+0.002, +0.165],
+  P(improvement) = 0.95), and ECOSTRESS-night alone reaches r = 0.32.
+  ECOSTRESS *day* scenes are the surprise failure: r = 0.088 alone, and
+  pooling them in dilutes the index — their overpass hour varies 6h-18h, so
+  solar-geometry variance swamps the differential; Landsat-day works
+  because 10:30 is *constant*, and night works because solar is *absent*.
+  Constant-condition sampling, not daylight per se, is what the method
+  needs — day-ECOSTRESS would need hour-of-day z-cells (thin at pilot
+  scale, viable fleet-wide). Fusion recipe that works: per-source
+  (mill, month, day/night) z, equal-weight scene pooling.
 - **NZ dairy — nothing at all.** Night dry-off amplitude −0.05 K vs the
   +3.53 °C day amplitude; the Stirling control is indistinguishable
   (+0.08 K). Low-grade dairy process heat (insulated buildings, ~90 °C

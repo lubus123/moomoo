@@ -1,7 +1,14 @@
 # ECOSTRESS night pilot vs Landsat day
 
-## NZ dairy: night dry-off amplitude
-- dryers: Oct-Dec 0.18 K vs Jun-Jul 0.22 K -> amplitude **-0.05 K** (n=444/504); d' = -0.03
-- Stirling control: 0.20 vs 0.12 -> amplitude 0.08 K (n=68/78)
-- Landsat-day baseline: amplitude 3.53 C, control -0.06 C
+## Sugar: crush (May-Sep) vs off-season (Dec-Feb) separation d'
+|   mill |   d_eco_night |   n_eco |   d_landsat_day |   n_landsat |
+|-------:|--------------:|--------:|----------------:|------------:|
+|  20883 |          0.2  |     351 |           -0.78 |         340 |
+|  20884 |          0.2  |     351 |           -0.78 |         340 |
+|  21006 |         -0.54 |     513 |            0.39 |         394 |
+|  21859 |          0.02 |     431 |            1.78 |         371 |
+|  50238 |         -0.13 |     407 |            0.16 |         175 |
+|  54417 |         -0.31 |     266 |            0.25 |         175 |
+
+median d': ECOSTRESS night **-0.06** vs Landsat day **0.21**
 
