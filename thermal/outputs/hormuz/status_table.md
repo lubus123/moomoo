@@ -51,6 +51,26 @@ onset is what the -0.54 since-war mean is made of.
 | iran_inland   |  -0.53 |     194 |
 | oman_outside  |  -0.07 |      53 |
 
+## QAFCO signature by period, and a two-instrument check
+
+The spatial facets below share one fixed core (circles: the ammonia/urea train row,
+detected from pre-war scenes). The core runs +5.7-5.8 degC in 2024-25, fades to +4.3
+in Mar-Apr 2026 (closure + air campaign; also only 5 clear scenes), and is back to
++5.9 by Jul-Aug - a real but partial and temporary cut, while neighbouring Mesaieed
+units stayed hot throughout.
+
+![QAFCO signature by period](../../figs/hormuz/qafco_facets.png)
+
+Independent confirmation: ECOSTRESS night passes (no solar term, different orbit,
+different overpass hour) agree on the event - Mar-May 2026 means: Landsat day
+**-1.03**, ECOSTRESS night **-0.36**, both below their own baselines and both
+recovering after the convoys begin. Month-to-month the two single-site series are
+only loosely coupled (r = 0.15 over 41 joint months) - each is noisy at n~5
+scenes/month - so the corroboration is at event level, not month level; the night
+signal is also expected to be shallower (70 m dilution + built-mass inertia, W13).
+
+![QAFCO Landsat vs ECOSTRESS](../../figs/hormuz/qafco_eco_vs_landsat.png)
+
 ## Placebo check: Mar-Aug group mean z by year
 
 | group | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | **2026** |
