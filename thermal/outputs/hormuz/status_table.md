@@ -3,6 +3,19 @@
 - War 2026-02-28; strait closed 03-02; blockade 04-13. Baseline: fixed (site, month) 2017-2025.
 - Sites scored: 22; scenes since war: 520
 
+![Monthly group z through the war](../../figs/hormuz/group_z.png)
+
+![Per-plant status since 2026-02-28](../../figs/hormuz/plant_bars.png)
+
+## QAFCO Mesaieed seasonal view
+
+2026 breaks to z = -1.2 in March, the month the strait closed, and stays ~-1.0
+through May before a partial recovery from June (July +0.43). Single-site months
+are noisy (grey spread), but three consecutive low months aligned with the war
+onset is what the -0.54 since-war mean is made of.
+
+![QAFCO seasonal overlay](../../figs/hormuz/qafco_seasonal.png)
+
 ## Status table (sorted by z since war)
 | name                           | country   | position   |   z_since_war |   n_scenes |   z_2025_ref | last_obs   | status   |
 |:-------------------------------|:----------|:-----------|--------------:|-----------:|-------------:|:-----------|:---------|
