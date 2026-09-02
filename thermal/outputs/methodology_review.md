@@ -269,6 +269,21 @@ numbers: `outputs/ecostress_pilot.md`.
   needs — day-ECOSTRESS would need hour-of-day z-cells (thin at pilot
   scale, viable fleet-wide). Fusion recipe that works: per-source
   (mill, month, day/night) z, equal-weight scene pooling.
+
+  *Fleet-scale follow-up (152 mills, 42.6k night scenes, deployable
+  trailing-z legs):* the pilot's r gain does **not** carry to the full
+  fleet — fortnightly r 0.461 -> 0.469 (2019+) and 0.498 -> 0.479 in the
+  ECO-trailing era (bootstrap CI [-0.15, +0.12]); no rescue of
+  thin-coverage fortnights either (at 152 mills the thinnest fortnight
+  still holds ~116 obs). This is the scaling law read in reverse: at 5
+  mills the index is reliability-starved and any scenes help; at 152 it is
+  validity-limited, and ECO night scenes are *more of the same
+  information*, not new information. The walk-forward crush model still
+  improves modestly (MAE 3.07 -> 2.93 Mt, corr 0.533 -> 0.550, skill vs
+  climatology 0.219 -> 0.253), mostly via better fortnight coverage
+  feeding the regression. Retained value of the fused feed: +60% obs per
+  fortnight for blackout robustness, ~1-2 day scene latency, and regional
+  sub-indices where per-cell counts are again small.
 - **NZ dairy — nothing at all.** Night dry-off amplitude −0.05 K vs the
   +3.53 °C day amplitude; the Stirling control is indistinguishable
   (+0.08 K). Low-grade dairy process heat (insulated buildings, ~90 °C
